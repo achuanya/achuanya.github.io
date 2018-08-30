@@ -1,0 +1,61 @@
+# Site settings
+title: 阿川的个人博客
+email: chenbtpig@foxmail.com
+description: > #阿川的个人博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://achuanya.github.io/index.html" # the base hostname & protocol for your site
+
+# Paginate（分页）
+#gems: [jekyll-paginate]
+# 分页时每页博文数量
+#paginate: 10
+#paginate_path: "page:num"
+
+
+# Build settings
+# 语法高亮
+#highlighter: pygments
+# markdown解释器
+#markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+#relative_permalinks:true
+#博文的链接样式
+permalink: /:year-:month-:day-:title.html
+
+favicon: /assets/image/favicon.ico
+
+# 博客作者相关
+author:
+  name: Hong-hai zhang
+  email: chenbtpig@foxmail.com
+  link: http://achuanya.github.io/
+  weibo_username: 阿川autism
+  github: https://github.com/achuanya
+  github_username: achuanya
+
+
+locals:
+  tags: 标签
+  about: 关于
+  active: 技术
+subscribe_rss: /pages/atom.xml
+
+# 头像
+avatar: /assets/image/avatar.jpg
+# avatar: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/favicon.ico
+# 网站CSS路径
+css: /assets/css/
+# css: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/css/
+# 网站JS路径
+js: /assets/js/
+# js: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/js/
+# 网站图片路径
+image: /assets/image/
+# image: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/
+
+# disqus 设置
+disqus:
+  shortname: achuanya
