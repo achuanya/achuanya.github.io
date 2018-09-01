@@ -158,30 +158,30 @@ Ctrl+Shift+L 先选中多行，再按下快捷键，会在每行行尾插入光�
 
 Ctrl+M 光标移动至括号内结束或开始的位置。
 
-Ctrl+Enter 在下一行插入新行，即使光标不在行尾，也能快速向下插入一行。
+Ctrl+Enter 在下一行插入新行，即使光标不在行尾，也能快速向下插入一行。  
 Ctrl+Shift+Enter 在上一行插入新行。举个栗子：即使光标不在行首，也能快速向上插入一行。
 
-Ctrl+Shift+[ 选中代码，按下快捷键，折叠代码。
-Ctrl+Shift+] 选中代码，按下快捷键，展开代码。
+Ctrl+Shift+[ 选中代码，按下快捷键，折叠代码。  
+Ctrl+Shift+] 选中代码，按下快捷键，展开代码。  
 Ctrl+K+0 展开所有折叠代码。
 
 ### 编辑类
 
 Ctrl+J 合并选中的多行代码为一行。
 
-Tab 向右缩进。
+Tab 向右缩进。  
 Shift+Tab 向左缩进。
 
-Ctrl+/ 注释单行。
+Ctrl+/ 注释单行。  
 Ctrl+Shift+/ 注释多行。
 
-Ctrl+Z 撤销。
+Ctrl+Z 撤销。  
 Ctrl+Y 恢复撤销。
 
-Ctrl+S 保存
+Ctrl+S 保存  
 Ctrl+Shift+S 另存为
 
-ctrl+W 关闭文件
+ctrl+W 关闭文件  
 Ctrl+Shift+T 重新打开最近关闭的文件
 
 ### 搜索类
@@ -198,20 +198,20 @@ Esc 退出光标多行选择，退出搜索框，命令面板等。
 
 Ctrl+Tab 按文件浏览过的顺序，切换当前窗口的标签页。
 
-Alt+Shift+1 窗口分屏，恢复默认1屏（非小键盘的数字）
-Alt+Shift+2 左右分屏-2列
-Alt+Shift+3 左右分屏-3列
-Alt+Shift+4 左右分屏-4列
-Alt+Shift+5 等分4屏
-Alt+Shift+8 垂直分屏-2屏
-Alt+Shift+9 垂直分屏-3屏
+Alt+Shift+1 窗口分屏，恢复默认1屏（非小键盘的数字）  
+Alt+Shift+2 左右分屏-2列  
+Alt+Shift+3 左右分屏-3列  
+Alt+Shift+4 左右分屏-4列  
+Alt+Shift+5 等分4屏  
+Alt+Shift+8 垂直分屏-2屏  
+Alt+Shift+9 垂直分屏-3屏  
 
 Ctrl+K+B 开启/关闭侧边栏。
 
-F11 全屏模式
+F11 全屏模式  
 Shift+F11 免打扰模式
 
-如有写的不足之处，还请您多多指教！
+如有写的不足之处，还请您多多指教！  
 最后再秀一下我的 Sublime 感觉字体很棒，看着很舒服 嘿嘿
 
 ![](/images/2018-08-30-sublime/sublime.png)
