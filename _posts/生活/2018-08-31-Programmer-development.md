@@ -22,3 +22,13 @@ description: (转)为什么你写不好一个快速排序? 谈程序员的职业
 于是我最近常在反复问自己，通过6年全职工作，我的编码能力有了多少提升？除了更喜欢用大括号把local variable局限在block level，除了更喜欢一心编码时被别人或自己打断，有什么显著、可量化的提升吗？若没有，为什么没有？
 
 我的职业梦想是，当我说自己是一个程序员的时候，熟悉我的人愿用excellent这个词来形容我。我在傲剑上班时，老板总喜欢说，你们要用自己的实际能力，去赢得同行的尊重。所以我要是下班后多花点时间去coding，总会达成我的愿望吧！
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d8fde0d2545d1e76dfb50dddb897df5c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
