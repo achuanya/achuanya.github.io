@@ -170,23 +170,18 @@ Ctrl+K+0 展开所有折叠代码。
 Ctrl+J 合并选中的多行代码为一行。
 
 Tab 向右缩进。
-
 Shift+Tab 向左缩进。
 
 Ctrl+/ 注释单行。
-
 Ctrl+Shift+/ 注释多行。
 
 Ctrl+Z 撤销。
-
 Ctrl+Y 恢复撤销。
 
 Ctrl+S 保存
-
 Ctrl+Shift+S 另存为
 
 ctrl+W 关闭文件
-
 Ctrl+Shift+T 重新打开最近关闭的文件
 
 ### 搜索类
