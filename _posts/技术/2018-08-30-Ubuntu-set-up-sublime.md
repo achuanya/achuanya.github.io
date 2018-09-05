@@ -119,7 +119,7 @@ Colorsublime　　　直接从Sublime Text更改主题
 DocBlockr　　　DocBlockr很好用，不仅仅可以**自动生成注释**，还可**以手动编辑注释的格式**
 **修改配置方法如下:**
 
-    Preferences -> Package Settings -> Color Highlighter -> Settings - User,
+    Preferences -> Package Settings -> DocBlockr -> Settings - User,
     
     // 配置成如下内容：
     
