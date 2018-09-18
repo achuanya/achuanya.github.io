@@ -1,6 +1,5 @@
 ---
-layout: post
-comments: true
+layout: posts
 title: (转)为什么你写不好一个快速排序? 谈程序员的职业发展
 category: 生活
 description: (转)为什么你写不好一个快速排序? 谈程序员的职业发展
