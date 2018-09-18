@@ -1,6 +1,15 @@
 ---
 layout: page
 title: 执着于理想，纯粹于当下 - 阿川的个人博客
+comments:
+  - author:
+      type: full
+      displayName: achuanya
+      url: 'https://github.com/achuanya'
+      picture: 'https://avatars3.githubusercontent.com/u/42119505?v=4&s=73'
+    content: '&#x663E;&#x793A;'
+    date: 2018-09-18T12:38:17.499Z
+
 ---
 
 ![](/images/2018-08-30-introduce/head.png)
