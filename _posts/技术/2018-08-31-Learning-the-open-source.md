@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: (转)如何学习开源项目
 description: 如何学习开源项目
 category: 技术
