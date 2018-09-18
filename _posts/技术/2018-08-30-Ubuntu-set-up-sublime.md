@@ -1,16 +1,8 @@
----layout: post
+---
+layout: post
 title: Ubuntu调教日记之Sublime Texet3
 description: Ubuntu18.04下安装 Sublime Texet3 并解决它的一些“疑难杂症”
 category: 技术
-comments:
-  - author:
-      type: full
-      displayName: achuanya
-      url: 'https://github.com/achuanya'
-      picture: 'https://avatars3.githubusercontent.com/u/42119505?v=4&s=73'
-    content: '5'
-    date: 2018-09-18T12:39:51.835Z
-
 ---
 
 接触linux这段时间真的是各种折腾，我几乎所有把流行的发行版都装了一遍，最终选择了ubuntu18.04，毕竟ui强迫症，还好社区比较强大，遇到毛病解决不会太难，初次接触它的过程中也是遇到各种问题，不过通过这几个月的学习，现在已经我可以熟练敲出各种命令并解决一些日常小毛病。没办法，生命在于折腾吧。
