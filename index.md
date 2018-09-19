@@ -20,17 +20,4 @@ title: 执着于理想，纯粹于当下 - 阿川的个人博客
 
 ![](/assets/image/Micro letter.png)
 
-
----
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?d8fde0d2545d1e76dfb50dddb897df5c";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
 {% include disqus.html %}
-
