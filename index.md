@@ -1,45 +1,23 @@
 ---
 layout: page
-title: 执着于理想，纯粹于当下 - 阿川的个人博客
-comments:
-  - author:
-      type: full
-      displayName: achuanya
-      url: 'https://github.com/achuanya'
-      picture: 'https://avatars3.githubusercontent.com/u/42119505?v=4&s=73'
-    content: 'PC&#x6D4B;&#x8BD5; 1'
-    date: 2018-09-18T11:44:09.364Z
-
+title: 执着与理想，纯粹于当下 - 阿川的个人博客
+---
 ---
 
-![](/images/2018-08-30-introduce/head.png)
+![](/images/1986-08-29-about-me/head.jpg)
 
-阿川，00后，后端开发工程师，计算机系一名在校生，自从小学六年级接触了编程，从此对未来充满了无限遐想的我，走上了一条不归之路......
+孔令贤，2011年4月份毕业于西安电子科技大学通信工程学院信息安全专业，专业课程比较杂乱，又学通信工程又学计算机。在学校的时候零零散散的自学过C语言、Java、MFC、Javascript、汇编……，做过小软件，写过小木马和小病毒，除了钻研精神，自认为没有一技之长。
 
-说说我的爱好吧，爱好比较广泛哈，我喜欢听音乐（纯音乐、流行音乐都是我的最爱）、指弹吉他、摄影、垂钓、电脑DIY、热爱开源，喜欢linux，等等.....
-不过还是最喜欢坐在自己的小窝敲着红轴键盘，在学校时零零散散的自学过H5/CSS3、JS、Shell、linux......，除了钻研精神，自认为没有一技之长。
+硕士临近毕业时在腾讯安全中心实习过3个月，因家庭原因没有留在深圳，毕业直接进了华为。
 
-阿川的个人博客于 2018-8.31 日正式创建，内容系本人学习、研究和总结。初来乍到，如有写的不足之处，还请您多多指教！
+2011.03.28~2015.11.17，就职于华为技术有限公司西安研究所，隶属IT产品线云操作系统产品部，四年多的时间从一名基层员工成长为团队Lead，负责OpenStack开源社区运作。所以，无论在思维，还是在工作方式上，基本已经打上了华为的烙印。在公司一直顺风顺水，并无经受大的历练，也并无见过大的世面，只是凭借自己的努力，踏踏实实做该做的事情。于2015年底从华为[离职](http://achuanya.github.io/2015-11-17-goodbye-huawei.html)。
+
+2016.01.18至今，作为一名Senior Engineer就职于一家新西兰公司（Catalyst IT）的云计算部门。[Catalyst](http://www.catalyst.net.nz/)是一家基于开源软件的本地IT企业，有着自由、开放的公司文化，我很喜欢。
 
 联系方式：
 
-- Qzone：[阿川的个人空间](https://user.qzone.qq.com/2434929041)
+- Weibo：[阿川autism](https://weibo.com/6453642481/profile?topnav=1&wvr=6)
 - Email: <chenbtpig@foxmail.com>
-- 微信二维码:
-
-![](/assets/image/Micro letter.png)
-
 
 ---
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?d8fde0d2545d1e76dfb50dddb897df5c";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
 {% include disqus.html %}
-

@@ -3,6 +3,15 @@ layout: post
 title: (转)为什么你写不好一个快速排序? 谈程序员的职业发展
 category: 生活
 description: (转)为什么你写不好一个快速排序? 谈程序员的职业发展
+comments:
+  - author:
+      type: full
+      displayName: achuanya
+      url: 'https://github.com/achuanya'
+      picture: 'https://avatars3.githubusercontent.com/u/42119505?v=4&s=73'
+    content: '3'
+    date: 2018-09-18T12:39:33.330Z
+
 ---
 
 本文转载自：<http://blogread.cn/it/article/6367?f=wb>

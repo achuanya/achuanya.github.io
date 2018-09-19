@@ -3,6 +3,15 @@ layout: post
 title: (转)如何学习开源项目
 description: 如何学习开源项目
 category: 技术
+comments:
+  - author:
+      type: full
+      displayName: achuanya
+      url: 'https://github.com/achuanya'
+      picture: 'https://avatars3.githubusercontent.com/u/42119505?v=4&s=73'
+    content: '4'
+    date: 2018-09-18T12:39:43.585Z
+
 ---
 
 本文转自华为章宇的博客，原文链接<http://yizhaolingyan.net/?p=123>，转载请注明。
