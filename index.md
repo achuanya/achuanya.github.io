@@ -20,4 +20,6 @@ title: 执着于理想，纯粹于当下 - 阿川的个人博客
 
 ![](/assets/image/Micro letter.png)
 
+
+---
 {% include disqus.html %}
