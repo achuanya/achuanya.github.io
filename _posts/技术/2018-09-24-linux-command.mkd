@@ -1,7 +1,7 @@
 ---
 layout: post
-title: linux命令笔记(持久更新)
-description: linux命令笔记(持久更新)
+title: linux命令笔记(长期更新)
+description: linux命令笔记(长期更新)
 category: 技术
 ---
 
@@ -62,7 +62,7 @@ category: 技术
 
         -name filename   //找出文件名为filename的文件
         -size [+-]SIZ   //找出比SIZE还要大（+）或小（-）的文件
-        -tpye TYPE   //查找文件的类型为TYPE的文件，TYPE的值主要有：一般文件（f)、设备文件（b、c）、
+        -tpye TYPE   //查找文件的类型为TYPE的文件，TYPE的值主要有：一般文件（f)、设备文件（b---术、c）、
                        目录（d）、连接文件（l）、socket（s）、FIFO管道文件（p）；class phone{
 
 
