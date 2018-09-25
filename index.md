@@ -15,7 +15,7 @@ title: 执着于理想，纯粹于当下 - 阿川的个人博客
 联系方式：
 
 - Qzone：[阿川的个人空间](https://user.qzone.qq.com/2434929041)
-- Email: <chenbtpig@foxmail.com>
+- Email: <achuan@lmissyou.club>
 - 微信二维码:
 
 ![](/assets/image/Micro letter.png)
