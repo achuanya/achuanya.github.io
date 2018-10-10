@@ -17,7 +17,9 @@ Sublime Text3 是一款轻量级的编辑器，它干净、实用、漂亮，还
 
     wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
     
-2.安装apt-transport-https软件包
+2.安装apt-transport-https软件包remote: Compreremote: Compressing objects: 100% (80/80), done.
+ssing objects: 100% (80/80), done.
+
 
     sudo apt-get install apt-transport-https
 
@@ -133,8 +135,9 @@ DocBlockr　　　DocBlockr很好用，不仅仅可以**自动生成注释**，�
     ],
     "jsdocs_function_description": false
   }
-Emmet　　　可以帮助 html css **快速输入代码** 如快速新建html头部 **！** 或 **html:5**，
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然后按下 **Tab** 键或 **Ctrl+E**
+
+
+Emmet　　　可以帮助 html **快速输入代码** 如快速新建html头部,打出"!" 或者 **html:5**，然后按下 **Tab** 键或 **Ctrl+E**
 
 Material Theme　　　多个**高品质**的**主题**和多个**配色方案**
 
