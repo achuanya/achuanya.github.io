@@ -1,0 +1,155 @@
+---
+layout: post
+title: 开源分布式管理控制系统——Git笔记
+description: 开源分布式管理控制系统——Git笔记
+category: 技术
+---
+
+## Git的诞生  
+&emsp;故事是自2002年开始，[林纳斯·托瓦兹][1]决定使用[BitKeeper][2]作为[Linux内核][3]版本控制系统，用于维护代码。你想想BitKeeper是[专有软件][4]，人家靠这玩意挣钱，这个决定社群中长期遭受质疑。不过还是有人主张使用开源软件。我dalao（林纳斯·托瓦兹）何尝没有想过（如[Monotone][5]），但是这些软件都存在一些问题，特别是性能不佳。现成的方案，如[CVS][6]的架构，不过dalao并不喜欢连同痛批了一顿。  
+&emsp;2005年的时候有个叫[安德鲁·垂鸠][7]破解了BitKeeper（这么做的不止他一个），BitMover公司决定收回Linux社区的免费使用权。事后双方公司进行过磋商，结果可想而知。事后dalao以十天的时间，用C撸出来一个分布式版本控制系统，它就是Git的第一个版本！于2005年以[GPL][8]发布。至于这个名字嘛，dalao自嘲地取了这个名字“**Git**”，该词源自英国俚语，意思大约是“混账”。不过Git刚面世的时候，世界上开源社群反对声音不少，最大的理由是Git太艰涩难懂？（博主：一个程序员难道不该有钻研精神吗？）  
+&emsp;2016年IT界报道，Git诞生11后，BitKeeper宣布开源。挑战Linux内核开发者？dalao反手一掏Git灭掉BitMover。（这段让我看的热血沸腾，抽颗烟压压惊）
+
+在学习之前我门先学习一下四个专业术语  
+
+![Alt text](https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/Git%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg "Git数据流程图")  
+ * **Workspace**：工作区
+ * **lndex/Stage**：暂存区（又名索引）
+ * **Repository**：仓库区（又名本地仓库、储存库）
+ * **Remote**：远程仓库
+
+ * 工作区：顾名思义，我们克隆到本地仓的文件夹，进入它就是工作区。
+ * 暂存区：数据暂时存放的地方，可以通过git status查看状态。
+ * 仓库区：通过git init创建的本地仓库但不包括.git（版本库）。
+ * 远程仓库：这个很简单但我却不知道怎么表达...可以说成云端仓库吧。
+
+## 主要功能
+Git主要用于Linux内核开发的版本控制系统，与[CVS][6]、[Subversion][9]这一类集中式版本控制系统的不同采用了分布式版本。它没有服务器端，就可以运行版本控制，这使得源码的发布与修改极其方便。git速度也是很给力。
+
+## 实现原理
+
+
+## Git命令的安装
+Git平台支持有[POSIX][10]、[Windows][11]、[OS X][12]，不过今天我们重点讲Linux。
+ * 在装软件之前我都会习惯的更新源
+
+        sudo apt update
+
+ * 基于二进制安装Git
+
+        sudo yum install git
+
+ * ubuntu发行版
+
+        sudo apt-get install  git
+
+查看Git当前版本
+
+        git version
+
+## 初始化仓库
+
+        git init
+
+## 克隆到本地仓库
+
+        git clone [url]
+            
+## 增加删除文件
+
+        // 添加修改过的文件和未跟踪的文件添加到缓存区，包括删除的文件
+        git add .
+        // 将跟踪文件中的修改和删除的文件添加到暂存区，不包括新增加的文件
+        git add -u
+        // 将所有已跟踪的文件、修改、删除与新增的文件都添加到暂存区
+        git add -A
+        //帮助
+        git add -h
+
+## 检查工作目录与暂存区状态
+
+        // 
+        git status
+
+## 提交代码并注释
+
+        参数：
+                -a       // 自动检测修改的文件
+                -m       //  
+
+## 添加到远程仓库
+
+        // git add写入缓存区后，git commit 添加到远曾仓库，Git每一个提交都要记录你的名字与邮箱。
+        git config --global user.email achttps://zh.wikipedia.org/wiki/GNU%E9%80%9A%E7%94%A8%E5%85%AC%E5%85%B1%E8%AE%B8%E5%8F%AF%E8%AF%81huanya
+        git config --global user.name "achuan@lmissyou.club"
+
+
+## 提交到远程仓库
+
+        git push origin master
+        git clone   # 创建新的分支为 BRANCH
+
+## 查看远程分支
+
+        // -a 参数查看远程分支,在终端软件程分支"会以红色表示出来(根据终端主题配色)
+        git branch -a
+
+## Git常用命令
+## git remote
+ * 跟踪存储库，不带参数，列出已存在的远程分支
+
+        git remote
+       
+        git remote add [shortname][url]
+
+ * 跟踪分支
+ 
+        git remote add -f -t master -m master origin git@github.com:achStay 
+
+## git pull
+//用于获取分支并整合，大概意思是，获取主机某个分支的更新，再与本地的指定分支合并。 
+
+## 拓展知识
+ * 克隆下载某项目中的单个文件（文件夹）
+
+        wget https://github.com/acversionuanya/achuanya.github.io/blob/master/README.md
+
+ * 文件状态
+
+        未跟踪（untrack）：新增加文件
+        已修改（modified）：已修改但为写入到暂
+        已暂存（staged）：已经写入到暂存到远程仓库
+        已提交（committed）：已经添加到远程仓库
+
+## Git专业术语中英文对照表
+| 英文 | 中文  | 英文 | 中文 | 英文 | 中文 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| repository | 仓库、版本库 | merge | 分之合并 | snapshot | 快照 |
+| ref | 引用 | rebase | 分之衍合 | staging | 暂存区 |
+| bare | 裸仓库 | cherry-pick | 条件分支 | SHA1 | 哈希值 |
+| SVN | Subversion | squash | 压合分支 | commit | 提交 |
+| GIT | 分布式RCS | checkout | 检出 | branch | 分支 |
+| SSH | 安全传输协议 | revert | 反转提交 | tag | 标签 |
+| HEAD | 当前分支 | stash | 储藏 | index | 索引 |
+| pull | 拉取代码 | master | 主分支 | origin | 远程仓库 |
+| push | 推送代码 | Gerrit | 代码审核 |  |  |
+
+
+
+
+
+
+
+[1]: https://zh.wikipedia.org/wiki/%E6%9E%97%E7%BA%B3%E6%96%AF%C2%B7%E6%89%98%E7%93%A6%E5%85%B9
+[2]: https://zh.wikipedia.org/wiki/BitKeeper  
+[3]: https://zh.wikipedia.org/wiki/Linux%E5%86%85%E6%A0%B8  
+[4]: https://zh.wikipedia.org/wiki/%E4%B8%93%E6%9C%89%E8%BD%AF%E4%BB%B6  
+
+[5]: https://zh.wikipedia.org/wiki/Monotone
+[6]: https://zh.wikipedia.org/wiki/%E5%8D%94%E4%BD%9C%E7%89%88%E6%9C%AC%E7%B3%BB%E7%B5%B1
+[7]: https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E9%AD%AF%C2%B7%E5%9E%82%E9%B3%A9
+[8]: https://zh.wikipedia.org/wiki/GNU%E9%80%9A%E7%94%A8%E5%85%AC%E5%85%B1%E8%AE%B8%E5%8F%AF%E8%AF%81
+[9]: https://zh.wikipedia.org/wiki/Subversion
+[10]: https://zh.wikipedia.org/wiki/POSIX
+[11]: https://zh.wikipedia.org/wiki/Microsoft_Windows
+[12]: https://zh.wikipedia.org/wiki/MacOS
