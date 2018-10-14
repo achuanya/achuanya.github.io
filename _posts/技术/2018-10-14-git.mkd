@@ -228,19 +228,19 @@ wanghou
         # 取远程仓库与本地分支合并  
         $ git pull [remote] [branch]
 
-### 拓展知识
-#### 克隆下载某项目中的单个文件（文件夹）
+## 拓展知识
+### 克隆下载某项目中的单个文件（文件夹）
 
         wget https://github.com/acversionuanya/achuanya.github.io/blob/master/README.mdjinxing
 
-#### Github Chrome插件
+### Github Chrome插件
 
 [Octotree][14]，很直观的查看不同级文件夹，也方便进行文件跳转操作。  
 [Octo Mate][15]，增强你Githubt体验，它主要功能有四点：一键以.zip格式下载文件、
 一键打开项目的Github Pages、显示仓库大小、显示未读消息数。
 
 
-#### 文件状态
+### 文件状态
 
         未跟踪（untrack）：新增加文件。
         已修改（modified）：已修改但为写入到暂存区。
@@ -248,7 +248,7 @@ wanghou
         已提交（committed）：已经添加到远程仓库。
 
 
-#### Git专业术语中英文对照表
+### Git专业术语中英文对照表
 
 ![Alt text](https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/gitshuyu.png "Git专业术语中英文对照表")
 
