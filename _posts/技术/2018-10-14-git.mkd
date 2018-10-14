@@ -240,7 +240,7 @@ wanghou
 一键打开项目的Github Pages、显示仓库大小、显示未读消息数。
 
 
-文件状态
+#### 文件状态
 
         未跟踪（untrack）：新增加文件。
         已修改（modified）：已修改但为写入到暂存区。
@@ -248,7 +248,7 @@ wanghou
         已提交（committed）：已经添加到远程仓库。
 
 
-### Git专业术语中英文对照表
+#### Git专业术语中英文对照表
 
 ![Alt text](https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/gitshuyu.png "Git专业术语中英文对照表")
 
