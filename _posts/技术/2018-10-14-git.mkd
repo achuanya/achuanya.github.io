@@ -86,6 +86,7 @@ ubuntu发行版
         $ git status -uno
         # 帮助
         $ git status -h
+        
 ## 添加到远程仓库
 
         # 当新文件添加到暂存区后，我们现在就准备创建第一个提交与注释了，不过在这之前我们要绑定Git账户
@@ -115,6 +116,7 @@ ubuntu发行版
         $ git log -5 --pretty --oneline
         # 帮助
         $ git log -h
+
 ## 提交到远程仓库
 
         # 提交到远程仓库，master即为分支
@@ -131,7 +133,7 @@ ubuntu发行版
         $ git push -h
 
 ## 移动、重命名与删除文件
-wanghou
+
         # 移动与重命名道理是一样的
         $ git mv
 ![Alt text](https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/rename.png "重命名操作")
