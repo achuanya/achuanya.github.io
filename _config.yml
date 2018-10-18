@@ -60,3 +60,5 @@ image: /assets/image/
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 livere_uid: your MTAyMC8zOTgyMy8xNjM1MA
+
+theme: jekyll-theme-cayman
