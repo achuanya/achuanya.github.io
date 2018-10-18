@@ -708,6 +708,7 @@ iframe {
   box-shadow: 0 0 0 2px rgba(125, 139, 153, 0.15);
 }
 
+
 #icon-github {
   border-right: 1px solid #626262;
 }
@@ -717,16 +718,24 @@ iframe {
 #icon-github:hover {
   color: #FFFFFF;
 }
-
+/*---------------------------------*\
+   icon
+\*---------------------------------*/
 #icon-feed {
   border-right: 1px solid #626262;
+  font-size:12px; font-family:"微软雅黑";
 }
+/*
 #icon-feed:before {
   content: "\e802";
 }
 #icon-feed:hover {
   color: #00FF00;
-}
+}*/
+#icon-feed {
+  ;}
+
+
 
 #icon-email {
   /*border-right: 1px solid #626262; */
