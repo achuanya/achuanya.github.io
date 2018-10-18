@@ -68,30 +68,26 @@ perspective effects (not including the modals and the overlay).
 
 .md-show ~ .md-overlay {
 	opacity: 1;
-	visibility: visible;
-}
+	visibility: visible;}
 
-/* Content styles */
+/*---------------------------------*\
+   友情链接  >  内容主题
+\*---------------------------------*/
 .md-content {
-	color: #fff;
-	background: #abaeb3;  /* 修改过 */
+	color: #fff;　background: #abaeb3;
 	position: relative;
 	border-radius: 3px;
-	margin: 0 auto;
-}
+	margin: 0 auto;}
 /*---------------------------------*\
-   友情链接  >  窗口
+   友情链接  >  标题
 \*---------------------------------*/
 .md-content h3 {
-	margin: 0;
-	padding: 0.4em;
+	margin: 0; padding: 0.4em;
 	text-align: center;
-	font-size: 2.4em;
-	font-weight: 300;
+	font-size: 2.4em; font-weight: 300;
 	opacity: 0.8;
 	background: #333333;
-	border-radius: 3px 3px 0 0;
-}
+	border-radius: 3px 3px 0 0;}
 
 .md-content > div {
 	padding: 15px 40px 30px;
