@@ -85,7 +85,7 @@ perspective effects (not including the modals and the overlay).
 	text-align: center;
 	font-size: 2.4em; font-weight: 300;
 	opacity: 0.8;
-	background: rgaba(153, 153, 153, 0.9); color: #333;
+	background: rgba(153, 153, 153, 0.9); color: #333;
 	border-radius: 3px 3px 0 0}
 
 .md-content > div {
