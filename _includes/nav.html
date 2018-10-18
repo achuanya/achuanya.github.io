@@ -8,7 +8,8 @@
         <li id="{{ category[0] }}" class="tags__li tags-btn">{{ category[0] }}</li>
       {% endfor %}
     </ul>
-    <!-- 弹窗开始 -->
+
+<!-- 友情链接 -->
 <div class="md-modal md-effect-10" id="modal-10">
   <div class="md-content">
     <h3>demo</h3>
@@ -18,8 +19,9 @@
         <li><strong>1:</strong> 1</li>
         <li><strong>2:</strong> 1</li>
         <li><strong>3:</strong> 1</li>
+
       </ul>
-      <button class="md-close">Close me!</button>
+      <!-- <button class="md-close">Close me!</button> -->
     </div>
   </div>
 </div>
@@ -27,14 +29,11 @@
 
 </div><!-- /container -->
 <div class="md-overlay"></div><!-- the overlay element -->
+
 <script>
   // this is important for IEs
   var polyfilter_scriptpath = '/js/';
 </script>
-
-
-<!-- 结束 -->
-
 
     <div id="tags__bottom">
       <a href="{{ site.author.github }}" id="icon-github" class="tags-btn fontello" target="_blank"></a>
