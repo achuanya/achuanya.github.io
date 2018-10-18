@@ -70,7 +70,11 @@ a:active {
 .codrops-top {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.2);
-	text-transform: uppercase;
+	text-transform: uppe
+	/* Individual modal styles with animations/transitions */
+	
+	
+	/* Effect 10: 3D sign */rcase;
 	width: 100%;
 	font-size: 0.69em;
 	line-height: 2.2;
@@ -119,7 +123,7 @@ a:active {
 button {
 	border: none;
 	padding: 0.6em 1.2em;
-	background: #c0392b;
+	background: #a6a6a6;
 	color: #fff;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-size: 1em;
