@@ -73,7 +73,7 @@ perspective effects (not including the modals and the overlay).
    友情链接  >  内容主题
 \*---------------------------------*/
 .md-content {
-	color: #fff;　background: #abaeb3;
+	color: #fff;　background: #999;
 	position: relative;
 	border-radius: 3px;
 	margin: 0 auto;}
@@ -87,7 +87,7 @@ perspective effects (not including the modals and the overlay).
 	opacity: 0.8;
 	background: #333;
 	border-radius: 3px 3px 0 0;}
-s
+
 .md-content > div {
 	padding: 15px 40px 30px;
 	margin: 0;
