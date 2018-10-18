@@ -12,14 +12,14 @@ perspective effects (not including the modals and the overlay).
 }
 
 .md-perspective body  {
-	background: #222;
+	background: #3c4149;
 	-webkit-perspective: 600px;
 	-moz-perspective: 600px;
 	perspective: 600px;
 }
 
 .container {
-	background: #e74c3c;
+	background: #3c4149;
 	min-height: 100%;
 }
 
@@ -243,13 +243,13 @@ perspective effects (not including the modals and the overlay).
 	-moz-transform: translate(30%) translateZ(600px) rotate(10deg);
 	-ms-transform: translate(30%) translateZ(600px) rotate(10deg);
 	transform: translate(30%) translateZ(600px) rotate(10deg); 
-	opacity: 0;
+	opacity: 0;e74c3c
 }
 
 .md-show.md-effect-6 .md-content {
 	-webkit-transition: all 0.3s ease-in;
-	-moz-transition: all 0.3s ease-in;
-	transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease74c3c
+	transition: all 0.3s ease-in;e74c3c
 	-webkit-transform: translate(0%) translateZ(0) rotate(0deg);
 	-moz-transform: translate(0%) translateZ(0) rotate(0deg);
 	-ms-transform: translate(0%) translateZ(0) rotate(0deg);
@@ -275,7 +275,7 @@ perspective effects (not including the modals and the overlay).
 	-moz-transition: all .3s;
 	transition: all .3s;
 	opacity: 0;
-}
+}e74c3c
 
 .md-show.md-effect-7 .md-content {
 	-webkit-transform: translateY(0%);
@@ -354,7 +354,7 @@ perspective effects (not including the modals and the overlay).
 .md-effect-10 .md-content {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
-	transform-style: preserve-3d;
+	transform-style: preserve-3d;e74c3c
 	-webkit-transform: rotateX(-60deg);
 	-moz-transform: rotateX(-60deg);
 	-ms-transform: rotateX(-60deg);
@@ -450,7 +450,7 @@ perspective effects (not including the modals and the overlay).
 }
 
 @-webkit-keyframes slit {
-	50% { -webkit-transform: translateZ(-250px) rotateY(89deg); opacity: .5; -webkit-animation-timing-function: ease-out;}
+	50% { -webkit-transform: translateZ(-250px) rotatee74c3c(89deg); opacity: .5; -webkit-animation-timing-function: ease-out;}
 	100% { -webkit-transform: translateZ(0) rotateY(0deg); opacity: 1; }
 }
 
