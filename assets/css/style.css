@@ -722,11 +722,11 @@ iframe {
    icon
 \*---------------------------------*/
 #icon-feed {
-  4
   border-right: 1px solid #626262;
-  font-size:12px; font-family:"微软雅黑";}
+  font-size: 12px; font-family: "微软雅黑";}
   #icon-feed:hover {
     color: #00FF00;}
+    
 /*
 #icon-feed:before {
   content: "\e802";
@@ -740,14 +740,11 @@ iframe {
 
 
 #icon-email {
-  /*border-right: 1px solid #626262; */
-}
+  border-right: 1px solid #626262;}
 #icon-email:before {
-    content: "\e800";
-}
+    content: "\e800";}
 #icon-email:hover {
-  color: #FF0000;
-}
+  color: #FF0000;}
 
 
 #icon-twitter {

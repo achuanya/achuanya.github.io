@@ -58,7 +58,8 @@ a:active {
 }
 
 .column p {
-	font-weight: 300;
+	font-weight: 300#icon-feed:hover {
+    color: #00FF00;};
 	font-size: 2em;
 	padding: 0;
 	margin: 0;
