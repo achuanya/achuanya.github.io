@@ -57,8 +57,3 @@ image: /assets/image/
 # image: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/
 
 # disqus 设置
-# Support for LiveRe comments system.
-# You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: your MTAyMC8zOTgyMy8xNjM1MA
-
-theme: jekyll-theme-cayman
