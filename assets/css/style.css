@@ -306,18 +306,6 @@ a {
     top: 48px;
     }
 }
-/*---------------------------------*\
-   收回文章栏样式
-\*---------------------------------*/
-@media screen and (max-width: 585px) {
-  #js-fullscreen {
-		width:100px; height:100px;
-		background: #FF0000;
-		position:relativer; left: 50px; top: 100px;
-    
-}
-
-
 
 .pl__all {
   margin: 4px 12px;
@@ -953,7 +941,8 @@ iframe {
     top: 0;
     right: 0;
     border-radius: 0;
-    box-shadow: 0 0 0 0 transparent;
+		box-shadow: 0 0 0 0 transparent;
+		margin-top: 100%
   }
   #scroll-top:hover {
     color: #2eb695;
