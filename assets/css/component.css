@@ -146,9 +146,3 @@ perspective effects (not including the modals and the overlay).
 	transform: rotateX(0deg);
 	opacity: 1;
 }
-
-/*---------------------------------*\
-   友情链接  >  ul
-\*---------------------------------*/
-.links ul li{
-    float:left;}

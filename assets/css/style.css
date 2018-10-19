@@ -306,6 +306,18 @@ a {
     top: 48px;
     }
 }
+/*---------------------------------*\
+   收回文章栏样式
+\*---------------------------------*/
+@media screen and (max-width: 585px) {
+  #js-fullscreen {
+		width:100px; height:100px;
+		background: #FF0000;
+		position:relativer; left: 50px; top: 100px;
+    
+}
+
+
 
 .pl__all {
   margin: 4px 12px;
