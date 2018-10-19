@@ -150,8 +150,8 @@ perspective effects (not including the modals and the overlay).
 /*---------------------------------*\
    友情链接  >  ul
 \*---------------------------------*/
-.links ul{
-    float:left;;}
+.links ul li{
+    float:left;}
 
 .links>ul>li>a {
     font-family:r;}
