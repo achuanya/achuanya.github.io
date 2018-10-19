@@ -4,5 +4,5 @@
 .links ul{
     float:left;;}
 
-.links ul li a {
+.links>ul>li>a {
     font-family:"Source Code Pro";}
