@@ -146,3 +146,12 @@ perspective effects (not including the modals and the overlay).
 	transform: rotateX(0deg);
 	opacity: 1;
 }
+
+/*---------------------------------*\
+   友情链接  >  ul
+\*---------------------------------*/
+.links ul{
+    float:left;;}
+
+.links>ul>li>a {
+    font-family:"Source Code Pro";}
