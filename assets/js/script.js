@@ -66,6 +66,8 @@ $('#js-fullscreen').on('click', function() {
 	}
 });
 
+
+
 $('#scroll-top').on('click', function() {
 	container.animate({
 		scrollTop: 0
