@@ -941,7 +941,7 @@ iframe {
     border-radius: 0;
 		box-shadow: 0 0 0 0 transparent;
 		position: absolute;
-    top: 93%;
+    bottom:0;
   }
   #scroll-top:hover {
     color: #2eb695;
