@@ -3,7 +3,7 @@ title: 阿川的个人博客
 email: achuan@achuan.io
 description: > #阿川的个人博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://achuanya.github.io/index.html" # the base hostname & protocol for your site
+url: "https://www.achuan.io/index.html" # the base hostname & protocol for your site
 
 # Paginate（分页）
 #gems: [jekyll-paginate]
@@ -31,7 +31,7 @@ favicon: /assets/image/favicon.ico
 author:
   name: Hong-hai zhang
   email: achuan@achuan.io
-  link: http://achuanya.github.io/
+  link: http://www.achuan.io
   Qzone: https://user.qzone.qq.com/2434929041
   github: https://github.com/achuanya
   github_username: achuanya
