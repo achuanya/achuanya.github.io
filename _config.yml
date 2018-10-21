@@ -1,6 +1,6 @@
 # Site settings
 title: 阿川的个人博客
-email: achuan@lmissyou.club
+email: achuan@achuan.io
 description: > #阿川的个人博客
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://achuanya.github.io/index.html" # the base hostname & protocol for your site
@@ -30,7 +30,7 @@ favicon: /assets/image/favicon.ico
 # 博客作者相关
 author:
   name: Hong-hai zhang
-  email: achuan@lmissyou.club
+  email: achuan@achuan.io
   link: http://achuanya.github.io/
   Qzone: https://user.qzone.qq.com/2434929041
   github: https://github.com/achuanya
