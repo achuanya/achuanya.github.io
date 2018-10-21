@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 Disallow: /bin/
-Sitemap: http://achuanya.github.io/sitemap.xml
+Sitemap: http://www.achuan.io/sitemap.xml
