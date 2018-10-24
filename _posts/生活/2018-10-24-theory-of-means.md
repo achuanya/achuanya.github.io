@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (转)论胡编乱造的写作技巧
-category: 生活
+category: 生活　
 description: (转)论胡编乱造的写作技巧
 ---
 
