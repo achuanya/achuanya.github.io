@@ -86,7 +86,7 @@ ubuntu发行版
         $ git status -uno
         # 帮助
         $ git status -h
-        
+
 ## 添加到远程仓库
 
         # 当新文件添加到暂存区后，我们现在就准备创建第一个提交与注释了，不过在这之前我们要绑定Git账户
@@ -155,7 +155,7 @@ ubuntu发行版
 
 ## 管理分支
 &emsp;Git分支，好比一包零食，你可以选择和其他小伙伴一起吃一包，也可以自己吃一包，他们吃他们的，你吃你的相互之间没有影响，作为这包零食的主人，你也可以随时可以让两包零食放在一起（合并）。
-        
+​        
         # 现在让我们创建一包零食，不不不...一个新分支
         $ git branch [name]
         # 查看本地所有分支（当前分支前有个 * 号）
@@ -174,7 +174,7 @@ ubuntu发行版
         
         # 把现有demo分支合并到master上
         $ git metge [branch Name]
-
+    
         root@achuan-pc:/home/github/demo# git branch
         demo
         * master
@@ -183,7 +183,7 @@ ubuntu发行版
         Fast-forward
         README.txt | 1 +
         1 file changed, 1 insertion(+)
-
+    
         # 注意上面的合并信息 fasht-forward 意思是这次合并是快进模式，也就是直接吧master指向demo的当前提交，所以合并速度非常快。 
 
 
