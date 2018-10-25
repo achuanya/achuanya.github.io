@@ -23,7 +23,7 @@ what the?
 
 这有什么难的？so easy　解决方式如下：
 
-		#首先强制解锁
+		# 首先强制解锁
 		$ sudo rm /var/cache/apt/archives/lock
 		# 然后找到错误信息里“无法获得锁的地址”并 rm
 		$ sudo rm /var/lib/dpkg/lock-frontend
