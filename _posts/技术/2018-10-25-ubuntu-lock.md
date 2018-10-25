@@ -1,12 +1,7 @@
 ---
 layout: post
-<<<<<<< HEAD
-title: 解决ubuntu：E：无法获得锁（11：资源暂时不可用）
-description: 解决ubuntu：E： 无法获得锁（11：资源暂时不可用）
-=======
-title: ubuntu解决：E: 无法获得锁（11: 资源暂时不可用）
-description: ubuntu解决：E: 无法获得锁（11: 资源暂时不可用）
->>>>>>> 2af3316c7870f6fa2e9d9741e92de15b33ebdcfe
+title: 解决ubuntu：E：无法获得锁(11：资源暂时不可用)
+description: 解决ubuntu：E： 无法获得锁(11：资源暂时不可用)
 category: 技术
 ---
 
