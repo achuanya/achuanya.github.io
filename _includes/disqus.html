@@ -34,21 +34,16 @@
 
 <span class="wpac-cr" onclick="replaceDoc()" >点击加载 Widgetpack 评论</span> -->
 
-<!-- 来必力City版安装代码 -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC8zOTgyMy8xNjM1MA==">
-<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
+<div id="vcomments"></div>
+<script>
+  new Valine({
+      el: '#vcomments',
+      appId: '<vB2WJHAHFJQ01raHJ2MsjJ54-gzGzoHsz>',
+      appKey: '<OxPr5i0aO1v5yI5CNoD6dPq8>',
+      path: 'window.location.pathname',
+      verify: false,
+      notify: false,
+      avatar: 'mm',
+      placeholder: 'just go go'
+  });
 </script>
-<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-</div>
-<!-- City版安装代码已完成 -->
