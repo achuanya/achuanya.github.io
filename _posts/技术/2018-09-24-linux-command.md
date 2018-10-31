@@ -41,7 +41,7 @@ category: 技术
            //把ls -l的输出中包含字母file（不区分大小写）的内容输出
         ls -l | grep -i file
 
-## fild
+## find
 * 基于查找文件命令，相对而言，使用复杂，参数多  
  &emsp;# 与参数有关
  
