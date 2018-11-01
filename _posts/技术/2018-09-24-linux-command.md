@@ -16,7 +16,7 @@ category: 技术
         cd ../achuan      //切换到上层目录中的chuan目录中，“..”表示上一层目录
         cd ~              //切换到home
         cd ../..          //切换到目录的上两级
-        
+    
 ## ls
 * 查看目录与文件，list之意
 
@@ -44,7 +44,7 @@ category: 技术
 ## find
 * 基于查找文件命令，相对而言，使用复杂，参数多  
  &emsp;# 与参数有关
- 
+
         -mtime n   //n为数字，意思为在n天之前的“一天内”被更改过的文件；
         -mtime +n   //列出在n天之前（不含n天本身）被更改过的文件名；
         -mtime -n   //列出在n天之内（含n天本身）被更改过的文件名；
@@ -116,7 +116,7 @@ category: 技术
         ps -lA   //查看系统所有的进程数据
         ps axjf   //查看连同一部分进程树状态
 
-#kill
+## kill
 * 用于向某个工作或者是某个PID（数字）传送一个信号，它通常与ps和jobs命令一起使用，# 例如：
 
         kill -signal PID
@@ -153,7 +153,7 @@ signal的常用参数如下：
         -v   //在压缩/解压缩过程中，将正在处理的文件名显示出来
         -f filename   //filename为要处理的文件
         -C achuan   //指定压缩/解压缩的目录achuan
-
+    
         命令有点多哈，但是通常我们只需要记住下面三条命令即可：
         压缩：tar -jcv -f filename.tar.bz2 要被处理的文件或目录名称
         查询：tar -jtv -f filename.tar.bz2
@@ -205,7 +205,7 @@ signal的常用参数如下：
         -lm   //表示标准库的目录中名为libm.a的函数库
         -lpthread   //连接NPTL实现的线程库
         -std=   //用于指定把使用的C语言的版本
-
+    
         # 例如：
            //把源文件demo1.c按照c99标准编译成可执行程序demo1
         gcc -o demo1 demo1.c -lm -std=c99
