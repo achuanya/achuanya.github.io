@@ -56,5 +56,7 @@ js: /assets/js/
 image: /assets/image/
 # image: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/
 
-# disqus 设置
-livere_uid: MTAyMC8zOTgyMy8xNjM1MA==
+# gitment
+gitment：
+    id：e550339d2582bfed3f48
+    secret：480bef080e4b01418f05949719194388788b20d3
