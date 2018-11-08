@@ -6,7 +6,7 @@ category: 技术
 ---
 
 &emsp;出于挂一些签到软件的原因我一直在用Windows Server2012，因为服务器配置较低图形界面操作卡的要死，干脆直接上纯命令操作系统的linux。
-关于linux发行版我几乎都玩过。在选择linux服务器这块也没有太犹豫，我个人比较痴情Ubuntu，我个人用户对于服务器要求没有那么高。不过我第一次部署纯命令操作系统，部署的过程中还是遇到一些小麻烦，不过办法总比困难多嘛！
+关于linux发行版我几乎都玩过。在选择linux服务器这块也没有太犹豫，我个人比较痴情Ubuntu，我个人用户对于服务器要求没有那么高，所以选择了 Ubuntu Server 16.04.1 LTS。不过我第一次部署纯命令操作系统，部署的过程中还是遇到一些小麻烦，不过办法总比困难多嘛！
 
 ## root登录
 首先，使用[ssh命令][1]在终端登录到远程主机
@@ -317,8 +317,8 @@ ubuntu serverd的mysql配置文件在 /etc/mysql/mysql.conf.d/mysqld.cnf
 
 输入网址即可： http://localhost/phpmyadmin
 
-
-
+这次部署Ubuntu Server体会不少，我真是越来越喜欢linux了，它真是一个非常有魅力的系统！哈哈哈，到这里吧，太晚了要回寝室睡觉了--  
+本篇文章如有写的不足之处，还请您多多指教！88！
 
 [1]: http://linux.51yip.com/search/ssh
 [2]: https://zh.wikipedia.org/wiki/Apache_HTTP_Server
