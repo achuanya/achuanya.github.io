@@ -79,7 +79,7 @@ category: 技术
     $ sudo service apache2 star
     # [start] [restart] [stop] [status]
 
-### 推送文件到网站服务器的根目录
+### 推送文件到网站根目录
 在这里我遇到一个问题
 
 	root@achuan-pc:/home/achuan/视频/ubuntu# scp -r htdocs ubuntu@139.199.105.72:/var/www
