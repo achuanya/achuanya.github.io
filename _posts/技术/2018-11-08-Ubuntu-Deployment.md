@@ -322,17 +322,3 @@ ubuntu serverd的mysql配置文件在 /etc/mysql/mysql.conf.d/mysqld.cnf
 
 [1]: http://linux.51yip.com/search/ssh
 [2]: https://zh.wikipedia.org/wiki/Apache_HTTP_Server
-[3]: 
-[4]: 
-[5]: 
-[6]: 
-[7]: 
-[8]: 
-[9]: 
-[10]: 
-[11]: 
-[12]: 
-[13]: 
-[14]: 
-
-
