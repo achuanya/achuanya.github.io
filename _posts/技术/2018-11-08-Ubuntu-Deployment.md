@@ -142,8 +142,8 @@ what the?　我被拒绝了？
 	        Order allow,deny
 	        Allow from all
 	    </Directory>
-	    Errorlog logs/lmissyou.club-errpr.log
-	    CustomLog logs/lmissyou.club-access.log common
+	    Errorlog "logs/lmissyou.club-errpr.log"
+	    CustomLog "logs/lmissyou.club-access.log" common
 	</VirtualHost>
 
 	# 打开apache配置文件并写入“Include httpd.conf”
