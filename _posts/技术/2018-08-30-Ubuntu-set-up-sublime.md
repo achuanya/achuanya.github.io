@@ -17,9 +17,7 @@ Sublime Text3 是一款轻量级的编辑器，它干净、实用、漂亮，还
 
     wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
     
-2.安装apt-transport-https软件包remote: Compreremote: Compressing objects: 100% (80/80), done.
-ssing objects: 100% (80/80), done.
-
+2.安装apt-transport-https软件包
 
     sudo apt-get install apt-transport-https
 
