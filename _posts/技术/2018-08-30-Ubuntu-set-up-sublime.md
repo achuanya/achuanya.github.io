@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ubuntu调教日记之Sublime Texet3
-description: Ubuntu18.04下安装 Sublime Texet3 并解决它的一些“疑难杂症”
+title: Ubuntu调教日记之Sublime Text3
+description: Ubuntu18.04下安装 Sublime Text3 并解决它的一些“疑难杂症”
 category: 技术
 ---
 
