@@ -1,0 +1,68 @@
+---
+layout: post
+title: php笔记(长期更新)
+description: php笔记(长期更新)
+category: 技术
+---
+
+## 预定义变量
+* DOCUMENBT_ROOT - 当前脚本所在的文档根目录(服务器VirtualHost定义)
+* HTTP_HOST - 域名
+* PHP_SELF - 获取当前页面地址
+* REQUEST_URL - 获取完整url(包括?号后的参数)
+* REQUEST_METHOD - 获得页面使用的请求方法
+* _FILE_ - 当前php文件名
+* _LINE_ - 当前php文件中所在的行数
+* PHP_VERSION - PHP版本
+* REQUEST_URI - 获得地址后的所有内容
+* 
+
+## 字符串函数
+* echo - 输出一个或多个字符串
+* trim - 去除字符串首尾处的空白字符（或者其他字符）
+* md5 - 将一个字符串进行MD5算法加密
+* implode - 将一个一维数组的值转化为字符串
+* explode - 使用一个字符串分割另一个字符串
+* parse_str - 将字符串解析成多.个变量
+* str_pad - 使用另一个字符串填充字符串为指定长度
+* str_repeat - 重复一个字符串
+* str_replace - 子字符串替换
+* str_shuffle - 随机打乱一个字符串
+* str_split - 将字符串转换为数组
+* strlen - 获取字符串长度
+* strip_tags - 从字符串中去除 HTML 和 PHP 标记
+* strpos - 查找字符串首次出现的位置
+* strrchr - 查找指定字符在字符串中的最后一次出现
+* strrpos - 计算指定字符串在目标字符串中最后一次出现的位置
+* substr - 返回字符串的子串
+* strtolower - 将字符串转化为小写
+* strtoupper - 将字符串转化为大写
+* strrev - 反转字符串
+* md5_file - 指定文件进行MD5算法加密 
+* sha1 - 计算字符串的 sha1 散列值
+* number_format - 以千位分隔符方式格式化一个数字
+* print - 输出字符串
+* printf - 输出格式化字符串
+
+## 数组函数
+* array - 新建一个数组
+* array_keys - 返回数组中所有键名
+* array_map - 讲回调函数的作用给定到数组的单元上
+* array_merge - 合并一个或多个数组
+* array_push - 将一个或多个单元压入数组的末尾(入栈)
+* array_rand - 从数组中随机取出一个或多个单元
+* array_shift - 将数组开头的单元移出数组
+* array_slice - 从数组中取出一段
+* shuffle - 将数组打乱
+* rsort - 对数组逆向排序
+
+## GET 与 POST 的区别
+* GET在浏览器回退时是无害的，而POST会再次提交请求
+* GET产生的URL地址可以被Bookmark，而POST不可以
+* GET请求会被浏览器主动cache，而POST不会，除非手动设置
+* GET请求只能进行url编码，而POST支持多种编码方式
+* GET请求参数会被完整保留在浏览器历史记录里，而POST中的参数不会被保留
+* GET请求在URL中传送的参数是有长度限制的，而POST么有
+* 对参数的数据类型，GET只接受ASCII字符，而POST没有限制
+* GET比POST更不安全，因为参数直接暴露在URL上，所以不能用来传递敏感信息
+* GET参数通过URL传递，POST放在Request body中
