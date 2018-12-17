@@ -46,15 +46,32 @@ category: 技术
 
 ## 数组函数
 * array - 新建一个数组
-* array_keys - 返回数组中所有键名
-* array_map - 讲回调函数的作用给定到数组的单元上
+* array_values - 返回数组中所有的值
+* count - 计算数组中的单元数目或对象中的属性个数
+* in_array - 检查数组中是否存在某个值
+* shuffle - 将数组打乱
+* reset - 将数组的内部指针指向第一个单元
+* end - 将数组的内部指针指向最后一个单元
+* array_chunk - 将一个数组分割成多个
+* array_column - 返回数组中指定的一列
+* array_combine - 创建一个数组，用一个数组的值作为其键名，另一个数组的值作为其值
+* array_count_values - 统计数组中所有的值出现的次数
+* array_fill - 用给定的值填充数组
+* array_flip - 交换数组中的键和值
+* array_key_exists - 检查给定的键名或索引是否存在于数组中
+* array_keys - 返回数组中部分的或所有的键名
 * array_merge - 合并一个或多个数组
-* array_push - 将一个或多个单元压入数组的末尾(入栈)
+* array_pad - 用值将数组填补到指定长度
+* array_pop - 将数组最后一个单元弹出（出栈）
 * array_rand - 从数组中随机取出一个或多个单元
+* array_reverse - 返回一个单元顺序相反的数组
+* array_search - 在数组中搜索给定的值，如果成功则返回相应的键名
 * array_shift - 将数组开头的单元移出数组
 * array_slice - 从数组中取出一段
-* shuffle - 将数组打乱
-* rsort - 对数组逆向排序
+* array_unshift - 在数组开头插入一个或多个单元
+* arsort - 对数组进行逆向排序并保持索引关系
+* asort - 对数组进行排序并保持索引关系
+
 
 ## GET 与 POST 的区别
 * GET在浏览器回退时是无害的，而POST会再次提交请求
