@@ -55,13 +55,3 @@ js: /assets/js/
 # 网站图片路径
 image: /assets/image/
 # image: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/
-
-# gitment
-gitment:
-  enable: true
-  clientID: 5aac425dc15a8dfb7124
-  clientSecret: 214d67c54478a265ce8c59e8f57e3ae465ab8b73
-  repo: achuanya.github.io
-  owner: achuanya
-  admin: achuanya
-  distractionFreeMode: true
