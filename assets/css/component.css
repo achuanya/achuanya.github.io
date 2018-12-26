@@ -207,6 +207,6 @@ perspective effects (not including the modals and the overlay).
 	width:12px;
 }
 /* 去掉buttom默认样式 */
-buttom {
+button {
 	outline:none;
 }
