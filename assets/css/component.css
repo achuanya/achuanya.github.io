@@ -194,3 +194,6 @@ perspective effects (not including the modals and the overlay).
 	box-shadow:0 0 0 0 rgba(125, 139, 153, 0.15);
 	}
 }
+.md-inner {
+	padding:10px 0;
+}
