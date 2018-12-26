@@ -21,7 +21,6 @@
           </div>
       </li>
     </ul>
-    <div class="md-overlay"></div>
     
     <!-- 友情链接 -> 外层 -->
     <div class="md-modal md-effect-10" id="modal-10">
@@ -37,21 +36,22 @@
         </div>
       </div>
     </div>
+    <!-- the overlay element -->
     <div class="md-overlay"></div>
-    
-    <script>
+
+    <!-- <script>
       // this is important for IEs
       var polyfilter_scriptpath = '/js/';
-    </script>
-    
+    </script> -->
+
     <div id="tags__bottom">
       <a href="{{ site.author.github }}" id="icon-github" class="tags-btn fontello" target="_blank"></a>
       <a href="mailto:{{ site.author.email }}" id="icon-email" class="tags-btn fontello"></a>
       <!-- <a href="/pages/rss.xml" id="icon-feed" class="tags-btn fontello" target="_blank"></a> RSS订阅 -->
       <span id="icon-feed" class="tags-btn fontello md-trigger" data-modal="modal-10" target="_blank">友</span>
     </div>
-  </nav> <!-- end #tags -->
-
+  </nav>
+  <!-- end #tags -->
   <div id="posts-list">
     <form action="" id="search-form">
       <a href="/index.html" id="mobile-avatar" style="background-image:url({{ site.avatar }})"></a>
