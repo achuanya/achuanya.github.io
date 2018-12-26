@@ -197,8 +197,10 @@ perspective effects (not including the modals and the overlay).
 	}
 }
 .md-inner {
-	background:#474d57;
-	
+	background: #474d57;
+	position: absolute;
+    top: 331px;
+    padding: 0 60px 0 011px;
 }
 /* 设置滚动条的样式 and (隐藏导航条不滚动的bug) */
 ::-webkit-scrollbar {
