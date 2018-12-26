@@ -210,10 +210,7 @@ perspective effects (not including the modals and the overlay).
 button {
 	outline:none;
 }
-/* 评论字体样式 */
-#modal-7 {
-	background: #fff;
-}
+/* 自述字体样式 */
 .readme {
 	color: #000;
 }
