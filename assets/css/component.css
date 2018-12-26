@@ -212,5 +212,8 @@ button {
 }
 /* 评论字体样式 */
 #vcomments {
-	color:#fff;
+	color: #fff;
+}
+.readme {
+	color: #000;
 }
