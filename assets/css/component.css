@@ -157,7 +157,8 @@ perspective effects (not including the modals and the overlay).
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
-	overflow: scroll;
+	position: relative;
+	overflow: hidden;
 }
 
 .md-effect-7 .md-content {
