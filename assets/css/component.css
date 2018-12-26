@@ -190,6 +190,9 @@ perspective effects (not including the modals and the overlay).
 		position:absolute;
 		right:0;
 		bottom:48px;
+		position: absolute;
+		z-index: 200;
+		display: block;
 	}
 	.md-trigger:hover {
 	color:#2eb695;
