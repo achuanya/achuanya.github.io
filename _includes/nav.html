@@ -8,28 +8,21 @@
         <li id="{{ category[0] }}" class="tags__li tags-btn">{{ category[0] }}</li>
       {% endfor %}
     </ul>
-    <!-- 留言板 -->
+    <!-- 留言板模块 -->
     <button class="tags__li tags-btn md-trigger" data-modal="modal-7">留言板</button>
     <div class="md-modal md-effect-7" id="modal-7">
       <div class="md-content">
         <h3>留言板</h3>
         <div>
           <p>"欢迎您来到阿川的留言板!"</p>
+           <!-- 留言板主题模块 -->
           <div id="vcomments"></div>
-          <script>
-              new Valine({
-                  el: '#vcomments',
-                  highlight:'true',
-                  appId: 'yEHcYwxdXvHUA6in8zlDxaRs-gzGzoHsz',
-                  appKey: 'LPriDGDWPDeKtvQUz1aMjBeX'
-              })
-          </script>
           <button class="md-close">Close me!</button>
         </div>
       </div>
     </div>
 
-    <!-- 友情链接 -> 外层 -->
+    <!-- 友情链接模块 -->
     <div class="md-modal md-effect-10" id="modal-10">
       <!-- 信息框 -->
       <div class="md-content">
