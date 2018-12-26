@@ -199,9 +199,6 @@ perspective effects (not including the modals and the overlay).
 .md-inner {
 	background:#474d57;
 }
-.md-inner:active {
-	background:#3a728b;
-}
 /* 设置滚动条的样式 and (隐藏导航条不滚动的bug) */
 ::-webkit-scrollbar {
 	width:12px;
