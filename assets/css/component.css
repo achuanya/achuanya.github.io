@@ -150,6 +150,8 @@ perspective effects (not including the modals and the overlay).
 
 /* Effect 7:  slide and stick to top */
 .md-effect-7{
+	width:585px;
+	height:645.6px;
 	top: 0;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
