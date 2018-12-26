@@ -9,18 +9,18 @@
       {% endfor %}
     </ul>
     <!-- 留言板模块 -->
-    <button class="tags__li tags-btn md-trigger md-inner" data-modal="modal-7">留言板</button>
+    <!-- <button class="tags__li tags-btn md-trigger md-inner" data-modal="modal-7">留言板</button>
     <div class="md-modal md-effect-7" id="modal-7" style="background: #fff;">
       <div class="md-content" style="background: #fff;">
         <h3 >留言板</h3>
         <div>
-          <p class="readme">"Hi,欢迎您来到阿川的留言板!"</p>
+          <p class="readme">"Hi,欢迎您来到阿川的留言板!"</p> -->
           <!-- 留言板模块 => 主题模块 -->
-          <div id="vcomments"></div>
+          <!-- <div id="vcomments"></div>
           <button class="md-close">Shut down!</button>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- 友链模块 -->
     <div class="md-modal md-effect-10" id="modal-10">
@@ -37,11 +37,11 @@
       </div>
     </div>
     <!-- the overlay element -->
-    <div class="md-overlay"></div>
-    <script>
+    <!-- <div class="md-overlay"></div> -->
+    <!-- <script>
       // this is important for IEs
       var polyfilter_scriptpath = '/js/';
-    </script>
+    </script> -->
 
     <div id="tags__bottom">
       <a href="{{ site.author.github }}" id="icon-github" class="tags-btn fontello" target="_blank"></a>
@@ -56,6 +56,7 @@
       <a href="/index.html" id="mobile-avatar" style="background-image:url({{ site.avatar }})"></a>
       <!-- NOTE: input field is disabled by default -->
       <input id="search-input" type="text" placeholder="站内搜索..." >
+
     </form>
 
     <nav id="pl__container">
@@ -63,6 +64,26 @@
       <!-- <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><span class="pl__date">{{ post.date | date: "%Y-%m-%d" }}</span></a> -->
       <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span></a>
     {% endfor %}
+    
+    <button class="tags__li tags-btn md-trigger md-inner" data-modal="modal-7">留言板</button>
+    <div class="md-modal md-effect-7" id="modal-7" style="background: #fff;">
+      <div class="md-content" style="background: #fff;">
+        <h3 >留言板</h3>
+        <div>
+          <p class="readme">"Hi,欢迎您来到阿川的留言板!"</p>
+          <!-- 留言板模块 => 主题模块 -->
+          <div id="vcomments"></div>
+          <button class="md-close">Shut down!</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- the overlay element -->
+    <div class="md-overlay"></div>
+    <script>
+      // this is important for IEs
+      var polyfilter_scriptpath = '/js/';
+    </script>
     </nav>
   </div> <!-- end #posts-list -->
 </aside> <!-- end #sidebar -->
