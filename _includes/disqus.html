@@ -9,7 +9,9 @@
         appKey: 'JU73J3Gg1BHagGWiMj1jr1nE'
     })
     // 容错
-    function ResumeError() {
-        return true;}
-    window.onerror = ResumeError;
+    var killErrors = function(value) {
+        return true
+    };
+    window.onerror = null;
+    window.onerror = killErrors;
 </script>
