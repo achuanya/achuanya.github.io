@@ -1,7 +1,7 @@
 var ModalEffects = (function() {
 
 	function init() {
-
+		// 背景遮盖
 		var overlay = document.querySelector( '.md-overlay' );
 
 		[].slice.call( document.querySelectorAll( '.md-trigger' ) ).forEach( function( el, i ) {
