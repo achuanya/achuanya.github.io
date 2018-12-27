@@ -197,16 +197,6 @@ button {
 .links {
 	color:#000;
 }
-/* 移动端留言板 */
-#but {
-	width: 48px;
-    height: 48px;
-    border-radius: 0;
-    box-shadow: 0 0 0 0 transparent;
-    position: absolute;
-    right: 0;
-    bottom: 50px;
-}
 /* 留言板 => 离开按钮样式 */
 .md-close {
 	padding: 0 0 0 0;
