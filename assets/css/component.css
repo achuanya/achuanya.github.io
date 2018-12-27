@@ -200,7 +200,7 @@ button {
 /* 留言板 => 离开按钮样式 */
 .md-close {
 	padding: 10px 50px 10px 50px;
-    background: #e6e9ed;
+    color: #7d8b99;
     background: rgba(229, 232, 236, 0.95);
     border: none;
     box-shadow: 0 0 10px 10px transparent;
@@ -219,6 +219,5 @@ button {
     appearance: none;
 }
 .md-close:hover {
-	color: #9ed4ea;
-	background:#49c998;
+	color:#49c998;
 }
