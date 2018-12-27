@@ -197,3 +197,15 @@ button {
 .links {
 	color:#000;
 }
+/* 移动端留言板 */
+.md-inner {
+	width: 48px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    z-index: 99;
+    font-size: 12px;
+    color: #49c998;
+    background: #e6e9ed;
+}
