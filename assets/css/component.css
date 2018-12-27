@@ -216,3 +216,12 @@ button {
     right: 0;
     bottom: 50px;
 }
+/* 留言板 => 离开按钮样式 */
+.md-close {
+	padding: 0 0 0 0;
+	color:#9ed4ea;
+	background:#e6e9ed;
+}
+.md-close:hover {
+	background:#49c998;
+}
