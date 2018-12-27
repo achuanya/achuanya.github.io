@@ -199,7 +199,7 @@ button {
 }
 /* 移动端留言板 */
 .md-inner {
-	width: 48px;
+	/* width: 48px;
     padding: 10px;
     position: absolute;
     right: 0;
@@ -207,5 +207,12 @@ button {
     z-index: 99;
     font-size: 12px;
     color: #49c998;
-    background: #e6e9ed;
+	background: #e6e9ed; */
+	width: 48px;
+    height: 48px;
+    border-radius: 0;
+    box-shadow: 0 0 0 0 transparent;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
 }
