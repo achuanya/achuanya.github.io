@@ -215,7 +215,11 @@ perspective effects (not including the modals and the overlay).
 button {
 	outline:none;
 }
-/* 自述字体样式 */
+/* 自述 => 字体样式 */
 .readme {
 	color: #000;
+}
+/* 友联 => 字体样式 */
+.links {
+	color:#000;
 }
