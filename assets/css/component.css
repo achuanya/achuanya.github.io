@@ -63,7 +63,8 @@ perspective effects (not including the modals and the overlay).
 	background: rgba(250,250,250,0.9);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
-	transition: all 0.3s;}
+	transition: all 0.3s;
+}
 
 .md-show ~ .md-overlay {
 	opacity: 1;
