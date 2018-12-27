@@ -199,10 +199,26 @@ button {
 }
 /* 留言板 => 离开按钮样式 */
 .md-close {
-	padding: 0 0 0 0;
-	color:#9ed4ea;
-	background:#e6e9ed;
+	padding: 10px 50px 10px 50px;
+    background: #e6e9ed;
+    background: rgba(229, 232, 236, 0.95);
+    border: none;
+    box-shadow: 0 0 10px 10px transparent;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: box-shadow .35s;
+    -moz-transition: box-shadow .35s;
+    -ms-transition: box-shadow .35s;
+    -o-transition: box-shadow .35s;
+    transition: box-shadow .35s;
+    z-index: 99;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
 }
 .md-close:hover {
+	color: #9ed4ea;
 	background:#49c998;
 }
