@@ -222,7 +222,7 @@ button {
 	color:#49c998;
 }
 /* 留言板 => h3样式 */
-.h3style {
+#h3style {
 	padding: 5px;
     border-radius: 2%;
     color: #fff;
