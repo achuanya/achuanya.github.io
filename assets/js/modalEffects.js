@@ -1,8 +1,10 @@
+// 背景遮盖
 var ModalEffects = (function() {
-
 	function init() {
-		// 背景遮盖
+		// 友联
 		var overlay = document.querySelector( '.md-overlay' );
+		// 留言板
+		var overlay_2 = document.querySelector('md-overlay_2');
 
 		[].slice.call( document.querySelectorAll( '.md-trigger' ) ).forEach( function( el, i ) {
 
@@ -23,8 +25,13 @@ var ModalEffects = (function() {
 
 			el.addEventListener( 'click', function( ev ) {
 				classie.add( modal, 'md-show' );
+				// 友联
 				overlay.removeEventListener( 'click', removeModalHandler );
 				overlay.addEventListener( 'click', removeModalHandler );
+				// 留言板
+				overlay_2.removeEventListener( 'click', removeModalHandler );
+				overlay_2.addEventListener( 'click', removeModalHandler );
+
 
 				if( classie.has( el, 'md-setperspective' ) ) {
 					setTimeout( function() {
