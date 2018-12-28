@@ -221,3 +221,14 @@ button {
 .md-close:hover {
 	color:#49c998;
 }
+/* 留言板 => h3样式 */
+.h3style {
+	padding: 5px;
+    border-radius: 2%;
+    color: #fff;
+    font-size: 30px;
+}
+/* 留言板 => 主题模块 */
+.leave-top {
+	padding: 50px 0 0 0;
+}
