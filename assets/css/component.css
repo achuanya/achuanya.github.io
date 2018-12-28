@@ -223,7 +223,7 @@ button {
 }
 /* 留言板 => h3样式 */
 #h3style {
-	padding: 5px;
+	padding: 0.5px;
     border-radius: 2%;
     color: #fff;
     font-size: 30px;
