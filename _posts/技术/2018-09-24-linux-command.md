@@ -229,5 +229,28 @@ init是所有进程的祖先，它们的进程号始为1.所以发送TERM信号�
 
 暂且到这里，欲知后续如何，请看下回分解![Alt text](https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/4.gif "跑")。
 
+# 2019-2-15 更新
+&emsp;
+## scp
+* 多用于系统文件之间的复制,scp 是 secure copy 的缩写,中文就是"安全复制",  
+scp是linux系统下基于ssh协议进行的远程文件
+
+        -1   强制scp命令使用协议ssh1
+        -2   强制scp命令使用协议ssh2
+        -4   强制scp命令只使用IPv4寻址
+        -6   强制scp命令只使用IPv6寻址
+        -B   使用批处理模式（传输过程中不询问传输口令或短语）
+        -C   允许压缩（将-C标志传递给ssh，从而打开压缩功能）
+        -p   保留原文件的修改时间，访问时间和访问权限
+        -q   不显示传输进度条
+        -r   递归复制整个目录
+        -v   详细方式显示输出。scp和ssh(1)会显示出整个过程的调试信息。这些信息用于调试连接，验证和配置问题
+        -o   ssh_option：如果习惯于使用ssh_config(5)中的参数传递方式
+        -P   port：注意是大写的P,port是指定数据传输用到的端口号
+        # 例如:
+        # windows传输到linux,
+        [参数][文件][用户名][ip][地址]
+        scp -r - demo.text ubuntu@139.199.105.72:/var/www
+
 
 [1]: https://zh.wikipedia.org/zh/Linux
