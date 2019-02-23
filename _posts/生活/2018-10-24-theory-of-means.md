@@ -5,7 +5,7 @@ category: 生活
 description: (转)论胡编乱造的写作技巧
 ---
 
-本文转自廖雪峰的博客，原文链接：<https://www.liaoxuefeng.com/article/00146535933727317d2dbef5b5d4ac896f07ad36f5c3a2f000>
+本文转自廖雪峰的博客，[点击进入原文](https://www.liaoxuefeng.com/article/00146535933727317d2dbef5b5d4ac896f07ad36f5c3a2f000)
 
 ---
 ![Alt text](https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/images/2018-10-24-theory-of-means/theory-of-maens.jpeg "编，我看你编......")  
