@@ -5,7 +5,7 @@ category: 生活
 description: (转)为什么你写不好一个快速排序? 谈程序员的职业发展
 ---
 
-本文转载自：<http://blogread.cn/it/article/6367?f=wb>
+本文转自IT技术博客大学习，[点击进入原文](http://blogread.cn/it/article/6367?f=wb)
 
 ---
 
