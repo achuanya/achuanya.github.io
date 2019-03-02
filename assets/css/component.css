@@ -27,9 +27,7 @@ perspective effects (not including the modals and the overlay).
 
 .md-modal {
 	position: fixed;
-	top: 50%;
 	left: 50%;
-	width: 50%;
 	max-width: 70%;
 	min-width: 320px;
 	margin-top: 50px;
@@ -68,16 +66,21 @@ perspective effects (not including the modals and the overlay).
 	transition: all 0.3s;
 }
 
-.md-show ~ .md-overlay {
+.md-show ~ .md-overlay
+{
 	opacity: 1;
-	visibility: visible;}
+	visibility: visible;
+}
 
 
-.md-content {
+.md-content
+{
 	color: #fff;
 	position: relative;
 	border-radius: 3px;
-	margin: 0 auto;}
+	margin: 0 auto;
+	background: rgba(0,0,0,0.6);
+}
 /*---------------------------------*\
    友情链接  =>  标题
 \*---------------------------------*/
