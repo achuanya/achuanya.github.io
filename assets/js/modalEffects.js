@@ -1,4 +1,4 @@
-背景遮盖
+//背景遮盖
 var ModalEffects = (function() {
 	function init() {
 		// 留言板
