@@ -30,9 +30,10 @@ perspective effects (not including the modals and the overlay).
 	top: 50%;
 	left: 50%;
 	width: 50%;
-	max-width: 630px;
+	max-width: 80%;
 	min-width: 320px;
 	height: auto;
+	margin-top: 50px;
 	z-index: 2000;
 	visibility: hidden;
 	-webkit-backface-visibility: hidden;
