@@ -251,3 +251,14 @@ button {
 	opacity: 1;
 	visibility: visible;
 }
+
+@media screen and (max-width: 41.4em)
+{
+
+	.md-modal
+	{
+		max-width: 100%;
+		min-width: 320px;
+	}
+
+}
