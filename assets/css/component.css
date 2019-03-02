@@ -30,8 +30,9 @@ perspective effects (not including the modals and the overlay).
 	top: 50%;
 	left: 50%;
 	width: 50%;
-	max-width: 80%;
+	max-width: 70%;
 	min-width: 320px;
+	margin-top: 50px;
 	height: auto;
 	margin-top: 50px;
 	z-index: 2000;
@@ -59,6 +60,7 @@ perspective effects (not including the modals and the overlay).
 	visibility: hidden;
 	top: 0;
 	left: 0;
+
 	z-index: 1000;
 	opacity: 0;
 	background: #fff;
@@ -127,7 +129,7 @@ perspective effects (not including the modals and the overlay).
 .md-effect-10 .md-content {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
-	transform-style: preserve-3d;e74c3c
+	transform-style: preserve-3d;
 	-webkit-transform: rotateX(-60deg);
 	-moz-transform: rotateX(-60deg);
 	-ms-transform: rotateX(-60deg);
