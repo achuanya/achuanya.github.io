@@ -14,9 +14,9 @@ url: "https://www.achuan.io/index.html" # the base hostname & protocol for your 
 
 # Build settings
 # 语法高亮
-#highlighter: pygments
+highlighter: pygments
 # markdown解释器
-#markdown: kramdown
+markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -36,7 +36,6 @@ author:
   github: https://github.com/achuanya
   github_username: achuanya
 
-
 locals:
   tags: 标签
   about: 关于
@@ -55,3 +54,7 @@ js: /assets/js/
 # 网站图片路径
 image: /assets/image/
 # image: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/
+
+name: 阿川
+description: 执着于理想，纯粹于当下 - 阿川的个人博客
+url: https://achuan.io/

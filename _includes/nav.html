@@ -20,7 +20,7 @@
 
 <aside id="sidebar">
   <nav id="tags">
-    <a href="/index.html" id="avatar" style="background-image:url({{ site.avatar }})"></a>
+    <a href="/index.html" id="avatar" style="background-image:url( {{site.avatar}} )"></a>
 
     <ul id="tags__ul">
       <li id="pl__all" class="tags__li tags-btn active">所有文章</li>
@@ -32,14 +32,14 @@
     <div id="tags__bottom">
       <a href="{{ site.author.github }}" id="icon-github" class="tags-btn fontello" target="_blank"></a>
       <a href="mailto:{{ site.author.email }}" id="icon-email" class="tags-btn fontello"></a>
-      <!-- <a href="/pages/rss.xml" id="icon-feed" class="tags-btn fontello" target="_blank"></a> RSS订阅 -->
-      <span id="icon-feed" class="tags-btn fontello md-trigger" data-modal="modal-10" target="_blank">友</span>
+      <a href="{{ site.url }}/feed.xml" id="icon-feed" class="tags-btn fontello" target="_blank"></a>
+      <!-- <span id="icon-feed" class="tags-btn fontello md-trigger" data-modal="modal-10" target="_blank">友</span> -->
     </div>
   </nav>
   <!-- end #tags -->
   <div id="posts-list">
     <form action="" id="search-form">
-      <a href="/index.html" id="mobile-avatar" style="background-image:url({{ site.avatar }})"></a>
+      <a href="/index.html" id="mobile-avatar" style="background-image:url( {{site.avatar}} )"></a>
       <!-- NOTE: input field is disabled by default -->
       <input id="search-input" type="text" placeholder="站内搜索..." >
     </form>
