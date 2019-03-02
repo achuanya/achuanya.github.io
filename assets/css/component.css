@@ -262,3 +262,27 @@ button {
 	}
 
 }
+.valine .vlist .vcard .text-wrapper .vcomment p
+{
+    color: #fff;
+}
+
+.valine .vlist .vcard .text-wrapper .vhead .vname
+{
+    color: #fff;
+}
+.veditor
+{
+	background: rgba(0,0,0,0.6);
+    /* border-radius: 15px; */
+}
+.auth-section
+{
+	background: rgba(0,0,0,0.6);
+}
+.vnick .vmail .vlink .
+{
+	background: rgba(0,0,0,0.6);
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
