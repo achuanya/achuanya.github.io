@@ -1,23 +1,3 @@
-<!-- 留言板模块 -->
-<button class="md-trigger" id="scroll-top"  data-modal="modal-7" style="position: absolute;right: 0;bottom: 50px;">
-  <span>留言</span>
-</button>
-
-<!-- <div class="md-modal md-effect-7" id="modal-7" style="background: #fff; width: 106%;">
-  <div class="md-content" style="background: #fff;">
-    <h3 id="h3style">留言</h3>
-    <div>
-      <p class="readme">"Hi,欢迎您来到阿川的留言板!<br/>初识博客,还请您多多指教!"</p> -->
-      <!-- 留言板模块 => 主题模块 -->
-      <!-- <div id="vcomments" class="leave-top"></div>
-      <button class="md-close">Shut down!</button>
-    </div>
-  </div>
-</div> -->
-
-<!-- the overlay element -->
-<!-- <div class="md-overlay_2"></div> -->
-
 <aside id="sidebar">
   <nav id="tags">
     <a href="/index.html" id="avatar" style="background-image:url({{ site.avatar }})"></a>
@@ -28,29 +8,6 @@
         <li id="{{ category[0] }}" class="tags__li tags-btn">{{ category[0] }}</li>
       {% endfor %}
     </ul>
-
-    <!-- 友链模块 -->
-    <div class="md-modal md-effect-10" id="modal-10">
-      <!-- 友联 => 信息框 -->
-      <div class="md-content">
-        <h3>友情链接</h3>
-        <div>
-          <ul class="links"><!-- Fooleap's Blog -->
-            <li><a href="https://blog.fooleap.org" class="links" target="_blank" title="Fooleap's Blog" >Fooleap's Blog</a></li>
-            <li><a href="http://www.yangqq.com" class="links" target="_blank" title="杨 青 | 女程序员的个人博客">杨 青 | 女程序员的个人博客</a></li>
-            <li><a href="http://blog.tmaize.net/" class="links" target="_blank" title="TMaize Blog">TMaize Blog</a></li>
-            <li><a href="https://ainyi.com/#/" class="links" target="_blank" title="你的美好，我都记得">Krryblog - 你的美好，我都记得</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- the overlay element -->
-    <div class="md-overlay"></div>
-    
-    <script>
-      // this is important for IEs
-      // var polyfilter_scriptpath = '/js/';
-    </script>
 
     <div id="tags__bottom">
       <a href="{{ site.author.github }}" id="icon-github" class="tags-btn fontello" target="_blank"></a>
