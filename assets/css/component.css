@@ -261,11 +261,18 @@ button {
 {
 	.md-modal
 	{
-		max-width: 100%;
-		min-width: 320px;
+		margin-top: 0px;
+    	width: 100%;
 	}
-
 }
+
+.md-content > div
+{
+    padding: 15px 0px 0px;
+}
+
+
+
 .valine .vlist .vcard .text-wrapper .vcomment p
 {
     color: #fff;
@@ -275,6 +282,7 @@ button {
 {
     color: #fff;
 }
+
 .veditor
 {
 	background: rgba(0,0,0,0.6);
