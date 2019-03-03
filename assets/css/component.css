@@ -54,7 +54,7 @@ perspective effects (not including the modals and the overlay).
 	visibility: hidden;
 	top: 0;
 	left: 0;
-	background: rgba(255,255,255,0.7);
+	background: rgba(255,255,255,0.9);
 	z-index: 1000;
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -203,7 +203,9 @@ button {
 }
 /* 留言板 => 离开按钮样式 */
 .md-close {
-	padding: 10px 50px 10px 50px;
+	padding: 10px 100px 10px 100px;
+	position: relative;
+    bottom: 15px;
     color: #7d8b99;
     background: rgba(229, 232, 236, 0.95);
 	border: none;
