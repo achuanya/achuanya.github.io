@@ -28,7 +28,7 @@ perspective effects (not including the modals and the overlay).
 .md-modal {
 	position: fixed;
 	left: 50%;
-	max-width: 70%;
+	max-width: 100%;
 	min-width: 320px;
 	margin-top: 50px;
 	height: auto;
@@ -212,7 +212,8 @@ button {
 	padding: 10px 50px 10px 50px;
     color: #7d8b99;
     background: rgba(229, 232, 236, 0.95);
-    border: none;
+	border: none;
+	border-radius: 5px;
     box-shadow: 0 0 10px 10px transparent;
     outline: none;
     cursor: pointer;
@@ -221,7 +222,7 @@ button {
     -ms-transition: box-shadow .35s;
     -o-transition: box-shadow .35s;
     transition: box-shadow .35s;
-    z-index: 99;
+	z-index: 99;
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
@@ -261,24 +262,14 @@ button {
 	visibility: visible;
 }
 
-@media screen and (max-width: 41.4em)
-{
-	.md-modal
-	{
-		margin-top: 0px;
-    	width: 100%;
-	}
-}
-
 .md-content > div
 {
     padding: 15px 0px 0px;
 }
-.valine .vwrap .veditor-area
+/* .valine .vwrap .veditor-area
 {
     background: rgba(0,0,0,0.6);
 }
-
 
 .valine .vlist .vcard .text-wrapper .vcomment p
 {
@@ -296,7 +287,6 @@ button {
 .veditor
 {
 	background: rgba(0,0,0,0.6);
-    /* border-radius: 15px; */
 }
 
 
@@ -321,4 +311,4 @@ button {
 .valine .vwrap .textarea-wrapper .comment_trigger
 {
 	background: rgba(0,0,0,0.6);
-}
+} */
