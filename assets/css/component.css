@@ -260,7 +260,7 @@ button {
 	opacity: 1;
 	visibility: visible;
 }
-
+/* 
 @media screen and (max-width: 41.4em)
 {
 	.md-modal
@@ -298,6 +298,12 @@ button {
 	background: rgba(0,0,0,0.6);
     /* border-radius: 15px; */
 }
+
+
+.valine .vwrap .auth-section
+{
+	background: rgba(0,0,0,0.6);
+}
 .auth-section
 {
 	background: rgba(0,0,0,0.6);
@@ -312,3 +318,7 @@ button {
 {
 	padding-top: 0px;
 }
+.valine .vwrap .textarea-wrapper .comment_trigger
+{
+	background: rgba(0,0,0,0.6);
+} */
