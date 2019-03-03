@@ -260,7 +260,7 @@ button {
 	opacity: 1;
 	visibility: visible;
 }
-/* 
+
 @media screen and (max-width: 41.4em)
 {
 	.md-modal
@@ -321,4 +321,4 @@ button {
 .valine .vwrap .textarea-wrapper .comment_trigger
 {
 	background: rgba(0,0,0,0.6);
-} */
+}
