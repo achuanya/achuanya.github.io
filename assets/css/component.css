@@ -155,7 +155,7 @@ perspective effects (not including the modals and the overlay).
 
 /* Effect 7:  slide and stick to top */
 .md-effect-7{
-	width:100%;
+	width:60%;
 	height:100%;
 	top: 0;
 	-webkit-transform: translateX(-50%);
@@ -320,7 +320,7 @@ button {
 
 /* 留言板大小100% */
 @media screen and (max-width: 768px) {
-	#modal-7 {
+	.md-effect-7 {
 		width: 100%;
 	}
 }
