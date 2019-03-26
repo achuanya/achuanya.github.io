@@ -309,10 +309,16 @@ button {
 	background: rgba(0,0,0,0.6);
 } */
 
-/* 隐藏滚动条 */
+/* Chorme 隐藏滚动条 */
 #modal-7::-webkit-scrollbar {
 	display: none;
 }
+/* IE/Edge 隐藏滚动条 */
+#modal-7 {
+	-ms-overflow-style: none;
+}
+
+/* 留言板大小100% */
 @media screen and (max-width: 768px) {
 	#modal-7 {
 		width: 100%;
