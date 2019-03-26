@@ -313,3 +313,8 @@ button {
 #modal-7::-webkit-scrollbar {
 	display: none;
 }
+@media screen and (max-width: 768px) {
+	#modal-7 {
+		width: 100%;
+	}
+}
