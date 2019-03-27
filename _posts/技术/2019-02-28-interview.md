@@ -1,4 +1,7 @@
 ---
+layout: default
+comments: true
+# other options
 layout: post
 title: 第一次校招面试总结
 description: 第一次校招面试总结

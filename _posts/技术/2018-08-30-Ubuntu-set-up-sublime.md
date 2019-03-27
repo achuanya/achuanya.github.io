@@ -1,4 +1,7 @@
 ---
+layout: default
+comments: true
+# other options
 layout: post
 title: Ubuntu调教日记之Sublime Text3
 description: Ubuntu18.04下安装 Sublime Text3 并解决它的一些“疑难杂症”

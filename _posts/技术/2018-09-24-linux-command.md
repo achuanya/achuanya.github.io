@@ -1,4 +1,7 @@
 ---
+layout: default
+comments: true
+# other options
 layout: post
 title: linux命令笔记(长期更新)
 description: linux命令笔记(长期更新)

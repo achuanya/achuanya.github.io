@@ -1,4 +1,7 @@
 ---
+layout: default
+comments: true
+# other options
 layout: post
 title: (转)如何学习开源项目
 description: 如何学习开源项目

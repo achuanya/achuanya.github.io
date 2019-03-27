@@ -1,4 +1,7 @@
 ---
+layout: default
+comments: true
+# other options
 layout: post
 title: (转)论胡编乱造的写作技巧
 category: 生活
