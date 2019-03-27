@@ -1,6 +1,7 @@
-<div id="disqus_thread"></div>
+<!-- <div id="disqus_thread"></div>
 <script>
   var disqus_config = function () {
+  fprum: 'https-achuan-io',
   this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
   this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
@@ -12,4 +13,15 @@
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
 })();
-</script> 
+</script>  -->
+
+<script>
+  var disq = new iDisqus('comment', {
+    forum: 'https-achuan-io',
+    api: 'https://api.achuan.io/login.php',
+    site: 'https//achuan.io',
+    mode: 1,
+    timeout: 3000,
+    init: true
+  });
+</script>
