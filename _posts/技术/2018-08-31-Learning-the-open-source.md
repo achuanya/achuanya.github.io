@@ -115,13 +115,3 @@ Cinder的核心功能其实是OpenStack上的volume管理。至少在Cinder+Ceph
 在达到上述阶段之后，则可以根据自身的需求决定后续计划了。
 
 以上就是笔者结合个人经验对开源项目学习方法给出的若干建议。见解粗浅，欢迎指正，非常感谢～
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?d8fde0d2545d1e76dfb50dddb897df5c";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>

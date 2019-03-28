@@ -219,13 +219,3 @@ Shift+F11 免打扰模式
 最后再秀一下我的 Sublime 感觉字体很棒，看着很舒服 嘿嘿
 
 ![](/images/2018-08-30-sublime/sublime.png)
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?d8fde0d2545d1e76dfb50dddb897df5c";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
