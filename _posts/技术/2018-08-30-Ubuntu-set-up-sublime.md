@@ -216,4 +216,4 @@ Shift+F11 免打扰模式
 如有写的不足之处，还请您多多指教！  
 最后再秀一下我的 Sublime 感觉字体很棒，看着很舒服 嘿嘿
 
-![](/images/2018-08-30-sublime/sublime.png)
+![Alt text](https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/images/2018-08-30-Ubuntu-set-up-sublime/sublime.png "抱拳")
