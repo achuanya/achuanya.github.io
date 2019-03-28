@@ -1,7 +1,5 @@
 ---
-layout: default
 comments: true
-# other options
 layout: post
 title: Ubuntu Server部署日记
 description: Ubuntu Server部署日记

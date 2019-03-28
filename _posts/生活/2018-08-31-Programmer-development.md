@@ -1,7 +1,5 @@
 ---
-layout: default
 comments: true
-# other options
 layout: post
 title: (转)为什么你写不好一个快速排序? 谈程序员的职业发展
 category: 生活

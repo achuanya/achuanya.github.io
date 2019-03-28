@@ -1,7 +1,5 @@
 ---
-layout: default
 comments: true
-# other options
 layout: post
 title: 更换了域名、邮箱并修复了移动端bug
 category: 生活
