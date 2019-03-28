@@ -2,6 +2,7 @@
 layout: page
 title: 执着于理想，纯粹于当下 - 阿川的个人博客
 ---
+---
 
 ![Alt text](/images/2018-08-30-introduce/head.png "阿川的照片")
 
