@@ -722,7 +722,7 @@ iframe {
    icon
 \*---------------------------------*/
 #icon-feed {
-  font-size: 12px; font-family: "微软雅黑";
+  border-right: 1px solid #626262;
 }
 #icon-feed:hover {
   color: #00FF00;
