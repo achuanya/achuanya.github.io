@@ -721,12 +721,12 @@ iframe {
 /*---------------------------------*\
    icon
 \*---------------------------------*/
-/* #icon-feed {
-  font-size: 12px; font-family: "微软雅黑";}
-  #icon-feed:hover {
-    color: #00FF00;} */
-    
-
+#icon-feed {
+  font-size: 12px; font-family: "微软雅黑";
+}
+#icon-feed:hover {
+  color: #00FF00;
+}
 #icon-feed:before {
   content: "\e802";
 }
