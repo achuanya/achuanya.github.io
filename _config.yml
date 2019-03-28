@@ -14,7 +14,7 @@ url: "https://achuan.io/index.html" # the base hostname & protocol for your site
 
 # Build settings
 # 语法高亮
-highlighter: pygments
+highlighter: rouge
 # markdown解释器
 markdown: kramdown
 kramdown:
