@@ -54,12 +54,7 @@ js: /assets/js/
 # 网站图片路径
 image: /assets/image/
 
-# 博客简介
-name: 阿川
-description: 执着于理想，纯粹于当下 - 阿川的个人博客
-url: https://achuan.io/
-
-# RSS
+# Rss
 name: 阿川的个人博客
 description: 执着于理想，纯粹于当下
 url: https://achuan.io/
