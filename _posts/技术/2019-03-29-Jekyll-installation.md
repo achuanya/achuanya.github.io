@@ -13,7 +13,7 @@ category: 技术
  * Gem
  * Bundler
 
-## Ruby的安装
+## 安装Ruby
 &emsp;因为Jekyll是基于ruby开发的，首先下载安装ruby，我不推荐下载Ruby2.3以上的版本，不知道怎么回事2.4、2.5、2.6我都试过感觉他们跟自带BUG似的，总是出现一堆莫名其妙的问题。  
 ruby官网下载地址（下载速度奇慢）
  * 官网链接：https://rubyinstaller.org/downloads/
@@ -44,7 +44,8 @@ ruby官网下载地址（下载速度奇慢）
 以前还有淘宝源可以用，不过现在也就已经凉了，下面是我们要替换成国内RubyGems镜像站点
 
         gem sources -a http://gems.ruby-china.com
-## Jekyll的安装
+
+## 安装Jekyll
 &emsp;通过gem install安装jekyll
 
         gem install jekyll
