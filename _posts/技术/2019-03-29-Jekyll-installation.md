@@ -142,7 +142,7 @@ ruby官网下载地址（下载速度奇慢）
   * tzinfo-data (1.2019.1)
   * wdm (0.1.1)
 
-## Jekyll启动
+## 启动Jekyll
 &emsp;写到这里真的不容易，以前在Linux搭建Jekyll没有这么心累，今windows搭建真的...几十个bug疯狂涌出...算了...留着幸福的泪，码着命令...
 
         # 生成一个Jekyll模板并进入它
@@ -161,3 +161,6 @@ ruby官网下载地址（下载速度奇慢）
        Auto-regeneration: enabled for 'H:/git/achuanio'
        Server address: http://127.0.0.1:4000/
        Server running... press ctrl-c to stop.
+
+&emsp;打开浏览器输入：127.0.0.1:4000  
+&emsp;本地ip：127.0.0.1，端口：4000。感觉IP+端口麻烦的话可以去apache配置域名。
