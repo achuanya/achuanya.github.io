@@ -162,5 +162,6 @@ ruby官网下载地址（下载速度奇慢）
        Server address: http://127.0.0.1:4000/
        Server running... press ctrl-c to stop.
 
-&emsp;打开浏览器输入：127.0.0.1:4000  
-&emsp;本地ip：127.0.0.1，端口：4000。感觉IP+端口麻烦的话可以去apache配置域名。
+打开浏览器输入：127.0.0.1:4000  
+本地ip：127.0.0.1，端口：4000。感觉IP+端口麻烦的话，去VirtualHost配置。  
+如果不太熟悉VirtualHost配置，可以看我以前的文章：[Ubuntu Server部署日记](https://achuan.io/2018-11-08-Ubuntu-Deployment.html 'Ubuntu Server部署日记')。
