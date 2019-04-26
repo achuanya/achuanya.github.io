@@ -20,9 +20,9 @@ category: 技术
     AH00526: Syntax error on line 113 of C:/AppServ/Apache24/conf/extra/httpd-vhosts.conf:
     <Directory "H:\\tp5\\public""> path is invalid.
 
-这个错误大概说的意思是 C:/AppServ/Apache24/conf/extra/httpd-vhosts.conf 文件第113行语法错误，  
-<Directory "H:\tp5\public"">路径无效。  
-打开httpd-vhosts.conf文件后，定位到113行发现路径多个“/”....
+这个错误大概说的意思是 `C:/AppServ/Apache24/conf/extra/httpd-vhosts.conf` 文件第113行语法错误，  
+`<Directory "H:\tp5\public"">路径无效。  
+打开httpd-vhosts.conf`文件后，定位到113行发现路径多个“/”....
 来回找目录可能麻烦一些，不过创建一个软连接就可以了。  
 不过若真的找不到错误或者错误找到解决不了也有办法，请点这个[万能链接][1]
 
