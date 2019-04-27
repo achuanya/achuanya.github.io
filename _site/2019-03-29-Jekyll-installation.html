@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<!--[if lte IE 8]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
+
+<!-- <title>Jekyll环境搭建（windows10） | 阿川的个人博客</title> -->
+<title>Jekyll环境搭建（windows10）</title>
+<meta name="title" content="Jekyll环境搭建（windows10）">
+
+  <meta name="author" content="Hong-hai zhang">
+
+<meta name="keywords" content="">
+
+  <meta name="description" content="Jekyll环境搭建（windows10）">
+
+
+<link rel="shortcut icon" href="/assets/image/favicon.ico" />
+<link rel="icon" href="/assets/image/favicon.ico" type="image/x-icon">
+
+<script src="/assets/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.custom.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/highlight.css">
+<link rel="stylesheet" href="/assets/css/iDisqus.min.css" />
+
+<!-- Source Code Pro -->
+<link rel="stylesheet" type="text/css" href="/assets/css/source-code-pro.css">
+
+<link href="/pages/rss.xml" rel="alternate" title="阿川的个人博客" type="application/atom+xml">
+
+  </head>
+  <body>
+    <button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
+    <button id="scroll-top"><span id="icon-arrow-up" class="fontello"></span></button>
+
+    <aside id="sidebar">
+  <nav id="tags">
+    <a href="/index.html" id="avatar" style="background-image:url( /assets/image/avatar.jpg )"></a>
+
+    <ul id="tags__ul">
+      <li id="pl__all" class="tags__li tags-btn active">所有文章</li>
+      
+        <li id="技术" class="tags__li tags-btn">技术</li>
+      
+        <li id="生活" class="tags__li tags-btn">生活</li>
+      
+        <li id="摄影" class="tags__li tags-btn">摄影</li>
+      
+    </ul>
+
+    <div id="tags__bottom">
+      <a href="https://github.com/achuanya" id="icon-github" class="tags-btn fontello" target="_blank"></a>
+      <a href="/pages/rss.xml" id="icon-feed" class="tags-btn fontello" target="_blank"></a>
+      <a href="mailto:achuan@achuan.io" id="icon-email" class="tags-btn fontello"></a>
+    </div>
+  </nav>
+  <!-- end #tags -->
+  <div id="posts-list">
+    <form action="" id="search-form">
+      <a href="/index.html" id="mobile-avatar" style="background-image:url( /assets/image/avatar.jpg )"></a>
+      <!-- NOTE: input field is disabled by default -->
+      <input id="search-input" type="text" placeholder="站内搜索..." >
+    </form>
+
+    <nav id="pl__container">
+    
+      <!-- <a class="摄影 pl__all" href="/2019-04-20-2019-04-20-One-Single-Lens.html"><span class="pl__circle"></span><span class="pl__title">我的第一部单反相机</span><span class="pl__date">2019-04-20</span></a> -->
+      <a class="摄影 pl__all" href="/2019-04-20-2019-04-20-One-Single-Lens.html"><span class="pl__circle"></span><span class="pl__title">我的第一部单反相机</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-17-it-site.html"><span class="pl__circle"></span><span class="pl__title">推荐10个优秀的技术栈社区</span><span class="pl__date">2019-04-17</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-17-it-site.html"><span class="pl__circle"></span><span class="pl__title">推荐10个优秀的技术栈社区</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-15-apache-error.html"><span class="pl__circle"></span><span class="pl__title">快速定位Apache错误</span><span class="pl__date">2019-04-15</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-15-apache-error.html"><span class="pl__circle"></span><span class="pl__title">快速定位Apache错误</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-08-initialize-construct.html"><span class="pl__circle"></span><span class="pl__title">_initialize()和__construct()的区别</span><span class="pl__date">2019-04-08</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-08-initialize-construct.html"><span class="pl__circle"></span><span class="pl__title">_initialize()和__construct()的区别</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-03-29-Jekyll-installation.html"><span class="pl__circle"></span><span class="pl__title">Jekyll环境搭建（windows10）</span><span class="pl__date">2019-03-29</span></a> -->
+      <a class="技术 pl__all" href="/2019-03-29-Jekyll-installation.html"><span class="pl__circle"></span><span class="pl__title">Jekyll环境搭建（windows10）</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-03-26-thoughts.html"><span class="pl__circle"></span><span class="pl__title">2019-03-26 随笔</span><span class="pl__date">2019-03-26</span></a> -->
+      <a class="生活 pl__all" href="/2019-03-26-thoughts.html"><span class="pl__circle"></span><span class="pl__title">2019-03-26 随笔</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-03-04-summarize.html"><span class="pl__circle"></span><span class="pl__title">第一次校招复试总结</span><span class="pl__date">2019-03-04</span></a> -->
+      <a class="技术 pl__all" href="/2019-03-04-summarize.html"><span class="pl__circle"></span><span class="pl__title">第一次校招复试总结</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-28-tp5.html"><span class="pl__circle"></span><span class="pl__title">ThinkPHP笔记（路由实现与操作方法）</span><span class="pl__date">2019-02-28</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-28-tp5.html"><span class="pl__circle"></span><span class="pl__title">ThinkPHP笔记（路由实现与操作方法）</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-28-interview.html"><span class="pl__circle"></span><span class="pl__title">第一次校招面试总结</span><span class="pl__date">2019-02-28</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-28-interview.html"><span class="pl__circle"></span><span class="pl__title">第一次校招面试总结</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-02-25-unicom.html"><span class="pl__circle"></span><span class="pl__title">电信用户投诉攻略</span><span class="pl__date">2019-02-25</span></a> -->
+      <a class="生活 pl__all" href="/2019-02-25-unicom.html"><span class="pl__circle"></span><span class="pl__title">电信用户投诉攻略</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-02-23-insist.html"><span class="pl__circle"></span><span class="pl__title">(转)微不足道的坚持</span><span class="pl__date">2019-02-23</span></a> -->
+      <a class="生活 pl__all" href="/2019-02-23-insist.html"><span class="pl__circle"></span><span class="pl__title">(转)微不足道的坚持</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-22-redis.html"><span class="pl__circle"></span><span class="pl__title">Redis笔记(安装与数据类型)</span><span class="pl__date">2019-02-22</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-22-redis.html"><span class="pl__circle"></span><span class="pl__title">Redis笔记(安装与数据类型)</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-12-31-2018.html"><span class="pl__circle"></span><span class="pl__title">2018小总结</span><span class="pl__date">2018-12-31</span></a> -->
+      <a class="生活 pl__all" href="/2018-12-31-2018.html"><span class="pl__circle"></span><span class="pl__title">2018小总结</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-12-20-cmd.html"><span class="pl__circle"></span><span class="pl__title">cmd笔记(长期更新)</span><span class="pl__date">2018-12-20</span></a> -->
+      <a class="技术 pl__all" href="/2018-12-20-cmd.html"><span class="pl__circle"></span><span class="pl__title">cmd笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-12-14-php-notes.html"><span class="pl__circle"></span><span class="pl__title">php笔记(长期更新)</span><span class="pl__date">2018-12-14</span></a> -->
+      <a class="技术 pl__all" href="/2018-12-14-php-notes.html"><span class="pl__circle"></span><span class="pl__title">php笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-11-08-Ubuntu-Deployment.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu Server部署日记</span><span class="pl__date">2018-11-08</span></a> -->
+      <a class="技术 pl__all" href="/2018-11-08-Ubuntu-Deployment.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu Server部署日记</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-10-25-ubuntu-lock.html"><span class="pl__circle"></span><span class="pl__title">解决ubuntu：E：无法获得锁(11：资源暂时不可用)</span><span class="pl__date">2018-10-25</span></a> -->
+      <a class="技术 pl__all" href="/2018-10-25-ubuntu-lock.html"><span class="pl__circle"></span><span class="pl__title">解决ubuntu：E：无法获得锁(11：资源暂时不可用)</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-10-24-theory-of-means.html"><span class="pl__circle"></span><span class="pl__title">(转)论胡编乱造的写作技巧</span><span class="pl__date">2018-10-24</span></a> -->
+      <a class="生活 pl__all" href="/2018-10-24-theory-of-means.html"><span class="pl__circle"></span><span class="pl__title">(转)论胡编乱造的写作技巧</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-10-21-domain-name.html"><span class="pl__circle"></span><span class="pl__title">更换了域名、邮箱并修复了移动端bug</span><span class="pl__date">2018-10-21</span></a> -->
+      <a class="生活 pl__all" href="/2018-10-21-domain-name.html"><span class="pl__circle"></span><span class="pl__title">更换了域名、邮箱并修复了移动端bug</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-10-14-git.html"><span class="pl__circle"></span><span class="pl__title">开源分布式管理控制系统——Git笔记</span><span class="pl__date">2018-10-14</span></a> -->
+      <a class="技术 pl__all" href="/2018-10-14-git.html"><span class="pl__circle"></span><span class="pl__title">开源分布式管理控制系统——Git笔记</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-24-linux-command.html"><span class="pl__circle"></span><span class="pl__title">linux命令笔记(长期更新)</span><span class="pl__date">2018-09-24</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-24-linux-command.html"><span class="pl__circle"></span><span class="pl__title">linux命令笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-23-Object_oriented.html"><span class="pl__circle"></span><span class="pl__title">面向对象(Object Oriented)学习笔记（一）</span><span class="pl__date">2018-09-23</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-23-Object_oriented.html"><span class="pl__circle"></span><span class="pl__title">面向对象(Object Oriented)学习笔记（一）</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-03-Markdown.html"><span class="pl__circle"></span><span class="pl__title">致简写作神器——Markdown</span><span class="pl__date">2018-09-03</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-03-Markdown.html"><span class="pl__circle"></span><span class="pl__title">致简写作神器——Markdown</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-08-31-Programmer-development.html"><span class="pl__circle"></span><span class="pl__title">(转)为什么你写不好一个快速排序? 谈程序员的职业发展</span><span class="pl__date">2018-08-31</span></a> -->
+      <a class="生活 pl__all" href="/2018-08-31-Programmer-development.html"><span class="pl__circle"></span><span class="pl__title">(转)为什么你写不好一个快速排序? 谈程序员的职业发展</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-08-31-Learning-the-open-source.html"><span class="pl__circle"></span><span class="pl__title">(转)如何学习开源项目</span><span class="pl__date">2018-08-31</span></a> -->
+      <a class="技术 pl__all" href="/2018-08-31-Learning-the-open-source.html"><span class="pl__circle"></span><span class="pl__title">(转)如何学习开源项目</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-08-30-Ubuntu-set-up-sublime.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu调教日记之Sublime Text3</span><span class="pl__date">2018-08-30</span></a> -->
+      <a class="技术 pl__all" href="/2018-08-30-Ubuntu-set-up-sublime.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu调教日记之Sublime Text3</span></a>
+    
+    </nav>
+  </div> <!-- end #posts-list -->
+</aside> <!-- end #sidebar -->
+
+    <div id="post">
+      <div id="pjax">
+        <article id="post__content">
+    <h1 id="post__title" data-identifier="20190329">Jekyll环境搭建（windows10）</h1>
+    <div id="post__date">2019-03-29</div>
+    <declare id="declare" class="declare">
+      <hr/> 本博客所有文章采用的授权方式为
+        <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">
+          <b>自由转载-非商用-非衍生-保持署名</b>
+        </a>
+      ，转载请务必注明出处，谢谢。<br /><br />
+      声明：<br />本博客欢迎转发，但请保留原作者信息!<br />
+      Qznoe：<a href="https://user.qzone.qq.com/2434929041/">阿川的个人空间</a><br />
+      博客：<a href="https://achuan.io/">阿川的个人博客</a><br />
+      邮箱：<a href="mailto:achuan@achuan.io">achuan@achuan.io</a>
+      <br />内容系本人学习、研究和总结，如有雷同，实属荣幸！
+      <hr/>
+    </declare>
+    <p> 最近想把想博客改版需要在本地用到Jekyll，不过搭建的过程真的心累…过程中真的是各种问题谷歌百度各种乱七八糟的文章一点都不靠谱，折腾一天给重要给搭建成功了…<br />
+整个搭建过程需要用到的软件/安装依赖我先列下</p>
+<ul>
+  <li>Rubyinstaller-2.3.3-x64</li>
+  <li>DevKit-mingw64-64-4.7.2</li>
+  <li>Gem</li>
+  <li>Bundler</li>
+</ul>
+
+<h2 id="安装ruby">安装Ruby</h2>
+<p> 因为Jekyll是基于ruby开发的，首先下载安装ruby，我不推荐下载Ruby2.3以上的版本，不知道怎么回事2.4、2.5、2.6我都试过感觉他们跟自带BUG似的，总是出现一堆莫名其妙的问题。<br />
+ruby官网下载地址（下载速度奇慢）</p>
+<ul>
+  <li>官网链接：https://rubyinstaller.org/downloads/</li>
+</ul>
+
+<p>我用的ruby 2.3.3这里给大家发出来微云的链接</p>
+<ul>
+  <li>微云链接：https://share.weiyun.com/5vv4fjt</li>
+  <li>微云密码：achuan</li>
+</ul>
+
+<p>再次声明一下，这里我用的是ruby 2.3.3，其他版本我并不保证。</p>
+<ol>
+  <li>
+    <p>双击ruby应用程序，进行安装<br />
+ 注意：默认如果有已勾选项，它会自动帮你配置环境变量，但是环境变量如果不立即生效可以用cmd命令刷新环境变量，如果还不行就重启。</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo %PATH%
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>安装完成后测试一下是否安装成功，若输出版本信息即安装成功。</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby -v
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="更换源">更换源</h2>
+<p>通过gem sources查看当前源</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    gem sources -l
+</code></pre></div></div>
+
+<p>删除源默认源，我这个里默认有一个源，官方源，因为它太慢了，我们删掉它</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    gem sources -r https://rubygems.org/
+</code></pre></div></div>
+
+<p>以前还有淘宝源可以用，不过现在也就已经凉了，下面是我们要替换成国内RubyGems镜像站点</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    gem sources -a http://gems.ruby-china.com
+</code></pre></div></div>
+
+<h2 id="安装jekyll">安装Jekyll</h2>
+<p> 通过gem install安装jekyll</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    gem install jekyll
+
+    # 分页
+    gem install jekyll-paginate
+
+    # 查看版本号。出现就ok
+    jekyll -v
+</code></pre></div></div>
+
+<h2 id="devkit的安装与配置">DevKit的安装与配置</h2>
+<p> 这里我用的是DevKit 64-4.7.2，这里依然提供微云存储</p>
+<ul>
+  <li>微云链接：https://share.weiyun.com/5sROg49</li>
+  <li>微云密码：achuan
+    <ol>
+      <li>双击DevKit应用程序，运行它解压到你想要的位置，尽量url短一点因为等会要用到比如；C:DevKit</li>
+    </ol>
+  </li>
+</ul>
+
+<ol>
+  <li>
+    <p>初始化与配置</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 初始化生成config.yml
+ruby dk.rb init
+
+进入DevKit目录并编辑config.yml
+
+# 用cmd命令记事本来编辑config.yml
+notepad config.yml
+
+      # Example:
+      #
+      # ---
+      # - C:/ruby19trunk
+      # - C:/ruby192dev
+      #
+      # ---
+      - C:\Ruby23-x64
+
+      注意：“- C:\Ruby23-x64”，其中的“-”也是符号！配置config.yml这一步非常重要，还请您仔细检查！
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>检查与安装依赖</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 检查添加DevKit支持的Ruby列表是否有错误(可略过)
+ruby dk.rb init
+
+# 安装
+ruby dk.rb install
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="bundler的安装">Bundler的安装</h2>
+<p> Bundler是管理Gem一个依赖工具
+注意：minima是我在创建Jekyll项目的时候出现的问题，当我使用 jekyll new achuan.io 创建Jjekyll项目时，命令卡死了，随后Ctrl + C 强行停止后 cd achuan.io 使用 bundler show 查看缺少依赖文件</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Could not find gem 'minima (~&gt; 2.0) x64-mingw32' in any of the gem sources
+    listed in your Gemfile.
+
+    # 它说我在gem源中找不到 “minima”, 然后我就安装了，不过装好后又出现这样的tzinfo-data和wdm...提前列出以防大家走弯路。
+
+    gem install bundler
+
+    # gem 依赖文件
+    gem install minima
+    gem install tzinfo-data
+    gem install wdm
+</code></pre></div></div>
+
+<p>下面是gem依赖列表</p>
+
+<ul>
+  <li>addressable (2.6.0)</li>
+  <li>bundler (2.0.1)</li>
+  <li>colorator (1.1.0)</li>
+  <li>concurrent-ruby (1.1.5)</li>
+  <li>em-websocket (0.5.1)</li>
+  <li>eventmachine (1.2.7)</li>
+  <li>ffi (1.10.0)</li>
+  <li>forwardable-extended (2.6.0)</li>
+  <li>http_parser.rb (0.6.0)</li>
+  <li>i18n (0.9.5)</li>
+  <li>jekyll (3.8.5)</li>
+  <li>jekyll-feed (0.12.1)</li>
+  <li>jekyll-sass-converter (1.5.2)</li>
+  <li>jekyll-seo-tag (2.6.0)</li>
+  <li>jekyll-watch (2.2.1)</li>
+  <li>kramdown (1.17.0)</li>
+  <li>liquid (4.0.3)</li>
+  <li>listen (3.1.5)</li>
+  <li>mercenary (0.3.6)</li>
+  <li>minima (2.5.0)</li>
+  <li>pathutil (0.16.2)</li>
+  <li>public_suffix (3.0.3)</li>
+  <li>rb-fsevent (0.10.3)</li>
+  <li>rb-inotify (0.10.0)</li>
+  <li>rouge (3.3.0)</li>
+  <li>ruby_dep (1.5.0)</li>
+  <li>safe_yaml (1.0.5)</li>
+  <li>sass (3.7.4)</li>
+  <li>sass-listen (4.0.0)</li>
+  <li>tzinfo (2.0.0)</li>
+  <li>tzinfo-data (1.2019.1)</li>
+  <li>wdm (0.1.1)</li>
+</ul>
+
+<h2 id="启动jekyll">启动Jekyll</h2>
+<p> 写到这里真的不容易，以前在Linux搭建Jekyll没有这么心累，今windows搭建真的…几十个bug疯狂涌出…算了…留着幸福的泪，码着命令…</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 生成一个Jekyll模板并进入它
+    jekyll new achuan.io &amp;&amp; achuan.io
+
+    # 启动Jeykll，默认端口4000
+    jekyll serve
+
+    # 成功后显示如下
+    Configuration file: H:/git/achuan.io/_config.yml
+        Source: H:/git/achuan.io
+   Destination: H:/git/achuan.io/_site
+   Incremental build: disabled. Enable with --incremental
+   Generating... 
+                 done in 1.885 seconds.
+   Auto-regeneration: enabled for 'H:/git/achuanio'
+   Server address: http://127.0.0.1:4000/
+   Server running... press ctrl-c to stop.
+</code></pre></div></div>
+
+<p>打开浏览器输入：127.0.0.1:4000<br />
+本地ip：127.0.0.1，端口：4000。感觉IP+端口麻烦的话，去VirtualHost配置。<br />
+如果不太熟悉VirtualHost配置，可以看我以前的文章：<a href="https://achuan.io/2018-11-08-Ubuntu-Deployment.html" title="Ubuntu Server部署日记">Ubuntu Server部署日记</a>。</p>
+
+</article>
+<!-- end #post__content -->
+
+<h2 id="post__discuss">文章赞赏</h2>
+<img src="./assets/image/like.png" alt="赞赏码" class="image-center">
+
+<h2 id="post__discuss">文章评论</h2>
+<div id="comment"></div>
+
+<script>
+  $(document).ready(function(){
+      var disq = new iDisqus('comment', {
+        forum: 'https-achuan-io',
+        api: 'https://api.achuan.io',
+        site: 'https://achuan.io',
+        mode: 1,
+        timeout: 3000,
+        init: true,
+      });
+  });
+</script>
+<div id="post__share">
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=achuanya.github.io/2019-03-29-Jekyll-installation.html&title=Jekyll环境搭建（windows10）&pics=https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/avatar.jpg" target="_blank"></a>
+  <a id="icon-qzone" class="fontello" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=www.achuan.io/2019-03-29-Jekyll-installation.html&title=Jekyll环境搭建（windows10）&pics=https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/avatar.jpg" target="_blank"></a>
+                                      <!-- href="https://twitter.com/intent/tweet?url=http://localhost:4000/2019-03-29-Jekyll-installation.html&text=Jekyll环境搭建（windows10）" 接口 -->
+                                      <!-- http://localhost:4000 博客首页 -->
+  <p class="share-info">分享到</p>
+</div>
+<!-- end #post__share
+
+<a href="https://achuanya.github.iohttp://localhost:4000/2019-03-29-Jekyll-installation.html"></a>
+-->
+
+
+        </br>
+        <hr align="center" width="100%" color="#F1F1F1" size="3"></hr>
+        <p id="copyright">
+  © 2018 - 2019 & <a href="http://pages.github.com">Github Pages</a> & <a href="http://jekyllrb.com">Jekyll</a> & <a href="https://disqus.com/">Disqus</a>
+  </br>
+  <center>
+      <p>
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/" data-size="large" data-show-count="true" aria-label="Follow @ntkme on GitHub">Follow @achuanya</a>
+        &nbsp;&nbsp;
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/achuanya.github.io/subscription/" data-size="large" data-show-count="true" aria-label="Watch ntkme/github-buttons on GitHub">Watch</a>
+        &nbsp;&nbsp;
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/achuanya.github.io/" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+      </p>
+    <h1>友情链接</h1>
+    <span id="copyright">
+      <a href="https://blog.fooleap.org" class="links" target="_blank" title="Fooleap's Blog" >Fooleap's Blog</a></br>
+      <a href="http://www.yangqq.com" class="links" target="_blank" title="杨 青 | 女程序员的个人博客">杨 青 | 女程序员的个人博客</a></br>
+      <a href="http://blog.tmaize.net" class="links" target="_blank" title="TMaize Blog">TMaize Blog</a></br>
+      <a href="https://ainyi.com" class="links" target="_blank" title="你的美好，我都记得">Krryblog - 你的美好，我都记得</a></br>
+      <a href="https://www.moidea.info/daohang.html" class="links" target="_blank" title="Typecho博客网址大全">Typecho博客网址大全</a>
+    </span>
+  </center>
+</p>
+
+      </div> <!-- end #pjax -->
+
+      <div id="post__toc-trigger">
+        <div id="post__toc">
+          <span id="post__toc-title">章节列表</span>
+          <ul id="post__toc-ul"></ul>
+        </div>
+      </div>
+    </div> <!-- end #post -->
+    <script src="/assets/js/jquery.js"></script>
+<script src="/assets/js/jquery.pjax.js"></script>
+<script src="/assets/js/nprogress.js"></script>
+<script src="/assets/js/searchbox.js"></script>
+<script src="/assets/js/script.js"></script>
+<script src="/assets/js/iDisqus.min.js"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="/assets/js/buttons.js"></script>
+
+   </body>
+ </html>

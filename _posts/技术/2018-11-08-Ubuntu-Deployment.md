@@ -205,7 +205,7 @@ ubuntu serverd的php配置文件在 /etc/php/5.6/apache2/php.ini
 	# 找到 date.timezone 并赋值 PRC（中华人民共和国英文缩写） date.timezone = PRC
 
 输入我的公网ip查看一下  
-![Alt text](https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/images/2018-11-08-Ubuntu-Deployment/phpinfo.png "php5.6安装成功！Cheers!") 
+![Alt text](../images/2018-11-08-Ubuntu-Deployment/phpinfo.png "php5.6安装成功！Cheers!") 
 
 
 ## 安装mysql

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<!--[if lte IE 8]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
+
+<!-- <title>面向对象(Object Oriented)学习笔记（一） | 阿川的个人博客</title> -->
+<title>面向对象(Object Oriented)学习笔记（一）</title>
+<meta name="title" content="面向对象(Object Oriented)学习笔记（一）">
+
+  <meta name="author" content="Hong-hai zhang">
+
+<meta name="keywords" content="">
+
+  <meta name="description" content="面向对象(Object Oriented)学习笔记（一）">
+
+
+<link rel="shortcut icon" href="/assets/image/favicon.ico" />
+<link rel="icon" href="/assets/image/favicon.ico" type="image/x-icon">
+
+<script src="/assets/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.custom.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/highlight.css">
+<link rel="stylesheet" href="/assets/css/iDisqus.min.css" />
+
+<!-- Source Code Pro -->
+<link rel="stylesheet" type="text/css" href="/assets/css/source-code-pro.css">
+
+<link href="/pages/rss.xml" rel="alternate" title="阿川的个人博客" type="application/atom+xml">
+
+  </head>
+  <body>
+    <button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
+    <button id="scroll-top"><span id="icon-arrow-up" class="fontello"></span></button>
+
+    <aside id="sidebar">
+  <nav id="tags">
+    <a href="/index.html" id="avatar" style="background-image:url( /assets/image/avatar.jpg )"></a>
+
+    <ul id="tags__ul">
+      <li id="pl__all" class="tags__li tags-btn active">所有文章</li>
+      
+        <li id="技术" class="tags__li tags-btn">技术</li>
+      
+        <li id="生活" class="tags__li tags-btn">生活</li>
+      
+        <li id="摄影" class="tags__li tags-btn">摄影</li>
+      
+    </ul>
+
+    <div id="tags__bottom">
+      <a href="https://github.com/achuanya" id="icon-github" class="tags-btn fontello" target="_blank"></a>
+      <a href="/pages/rss.xml" id="icon-feed" class="tags-btn fontello" target="_blank"></a>
+      <a href="mailto:achuan@achuan.io" id="icon-email" class="tags-btn fontello"></a>
+    </div>
+  </nav>
+  <!-- end #tags -->
+  <div id="posts-list">
+    <form action="" id="search-form">
+      <a href="/index.html" id="mobile-avatar" style="background-image:url( /assets/image/avatar.jpg )"></a>
+      <!-- NOTE: input field is disabled by default -->
+      <input id="search-input" type="text" placeholder="站内搜索..." >
+    </form>
+
+    <nav id="pl__container">
+    
+      <!-- <a class="摄影 pl__all" href="/2019-04-20-2019-04-20-One-Single-Lens.html"><span class="pl__circle"></span><span class="pl__title">我的第一部单反相机</span><span class="pl__date">2019-04-20</span></a> -->
+      <a class="摄影 pl__all" href="/2019-04-20-2019-04-20-One-Single-Lens.html"><span class="pl__circle"></span><span class="pl__title">我的第一部单反相机</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-17-it-site.html"><span class="pl__circle"></span><span class="pl__title">推荐10个优秀的技术栈社区</span><span class="pl__date">2019-04-17</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-17-it-site.html"><span class="pl__circle"></span><span class="pl__title">推荐10个优秀的技术栈社区</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-15-apache-error.html"><span class="pl__circle"></span><span class="pl__title">快速定位Apache错误</span><span class="pl__date">2019-04-15</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-15-apache-error.html"><span class="pl__circle"></span><span class="pl__title">快速定位Apache错误</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-08-initialize-construct.html"><span class="pl__circle"></span><span class="pl__title">_initialize()和__construct()的区别</span><span class="pl__date">2019-04-08</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-08-initialize-construct.html"><span class="pl__circle"></span><span class="pl__title">_initialize()和__construct()的区别</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-03-29-Jekyll-installation.html"><span class="pl__circle"></span><span class="pl__title">Jekyll环境搭建（windows10）</span><span class="pl__date">2019-03-29</span></a> -->
+      <a class="技术 pl__all" href="/2019-03-29-Jekyll-installation.html"><span class="pl__circle"></span><span class="pl__title">Jekyll环境搭建（windows10）</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-03-26-thoughts.html"><span class="pl__circle"></span><span class="pl__title">2019-03-26 随笔</span><span class="pl__date">2019-03-26</span></a> -->
+      <a class="生活 pl__all" href="/2019-03-26-thoughts.html"><span class="pl__circle"></span><span class="pl__title">2019-03-26 随笔</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-03-04-summarize.html"><span class="pl__circle"></span><span class="pl__title">第一次校招复试总结</span><span class="pl__date">2019-03-04</span></a> -->
+      <a class="技术 pl__all" href="/2019-03-04-summarize.html"><span class="pl__circle"></span><span class="pl__title">第一次校招复试总结</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-28-tp5.html"><span class="pl__circle"></span><span class="pl__title">ThinkPHP笔记（路由实现与操作方法）</span><span class="pl__date">2019-02-28</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-28-tp5.html"><span class="pl__circle"></span><span class="pl__title">ThinkPHP笔记（路由实现与操作方法）</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-28-interview.html"><span class="pl__circle"></span><span class="pl__title">第一次校招面试总结</span><span class="pl__date">2019-02-28</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-28-interview.html"><span class="pl__circle"></span><span class="pl__title">第一次校招面试总结</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-02-25-unicom.html"><span class="pl__circle"></span><span class="pl__title">电信用户投诉攻略</span><span class="pl__date">2019-02-25</span></a> -->
+      <a class="生活 pl__all" href="/2019-02-25-unicom.html"><span class="pl__circle"></span><span class="pl__title">电信用户投诉攻略</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-02-23-insist.html"><span class="pl__circle"></span><span class="pl__title">(转)微不足道的坚持</span><span class="pl__date">2019-02-23</span></a> -->
+      <a class="生活 pl__all" href="/2019-02-23-insist.html"><span class="pl__circle"></span><span class="pl__title">(转)微不足道的坚持</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-22-redis.html"><span class="pl__circle"></span><span class="pl__title">Redis笔记(安装与数据类型)</span><span class="pl__date">2019-02-22</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-22-redis.html"><span class="pl__circle"></span><span class="pl__title">Redis笔记(安装与数据类型)</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-12-31-2018.html"><span class="pl__circle"></span><span class="pl__title">2018小总结</span><span class="pl__date">2018-12-31</span></a> -->
+      <a class="生活 pl__all" href="/2018-12-31-2018.html"><span class="pl__circle"></span><span class="pl__title">2018小总结</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-12-20-cmd.html"><span class="pl__circle"></span><span class="pl__title">cmd笔记(长期更新)</span><span class="pl__date">2018-12-20</span></a> -->
+      <a class="技术 pl__all" href="/2018-12-20-cmd.html"><span class="pl__circle"></span><span class="pl__title">cmd笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-12-14-php-notes.html"><span class="pl__circle"></span><span class="pl__title">php笔记(长期更新)</span><span class="pl__date">2018-12-14</span></a> -->
+      <a class="技术 pl__all" href="/2018-12-14-php-notes.html"><span class="pl__circle"></span><span class="pl__title">php笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-11-08-Ubuntu-Deployment.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu Server部署日记</span><span class="pl__date">2018-11-08</span></a> -->
+      <a class="技术 pl__all" href="/2018-11-08-Ubuntu-Deployment.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu Server部署日记</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-10-25-ubuntu-lock.html"><span class="pl__circle"></span><span class="pl__title">解决ubuntu：E：无法获得锁(11：资源暂时不可用)</span><span class="pl__date">2018-10-25</span></a> -->
+      <a class="技术 pl__all" href="/2018-10-25-ubuntu-lock.html"><span class="pl__circle"></span><span class="pl__title">解决ubuntu：E：无法获得锁(11：资源暂时不可用)</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-10-24-theory-of-means.html"><span class="pl__circle"></span><span class="pl__title">(转)论胡编乱造的写作技巧</span><span class="pl__date">2018-10-24</span></a> -->
+      <a class="生活 pl__all" href="/2018-10-24-theory-of-means.html"><span class="pl__circle"></span><span class="pl__title">(转)论胡编乱造的写作技巧</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-10-21-domain-name.html"><span class="pl__circle"></span><span class="pl__title">更换了域名、邮箱并修复了移动端bug</span><span class="pl__date">2018-10-21</span></a> -->
+      <a class="生活 pl__all" href="/2018-10-21-domain-name.html"><span class="pl__circle"></span><span class="pl__title">更换了域名、邮箱并修复了移动端bug</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-10-14-git.html"><span class="pl__circle"></span><span class="pl__title">开源分布式管理控制系统——Git笔记</span><span class="pl__date">2018-10-14</span></a> -->
+      <a class="技术 pl__all" href="/2018-10-14-git.html"><span class="pl__circle"></span><span class="pl__title">开源分布式管理控制系统——Git笔记</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-24-linux-command.html"><span class="pl__circle"></span><span class="pl__title">linux命令笔记(长期更新)</span><span class="pl__date">2018-09-24</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-24-linux-command.html"><span class="pl__circle"></span><span class="pl__title">linux命令笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-23-Object_oriented.html"><span class="pl__circle"></span><span class="pl__title">面向对象(Object Oriented)学习笔记（一）</span><span class="pl__date">2018-09-23</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-23-Object_oriented.html"><span class="pl__circle"></span><span class="pl__title">面向对象(Object Oriented)学习笔记（一）</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-03-Markdown.html"><span class="pl__circle"></span><span class="pl__title">致简写作神器——Markdown</span><span class="pl__date">2018-09-03</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-03-Markdown.html"><span class="pl__circle"></span><span class="pl__title">致简写作神器——Markdown</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-08-31-Programmer-development.html"><span class="pl__circle"></span><span class="pl__title">(转)为什么你写不好一个快速排序? 谈程序员的职业发展</span><span class="pl__date">2018-08-31</span></a> -->
+      <a class="生活 pl__all" href="/2018-08-31-Programmer-development.html"><span class="pl__circle"></span><span class="pl__title">(转)为什么你写不好一个快速排序? 谈程序员的职业发展</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-08-31-Learning-the-open-source.html"><span class="pl__circle"></span><span class="pl__title">(转)如何学习开源项目</span><span class="pl__date">2018-08-31</span></a> -->
+      <a class="技术 pl__all" href="/2018-08-31-Learning-the-open-source.html"><span class="pl__circle"></span><span class="pl__title">(转)如何学习开源项目</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-08-30-Ubuntu-set-up-sublime.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu调教日记之Sublime Text3</span><span class="pl__date">2018-08-30</span></a> -->
+      <a class="技术 pl__all" href="/2018-08-30-Ubuntu-set-up-sublime.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu调教日记之Sublime Text3</span></a>
+    
+    </nav>
+  </div> <!-- end #posts-list -->
+</aside> <!-- end #sidebar -->
+
+    <div id="post">
+      <div id="pjax">
+        <article id="post__content">
+    <h1 id="post__title" data-identifier="20180923">面向对象(Object Oriented)学习笔记（一）</h1>
+    <div id="post__date">2018-09-23</div>
+    <declare id="declare" class="declare">
+      <hr/> 本博客所有文章采用的授权方式为
+        <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">
+          <b>自由转载-非商用-非衍生-保持署名</b>
+        </a>
+      ，转载请务必注明出处，谢谢。<br /><br />
+      声明：<br />本博客欢迎转发，但请保留原作者信息!<br />
+      Qznoe：<a href="https://user.qzone.qq.com/2434929041/">阿川的个人空间</a><br />
+      博客：<a href="https://achuan.io/">阿川的个人博客</a><br />
+      邮箱：<a href="mailto:achuan@achuan.io">achuan@achuan.io</a>
+      <br />内容系本人学习、研究和总结，如有雷同，实属荣幸！
+      <hr/>
+    </declare>
+    <h2 id="一-面向对象oop的发展历程">一. 面向对象(OOP)的发展历程</h2>
+<h3 id="1-oop的诞生">1. OOP的诞生</h3>
+<p><a href="https://zh.wikipedia.org/wiki/Simula"><strong>Simulaq</strong></a>面向对象技术最早是在编程语言Simual中提出，1967年2月20日，在挪威奥斯陆郊外的小镇莉沙布举行的IFIP TC-2 工作会议上，挪威科学家Ole-Johan Dahl和Kristen Nygaard正式发布了Simula 67语言。Simula 67，是面向对象的开山祖师，它引入了所有后来面向对象程序设计语言所遵循的基础概念：对象、类、继承，但它的实现并不是很完整。后来<a href="https://zh.wikipedia.org/wiki/Smalltalk"><strong>Smalltalk</strong></a>的诞生，第二个面向对象的程序语言的出现，而且是第一个完整实现了面向对象技术的语言，和第一个真正的集成开发环境(IED)。</p>
+
+<h2 id="二-面向对象oop的概念">二. 面向对象(OOP)的概念</h2>
+<p>OOP达到了软件工程的三个目标</p>
+<ul>
+  <li><strong>重用性</strong>、<strong>灵活性</strong>、<strong>扩展性</strong></li>
+</ul>
+
+<h2 id="三-oop三大特征">三. OOP三大特征</h2>
+
+<ul>
+  <li>封装(Encapsulation)：对外部不可见</li>
+  <li>继承(Inheritance)：扩展类的功能</li>
+  <li>多态(Polymorphism)：对象的重载、对象的多态性</li>
+</ul>
+
+<h2 id="四-类与对象">四. 类与对象</h2>
+
+<ul>
+  <li>类是对某一类事物的描述，是抽象的、概念上实际存在的该类事物的每个个体，因而也称实例(instance)，换种方法解释类就像一个具体的事物，一个对象，用编程代码来描述出来，</li>
+  <li>对象，简单的来说对象是可以使用的，而类只是对这件事物进行描述，它不能使用。</li>
+</ul>
+
+<h2 id="五-类与对象的关系">五. 类与对象的关系</h2>
+<p>这个我表达能力不太好哈…这样说吧，类就好比工厂车间的模具，而对象就是模具所产生的事物，一个模具是可以产生很多对象!
+也就是说对象是类的实例化<a href="../images/2018-09-24-linux-command/comical.gif" title="滑稽">Alt text</a></p>
+
+<h2 id="六-类的声明与对象的创建及使用">六. 类的声明与对象的创建及使用</h2>
+<p>好了我们来了解一下怎么找对象，…不..创建对象..</p>
+
+<h3 id="1-类的声明">1. 类的声明</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    class 类名称{
+        # 这里成员属性修饰还有好几种下次一次详解
+        数据类型 属性...     //声明成员变量(属性)
+
+        # public表示公有
+        public 返回值的数据类型 方法名称 (参数1，参数2){  //定义方法
+            程序语句..
+            [return等表达式] }
+    }
+</code></pre></div></div>
+
+<h3 id="2-对象的创建及使用">2. 对象的创建及使用:</h3>
+<p>$定义对象名称 = new 类名([参数列表]);    //实例化对象,有参数别忘了加括号!</p>
+
+<ul>
+  <li>
+    <p>对象中成员的访问:
+$对象名 -&gt; 成员属性 = 赋值;    //输出对象的属性
+$对象名 -&gt; 成员方法(参数);    //调用对象的方法<br />
+  # 成员属性中还分有静态属性, 它是不能实例化的,往后我会补充</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;?php
+  /*---------------------------------*\
+      对象实例化
+      //实例化指OOP编程中，类创建对象的过程
+  \*---------------------------------*/
+  class phone{
+      # 成员属性
+      public $width;
+      public $height;
+      public $size;
+
+      # 成员方法
+      public function call($name){
+          echo "正在给{$name}打电话";}
+
+      public function message($name){
+          echo "正在给{$name}发短信";}
+      public function play(){
+          echo "正在玩游戏!";}
+
+      public function info(){
+          $this -&gt; play();
+          return "&lt;br&gt; 手机的宽度；{$this -&gt; width},&lt;br&gt; 手机的高度；{$this -&gt; height}";}
+  }
+
+  # 实例化对象
+  $phone = new phone();
+  $phone -&gt; width = "5CM";
+  $phone -&gt; height = "10CM";
+
+  //$phone -&gt; width = "5CM"; //对象对成员属性的赋值(引用变量时 $ 符可以不写)
+  //echo $phone -&gt; width; //与对象取得成员属性存的值
+  //$phone1 = new phone();
+  //$phone1 -&gt; height = "10CM";
+  //$height = $phone1 -&gt; height;
+  //echo $height; 
+  //echo $phone1 -&gt; height;
+
+  //$phone1 -&gt; aaaa = "AAAA";font
+  //var_dump("&lt;br&gt;",$phone1);
+  $phone -&gt; call("!list");
+  $phone -&gt; call("&lt;br&gt; tom");
+  echo "&lt;br&gt;";
+  $phone -&gt; play();
+  echo $phone -&gt; info();
+
+  ?&gt;
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>呼～ 第一章写完了，我也是近期刚学OOP，可能哪个方面写的并不是很好 嘿嘿，如有写的不足之处，还请您在下方留言<img src="../images/2018-09-23-Object_oriented/fuels.gif" alt="Alt text" title="抱拳" />。</p>
+
+
+</article>
+<!-- end #post__content -->
+
+<h2 id="post__discuss">文章赞赏</h2>
+<img src="./assets/image/like.png" alt="赞赏码" class="image-center">
+
+<h2 id="post__discuss">文章评论</h2>
+<div id="comment"></div>
+
+<script>
+  $(document).ready(function(){
+      var disq = new iDisqus('comment', {
+        forum: 'https-achuan-io',
+        api: 'https://api.achuan.io',
+        site: 'https://achuan.io',
+        mode: 1,
+        timeout: 3000,
+        init: true,
+      });
+  });
+</script>
+<div id="post__share">
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=achuanya.github.io/2018-09-23-Object_oriented.html&title=面向对象(Object Oriented)学习笔记（一）&pics=https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/avatar.jpg" target="_blank"></a>
+  <a id="icon-qzone" class="fontello" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=www.achuan.io/2018-09-23-Object_oriented.html&title=面向对象(Object Oriented)学习笔记（一）&pics=https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/avatar.jpg" target="_blank"></a>
+                                      <!-- href="https://twitter.com/intent/tweet?url=http://localhost:4000/2018-09-23-Object_oriented.html&text=面向对象(Object Oriented)学习笔记（一）" 接口 -->
+                                      <!-- http://localhost:4000 博客首页 -->
+  <p class="share-info">分享到</p>
+</div>
+<!-- end #post__share
+
+<a href="https://achuanya.github.iohttp://localhost:4000/2018-09-23-Object_oriented.html"></a>
+-->
+
+
+        </br>
+        <hr align="center" width="100%" color="#F1F1F1" size="3"></hr>
+        <p id="copyright">
+  © 2018 - 2019 & <a href="http://pages.github.com">Github Pages</a> & <a href="http://jekyllrb.com">Jekyll</a> & <a href="https://disqus.com/">Disqus</a>
+  </br>
+  <center>
+      <p>
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/" data-size="large" data-show-count="true" aria-label="Follow @ntkme on GitHub">Follow @achuanya</a>
+        &nbsp;&nbsp;
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/achuanya.github.io/subscription/" data-size="large" data-show-count="true" aria-label="Watch ntkme/github-buttons on GitHub">Watch</a>
+        &nbsp;&nbsp;
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/achuanya.github.io/" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+      </p>
+    <h1>友情链接</h1>
+    <span id="copyright">
+      <a href="https://blog.fooleap.org" class="links" target="_blank" title="Fooleap's Blog" >Fooleap's Blog</a></br>
+      <a href="http://www.yangqq.com" class="links" target="_blank" title="杨 青 | 女程序员的个人博客">杨 青 | 女程序员的个人博客</a></br>
+      <a href="http://blog.tmaize.net" class="links" target="_blank" title="TMaize Blog">TMaize Blog</a></br>
+      <a href="https://ainyi.com" class="links" target="_blank" title="你的美好，我都记得">Krryblog - 你的美好，我都记得</a></br>
+      <a href="https://www.moidea.info/daohang.html" class="links" target="_blank" title="Typecho博客网址大全">Typecho博客网址大全</a>
+    </span>
+  </center>
+</p>
+
+      </div> <!-- end #pjax -->
+
+      <div id="post__toc-trigger">
+        <div id="post__toc">
+          <span id="post__toc-title">章节列表</span>
+          <ul id="post__toc-ul"></ul>
+        </div>
+      </div>
+    </div> <!-- end #post -->
+    <script src="/assets/js/jquery.js"></script>
+<script src="/assets/js/jquery.pjax.js"></script>
+<script src="/assets/js/nprogress.js"></script>
+<script src="/assets/js/searchbox.js"></script>
+<script src="/assets/js/script.js"></script>
+<script src="/assets/js/iDisqus.min.js"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="/assets/js/buttons.js"></script>
+
+   </body>
+ </html>

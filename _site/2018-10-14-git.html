@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<!--[if lte IE 8]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
+
+<!-- <title>开源分布式管理控制系统——Git笔记 | 阿川的个人博客</title> -->
+<title>开源分布式管理控制系统——Git笔记</title>
+<meta name="title" content="开源分布式管理控制系统——Git笔记">
+
+  <meta name="author" content="Hong-hai zhang">
+
+<meta name="keywords" content="">
+
+  <meta name="description" content="开源分布式管理控制系统——Git笔记">
+
+
+<link rel="shortcut icon" href="/assets/image/favicon.ico" />
+<link rel="icon" href="/assets/image/favicon.ico" type="image/x-icon">
+
+<script src="/assets/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.custom.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/highlight.css">
+<link rel="stylesheet" href="/assets/css/iDisqus.min.css" />
+
+<!-- Source Code Pro -->
+<link rel="stylesheet" type="text/css" href="/assets/css/source-code-pro.css">
+
+<link href="/pages/rss.xml" rel="alternate" title="阿川的个人博客" type="application/atom+xml">
+
+  </head>
+  <body>
+    <button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
+    <button id="scroll-top"><span id="icon-arrow-up" class="fontello"></span></button>
+
+    <aside id="sidebar">
+  <nav id="tags">
+    <a href="/index.html" id="avatar" style="background-image:url( /assets/image/avatar.jpg )"></a>
+
+    <ul id="tags__ul">
+      <li id="pl__all" class="tags__li tags-btn active">所有文章</li>
+      
+        <li id="技术" class="tags__li tags-btn">技术</li>
+      
+        <li id="生活" class="tags__li tags-btn">生活</li>
+      
+        <li id="摄影" class="tags__li tags-btn">摄影</li>
+      
+    </ul>
+
+    <div id="tags__bottom">
+      <a href="https://github.com/achuanya" id="icon-github" class="tags-btn fontello" target="_blank"></a>
+      <a href="/pages/rss.xml" id="icon-feed" class="tags-btn fontello" target="_blank"></a>
+      <a href="mailto:achuan@achuan.io" id="icon-email" class="tags-btn fontello"></a>
+    </div>
+  </nav>
+  <!-- end #tags -->
+  <div id="posts-list">
+    <form action="" id="search-form">
+      <a href="/index.html" id="mobile-avatar" style="background-image:url( /assets/image/avatar.jpg )"></a>
+      <!-- NOTE: input field is disabled by default -->
+      <input id="search-input" type="text" placeholder="站内搜索..." >
+    </form>
+
+    <nav id="pl__container">
+    
+      <!-- <a class="摄影 pl__all" href="/2019-04-20-2019-04-20-One-Single-Lens.html"><span class="pl__circle"></span><span class="pl__title">我的第一部单反相机</span><span class="pl__date">2019-04-20</span></a> -->
+      <a class="摄影 pl__all" href="/2019-04-20-2019-04-20-One-Single-Lens.html"><span class="pl__circle"></span><span class="pl__title">我的第一部单反相机</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-17-it-site.html"><span class="pl__circle"></span><span class="pl__title">推荐10个优秀的技术栈社区</span><span class="pl__date">2019-04-17</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-17-it-site.html"><span class="pl__circle"></span><span class="pl__title">推荐10个优秀的技术栈社区</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-15-apache-error.html"><span class="pl__circle"></span><span class="pl__title">快速定位Apache错误</span><span class="pl__date">2019-04-15</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-15-apache-error.html"><span class="pl__circle"></span><span class="pl__title">快速定位Apache错误</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-08-initialize-construct.html"><span class="pl__circle"></span><span class="pl__title">_initialize()和__construct()的区别</span><span class="pl__date">2019-04-08</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-08-initialize-construct.html"><span class="pl__circle"></span><span class="pl__title">_initialize()和__construct()的区别</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-03-29-Jekyll-installation.html"><span class="pl__circle"></span><span class="pl__title">Jekyll环境搭建（windows10）</span><span class="pl__date">2019-03-29</span></a> -->
+      <a class="技术 pl__all" href="/2019-03-29-Jekyll-installation.html"><span class="pl__circle"></span><span class="pl__title">Jekyll环境搭建（windows10）</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-03-26-thoughts.html"><span class="pl__circle"></span><span class="pl__title">2019-03-26 随笔</span><span class="pl__date">2019-03-26</span></a> -->
+      <a class="生活 pl__all" href="/2019-03-26-thoughts.html"><span class="pl__circle"></span><span class="pl__title">2019-03-26 随笔</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-03-04-summarize.html"><span class="pl__circle"></span><span class="pl__title">第一次校招复试总结</span><span class="pl__date">2019-03-04</span></a> -->
+      <a class="技术 pl__all" href="/2019-03-04-summarize.html"><span class="pl__circle"></span><span class="pl__title">第一次校招复试总结</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-28-tp5.html"><span class="pl__circle"></span><span class="pl__title">ThinkPHP笔记（路由实现与操作方法）</span><span class="pl__date">2019-02-28</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-28-tp5.html"><span class="pl__circle"></span><span class="pl__title">ThinkPHP笔记（路由实现与操作方法）</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-28-interview.html"><span class="pl__circle"></span><span class="pl__title">第一次校招面试总结</span><span class="pl__date">2019-02-28</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-28-interview.html"><span class="pl__circle"></span><span class="pl__title">第一次校招面试总结</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-02-25-unicom.html"><span class="pl__circle"></span><span class="pl__title">电信用户投诉攻略</span><span class="pl__date">2019-02-25</span></a> -->
+      <a class="生活 pl__all" href="/2019-02-25-unicom.html"><span class="pl__circle"></span><span class="pl__title">电信用户投诉攻略</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-02-23-insist.html"><span class="pl__circle"></span><span class="pl__title">(转)微不足道的坚持</span><span class="pl__date">2019-02-23</span></a> -->
+      <a class="生活 pl__all" href="/2019-02-23-insist.html"><span class="pl__circle"></span><span class="pl__title">(转)微不足道的坚持</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-22-redis.html"><span class="pl__circle"></span><span class="pl__title">Redis笔记(安装与数据类型)</span><span class="pl__date">2019-02-22</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-22-redis.html"><span class="pl__circle"></span><span class="pl__title">Redis笔记(安装与数据类型)</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-12-31-2018.html"><span class="pl__circle"></span><span class="pl__title">2018小总结</span><span class="pl__date">2018-12-31</span></a> -->
+      <a class="生活 pl__all" href="/2018-12-31-2018.html"><span class="pl__circle"></span><span class="pl__title">2018小总结</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-12-20-cmd.html"><span class="pl__circle"></span><span class="pl__title">cmd笔记(长期更新)</span><span class="pl__date">2018-12-20</span></a> -->
+      <a class="技术 pl__all" href="/2018-12-20-cmd.html"><span class="pl__circle"></span><span class="pl__title">cmd笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-12-14-php-notes.html"><span class="pl__circle"></span><span class="pl__title">php笔记(长期更新)</span><span class="pl__date">2018-12-14</span></a> -->
+      <a class="技术 pl__all" href="/2018-12-14-php-notes.html"><span class="pl__circle"></span><span class="pl__title">php笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-11-08-Ubuntu-Deployment.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu Server部署日记</span><span class="pl__date">2018-11-08</span></a> -->
+      <a class="技术 pl__all" href="/2018-11-08-Ubuntu-Deployment.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu Server部署日记</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-10-25-ubuntu-lock.html"><span class="pl__circle"></span><span class="pl__title">解决ubuntu：E：无法获得锁(11：资源暂时不可用)</span><span class="pl__date">2018-10-25</span></a> -->
+      <a class="技术 pl__all" href="/2018-10-25-ubuntu-lock.html"><span class="pl__circle"></span><span class="pl__title">解决ubuntu：E：无法获得锁(11：资源暂时不可用)</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-10-24-theory-of-means.html"><span class="pl__circle"></span><span class="pl__title">(转)论胡编乱造的写作技巧</span><span class="pl__date">2018-10-24</span></a> -->
+      <a class="生活 pl__all" href="/2018-10-24-theory-of-means.html"><span class="pl__circle"></span><span class="pl__title">(转)论胡编乱造的写作技巧</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-10-21-domain-name.html"><span class="pl__circle"></span><span class="pl__title">更换了域名、邮箱并修复了移动端bug</span><span class="pl__date">2018-10-21</span></a> -->
+      <a class="生活 pl__all" href="/2018-10-21-domain-name.html"><span class="pl__circle"></span><span class="pl__title">更换了域名、邮箱并修复了移动端bug</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-10-14-git.html"><span class="pl__circle"></span><span class="pl__title">开源分布式管理控制系统——Git笔记</span><span class="pl__date">2018-10-14</span></a> -->
+      <a class="技术 pl__all" href="/2018-10-14-git.html"><span class="pl__circle"></span><span class="pl__title">开源分布式管理控制系统——Git笔记</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-24-linux-command.html"><span class="pl__circle"></span><span class="pl__title">linux命令笔记(长期更新)</span><span class="pl__date">2018-09-24</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-24-linux-command.html"><span class="pl__circle"></span><span class="pl__title">linux命令笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-23-Object_oriented.html"><span class="pl__circle"></span><span class="pl__title">面向对象(Object Oriented)学习笔记（一）</span><span class="pl__date">2018-09-23</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-23-Object_oriented.html"><span class="pl__circle"></span><span class="pl__title">面向对象(Object Oriented)学习笔记（一）</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-03-Markdown.html"><span class="pl__circle"></span><span class="pl__title">致简写作神器——Markdown</span><span class="pl__date">2018-09-03</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-03-Markdown.html"><span class="pl__circle"></span><span class="pl__title">致简写作神器——Markdown</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-08-31-Programmer-development.html"><span class="pl__circle"></span><span class="pl__title">(转)为什么你写不好一个快速排序? 谈程序员的职业发展</span><span class="pl__date">2018-08-31</span></a> -->
+      <a class="生活 pl__all" href="/2018-08-31-Programmer-development.html"><span class="pl__circle"></span><span class="pl__title">(转)为什么你写不好一个快速排序? 谈程序员的职业发展</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-08-31-Learning-the-open-source.html"><span class="pl__circle"></span><span class="pl__title">(转)如何学习开源项目</span><span class="pl__date">2018-08-31</span></a> -->
+      <a class="技术 pl__all" href="/2018-08-31-Learning-the-open-source.html"><span class="pl__circle"></span><span class="pl__title">(转)如何学习开源项目</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-08-30-Ubuntu-set-up-sublime.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu调教日记之Sublime Text3</span><span class="pl__date">2018-08-30</span></a> -->
+      <a class="技术 pl__all" href="/2018-08-30-Ubuntu-set-up-sublime.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu调教日记之Sublime Text3</span></a>
+    
+    </nav>
+  </div> <!-- end #posts-list -->
+</aside> <!-- end #sidebar -->
+
+    <div id="post">
+      <div id="pjax">
+        <article id="post__content">
+    <h1 id="post__title" data-identifier="20181014">开源分布式管理控制系统——Git笔记</h1>
+    <div id="post__date">2018-10-14</div>
+    <declare id="declare" class="declare">
+      <hr/> 本博客所有文章采用的授权方式为
+        <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">
+          <b>自由转载-非商用-非衍生-保持署名</b>
+        </a>
+      ，转载请务必注明出处，谢谢。<br /><br />
+      声明：<br />本博客欢迎转发，但请保留原作者信息!<br />
+      Qznoe：<a href="https://user.qzone.qq.com/2434929041/">阿川的个人空间</a><br />
+      博客：<a href="https://achuan.io/">阿川的个人博客</a><br />
+      邮箱：<a href="mailto:achuan@achuan.io">achuan@achuan.io</a>
+      <br />内容系本人学习、研究和总结，如有雷同，实属荣幸！
+      <hr/>
+    </declare>
+    <h2 id="git的诞生">Git的诞生</h2>
+<p> 故事是自2002年开始，<a href="https://zh.wikipedia.org/wiki/%E6%9E%97%E7%BA%B3%E6%96%AF%C2%B7%E6%89%98%E7%93%A6%E5%85%B9">林纳斯·托瓦兹</a>决定使用<a href="https://zh.wikipedia.org/wiki/BitKeeper">BitKeeper</a>作为<a href="https://zh.wikipedia.org/wiki/Linux%E5%86%85%E6%A0%B8">Linux内核</a>版本控制系统，用于维护代码。你想想BitKeeper是<a href="https://zh.wikipedia.org/wiki/%E4%B8%93%E6%9C%89%E8%BD%AF%E4%BB%B6">专有软件</a>，人家靠这玩意挣钱，这个决定社群中长期遭受质疑。不过还是有人主张使用开源软件。我dalao（林纳斯·托瓦兹）何尝没有想过（如<a href="https://zh.wikipedia.org/wiki/Monotone">Monotone</a>），但是这些软件都存在一些问题，特别是性能不佳。现成的方案，如<a href="https://zh.wikipedia.org/wiki/%E5%8D%94%E4%BD%9C%E7%89%88%E6%9C%AC%E7%B3%BB%E7%B5%B1">CVS</a>的架构，不过dalao并不喜欢连同痛批了一顿。<br />
+ 2005年的时候有个叫<a href="https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E9%AD%AF%C2%B7%E5%9E%82%E9%B3%A9">安德鲁·垂鸠</a>破解了BitKeeper（这么做的不止他一个），BitMover公司决定收回Linux社区的免费使用权。事后双方公司进行过磋商，结果可想而知。事后dalao以十天的时间，用C撸出来一个分布式版本控制系统，它就是Git的第一个版本！于2005年以<a href="https://zh.wikipedia.org/wiki/GNU%E9%80%9A%E7%94%A8%E5%85%AC%E5%85%B1%E8%AE%B8%E5%8F%AF%E8%AF%81">GPL</a>发布。至于这个名字嘛，dalao自嘲地取了这个名字“<strong>Git</strong>”，该词源自英国俚语，意思大约是“混账”。不过Git刚面世的时候，世界上开源社群反对声音不少，最大的理由是Git太艰涩难懂？（博主：一个程序员难道不该有钻研精神吗？）<br />
+ 2016年IT界报道，Git统治编程社区11年后，BitKeeper宣布开源。挑战Linux内核开发者？dalao反手一掏Git灭掉BitMover。（这段让我看的热血沸腾，抽颗烟压压惊）</p>
+
+<p>在学习之前我门先学习一下四个专业术语</p>
+
+<p><img src="../images/2018-10-14-git/flow chart.jpg" alt="Alt text" title="Git数据流程图" /></p>
+<ul>
+  <li><strong>Workspace</strong>：工作区</li>
+  <li><strong>lndex/Stage</strong>：暂存区（又名索引）</li>
+  <li><strong>Repository</strong>：仓库区（又名本地仓库、储存库）</li>
+  <li><strong>Remote</strong>：远程仓库
+开源分布式管理控制系统——Git笔记
+开源分布式管理控制系统——Git笔记是工作区。<br />
+开源分布式管理控制系统——Git笔记态。<br />
+开源分布式管理控制系统——Git笔记库）。<br />
+ 远程仓库：这个很简单但我却不知道怎么表达…可以说成云端仓库吧。</li>
+</ul>
+
+<h2 id="主要功能">主要功能</h2>
+<p> Git主要用于Linux内核开发的版本控制系统，与<a href="https://zh.wikipedia.org/wiki/%E5%8D%94%E4%BD%9C%E7%89%88%E6%9C%AC%E7%B3%BB%E7%B5%B1">CVS</a>或<a href="https://zh.wikipedia.org/wiki/Subversion">Subversion</a>这一类集中式版本控制系统的不同采用了分布式版本。它没有服务器端，就可以运行版本控制，这使得源码的发布与修改极其方便。git速度也是很给力。</p>
+
+<h2 id="实现原理">实现原理</h2>
+<p> Git和其他版本控制系统（如<a href="https://zh.wikipedia.org/wiki/%E5%8D%94%E4%BD%9C%E7%89%88%E6%9C%AC%E7%B3%BB%E7%B5%B1">CVS</a>）有不少的差别，Git本身关心文件的整体性是否有改变，但多数的版本控制系统如<a href="https://zh.wikipedia.org/wiki/%E5%8D%94%E4%BD%9C%E7%89%88%E6%9C%AC%E7%B3%BB%E7%B5%B1">CVS</a>或<a href="https://zh.wikipedia.org/wiki/Subversion">Subversion</a>系统则在乎文件内容的差异。<br />
+我觉得Git更像一个文件系统，直接在本机上获取数据，不必连线到主机端获取数据。 每个开发者都可有全部开发历史的本地副本，changes从这种本地repository复制给其他开发者。这些changes作为新增的分支被导入，可以与本地分支合并。<br />
+Git是用C语言开发的，以追求最高的性能。Git自动完成<a href="https://zh.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6_(%E8%A8%88%E7%AE%97%E6%A9%9F%E7%A7%91%E5%AD%B8)">垃圾回收</a>（也可以用 git gc –prune 调用）。<br />
+Git服务器典型的TCP监听，端口为9418。</p>
+
+<h2 id="git的安装">Git的安装</h2>
+<p> Git平台支持有<a href="https://zh.wikipedia.org/wiki/POSIX">POSIX</a>、<a href="https://zh.wikipedia.org/wiki/Microsoft_Windows">Windows</a>、<a href="https://zh.wikipedia.org/wiki/MacOS">OS X</a>，不过今天我们重点讲Linux。<br />
+Git安装有许多种，主要分为两种：通过编译源代码、平台预编译安装包，源代码安装至少可以安装最新版本，不过Git慢慢壮大，不会出现安装包版本落后问题，这里也就不说了。<br />
+   
+在装软件之前我都会习惯的更新源</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    $ sudo apt update
+</code></pre></div></div>
+
+<p>基于二进制安装Git</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    $ sudo yum install git
+</code></pre></div></div>
+
+<p>ubuntu发行版</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    $ sudo apt-get install  git
+</code></pre></div></div>
+
+<p>查看Git当前版本</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    $ git version
+</code></pre></div></div>
+
+<h2 id="初始化仓库">初始化仓库</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 初始化当前目录为仓库
+    $ git init
+</code></pre></div></div>
+
+<h2 id="克隆到本地仓库">克隆到本地仓库</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    #　第二个参数克隆到指定目录，可带可不带
+    $ git clone [项目链接] [指定本地目录]
+    # 帮助
+    $ git clone -h ## 增加/删除文件
+
+    # 提交新文件（new）和被修改（modified）文件，不包括被删除（deleted）文件
+    $ git add .
+    # 提交新文件（new）和已被删除（deleted）文件，不包括新文件
+    $ git add -u
+    # 提交所有变化。cunz
+    $ git add -A
+    # 提交当前目录.png后缀文件
+    $　git add *png
+    # 帮助
+    $ git add -h
+</code></pre></div></div>
+
+<h2 id="检查工作目录暂存区状态">检查工作目录/暂存区状态</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 检查工作目录与暂存区的状态
+    $ git status
+    # 只列出已被Git管理且被修改没提交的文件
+    $ git status -uno
+    # 帮助
+    $ git status -h
+</code></pre></div></div>
+
+<h2 id="添加到远程仓库">添加到远程仓库</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 当新文件添加到暂存区后，我们现在就准备创建第一个提交与注释了，不过在这之前我们要绑定Git账户
+    $ git config --global user.name "achuanya"
+    $ git config --global user.email "achuan@achuan.io"
+</code></pre></div></div>
+
+<h2 id="提交代码并注释">提交代码并注释</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    $ git commit -m "这是一个测试"
+    # 参数：
+            -a      # 自动检测修改文件
+            -m      # 提交
+    # 帮助。
+    $ git commit -h
+</code></pre></div></div>
+
+<h2 id="查看日志详情">查看日志详情</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 显示当前分支的版本历史
+    $ git log
+    # 显示commit历史，以及每次commit发生变化的文件
+    $ git log --stat
+    # 搜索提交历史，根据关键词
+    $ git log -S [key Word]
+    # 显示某个文件的版本历史，包括文件改名
+    $ git log --follow [file]
+    # 显示过去的5次提交
+    $ git log -5 --pretty --oneline
+    # 帮助
+    $ git log -h
+</code></pre></div></div>
+
+<h2 id="提交到远程仓库">提交到远程仓库</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 提交到远程仓库，master即为分支
+    $ git push origin master
+    # 强行提交
+    $ git push -u origin master
+    # 上传本地指定分支到远程仓库（分支操作后面会说到）
+    $ git push [remote] [branch]
+    # 推送所有分支到远程仓库
+    $ git push [remote] --all
+    # 强行推送当前指定分支到远程仓库（即使有冲突）
+    $ git push [remote] --force
+    # 帮助
+    $ git push -h
+</code></pre></div></div>
+
+<h2 id="移动重命名与删除文件">移动、重命名与删除文件</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 移动与重命名道理是一样的
+    $ git mv
+
+    # 继linux命令一样。
+    $ git rm
+</code></pre></div></div>
+
+<p><img src="../images/2018-10-14-git/rename.png" alt="Alt text" title="重命名操作" /></p>
+
+<h2 id="撤销修改切换分支">撤销修改/切换分支</h2>
+<p> git checkout 主要用于撤销修改或切换分支，它是一条较为常用的的命令，同时也很危险，因为这条命令会重新工作区！</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 恢复修改过的指定文件到工作区
+    $ git checkout [branch Name]
+    # 恢复暂存区所有文件到工作区
+    $ git checkout .
+    # 新建一个分支，并切换到该分支（切换分支不带参数 -b）
+    $ git checkout -b [name]
+    # 切换到上一个分支
+    $ git checkout -
+</code></pre></div></div>
+
+<h2 id="管理分支">管理分支</h2>
+<p> Git分支，好比一包零食，你可以选择和其他小伙伴一起吃一包，也可以自己吃一包，他们吃他们的，你吃你的相互之间没有影响，作为这包零食的主人，你也可以随时可以让两包零食放在一起（合并）。
+​      <br />
+        # 现在让我们创建一包零食，不不不…一个新分支
+        $ git branch [name]
+        # 查看本地所有分支（当前分支前有个 * 号）
+        $ git branch
+        # 查看远程分支
+        $ git branch -r
+        # 查看本地和远程所有分支
+        $ git branch -a
+        # 重命名分支
+        $ git branch -m [name] [modify Name]
+        # 删除分支（ -D 强行删除）
+        $ git branch -d [name]
+        注：删除远程分支需要 git push 操作
+        $ git push origin :[name]
+        ######################### 合并分支</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 把现有demo分支合并到master上
+    $ git metge [branch Name]
+
+    root@achuan-pc:/home/github/demo# git branch
+    demo
+    * master
+    root@achuan-pc:/home/github/demo# git merge demo
+    Updating d46f35e..b17d20e
+    Fast-forward
+    README.txt | 1 +
+    1 file changed, 1 insertion(+)
+
+    # 注意上面的合并信息 fasht-forward 意思是这次合并是快进模式，也就是直接吧master指向demo的当前提交，所以合并速度非常快。 
+</code></pre></div></div>
+
+<h2 id="git常用命令">Git常用命令</h2>
+<p> 上面说的都是一些基本操作，下面也是一些常用命令，出于个人用途可能存在有些命令不全面，不过我往后学习中会进行添加，还请见谅。</p>
+
+<h3 id="查看信息">查看信息</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 显示所有提交过的用户，按提交次数排序
+    $ git shortlog -sn
+    # 显示指定文件是什么人在什么时间修改过
+    $ git blame [file]
+    # 显示暂存区和工作区的差异
+    $ git diff
+    # 显示暂存区和上一个commit的差异
+    $ git diff --cached [file]
+    # 显示工作区与当前分支最新commit之间的差异
+    $ git diff HEAD
+    # 显示两次提交之间的差异
+    $ git diff [first Branch]...[second Branch]
+    # 显示今天你写了多少行代码
+    $ git diff --shortstat "@{0 day ago}"
+    # 显示某次提交的元数据和内容变化
+    $ git show [commit]
+    # 显示某次提交发生变化的文件
+    $ git show --name-only [commit]
+    # 显示某次提交时，某个文件的内容
+    $ git show [commit]:[filename]
+    # 显示当前分支的最近几次提交
+    $ git reflog
+</code></pre></div></div>
+
+<h3 id="远程仓库的一些操作">远程仓库的一些操作</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 下载远程仓库的所有变动
+    $ git fetch [remore Name]
+    # 跟踪存储库，不带参数，列出已存在的远程分支。
+    $ git remote
+    # 显示所有远程仓库
+    $ git remote -v
+    # 显示某个远程仓库的信息
+    $ gitremote shou [remote Name]
+    # 添加一个新的远程仓库，并命名
+    $ git remote add [shortname][url]
+    # 取远程仓库与本地分支合并  
+    $ git pull [remote] [branch]
+</code></pre></div></div>
+
+<h2 id="拓展知识">拓展知识</h2>
+<h3 id="克隆下载某项目中的单个文件文件夹">克隆下载某项目中的单个文件（文件夹）</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    wget https://github.com/acversionuanya/achuanya.github.io/blob/master/README.mdjinxing
+</code></pre></div></div>
+
+<h3 id="github-chrome插件">Github Chrome插件</h3>
+
+<p><a href="https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related">Octotree</a>，很直观的查看不同级文件夹，也方便进行文件跳转操作。<br />
+<a href="https://chrome.google.com/webstore/detail/octo-mate/baggcehellihkglakjnmnhpnjmkbmpkf">Octo Mate</a>，增强你Githubt体验，它主要功能有四点：一键以.zip格式下载文件、
+一键打开项目的Github Pages、显示仓库大小、显示未读消息数。</p>
+
+<h3 id="文件状态">文件状态</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    未跟踪（untrack）：新增加文件。
+    已修改（modified）：已修改但为写入到暂存区。
+    已暂存（staged）：已经添加到暂存区。
+    已提交（committed）：已经添加到远程仓库。
+</code></pre></div></div>
+
+<h3 id="git专业术语中英文对照表">Git专业术语中英文对照表</h3>
+
+<p><img src="../images/2018-10-14-git/terminology.png" alt="Alt text" title="Git专业术语中英文对照表" /></p>
+
+<p><br />
+ ok写完了！通过这段时间的学习，关于Git命令我用到的差不多就这么多，可能存在有些命令不全面，不过我往后学习中会进行添加，还请见谅。我现在真高兴当初出写博客这个决定，它让我每天学习都很有动力，有目标。最主要的是能把自己学会的知识分享给大家，也能让这个知识点记的更加牢固。。再过半年就要入职场了，压力也是不小。不过不能让压力阻止我向前跨步！下次文章关于“LAMP/LNMP架构”的相关内容。</p>
+
+
+</article>
+<!-- end #post__content -->
+
+<h2 id="post__discuss">文章赞赏</h2>
+<img src="./assets/image/like.png" alt="赞赏码" class="image-center">
+
+<h2 id="post__discuss">文章评论</h2>
+<div id="comment"></div>
+
+<script>
+  $(document).ready(function(){
+      var disq = new iDisqus('comment', {
+        forum: 'https-achuan-io',
+        api: 'https://api.achuan.io',
+        site: 'https://achuan.io',
+        mode: 1,
+        timeout: 3000,
+        init: true,
+      });
+  });
+</script>
+<div id="post__share">
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=achuanya.github.io/2018-10-14-git.html&title=开源分布式管理控制系统——Git笔记&pics=https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/avatar.jpg" target="_blank"></a>
+  <a id="icon-qzone" class="fontello" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=www.achuan.io/2018-10-14-git.html&title=开源分布式管理控制系统——Git笔记&pics=https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/avatar.jpg" target="_blank"></a>
+                                      <!-- href="https://twitter.com/intent/tweet?url=http://localhost:4000/2018-10-14-git.html&text=开源分布式管理控制系统——Git笔记" 接口 -->
+                                      <!-- http://localhost:4000 博客首页 -->
+  <p class="share-info">分享到</p>
+</div>
+<!-- end #post__share
+
+<a href="https://achuanya.github.iohttp://localhost:4000/2018-10-14-git.html"></a>
+-->
+
+
+        </br>
+        <hr align="center" width="100%" color="#F1F1F1" size="3"></hr>
+        <p id="copyright">
+  © 2018 - 2019 & <a href="http://pages.github.com">Github Pages</a> & <a href="http://jekyllrb.com">Jekyll</a> & <a href="https://disqus.com/">Disqus</a>
+  </br>
+  <center>
+      <p>
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/" data-size="large" data-show-count="true" aria-label="Follow @ntkme on GitHub">Follow @achuanya</a>
+        &nbsp;&nbsp;
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/achuanya.github.io/subscription/" data-size="large" data-show-count="true" aria-label="Watch ntkme/github-buttons on GitHub">Watch</a>
+        &nbsp;&nbsp;
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/achuanya.github.io/" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+      </p>
+    <h1>友情链接</h1>
+    <span id="copyright">
+      <a href="https://blog.fooleap.org" class="links" target="_blank" title="Fooleap's Blog" >Fooleap's Blog</a></br>
+      <a href="http://www.yangqq.com" class="links" target="_blank" title="杨 青 | 女程序员的个人博客">杨 青 | 女程序员的个人博客</a></br>
+      <a href="http://blog.tmaize.net" class="links" target="_blank" title="TMaize Blog">TMaize Blog</a></br>
+      <a href="https://ainyi.com" class="links" target="_blank" title="你的美好，我都记得">Krryblog - 你的美好，我都记得</a></br>
+      <a href="https://www.moidea.info/daohang.html" class="links" target="_blank" title="Typecho博客网址大全">Typecho博客网址大全</a>
+    </span>
+  </center>
+</p>
+
+      </div> <!-- end #pjax -->
+
+      <div id="post__toc-trigger">
+        <div id="post__toc">
+          <span id="post__toc-title">章节列表</span>
+          <ul id="post__toc-ul"></ul>
+        </div>
+      </div>
+    </div> <!-- end #post -->
+    <script src="/assets/js/jquery.js"></script>
+<script src="/assets/js/jquery.pjax.js"></script>
+<script src="/assets/js/nprogress.js"></script>
+<script src="/assets/js/searchbox.js"></script>
+<script src="/assets/js/script.js"></script>
+<script src="/assets/js/iDisqus.min.js"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="/assets/js/buttons.js"></script>
+
+   </body>
+ </html>

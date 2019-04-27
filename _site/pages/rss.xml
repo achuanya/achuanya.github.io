@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>阿川的个人博客</title>
+        <description>执着于理想，纯粹于当下</description>      
+        <link>http://localhost:4000</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>我的第一部单反相机</title>
+                <description>&lt;p&gt; 咱老百姓，今儿真啊么真高兴！嘿嘿，我的第一部单反相机”佳能EOS 200D 银色单反套机”，今早9:18快递到了！纸箱镇楼！ 
+受苦了宝贝…发货之前忘了指定快递服务，默认发了圆通。看这箱子样子，想起以前我去快递分拣兼职，活太累了管它什么物品都是暴力扔…&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/images/2019-04-20-One-Single-Lens/sealing.jpg&quot; alt=&quot;Alt text&quot; title=&quot;纸箱镇楼&quot; /&gt;  &lt;br /&gt;
+ 大大小小拆完了就是这样样子了（32G SD卡、新秀丽蓝色双肩包、限量20年礼盒、Luce波点内胆包、EOS 200D机身、电池充电器\线 LC-E17C、锂电池LP-E17、相机宽背带 EW-400D、EF-s 18-55m f/4-5.6 IS STM）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/2019-04-20-One-Single-Lens/All the items.jpg&quot; alt=&quot;Alt text&quot; title=&quot;所有的物品&quot; /&gt; &lt;br /&gt;
+ 看到这个狗头挺烦的，也怪自己吧…在天猫买件肯高UV镜55mm。买回来发现装不上…一看狗头58mm。
+&lt;img src=&quot;../images/2019-04-20-One-Single-Lens/\The lens.jpg&quot; alt=&quot;Alt text&quot; title=&quot;18-55mm狗头&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; 为了业余摄影，还特地在博客开了个”摄影”分栏，感觉自己这次博客要大改了一下，需要做个几个相册，就那种卡片视图效果，不过我博客逻辑有点特殊，估计需要点时间，让我头疼的是图片，以后摄影照片一张5MB-10MB，就Github在国内这个接入速度有点吃不消，还是要想办法无备案DNS加速。
+&lt;img src=&quot;../images/2019-04-20-One-Single-Lens/Place the sample.jpg&quot; alt=&quot;Alt text&quot; title=&quot;EOS 200D机身 + 18-55mm狗头合影&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; 这里有点尴尬…本想来拍几张预热看看，没电来了，晚上准备骑行去广场玩玩
+&lt;img src=&quot;../images/2019-04-20-One-Single-Lens/electricity.jpg&quot; alt=&quot;Alt text&quot; title=&quot;尴尬...刚买回来需要充电&quot; /&gt; &lt;br /&gt;
+&lt;img src=&quot;../images/2019-04-20-One-Single-Lens/install.jpg&quot; alt=&quot;Alt text&quot; title=&quot;装到内胆包&quot; /&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sat, 20 Apr 2019 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2019-04-20-2019-04-20-One-Single-Lens.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2019-04-20-2019-04-20-One-Single-Lens.html</guid>
+            </item>
+        
+            <item>
+                <title>推荐10个优秀的技术栈社区</title>
+                <description>&lt;p&gt; 作为一个技术人，经验积累对于我们来说无比重要，我们只有不断的学习提升自己才能不被这个圈子淘汰。另外也要不断的总结自己的经验和教训。既然要学习那总要有途径吧，现在网络已经很发达了，社区\论坛随处可见，可高质量并不多。今天拿出来给大家分享一下，这些论坛\社区也是业界公认的优秀…&lt;/p&gt;
+
+&lt;h2 id=&quot;github&quot;&gt;Github&lt;/h2&gt;
+&lt;p&gt;网址：&lt;a href=&quot;https://github.com/&quot; title=&quot;Github&quot;&gt;https://github.com/&lt;/a&gt;&lt;br /&gt;
+ Github是最活跃的开源代码库和版本控制平台，同时也是全球最大的男性交友平台，因此也有网友叫做：“Gayhub”（Gayhub是真实存在的网站就像“知乎”和“逼乎”…不过这个Gayhub真是Gay…）&lt;br /&gt;
+ Github几乎是在业界知名度最高的技术社区，各个领域的开源类库、代码应有尽有，当然也不缺乏大牛入住，比如我的偶像Linus。&lt;/p&gt;
+
+&lt;h2 id=&quot;stack-overflow&quot;&gt;Stack Overflow&lt;/h2&gt;
+&lt;p&gt;网址: &lt;a href=&quot;https://stackoverflow.com/&quot; title=&quot;Stack Overflow&quot;&gt;https://stackoverflow.com/&lt;/a&gt;&lt;br /&gt;
+ Stack Overflow是最受程序猿欢迎的IT技术问答社区，而且内容也是最丰富的社区之一。百度我不知道，就说google搜索问题时，基本每次都有这小子。后来我在技术问题上遇到了难点直接上在Stack Overflow搜。搜不到满意的答案时再自己发起提问。不过这个网站是英文…扯淡是有人把Stack Overflow给汉化了…&lt;a href=&quot;https://routinepanic.com/&quot; title=&quot;协慌网&quot;&gt;协慌网&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;infoq&quot;&gt;InfoQ&lt;/h2&gt;
+&lt;p&gt;网址: &lt;a href=&quot;https://www.infoq.com/&quot; title=&quot;InfoQ&quot;&gt;https://www.infoq.com/&lt;/a&gt;&lt;br /&gt;
+ InfoQ是一个面向IT领域的技术媒体社区。通过提供高质量新闻、文章、演讲，以促进IT领域知识的传播和分享。InfoQ还专设的中文、英文、日文等海外版站点。&lt;/p&gt;
+
+&lt;h2 id=&quot;freebuf&quot;&gt;FreeBuf&lt;/h2&gt;
+&lt;p&gt;网址: &lt;a href=&quot;http://www.freebuf.com/&quot; title=&quot;FreeBuf&quot;&gt;http://www.freebuf.com/&lt;/a&gt;&lt;br /&gt;
+ FreeBuf是国内活跃度较高的垂直类网络安全网站。网站主要内容就是国内外一些技术文章。网站人群以极客、黑客、从事安全类人员居多。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;官宣: “FreeBuf希望为国内网络安全领域带来一抹正能量，传递真正的黑客与极客精神。”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chinaunix&quot;&gt;ChinaUnix&lt;/h2&gt;
+&lt;p&gt;网址: &lt;a href=&quot;http://www.chinaunix.net/&quot; title=&quot;ChinaUnix&quot;&gt;http://www.chinaunix.net/&lt;/a&gt;&lt;br /&gt;
+ 我想作为一个IT开发者人员，怎么也避免不了跟Linux系统打交道。而ChinaUnix就是以Linux\Unix、服务器、数据库、内核源码等技术为主的自由、开放的技术社区。运维人员居多。&lt;/p&gt;
+
+&lt;h2 id=&quot;看雪安全论坛&quot;&gt;看雪安全论坛&lt;/h2&gt;
+&lt;p&gt;网址: &lt;a href=&quot;https://bbs.pediy.com/&quot; title=&quot;看雪安全论坛&quot;&gt;https://bbs.pediy.com/&lt;/a&gt;&lt;br /&gt;
+ 看雪的历史比较悠久，创始于2000年（那年我刚出生…）看雪是国内首个讨论加密解密技术的论坛，看雪见证了中国互联网的发展及国内安全领域大环境的发展。社区大牛居多，氛围很棒，在国内安全圈具有很强的号召力。&lt;/p&gt;
+
+&lt;h2 id=&quot;吾爱破解&quot;&gt;吾爱破解&lt;/h2&gt;
+&lt;p&gt;网址: &lt;a href=&quot;https://www.52pojie.cn/&quot; title=&quot;吾爱破解&quot;&gt;https://www.52pojie.cn/&lt;/a&gt;&lt;br /&gt;
+ 吾爱破解成立于08年，与看雪一样是国内氛围很好的论坛，主要板块是逆向、脱壳。。站内帖子基本没有灌水评论，人群我感觉论坛学生不少，因为小时候喜欢软件破解，看雪和吾爱论坛我也是来回逛。&lt;/p&gt;
+
+&lt;h2 id=&quot;比格张&quot;&gt;比格张&lt;/h2&gt;
+&lt;p&gt;网址: &lt;a href=&quot;https://bigezhang.com/&quot; title=&quot;比格张&quot;&gt;https://bigezhang.com/&lt;/a&gt;&lt;br /&gt;
+ 比格张是一个发现和分享互联网优质资源的平台，网站资源比较广：技术、开发者、产品、设计运营、素材等，平台还设有新闻热榜，如知乎、微博等各种热榜话题。&lt;/p&gt;
+
+&lt;h2 id=&quot;黑客派&quot;&gt;黑客派&lt;/h2&gt;
+&lt;p&gt;网址: &lt;a href=&quot;https://hacpai.com/&quot; title=&quot;黑客派&quot;&gt;https://hacpai.com/&lt;/a&gt;&lt;br /&gt;
+ 黑客派是一个活跃的小众社区，大家在这里相互信任，以平等 • 自由 • 奔放的价值观进行分享交流。社区名称寓意：HacPai 分别取 Hacker / Painter 的头三个字母组成，源自《黑客与画家》。&lt;/p&gt;
+
+&lt;h2 id=&quot;图灵社区&quot;&gt;图灵社区&lt;/h2&gt;
+&lt;p&gt;网址: &lt;a href=&quot;http://www.ituring.com.cn/&quot; title=&quot;图灵社区&quot;&gt;http://www.ituring.com.cn/&lt;/a&gt;&lt;br /&gt;
+ 技术改变世界，阅读塑造人生。社区逛够了，我们坐下来安静的看会儿书吧！图灵社区是一个计算机书籍类社区。图灵社区电子书做的很帮，因为图灵自己就是出版社，电子书籍的排版真的是超赞！同时也提供 mobi 推送，可以在 Kindle 等设备阅读。而且图灵电子书全部是 DRM-Free（未加密），技术上来说我们可以任意拷贝。&lt;/p&gt;
+</description>
+                <pubDate>Wed, 17 Apr 2019 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2019-04-17-it-site.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2019-04-17-it-site.html</guid>
+            </item>
+        
+            <item>
+                <title>快速定位Apache错误</title>
+                <description>&lt;p&gt; 今天给项目配置权限的时候又遇到了Apache错误，这种事情早习惯了，排错了…要说启动吧，您看这让人难受错误提示…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Windows 不能在 本地计算机 启动 apache24。有关更多信息，查阅系统事件日志。如果这是非 Microsoft 服务，请与服务厂商联系，并参考特定服务错误代码 1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这是啥？？？错误报告这么官方真的没意思。。。一般配置遇到问题我都是看日志，不过日志也是经常不靠谱，他描述的也是很扯淡…这个时候就是还是启动apache启动程序好使，文件名叫“httpd.exe”位置在apache根目录“bin”目录下，通过命令行启动就好。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;achuan@DESKTOP-CL4MMTQ MINGW64 /c/AppServ
+$ cd Apache24/bin
+
+achuan@DESKTOP-CL4MMTQ MINGW64 /c/AppServ/Apache24/bin
+$ ./httpd.exe
+AH00526: Syntax error on line 113 of C:/AppServ/Apache24/conf/extra/httpd-vhosts.conf:
+&amp;lt;Directory &quot;H:\\tp5\\public&quot;&quot;&amp;gt; path is invalid.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这个错误大概说的意思是 &lt;code class=&quot;highlighter-rouge&quot;&gt;C:/AppServ/Apache24/conf/extra/httpd-vhosts.conf&lt;/code&gt; 文件第113行语法错误，&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;Directory &quot;H:\tp5\public&quot;&quot;&amp;gt;路径无效。  
+打开httpd-vhosts.conf&lt;/code&gt;文件后，定位到113行发现路径多个“/”….
+来回找目录可能麻烦一些，不过创建一个软连接就可以了。&lt;br /&gt;
+不过若真的找不到错误或者错误找到解决不了也有办法，请点这个&lt;a href=&quot;https://www.google.com/&quot;&gt;万能链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;好了开个玩笑，如果您有什么解决不了问题您可以在下方留言大家可以讨论一下。&lt;/p&gt;
+
+</description>
+                <pubDate>Mon, 15 Apr 2019 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2019-04-15-apache-error.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2019-04-15-apache-error.html</guid>
+            </item>
+        
+            <item>
+                <title>_initialize()和__construct()的区别</title>
+                <description>&lt;p&gt; 今天项目经理让我做个一个功能页面，在查阅往常相同项目源码时遇到一个没有见过的函数 &lt;code class=&quot;highlighter-rouge&quot;&gt;_initialize()&lt;/code&gt;Google一下知道了它是Thinkphp内置函数，查阅了一番资料写了几遍总结一下。&lt;/p&gt;
+
+&lt;p&gt; _initialize()函数是在任何函数之前，都要执行的，当然也包括__construct()也就是构造函数。也就是说如果_initialize()函数存在，调用对象的任何方法都会导致_initialize()函数的自动调用，而_construct()函数仅仅在创建一次，跟其它方法调用没有关系。&lt;/p&gt;
+
+&lt;p&gt; __construct()函数它是&lt;strong&gt;双下划线&lt;/strong&gt;，而_initialize()函数是&lt;strong&gt;单下划线&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt; 如果父子类均有_initialize()函数，则子类覆盖父类，如果子类没有而父类有，则子类继承父类。&lt;/p&gt;
+
+&lt;p&gt; 默认情况下，子类的构造函数不会自动调用父类的构造函数。在调用子类对象的_initialize()函数时，也不会导致自动调用父类的_initialize()函数。
+实际编写子类的构造函数时，一般都要加上父类构造函数的主动调用parent::__construct()，否则会导致子类对象空指针的异常，
+如
+    &lt;code class=&quot;highlighter-rouge&quot;&gt;Call to a menmber function assign() on anon-obiect&lt;/code&gt;。&lt;/p&gt;
+</description>
+                <pubDate>Mon, 08 Apr 2019 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2019-04-08-initialize-construct.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2019-04-08-initialize-construct.html</guid>
+            </item>
+        
+            <item>
+                <title>Jekyll环境搭建（windows10）</title>
+                <description>&lt;p&gt; 最近想把想博客改版需要在本地用到Jekyll，不过搭建的过程真的心累…过程中真的是各种问题谷歌百度各种乱七八糟的文章一点都不靠谱，折腾一天给重要给搭建成功了…&lt;br /&gt;
+整个搭建过程需要用到的软件/安装依赖我先列下&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rubyinstaller-2.3.3-x64&lt;/li&gt;
+  &lt;li&gt;DevKit-mingw64-64-4.7.2&lt;/li&gt;
+  &lt;li&gt;Gem&lt;/li&gt;
+  &lt;li&gt;Bundler&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;安装ruby&quot;&gt;安装Ruby&lt;/h2&gt;
+&lt;p&gt; 因为Jekyll是基于ruby开发的，首先下载安装ruby，我不推荐下载Ruby2.3以上的版本，不知道怎么回事2.4、2.5、2.6我都试过感觉他们跟自带BUG似的，总是出现一堆莫名其妙的问题。&lt;br /&gt;
+ruby官网下载地址（下载速度奇慢）&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;官网链接：https://rubyinstaller.org/downloads/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我用的ruby 2.3.3这里给大家发出来微云的链接&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;微云链接：https://share.weiyun.com/5vv4fjt&lt;/li&gt;
+  &lt;li&gt;微云密码：achuan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;再次声明一下，这里我用的是ruby 2.3.3，其他版本我并不保证。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;双击ruby应用程序，进行安装&lt;br /&gt;
+ 注意：默认如果有已勾选项，它会自动帮你配置环境变量，但是环境变量如果不立即生效可以用cmd命令刷新环境变量，如果还不行就重启。&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;echo %PATH%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;安装完成后测试一下是否安装成功，若输出版本信息即安装成功。&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;更换源&quot;&gt;更换源&lt;/h2&gt;
+&lt;p&gt;通过gem sources查看当前源&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    gem sources -l
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;删除源默认源，我这个里默认有一个源，官方源，因为它太慢了，我们删掉它&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    gem sources -r https://rubygems.org/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;以前还有淘宝源可以用，不过现在也就已经凉了，下面是我们要替换成国内RubyGems镜像站点&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    gem sources -a http://gems.ruby-china.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;安装jekyll&quot;&gt;安装Jekyll&lt;/h2&gt;
+&lt;p&gt; 通过gem install安装jekyll&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    gem install jekyll
+
+    # 分页
+    gem install jekyll-paginate
+
+    # 查看版本号。出现就ok
+    jekyll -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;devkit的安装与配置&quot;&gt;DevKit的安装与配置&lt;/h2&gt;
+&lt;p&gt; 这里我用的是DevKit 64-4.7.2，这里依然提供微云存储&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;微云链接：https://share.weiyun.com/5sROg49&lt;/li&gt;
+  &lt;li&gt;微云密码：achuan
+    &lt;ol&gt;
+      &lt;li&gt;双击DevKit应用程序，运行它解压到你想要的位置，尽量url短一点因为等会要用到比如；C:DevKit&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;初始化与配置&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 初始化生成config.yml
+ruby dk.rb init
+
+进入DevKit目录并编辑config.yml
+
+# 用cmd命令记事本来编辑config.yml
+notepad config.yml
+
+      # Example:
+      #
+      # ---
+      # - C:/ruby19trunk
+      # - C:/ruby192dev
+      #
+      # ---
+      - C:\Ruby23-x64
+
+      注意：“- C:\Ruby23-x64”，其中的“-”也是符号！配置config.yml这一步非常重要，还请您仔细检查！
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;检查与安装依赖&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 检查添加DevKit支持的Ruby列表是否有错误(可略过)
+ruby dk.rb init
+
+# 安装
+ruby dk.rb install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;bundler的安装&quot;&gt;Bundler的安装&lt;/h2&gt;
+&lt;p&gt; Bundler是管理Gem一个依赖工具
+注意：minima是我在创建Jekyll项目的时候出现的问题，当我使用 jekyll new achuan.io 创建Jjekyll项目时，命令卡死了，随后Ctrl + C 强行停止后 cd achuan.io 使用 bundler show 查看缺少依赖文件&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    Could not find gem 'minima (~&amp;gt; 2.0) x64-mingw32' in any of the gem sources
+    listed in your Gemfile.
+
+    # 它说我在gem源中找不到 “minima”, 然后我就安装了，不过装好后又出现这样的tzinfo-data和wdm...提前列出以防大家走弯路。
+
+    gem install bundler
+
+    # gem 依赖文件
+    gem install minima
+    gem install tzinfo-data
+    gem install wdm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;下面是gem依赖列表&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;addressable (2.6.0)&lt;/li&gt;
+  &lt;li&gt;bundler (2.0.1)&lt;/li&gt;
+  &lt;li&gt;colorator (1.1.0)&lt;/li&gt;
+  &lt;li&gt;concurrent-ruby (1.1.5)&lt;/li&gt;
+  &lt;li&gt;em-websocket (0.5.1)&lt;/li&gt;
+  &lt;li&gt;eventmachine (1.2.7)&lt;/li&gt;
+  &lt;li&gt;ffi (1.10.0)&lt;/li&gt;
+  &lt;li&gt;forwardable-extended (2.6.0)&lt;/li&gt;
+  &lt;li&gt;http_parser.rb (0.6.0)&lt;/li&gt;
+  &lt;li&gt;i18n (0.9.5)&lt;/li&gt;
+  &lt;li&gt;jekyll (3.8.5)&lt;/li&gt;
+  &lt;li&gt;jekyll-feed (0.12.1)&lt;/li&gt;
+  &lt;li&gt;jekyll-sass-converter (1.5.2)&lt;/li&gt;
+  &lt;li&gt;jekyll-seo-tag (2.6.0)&lt;/li&gt;
+  &lt;li&gt;jekyll-watch (2.2.1)&lt;/li&gt;
+  &lt;li&gt;kramdown (1.17.0)&lt;/li&gt;
+  &lt;li&gt;liquid (4.0.3)&lt;/li&gt;
+  &lt;li&gt;listen (3.1.5)&lt;/li&gt;
+  &lt;li&gt;mercenary (0.3.6)&lt;/li&gt;
+  &lt;li&gt;minima (2.5.0)&lt;/li&gt;
+  &lt;li&gt;pathutil (0.16.2)&lt;/li&gt;
+  &lt;li&gt;public_suffix (3.0.3)&lt;/li&gt;
+  &lt;li&gt;rb-fsevent (0.10.3)&lt;/li&gt;
+  &lt;li&gt;rb-inotify (0.10.0)&lt;/li&gt;
+  &lt;li&gt;rouge (3.3.0)&lt;/li&gt;
+  &lt;li&gt;ruby_dep (1.5.0)&lt;/li&gt;
+  &lt;li&gt;safe_yaml (1.0.5)&lt;/li&gt;
+  &lt;li&gt;sass (3.7.4)&lt;/li&gt;
+  &lt;li&gt;sass-listen (4.0.0)&lt;/li&gt;
+  &lt;li&gt;tzinfo (2.0.0)&lt;/li&gt;
+  &lt;li&gt;tzinfo-data (1.2019.1)&lt;/li&gt;
+  &lt;li&gt;wdm (0.1.1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;启动jekyll&quot;&gt;启动Jekyll&lt;/h2&gt;
+&lt;p&gt; 写到这里真的不容易，以前在Linux搭建Jekyll没有这么心累，今windows搭建真的…几十个bug疯狂涌出…算了…留着幸福的泪，码着命令…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    # 生成一个Jekyll模板并进入它
+    jekyll new achuan.io &amp;amp;&amp;amp; achuan.io
+
+    # 启动Jeykll，默认端口4000
+    jekyll serve
+
+    # 成功后显示如下
+    Configuration file: H:/git/achuan.io/_config.yml
+        Source: H:/git/achuan.io
+   Destination: H:/git/achuan.io/_site
+   Incremental build: disabled. Enable with --incremental
+   Generating... 
+                 done in 1.885 seconds.
+   Auto-regeneration: enabled for 'H:/git/achuanio'
+   Server address: http://127.0.0.1:4000/
+   Server running... press ctrl-c to stop.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;打开浏览器输入：127.0.0.1:4000&lt;br /&gt;
+本地ip：127.0.0.1，端口：4000。感觉IP+端口麻烦的话，去VirtualHost配置。&lt;br /&gt;
+如果不太熟悉VirtualHost配置，可以看我以前的文章：&lt;a href=&quot;https://achuan.io/2018-11-08-Ubuntu-Deployment.html&quot; title=&quot;Ubuntu Server部署日记&quot;&gt;Ubuntu Server部署日记&lt;/a&gt;。&lt;/p&gt;
+</description>
+                <pubDate>Fri, 29 Mar 2019 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2019-03-29-Jekyll-installation.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2019-03-29-Jekyll-installation.html</guid>
+            </item>
+        
+            <item>
+                <title>2019-03-26 随笔</title>
+                <description>&lt;p&gt; 到今天为止我已经工作了第十六天，我热爱我的工作也非常喜欢我司的文化与业务，公司也非常人性化，我们开发部老总人高马大平易近人，同事们很幽默经常说说笑笑，别的部门不知道怎么样，但是我们开发部氛围很棒，完全没有入职前感觉的紧张与压抑。美中不足的是小区楼下早餐店比较少，但是小区周围的绿化却很棒，出门左右拐都有一条小路，小路两旁种植了很多我认不出的花草和树木，三月的初春，小路两旁的花草和树木都长得格外养眼，它们挨挨挤挤，散发着清香。出了小区向左拐这个小路直通我公司，每次上下班我都喜欢从那里骑共享单车回家，耳机播着她喜欢的歌曲，欣赏着小路两旁的花草和树木，时不时吹来一阵微风把花草散发出清香吹入我的鼻子里，这味道能使我每一天都开心……日子过的可能太安逸了。&lt;/p&gt;
+</description>
+                <pubDate>Tue, 26 Mar 2019 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2019-03-26-thoughts.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2019-03-26-thoughts.html</guid>
+            </item>
+        
+            <item>
+                <title>第一次校招复试总结</title>
+                <description>&lt;p&gt; 上个月28号的时候校招拿到了一家公司offer，今天十号了也到了约定的时间，我早上8点30左右出发点去应聘，那会儿在公交车上晕车感觉真是生不如死….大概是9点到了目的地。进入他们公司后，环境跟自己想的差距有这么一点，我看他们应该都在忙着工作，不知道是是不是因为这个让我感觉气氛有些压抑。不过他们的技术主管给我印象还是很不错的，挺阳光的，我和他在对话的时候他也微笑的对我说，我很喜欢这人的人。&lt;br /&gt;
+ 这次复试大概的流程去了后填一下个人信息表，然后同把简历给了一个姐姐，提交了资料后大概十几分钟吧，我被第一个叫过去了。我这人内向第一次复试三个面试官盯着我一个我，看似我坐那抱着书包不慌，其实内心已经波涛澎湃…刚开始做个自我介绍，然后技术主管问了一些我是如何学习的，我举例说了一些Github，开源中国等等社区论坛…然后问了我项目制作的一个流程，还有MySQL的优化，MVC框架运作的原理等等…比较难受的两点是那个高并发之类的技术，因为我没有接触过这些前沿技术直接回答不懂，不过有一点真是扯淡…当时我非常紧张…他问我PHP数据类型有哪些，我直接懵逼了…&lt;br /&gt;
+ 差不多也就上述那些事，问完后就让我出去坐等一会儿，陆续了半个小时左右，我的朋友也都回来等最重结果。后来就是那样我们几个过了，谈论了一下公司的文化、项目与期望薪资，谈妥了经理说让我们回去等候电话，慎重考虑一下。&lt;br /&gt;
+ 基本是说完了，过程就是那么个过程，想想这次面试中犯的错真是幼稚，太紧张把PHP数据类型给忘了…自己面向对象这块抽象类和接口知识不太牢固，还是写的少。还有就是ThinkPHP的开发和CentOS部署，我没有玩过CentOS晚会儿装一下玩玩，正好再来一篇关于CentOS的博客。就到这里吧，第一次校招复试总结也就那么多内容。&lt;/p&gt;
+</description>
+                <pubDate>Mon, 04 Mar 2019 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2019-03-04-summarize.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2019-03-04-summarize.html</guid>
+            </item>
+        
+            <item>
+                <title>ThinkPHP笔记（路由实现与操作方法）</title>
+                <description>&lt;p&gt; 前段时间一直在学习ThinkPHP，不过比较忙没有同步博客，今天发表一下。&lt;/p&gt;
+
+&lt;h2 id=&quot;路由文件&quot;&gt;路由文件&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;H:\tp5\thinkphp\library\think&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;生成一个控制器文件&quot;&gt;生成一个控制器文件&lt;/h2&gt;
+&lt;p&gt;控制器文件命名规范，大写字母开头的驼峰命名。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;php think make:controller index/Sql –plain&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;浏览器访问控制器sqlphp&quot;&gt;浏览器访问控制器（sql.php）&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;tp5.io/index/Sql&lt;/li&gt;
+  &lt;li&gt;域名/模块/控制器&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ThinkPHP的控制器操作方法支持不同的响应输出，对于不同的响应输出会调用不同的Response子类 ，例如‘json’，‘xml’等，可以直接return一个数组或者对象数据，然后交给‘Response’对象。还有一种情况是，你可以统一使用系统提供的钩子输出进行额外的处理，而如果你使用了‘echo’直接输出，将无法享受这些功能特性。&lt;/p&gt;
+
+&lt;h3 id=&quot;更简短的url&quot;&gt;更简短的url&lt;/h3&gt;
+&lt;p&gt;路由定义前URL：tp5.io/index/Sql&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Route::get(‘sql’,’Sql/index’);&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;路由定义后URL：tp5.io/Sql&lt;/p&gt;
+
+&lt;h2 id=&quot;添加操作方法&quot;&gt;添加操作方法&lt;/h2&gt;
+&lt;p&gt;操作方法命名规范，小写字母开头的驼峰命名。&lt;br /&gt;
+如果定义路由并且&lt;strong&gt;没有开启强制开路由&lt;/strong&gt;的话，那么系统会根据下面的默认规则解析URL&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;域名/&lt;入口文件&gt;/模块名/控制器/操作器名/参数1/值//参数2/...&lt;/入口文件&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对于操作方法的必要参数，我们使用了方法的参数定义。对于方法的参数，通常包含两种类型：对象类型和普通类型。所有的参数都是来自于当前的请求，对象类型参数比较特殊一些，通常是通过依赖注入自动完成。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;注意：并不是所有的URL地址中的变量都是‘$GET’变量。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在ThinkPHP中URL中属于pathinfo地址，这个地址的的解析过程是由框架内部实现的，并且会自动解析成一个URL变量（但却不是GET变量，证据就是你用原生的‘$_GET[‘id’]’是获取不到‘id’的值的），一个真正的GET变量应该是下面的请求URL。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;index/sql/read?id=123&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这个时候id变量才是一个真正的‘$_GET’变量，因为我们可以通过原生的‘$_GET[‘id’]获取到‘id’值。
+不过框架封装看一个‘param’变量，可以让你不管当前的请求类型是‘GET’还是‘POST’，都能无差别的统一获取当前的请求变量。&lt;br /&gt;
+所以，上面两种URL地址，我们都可以统一使用‘input(‘id’)’（这是一个助手函数，其实是调用‘Request’对象的‘param’方法）来获取当前请求的‘id’变量，当然‘$_GET’和’$_POST’
+ThinkPHP定义操作名时不能用‘php’关键词，如果php版本低于5.6+，如果你担心你的应用可能存在此类问题，那么可以尝试使用方法后缀功能，代价就是你在定义方法的时候可能要多写几个字符了。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;// 操作方法后缀&lt;/li&gt;
+  &lt;li&gt;‘action_suffix’ =&amp;gt; ‘Action’,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;也是就说每个操作方法名都要加‘Action’的后缀，不过访问操作名的时候‘不需要加Action’&lt;br /&gt;
+如果使用的是‘PHP7.0+’版本的话，基本不用担心这个问题，但可能会受到来自IDE自动格式化的困惑。&lt;/p&gt;
+</description>
+                <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2019-02-28-tp5.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2019-02-28-tp5.html</guid>
+            </item>
+        
+            <item>
+                <title>第一次校招面试总结</title>
+                <description>&lt;p&gt; 今天上午校招面试，也是我人生中对自己喜欢的工作的一次技能检验。面试提到几个问题，其中还有个关于与ajax异步请求，我记得不是太清没答上来。现在刚吃完饭就来总结一下。&lt;/p&gt;
+
+&lt;h2 id=&quot;ajax的异步与同步&quot;&gt;Ajax的异步与同步&lt;/h2&gt;
+&lt;p&gt; 今天校招面试就这个没有答上来，想想前段时间刚学过，没及时复习真是不应该…
+ ajax里面有个ES7的异步函数：async。ajax默认是异步请求，如果把async默认参数改城true，这标识着在请求开始后，其他代码依然能够执行，但是这样的话如果ajax代码不通，会导致下面的代码停止加载，会导致页面加载崩溃。&lt;br /&gt;
+ 举一个栗子：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.log('1');
+$.ajax({
+    url:'admin/ajax_add',
+    async:true,
+    success:function(e)
+    {
+        console.log('2');
+    }
+});
+console.log('3');
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt; 也就是说async设置为true时，这时ajax是异步的，就算ajax出现问题，其他的代码还可以继续执行。如果当async是同步既（false）这样的话ajax请求不到数据就会停止下面的代码。&lt;/p&gt;
+
+&lt;h2 id=&quot;mvc设计模式与mvc框架的区别&quot;&gt;Mvc设计模式与Mvc框架的区别&lt;/h2&gt;
+&lt;p&gt; 这里之前先简单的说一下Mvc，它是为了代码分离而产出的一个程序模式。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;M（Model，‘模型’）专门处理应用程序数据逻辑，通常用于数据库中存取数据。&lt;/li&gt;
+  &lt;li&gt;V（View，‘视图’）指数据呈现后的状态，简单的说也就是用户看到的UI画面。&lt;/li&gt;
+  &lt;li&gt;C（Contrller，‘控制器’）它是控制视图的输出，并向模型发送数据。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; 我是这样理解的，Mvc设计模式是一群大佬经过长久的实践后的总结。也就是用于解决一系列问题的解决方法。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mvc设计模式可以说是设计师设计的图纸，而Mvc框架则是工程师以设计师的图纸而建造的产品。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;面向对象知识点&quot;&gt;面向对象知识点&lt;/h2&gt;
+&lt;h3 id=&quot;接口和抽象类的区别&quot;&gt;接口和抽象类的区别&lt;/h3&gt;
+&lt;p&gt; &lt;strong&gt;抽象类&lt;/strong&gt;是一种不能被实例化的类，只能作为其他类的父类来使用。抽象类是通过关键字&lt;strong&gt;abstrat&lt;/strong&gt;来声明。&lt;br /&gt;
+抽象类与普通类相似，都包含成员变量和成员方法，两者的区别在于，抽象类中至少要包含一个抽象方法，抽象方法没有方法体，该方法天生就是被子类重写的。&lt;/p&gt;
+
+&lt;p&gt; &lt;strong&gt;接口&lt;/strong&gt;是通过&lt;strong&gt;interface&lt;/strong&gt;关键词来声明的，接口中的成员常量和方法都是public，方法可以不写关键词public，接口中的方法也是没有方法体。接口中的方法也是天生就是要被子类实现的。&lt;/p&gt;
+
+&lt;p&gt; &lt;strong&gt;抽象类和接口实现的功能十分相似，最大的不同是接口能实现多继承&lt;/strong&gt;。在应用中选择抽象类还是接口要看具体实现。&lt;/p&gt;
+
+&lt;h3 id=&quot;__autoload函数是如何运作的&quot;&gt;__autoload()函数是如何运作的？&lt;/h3&gt;
+&lt;p&gt; 这个魔术函数的基本条件是类文件的文件名要和类名字保持一致，当程序执行到实例化某个类的时候，如果在实例化之前没有引入这个类文件，那么就会自动执行“__autoload()”函数。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+&lt;p&gt; 人生中第一次正式的技术面试，一向内向的我比较紧张，不过二次面试的机会还是拿到了，还有就是这次简历做的不是很理想，太简约了，我以为简约能让hr更好的阅读…好吧..虽然我本人不是很喜欢花里胡哨的东西，楚老师也说这是个看脸的时代…好了不写了，再写的话手机话费要超负额了….&lt;/p&gt;
+</description>
+                <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2019-02-28-interview.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2019-02-28-interview.html</guid>
+            </item>
+        
+            <item>
+                <title>电信用户投诉攻略</title>
+                <description>&lt;p&gt; 因为我手机卡是合约卡的原因，又临近毕业了，这张卡握在手里真的没得用，36元套餐1G流量，这样的套餐我来说真的是难受，只能更换套餐。以前我都是靠着校园网和移动纯流量卡，校园网出了校门就不能用了，不划算我给停了，那个打幌子的移动纯流量卡更是个坑，在此提醒不推荐大家办理这种卡。&lt;br /&gt;
+ 因为我这卡是合约卡，不能随意转套餐，然后我就拨打10010转人工客服说需求说转腾讯大王卡套餐，不过客服百般阻挠说这个不好那个不好，不过我态度比较强硬，之后在24号晚上8：25我收到了工单。&lt;br /&gt;
+&lt;img src=&quot;../images/2019-02-25-unicom/1.png&quot; alt=&quot;Alt text&quot; title=&quot;电信用户投诉攻略&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; 25号早上11点，我老家周口淮阳县城联通分公司给我打电话说，刚开始通话她说合约卡期间不能更换套餐又说让我准备证件回老家办理业务；我的天，这都9012年了，换个套餐还回老家，
+&lt;img src=&quot;../images/2019-02-25-unicom/2.png&quot; alt=&quot;Alt text&quot; title=&quot;电信用户投诉攻略&quot; /&gt;&lt;br /&gt;
+ 歹说好说最后她加我微信我把证件资料给了她，委托她帮我办理。差不多10分钟左右，她给我打电话说合约卡内不能更换套餐唯理由让我重新办卡…此时想到了一句话“老用户与狗不得办理”
+&lt;img src=&quot;../images/2019-02-25-unicom/3.png&quot; alt=&quot;Alt text&quot; title=&quot;电信用户投诉攻略&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; 客服解决不了事情也不是几次了，直接拔打联通总部电话，这里我搜集了三大运营商总部投诉电话&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中国联通：010-10015（注意必须要加 010 北京区号）&lt;/li&gt;
+  &lt;li&gt;中国移动：4001110086&lt;/li&gt;
+  &lt;li&gt;中国电信：4008810000&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; 果不其然，还是联通总部电话好使，拨打电话后直接人工服务诉说你的事情。差不多5分钟左右，联通总部那边说12小时内会有处理人员主动联系我。然而在下午4：25，那个劝我办理新卡的姐姐给我打电话声音很温柔的说她又试了一下办理好了说下月套餐生效…与上午完全不是一个人。&lt;br /&gt;
+ 下面真香警告！&lt;br /&gt;
+ &lt;img src=&quot;../images/2019-02-25-unicom/4.png&quot; alt=&quot;Alt text&quot; title=&quot;电信用户投诉攻略&quot; /&gt; 
+ &lt;img src=&quot;../images/2019-02-25-unicom/5.png&quot; alt=&quot;Alt text&quot; title=&quot;电信用户投诉攻略&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; 后来我查了一下，其实早在2006年，工信部就出了文件，即〔2006〕630号文件，其中明确规定“在同一移动电话归属地内（俗称“移动电话本地网”），移动通信企业应保证本企业同一网络的原有用户，可以在不改变号码的情况下，自主选择使用本企业的所有资费方案（已停止发展用户的除外）”，这意味着运营商对于目前老用户的限制是违规的。&lt;/p&gt;
+
+&lt;p&gt;在2008年又出台了指导意见，用户对资费方案享有自主选择权，电信企业应给予充分尊重，不得限制用户选择其指定的资费方案，未经用户同意，不得擅自更改与用户约定的资费方案。&lt;/p&gt;
+
+&lt;p&gt; 如果总部投诉都不好使大家可以直接去工信网投诉相应的服务商，这是最有效的解决方法（如果总部投诉不好使再去投诉），成功案例可以google一下&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.chinatcc.gov.cn/cms/shensus/&quot;&gt;点击进入电信用户申诉受理中心&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <pubDate>Mon, 25 Feb 2019 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2019-02-25-unicom.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2019-02-25-unicom.html</guid>
+            </item>
+        
+    </channel>
+</rss>

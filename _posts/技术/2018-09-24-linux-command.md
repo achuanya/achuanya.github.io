@@ -228,7 +228,7 @@ signal的常用参数如下：
 
 init是所有进程的祖先，它们的进程号始为1.所以发送TERM信号给init会终止所有的用户进程，守护进程等，shutdown就是使用这种机制，init定义了8个运行级别（runleve），inti 0 关机，init 1 重启......关于init就到这了。就不长篇大论了。
 
-暂且到这里，欲知后续如何，请看下回分解![Alt text](https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/images/2018-09-24-linux-command/run.gif "跑")。
+暂且到这里，欲知后续如何，请看下回分解![Alt text](../images/2018-09-24-linux-command/run.gif "跑")。
 
 # 2019-2-15 更新
 &emsp;

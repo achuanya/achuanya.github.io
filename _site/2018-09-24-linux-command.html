@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<!--[if lte IE 8]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
+
+<!-- <title>linux命令笔记(长期更新) | 阿川的个人博客</title> -->
+<title>linux命令笔记(长期更新)</title>
+<meta name="title" content="linux命令笔记(长期更新)">
+
+  <meta name="author" content="Hong-hai zhang">
+
+<meta name="keywords" content="">
+
+  <meta name="description" content="linux命令笔记(长期更新)">
+
+
+<link rel="shortcut icon" href="/assets/image/favicon.ico" />
+<link rel="icon" href="/assets/image/favicon.ico" type="image/x-icon">
+
+<script src="/assets/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.custom.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/highlight.css">
+<link rel="stylesheet" href="/assets/css/iDisqus.min.css" />
+
+<!-- Source Code Pro -->
+<link rel="stylesheet" type="text/css" href="/assets/css/source-code-pro.css">
+
+<link href="/pages/rss.xml" rel="alternate" title="阿川的个人博客" type="application/atom+xml">
+
+  </head>
+  <body>
+    <button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
+    <button id="scroll-top"><span id="icon-arrow-up" class="fontello"></span></button>
+
+    <aside id="sidebar">
+  <nav id="tags">
+    <a href="/index.html" id="avatar" style="background-image:url( /assets/image/avatar.jpg )"></a>
+
+    <ul id="tags__ul">
+      <li id="pl__all" class="tags__li tags-btn active">所有文章</li>
+      
+        <li id="技术" class="tags__li tags-btn">技术</li>
+      
+        <li id="生活" class="tags__li tags-btn">生活</li>
+      
+        <li id="摄影" class="tags__li tags-btn">摄影</li>
+      
+    </ul>
+
+    <div id="tags__bottom">
+      <a href="https://github.com/achuanya" id="icon-github" class="tags-btn fontello" target="_blank"></a>
+      <a href="/pages/rss.xml" id="icon-feed" class="tags-btn fontello" target="_blank"></a>
+      <a href="mailto:achuan@achuan.io" id="icon-email" class="tags-btn fontello"></a>
+    </div>
+  </nav>
+  <!-- end #tags -->
+  <div id="posts-list">
+    <form action="" id="search-form">
+      <a href="/index.html" id="mobile-avatar" style="background-image:url( /assets/image/avatar.jpg )"></a>
+      <!-- NOTE: input field is disabled by default -->
+      <input id="search-input" type="text" placeholder="站内搜索..." >
+    </form>
+
+    <nav id="pl__container">
+    
+      <!-- <a class="摄影 pl__all" href="/2019-04-20-2019-04-20-One-Single-Lens.html"><span class="pl__circle"></span><span class="pl__title">我的第一部单反相机</span><span class="pl__date">2019-04-20</span></a> -->
+      <a class="摄影 pl__all" href="/2019-04-20-2019-04-20-One-Single-Lens.html"><span class="pl__circle"></span><span class="pl__title">我的第一部单反相机</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-17-it-site.html"><span class="pl__circle"></span><span class="pl__title">推荐10个优秀的技术栈社区</span><span class="pl__date">2019-04-17</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-17-it-site.html"><span class="pl__circle"></span><span class="pl__title">推荐10个优秀的技术栈社区</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-15-apache-error.html"><span class="pl__circle"></span><span class="pl__title">快速定位Apache错误</span><span class="pl__date">2019-04-15</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-15-apache-error.html"><span class="pl__circle"></span><span class="pl__title">快速定位Apache错误</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-04-08-initialize-construct.html"><span class="pl__circle"></span><span class="pl__title">_initialize()和__construct()的区别</span><span class="pl__date">2019-04-08</span></a> -->
+      <a class="技术 pl__all" href="/2019-04-08-initialize-construct.html"><span class="pl__circle"></span><span class="pl__title">_initialize()和__construct()的区别</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-03-29-Jekyll-installation.html"><span class="pl__circle"></span><span class="pl__title">Jekyll环境搭建（windows10）</span><span class="pl__date">2019-03-29</span></a> -->
+      <a class="技术 pl__all" href="/2019-03-29-Jekyll-installation.html"><span class="pl__circle"></span><span class="pl__title">Jekyll环境搭建（windows10）</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-03-26-thoughts.html"><span class="pl__circle"></span><span class="pl__title">2019-03-26 随笔</span><span class="pl__date">2019-03-26</span></a> -->
+      <a class="生活 pl__all" href="/2019-03-26-thoughts.html"><span class="pl__circle"></span><span class="pl__title">2019-03-26 随笔</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-03-04-summarize.html"><span class="pl__circle"></span><span class="pl__title">第一次校招复试总结</span><span class="pl__date">2019-03-04</span></a> -->
+      <a class="技术 pl__all" href="/2019-03-04-summarize.html"><span class="pl__circle"></span><span class="pl__title">第一次校招复试总结</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-28-tp5.html"><span class="pl__circle"></span><span class="pl__title">ThinkPHP笔记（路由实现与操作方法）</span><span class="pl__date">2019-02-28</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-28-tp5.html"><span class="pl__circle"></span><span class="pl__title">ThinkPHP笔记（路由实现与操作方法）</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-28-interview.html"><span class="pl__circle"></span><span class="pl__title">第一次校招面试总结</span><span class="pl__date">2019-02-28</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-28-interview.html"><span class="pl__circle"></span><span class="pl__title">第一次校招面试总结</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-02-25-unicom.html"><span class="pl__circle"></span><span class="pl__title">电信用户投诉攻略</span><span class="pl__date">2019-02-25</span></a> -->
+      <a class="生活 pl__all" href="/2019-02-25-unicom.html"><span class="pl__circle"></span><span class="pl__title">电信用户投诉攻略</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2019-02-23-insist.html"><span class="pl__circle"></span><span class="pl__title">(转)微不足道的坚持</span><span class="pl__date">2019-02-23</span></a> -->
+      <a class="生活 pl__all" href="/2019-02-23-insist.html"><span class="pl__circle"></span><span class="pl__title">(转)微不足道的坚持</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2019-02-22-redis.html"><span class="pl__circle"></span><span class="pl__title">Redis笔记(安装与数据类型)</span><span class="pl__date">2019-02-22</span></a> -->
+      <a class="技术 pl__all" href="/2019-02-22-redis.html"><span class="pl__circle"></span><span class="pl__title">Redis笔记(安装与数据类型)</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-12-31-2018.html"><span class="pl__circle"></span><span class="pl__title">2018小总结</span><span class="pl__date">2018-12-31</span></a> -->
+      <a class="生活 pl__all" href="/2018-12-31-2018.html"><span class="pl__circle"></span><span class="pl__title">2018小总结</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-12-20-cmd.html"><span class="pl__circle"></span><span class="pl__title">cmd笔记(长期更新)</span><span class="pl__date">2018-12-20</span></a> -->
+      <a class="技术 pl__all" href="/2018-12-20-cmd.html"><span class="pl__circle"></span><span class="pl__title">cmd笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-12-14-php-notes.html"><span class="pl__circle"></span><span class="pl__title">php笔记(长期更新)</span><span class="pl__date">2018-12-14</span></a> -->
+      <a class="技术 pl__all" href="/2018-12-14-php-notes.html"><span class="pl__circle"></span><span class="pl__title">php笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-11-08-Ubuntu-Deployment.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu Server部署日记</span><span class="pl__date">2018-11-08</span></a> -->
+      <a class="技术 pl__all" href="/2018-11-08-Ubuntu-Deployment.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu Server部署日记</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-10-25-ubuntu-lock.html"><span class="pl__circle"></span><span class="pl__title">解决ubuntu：E：无法获得锁(11：资源暂时不可用)</span><span class="pl__date">2018-10-25</span></a> -->
+      <a class="技术 pl__all" href="/2018-10-25-ubuntu-lock.html"><span class="pl__circle"></span><span class="pl__title">解决ubuntu：E：无法获得锁(11：资源暂时不可用)</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-10-24-theory-of-means.html"><span class="pl__circle"></span><span class="pl__title">(转)论胡编乱造的写作技巧</span><span class="pl__date">2018-10-24</span></a> -->
+      <a class="生活 pl__all" href="/2018-10-24-theory-of-means.html"><span class="pl__circle"></span><span class="pl__title">(转)论胡编乱造的写作技巧</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-10-21-domain-name.html"><span class="pl__circle"></span><span class="pl__title">更换了域名、邮箱并修复了移动端bug</span><span class="pl__date">2018-10-21</span></a> -->
+      <a class="生活 pl__all" href="/2018-10-21-domain-name.html"><span class="pl__circle"></span><span class="pl__title">更换了域名、邮箱并修复了移动端bug</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-10-14-git.html"><span class="pl__circle"></span><span class="pl__title">开源分布式管理控制系统——Git笔记</span><span class="pl__date">2018-10-14</span></a> -->
+      <a class="技术 pl__all" href="/2018-10-14-git.html"><span class="pl__circle"></span><span class="pl__title">开源分布式管理控制系统——Git笔记</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-24-linux-command.html"><span class="pl__circle"></span><span class="pl__title">linux命令笔记(长期更新)</span><span class="pl__date">2018-09-24</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-24-linux-command.html"><span class="pl__circle"></span><span class="pl__title">linux命令笔记(长期更新)</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-23-Object_oriented.html"><span class="pl__circle"></span><span class="pl__title">面向对象(Object Oriented)学习笔记（一）</span><span class="pl__date">2018-09-23</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-23-Object_oriented.html"><span class="pl__circle"></span><span class="pl__title">面向对象(Object Oriented)学习笔记（一）</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-09-03-Markdown.html"><span class="pl__circle"></span><span class="pl__title">致简写作神器——Markdown</span><span class="pl__date">2018-09-03</span></a> -->
+      <a class="技术 pl__all" href="/2018-09-03-Markdown.html"><span class="pl__circle"></span><span class="pl__title">致简写作神器——Markdown</span></a>
+    
+      <!-- <a class="生活 pl__all" href="/2018-08-31-Programmer-development.html"><span class="pl__circle"></span><span class="pl__title">(转)为什么你写不好一个快速排序? 谈程序员的职业发展</span><span class="pl__date">2018-08-31</span></a> -->
+      <a class="生活 pl__all" href="/2018-08-31-Programmer-development.html"><span class="pl__circle"></span><span class="pl__title">(转)为什么你写不好一个快速排序? 谈程序员的职业发展</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-08-31-Learning-the-open-source.html"><span class="pl__circle"></span><span class="pl__title">(转)如何学习开源项目</span><span class="pl__date">2018-08-31</span></a> -->
+      <a class="技术 pl__all" href="/2018-08-31-Learning-the-open-source.html"><span class="pl__circle"></span><span class="pl__title">(转)如何学习开源项目</span></a>
+    
+      <!-- <a class="技术 pl__all" href="/2018-08-30-Ubuntu-set-up-sublime.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu调教日记之Sublime Text3</span><span class="pl__date">2018-08-30</span></a> -->
+      <a class="技术 pl__all" href="/2018-08-30-Ubuntu-set-up-sublime.html"><span class="pl__circle"></span><span class="pl__title">Ubuntu调教日记之Sublime Text3</span></a>
+    
+    </nav>
+  </div> <!-- end #posts-list -->
+</aside> <!-- end #sidebar -->
+
+    <div id="post">
+      <div id="pjax">
+        <article id="post__content">
+    <h1 id="post__title" data-identifier="20180924">linux命令笔记(长期更新)</h1>
+    <div id="post__date">2018-09-24</div>
+    <declare id="declare" class="declare">
+      <hr/> 本博客所有文章采用的授权方式为
+        <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">
+          <b>自由转载-非商用-非衍生-保持署名</b>
+        </a>
+      ，转载请务必注明出处，谢谢。<br /><br />
+      声明：<br />本博客欢迎转发，但请保留原作者信息!<br />
+      Qznoe：<a href="https://user.qzone.qq.com/2434929041/">阿川的个人空间</a><br />
+      博客：<a href="https://achuan.io/">阿川的个人博客</a><br />
+      邮箱：<a href="mailto:achuan@achuan.io">achuan@achuan.io</a>
+      <br />内容系本人学习、研究和总结，如有雷同，实属荣幸！
+      <hr/>
+    </declare>
+    <p> 今天在写一些刚最近学到<a href="https://zh.wikipedia.org/zh/Linux">linux</a>命令，看到笔记本上记得有点乱重写整理了一下。接触了linux也有近大半年了，越来越离不开它了，windows也是偶尔开一下虚拟机，接触linux这段时间也是受益匪浅，使用windows的时候虽然控制的住网瘾，但是偶尔也想打一把，自从独装了linux直接一棒子打死…挺好的…我也非常喜欢linux命令，它提升了我一些单词量。还让我接触了开源的概念、它的历史,这些我都非常喜欢。   咳咳，关于开源过几天再说吧，进入正题，这些是记的笔记，linux命令虽多，但每个人玩linux的目的固然不同，常用的命令也有差异，当然你也用到它时Google一下。
+<br /></p>
+
+<h2 id="cd">cd</h2>
+<ul>
+  <li>
+    <p>切换目录，可以是绝对路径，也可以是相对路径</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  cd /home/achuan   //切换到目录/achuan/achuan
+  cd ./achuan       //切换到当前目录下的achuan目录中，“.”表示当前目录  
+  cd ../achuan      //切换到上层目录中的chuan目录中，“..”表示上一层目录
+  cd ~              //切换到home
+  cd ../..          //切换到目录的上两级
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="ls">ls</h2>
+<ul>
+  <li>
+    <p>查看目录与文件，list之意</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -l  //列出长数据串，包含文件的属性与权限数据等
+  -a  //列出全部的文件，连同隐藏文件（开头为.的文件）一起列出来（常用）
+  -d  //仅列出目录本身，而不是列出目录的文件数据
+  -h  //将文件容量以较易读的方式（GB，kB等）列出来
+  -R  //连同子目录的内容一起列出（递归列出），等于该目录下的所有文件都会显示出来
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>注：这些参数也可以组合使用，下面举两个例子：</p>
+
+<h2 id="grep">grep</h2>
+<ul>
+  <li>
+    <p>强大的文本搜索命令，它能使用正则表达式搜索</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -a   //将binary文件以text文件的方式查找数据
+  -c   //计算找到‘查找字符串’的次数
+  -i   //忽略大小写的区别，即把大小写视为相同
+  -v   //反向选择，即显示出没有‘查找字符串’内容的那一行
+  # 例如：
+     //取出文件/etc/man.config中包含MANPATH的行，并把找到的关键字加上颜色
+  grep --color=auto 'MANPATH' /etc/man.config
+     //把ls -l的输出中包含字母file（不区分大小写）的内容输出
+  ls -l | grep -i file
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="find">find</h2>
+<ul>
+  <li>
+    <p>基于查找文件命令，相对而言，使用复杂，参数多<br />
+  # 与参数有关</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -mtime n   //n为数字，意思为在n天之前的“一天内”被更改过的文件；
+  -mtime +n   //列出在n天之前（不含n天本身）被更改过的文件名；
+  -mtime -n   //列出在n天之内（含n天本身）被更改过的文件名；
+  -newer file   //列出比file还要新的文件名
+  # 例如：
+  find /root -mtime 0 # 在当前目录下查找今天之内有改动的文件
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>   # 与用户或用户组名有关的参数</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    -user name   //列出文件所有者为name的文件
+    -group name   //列出文件所属用户组为name的文件
+    -uid n   //列出文件所有者为用户ID为n的文件
+    -gid n   //列出文件所属用户组为用户组ID为n的文件
+</code></pre></div></div>
+
+<p>   # 与文件权限及名称有关的参数：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    -name filename   //找出文件名为filename的文件
+    -size [+-]SIZ   //找出比SIZE还要大（+）或小（-）的文件
+    -tpye TYPE   //查找文件的类型为TYPE的文件，TYPE的值主要有：一般文件（f)、设备文件（b---术、c）、
+                   目录（d）、连接文件（l）、socket（s）、FIFO管道文件（p）；class phone{
+</code></pre></div></div>
+
+<h2 id="cp">cp</h2>
+<ul>
+  <li>
+    <p>用于复制文件，还可以把多个文件一次性复制到一个目录下</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -a   //将文件的特性一起复制
+  -p   //连同文件的属性一起复制，而非使用默认方式，与-a相似（常用于备份）
+  -i   //若目标文件已经存在时，在覆盖时会先询问操作的进行
+  -r   //递归持续复制，用于目录的复制行为
+  -u   //目标文件与源文件有差异时才会复制
+  # 例如：
+  cp -a aa aab   //连同文件的所有特性把文件aa复制成文件aab
+  cp aa aab aabb achuan   //把文件aa、aab、aabb复制到目录achuan中
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="mv">mv</h2>
+<ul>
+  <li>
+    <p>用于移动文件、目录或更名，move之意</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -f   //force强制的意思，如果目标文件已经存在，不会询问而直接覆盖
+  -i   //若目标文件已经存在，就会询问是否覆盖
+  -u   //若目标文件已经存在，且比目标文件新，才会更新
+  注：该命令可以把一个文件或多个文件一次移动一个文件夹中，但是最后一个目标文件一定要是“目录”。
+  # 例如：
+  mv aa aab aabb achuan   //把文件aa、aab、aabb移动到目录achuan中
+  mv aa aab   //把文件aa重命名为aab
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="rm">rm</h2>
+<ul>
+  <li>
+    <p>用于删除文件或目录，remove之间（数据无价，操作需谨慎！！！）</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -f   //就是force的意思，忽略不存在的文件，不会出现警告消息
+  -i   //互动模式，在删除前会询问用户是否操作
+  -r   //递归删除，最常用于目录删除，它是一个非常危险的参数
+  # 例如：
+  rm -i achuan   //删除文件achuan，在删除之前会询问是否进行该操作
+  rm -fr achuan  //强制删除目录achuan中的所有文件
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="ps">ps</h2>
+<ul>
+  <li>
+    <p>用于某个时间点的进程运行情况选取下来并输出，process之意</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -A   //所有的进程均显示出来
+  -a   //不与terminal有关的所有进程
+  -u   //有效用户的相关进程
+  -x   //一般与a参数一起使用，可列出较完整的信息
+  -l   //较长，较详细地将PID的信息列出
+    
+  用到不多，记住一般使用命令参数搭配即可 # 例如：
+  ps aux   //查看系统所有的进程数据
+  ps ax   //查看不与terminal有关的所有进程
+  ps -lA   //查看系统所有的进程数据
+  ps axjf   //查看连同一部分进程树状态
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="kill">kill</h2>
+<ul>
+  <li>
+    <p>用于向某个工作或者是某个PID（数字）传送一个信号，它通常与ps和jobs命令一起使用，# 例如：</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  kill -signal PID
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>signal的常用参数如下：<br />
+注：最前面的数字为信号的代号，使用时可以用代号代替相应的信号。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    1：SIGHUP   //启动被终止的进程
+    2：SIGINT   //相当于输入ctrl+c，中断一个程序的进行
+    9：SIGKILL   //强制中断一个进程的进行
+    15：SIGTERM   //以正常的结束进程方式来终止进程
+    17：SIGSTOP   //相当于输入ctrl+z，暂停一个进程的进行
+    # 例如：
+       //以正常的结束进程方式来终于第一个后台工作，可用jobs命令查看后台中的第一个工作进程
+    kill -SIGTERM %1 
+       //重新改动进程ID为PID的进程，PID可用ps命令通过管道命令加上grep命令进行筛选获得
+    kill -SIGHUP PID
+</code></pre></div></div>
+
+<h2 id="file">file</h2>
+<ul>
+  <li>
+    <p>用于判断file命令后的文件的基本数据，因为在linux下文件的类型并不是以后缀分的，这个命令显得非常有用，语法so easy</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  file filename
+  # 例如：
+  file ./test
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="tar">tar</h2>
+<ul>
+  <li>
+    <p>命令用于对文件进行打包，默认情况并不会压缩，如果指定相应的参数，还会调用相应的压缩程序（gzip和bzip等）进行压缩和解压</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -c   //新建打包文件
+  -t   //查看打包文件的内容含有哪些文件名
+  -x   //解打包或解压缩的功能，可以搭配-C（大写）指定解压的目录，注意-c,-t,-x不能同时出现在同一条命令中
+  -j   //通过bzip2的支持进行压缩/解压缩
+  -z   //通过gzip的支持进行压缩/解压缩
+  -v   //在压缩/解压缩过程中，将正在处理的文件名显示出来
+  -f filename   //filename为要处理的文件
+  -C achuan   //指定压缩/解压缩的目录achuan
+
+  命令有点多哈，但是通常我们只需要记住下面三条命令即可：
+  压缩：tar -jcv -f filename.tar.bz2 要被处理的文件或目录名称
+  查询：tar -jtv -f filename.tar.bz2
+  解压：tar -jxv -f filename.tar.bz2 -C 欲解压缩的目录
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="chgrp">chgrp</h2>
+<ul>
+  <li>
+    <p>用于改变文件所属用户组</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  chgrp [-R] dirname/filename
+  -R   //进行递归的持续对所有文件和子目录更改
+  # 例如：
+  chgrp users -R ./achuan   //递归地把achuan目录下中的所有文件和子目录下所有文件的用户组修改为users
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="chmod">chmod</h2>
+<ul>
+  <li>
+    <p>用于改变文件或目录的权限，非常重要的命令</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -c   //当发生改变时，报告处理信息
+  -f   //错误信息不输出
+  -R  //进行递归的持续对所有文件和子目录更改
+  -v  //运行时显示详细处
+  4或r   //读取权限
+  2或w   //写入权限
+  1或x   //执行或切换权限
+  0或-   //不具任何权限
+  s     //特殊权限
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>注：该命令有两种用法，包含字母和操作符表达式的文字设定法；另一种是包含数字的数字设定法，在此我只说数字设定法。</p>
+<ul>
+  <li>
+    <p>说数字设定法
+0没有权限，1执行权限，2写权限，4读权限，然后将其相加。所以数字属性的格式应为3个从0到7的八进制数</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # 例如：  
+  如果想让某个文件的属主有“读/写”二种权限，需要把4（可读）+2（可写）＝6（读/写）。
+
+
+  chmod 777 -R achuan   //"achuan"文件或目录
+  -R   //进行递归的持续更改，即连同子目录下的所有文件都会更改
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="vim">vim</h2>
+<ul>
+  <li>vim命令要用于文本编辑，相比vim的话题不亚于，哪个编程语言更好…不过编辑器，在我看来不过是用哪个会提高我的工作效率，这因人而异。vim里面有很多好用的命令，以后我会单独说它。</li>
+</ul>
+
+<h2 id="gcc">gcc</h2>
+<ul>
+  <li>
+    <p>前段时间学了点C才了解的，它主要用于编译，对于开发C语言的人来说，这是非常重要的命令</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -o   //output之意，用于指定生成一个可执行文件的文件名
+  -c   //用于把源文件生成目标文件（.o)，并阻止编译器创建一个完整的程序
+  -I   //增加编译时搜索头文件的路径
+  -L   //增加编译时搜索静态连接库的路径
+  -S   //把源文件生成汇编代码文件
+  -lm   //表示标准库的目录中名为libm.a的函数库
+  -lpthread   //连接NPTL实现的线程库
+  -std=   //用于指定把使用的C语言的版本
+
+  # 例如：
+     //把源文件demo1.c按照c99标准编译成可执行程序demo1
+  gcc -o demo1 demo1.c -lm -std=c99
+     //把源文件demo1.c转换为相应的汇编程序源文件demo1.s
+  gcc -S demo1.c
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="shutdown">shutdown</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*关机、重启命令，经常使用的命令
+
+    -r   //重启
+    -n   //杀死所有运行中的程序后自动关机
+    -f   //关机时，不进行磁盘检测
+    -f   //关机时，进行磁盘检测
+    -c   //取消目前已经进行中的关机动作
+    # 例如：
+    shutdown -r now   //立即重启
+    shutdown now   //立即关机
+    shutdown +5 now  //5分钟后关机
+</code></pre></div></div>
+
+<p>init是所有进程的祖先，它们的进程号始为1.所以发送TERM信号给init会终止所有的用户进程，守护进程等，shutdown就是使用这种机制，init定义了8个运行级别（runleve），inti 0 关机，init 1 重启……关于init就到这了。就不长篇大论了。</p>
+
+<p>暂且到这里，欲知后续如何，请看下回分解<img src="../images/2018-09-24-linux-command/run.gif" alt="Alt text" title="跑" />。</p>
+
+<h1 id="2019-2-15-更新">2019-2-15 更新</h1>
+<p> </p>
+<h2 id="scp">scp</h2>
+<ul>
+  <li>
+    <p>多用于系统文件之间的复制,scp 是 secure copy 的缩写,中文就是”安全复制”,<br />
+scp是linux系统下基于ssh协议进行的远程文件</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  -1   强制scp命令使用协议ssh1
+  -2   强制scp命令使用协议ssh2
+  -4   强制scp命令只使用IPv4寻址
+  -6   强制scp命令只使用IPv6寻址
+  -B   使用批处理模式（传输过程中不询问传输口令或短语）
+  -C   允许压缩（将-C标志传递给ssh，从而打开压缩功能）
+  -p   保留原文件的修改时间，访问时间和访问权限
+  -q   不显示传输进度条
+  -r   递归复制整个目录
+  -v   详细方式显示输出。scp和ssh(1)会显示出整个过程的调试信息。这些信息用于调试连接，验证和配置问题
+  -o   ssh_option：如果习惯于使用ssh_config(5)中的参数传递方式
+  -P   port：注意是大写的P,port是指定数据传输用到的端口号
+  # 例如:
+  # windows传输到linux,
+  [参数][文件][用户名][ip][地址]
+  scp -r - demo.text ubuntu@139.199.105.72:/var/www
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+
+</article>
+<!-- end #post__content -->
+
+<h2 id="post__discuss">文章赞赏</h2>
+<img src="./assets/image/like.png" alt="赞赏码" class="image-center">
+
+<h2 id="post__discuss">文章评论</h2>
+<div id="comment"></div>
+
+<script>
+  $(document).ready(function(){
+      var disq = new iDisqus('comment', {
+        forum: 'https-achuan-io',
+        api: 'https://api.achuan.io',
+        site: 'https://achuan.io',
+        mode: 1,
+        timeout: 3000,
+        init: true,
+      });
+  });
+</script>
+<div id="post__share">
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=achuanya.github.io/2018-09-24-linux-command.html&title=linux命令笔记(长期更新)&pics=https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/avatar.jpg" target="_blank"></a>
+  <a id="icon-qzone" class="fontello" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=www.achuan.io/2018-09-24-linux-command.html&title=linux命令笔记(长期更新)&pics=https://raw.githubusercontent.com/achuanya/achuanya.github.io/master/assets/image/avatar.jpg" target="_blank"></a>
+                                      <!-- href="https://twitter.com/intent/tweet?url=http://localhost:4000/2018-09-24-linux-command.html&text=linux命令笔记(长期更新)" 接口 -->
+                                      <!-- http://localhost:4000 博客首页 -->
+  <p class="share-info">分享到</p>
+</div>
+<!-- end #post__share
+
+<a href="https://achuanya.github.iohttp://localhost:4000/2018-09-24-linux-command.html"></a>
+-->
+
+
+        </br>
+        <hr align="center" width="100%" color="#F1F1F1" size="3"></hr>
+        <p id="copyright">
+  © 2018 - 2019 & <a href="http://pages.github.com">Github Pages</a> & <a href="http://jekyllrb.com">Jekyll</a> & <a href="https://disqus.com/">Disqus</a>
+  </br>
+  <center>
+      <p>
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/" data-size="large" data-show-count="true" aria-label="Follow @ntkme on GitHub">Follow @achuanya</a>
+        &nbsp;&nbsp;
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/achuanya.github.io/subscription/" data-size="large" data-show-count="true" aria-label="Watch ntkme/github-buttons on GitHub">Watch</a>
+        &nbsp;&nbsp;
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/achuanya/achuanya.github.io/" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+      </p>
+    <h1>友情链接</h1>
+    <span id="copyright">
+      <a href="https://blog.fooleap.org" class="links" target="_blank" title="Fooleap's Blog" >Fooleap's Blog</a></br>
+      <a href="http://www.yangqq.com" class="links" target="_blank" title="杨 青 | 女程序员的个人博客">杨 青 | 女程序员的个人博客</a></br>
+      <a href="http://blog.tmaize.net" class="links" target="_blank" title="TMaize Blog">TMaize Blog</a></br>
+      <a href="https://ainyi.com" class="links" target="_blank" title="你的美好，我都记得">Krryblog - 你的美好，我都记得</a></br>
+      <a href="https://www.moidea.info/daohang.html" class="links" target="_blank" title="Typecho博客网址大全">Typecho博客网址大全</a>
+    </span>
+  </center>
+</p>
+
+      </div> <!-- end #pjax -->
+
+      <div id="post__toc-trigger">
+        <div id="post__toc">
+          <span id="post__toc-title">章节列表</span>
+          <ul id="post__toc-ul"></ul>
+        </div>
+      </div>
+    </div> <!-- end #post -->
+    <script src="/assets/js/jquery.js"></script>
+<script src="/assets/js/jquery.pjax.js"></script>
+<script src="/assets/js/nprogress.js"></script>
+<script src="/assets/js/searchbox.js"></script>
+<script src="/assets/js/script.js"></script>
+<script src="/assets/js/iDisqus.min.js"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="/assets/js/buttons.js"></script>
+
+   </body>
+ </html>
