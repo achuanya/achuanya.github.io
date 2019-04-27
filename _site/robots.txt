@@ -1,1 +1,0 @@
-<attachment contenteditable="false" data-atts="%5B%5D" data-aid=".atts-0f3416cf-18ed-414e-956a-6158026069de"></attachment><p># robots.txt generated at http://tool.chinaz.com/robots/ User-agent: * Disallow: Disallow: /bin/ Sitemap: http://www.achuan.io/sitemap.xml</p><p><br></p>
