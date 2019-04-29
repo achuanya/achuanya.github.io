@@ -5,6 +5,8 @@
 <!-- <title>{{ page.title }} | {{ site.title }}</title> -->
 <title>{{ page.title }}</title>
 <meta name="baidu-site-verification" content="rV13eEAUHL" />
+
+
 <meta name="title" content="{{ page.title }}">
 {% if page.author %}
   <meta name="author" content="{{ page.author }}">
@@ -33,4 +35,3 @@
 {% include css.html %}
 
 <link href="/pages/rss.xml" rel="alternate" title="{{site.title}}" type="application/atom+xml">
-*/2 * * * * cd ~/achuanya.github.io/; git pull >> /tmp/github_blog_pull_record.log 2>&1;
