@@ -1,8 +1,8 @@
 ---
 comments: true
 layout: post
-title: Jekyll环境搭建（windows10）
-description: Jekyll环境搭建（windows10）
+title: Jekyll环境搭建(Windows 10)
+description: Jekyll环境搭建(Windows 10)
 category: 技术
 ---
 

@@ -1,8 +1,8 @@
 ---
 comments: true
 layout: post
-title: 面向对象(Object Oriented)学习笔记（一）
-description: 面向对象(Object Oriented)学习笔记（一）
+title: 面向对象(Object Oriented)学习笔记(一)
+description: 面向对象(Object Oriented)学习笔记(一)
 category: 技术
 ---
 
