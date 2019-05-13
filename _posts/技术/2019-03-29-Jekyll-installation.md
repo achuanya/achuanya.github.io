@@ -16,10 +16,10 @@ category: 技术
 ## 安装Ruby
 &emsp;因为Jekyll是基于ruby开发的，首先下载安装ruby，我不推荐下载Ruby2.3以上的版本，不知道怎么回事2.4、2.5、2.6我都试过感觉他们跟自带BUG似的，总是出现一堆莫名其妙的问题。  
 ruby官网下载地址（下载速度奇慢）
- * 官网链接：https://rubyinstaller.org/downloads/
+ * 官网链接：https://rubyinstaller.org/downloads?achuan.io
 
 我用的ruby 2.3.3这里给大家发出来微云的链接
- * 微云链接：https://share.weiyun.com/5vv4fjt
+ * 微云链接：https://share.weiyun.com/5vv4fjt?achuan.io
  * 微云密码：achuan
 
 再次声明一下，这里我用的是ruby 2.3.3，其他版本我并不保证。
@@ -58,7 +58,7 @@ ruby官网下载地址（下载速度奇慢）
 
 ## DevKit的安装与配置
 &emsp;这里我用的是DevKit 64-4.7.2，这里依然提供微云存储
- * 微云链接：https://share.weiyun.com/5sROg49
+ * 微云链接：https://share.weiyun.com/5sROg49?achuan.io
  * 微云密码：achuan
  1. 双击DevKit应用程序，运行它解压到你想要的位置，尽量url短一点因为等会要用到比如；C:DevKit  
 
