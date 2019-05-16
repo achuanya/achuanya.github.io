@@ -31,7 +31,7 @@ favicon: /assets/image/favicon.ico
 author:
   name: Hong-hai zhang
   email: achuan@achuan.io
-  link: https://www.achuan.io
+  link: https://achuan.io
   Qzone: https://user.qzone.qq.com/2434929041
   github: https://github.com/achuanya
   github_username: achuanya
@@ -57,7 +57,7 @@ image: /assets/image/
 # Rss
 name: 阿川的个人博客
 description: 执着于理想，纯粹于当下
-url: https://achuan.io/
+url: https://achuan.io
 
 # Disqus设置
 disqus: 
