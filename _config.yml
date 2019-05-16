@@ -35,6 +35,9 @@ author:
   Qzone: https://user.qzone.qq.com/2434929041
   github: https://github.com/achuanya
   github_username: achuanya
+  github_repositories: https://github.com/achuanya/achuanya.github.io
+  github_subscription: https://github.com/achuanya/achuanya.github.io/subscription
+
 
 locals:
   tags: 标签
