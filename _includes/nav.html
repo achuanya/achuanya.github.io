@@ -1,7 +1,9 @@
 <aside id="sidebar">
   <nav id="tags">
-    <a href="https://achuan.io" id="avatar" style="background-image:url( {{site.avatar}} )"></a>
+    <!--头像-->
+    <a href="{{ site.author.link}}}" id="avatar" style="background-image:url( {{site.avatar}} )"></a>
 
+    <!--栏目分类-->
     <ul id="tags__ul">
       <li id="pl__all" class="tags__li tags-btn active">所有文章</li>
       {% for category in site.categories %}
@@ -9,25 +11,28 @@
       {% endfor %}
     </ul>
 
+    <!--Github - Rss - 邮箱-->
     <div id="tags__bottom">
       <a href="{{ site.author.github }}" id="icon-github" class="tags-btn fontello" target="_blank"></a>
       <a href="/pages/rss.xml" id="icon-feed" class="tags-btn fontello" target="_blank"></a>
       <a href="mailto:{{ site.author.email }}" id="icon-email" class="tags-btn fontello"></a>
     </div>
   </nav>
-  <!-- end #tags -->
+
+  <!--搜索-->
   <div id="posts-list">
     <form action="" id="search-form">
-      <a href="/index.html" id="mobile-avatar" style="background-image:url( {{site.avatar}} )"></a>
+      <a href="{{ site.author.link }}}" id="mobile-avatar" style="background-image:url( {{ site.avatar }} )"></a>
       <!-- NOTE: input field is disabled by default -->
       <input id="search-input" type="text" placeholder="站内搜索..." >
     </form>
 
+    <!--文章列表-->
     <nav id="pl__container">
     {% for post in site.posts %}
       <!-- <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><span class="pl__date">{{ post.date | date: "%Y-%m-%d" }}</span></a> -->
       <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span></a>
     {% endfor %}
     </nav>
-  </div> <!-- end #posts-list -->
-</aside> <!-- end #sidebar -->
+  </div>
+</aside>
