@@ -1,5 +1,5 @@
 # [Hi everyone, and welcome to my blog!][1]
-[1]: https://achuan.io
+[1]: {{ site.author.link }}
 
 ## 博客目录
     achuanya.github.io   Jekyll博客根目录
