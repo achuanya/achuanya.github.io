@@ -12,9 +12,8 @@ layout: default
         </a>
       ，转载请务必注明出处，谢谢。<br /><br />
       声明：<br />本博客欢迎转发，但请保留原作者信息!<br />
-      Qznoe：<a href="https://user.qzone.qq.com/2434929041/">阿川的个人空间</a><br />
-      博客：<a href="https://achuan.io/">阿川的个人博客</a><br />
-      邮箱：<a href="mailto:achuan@achuan.io">achuan@achuan.io</a>
+      博客：<a href="{{ site.author.link }}">{{ site.title }}</a><br />
+      邮箱：<a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
       <br />内容系本人学习、研究和总结，如有雷同，实属荣幸！
       <hr/>
     </declare>
@@ -23,7 +22,7 @@ layout: default
 <!-- end #post__content -->
 
 <h2 id="post__discuss">文章赞赏</h2>
-<img src="./assets/image/like.png" alt="赞赏码" class="image-center">
+<img src="{{ site.images }}like.png" alt="赞赏码" class="image-center">
 
 <h2 id="post__discuss">文章评论</h2>
 {% include disqus.html %}

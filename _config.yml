@@ -25,7 +25,7 @@ kramdown:
 #博文的链接样式
 permalink: /:year-:month-:day-:title.html
 
-favicon: /assets/image/favicon.ico
+favicon: /assets/images/favicon.ico
 
 # 博客作者相关
 author:
@@ -46,7 +46,7 @@ locals:
 subscribe_rss: /pages/atom.xml
 
 # 头像
-avatar: /assets/image/avatar.jpg
+avatar: /assets/images/avatar.jpg
 
 # 网站CSS路径
 css: /assets/css/
@@ -55,7 +55,10 @@ css: /assets/css/
 js: /assets/js/
 
 # 网站图片路径
-image: /assets/image/
+images: /assets/images/
+
+# 文章图片
+article: /assets/article/
 
 # Rss
 name: 阿川的个人博客

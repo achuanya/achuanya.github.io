@@ -27,7 +27,7 @@ OOP达到了软件工程的三个目标
 
 ## 五. 类与对象的关系
 这个我表达能力不太好哈...这样说吧，类就好比工厂车间的模具，而对象就是模具所产生的事物，一个模具是可以产生很多对象!
-也就是说对象是类的实例化[Alt text](../images/2018-09-24-linux-command/comical.gif "滑稽")
+也就是说对象是类的实例化[Alt text]({{ site.article }}2018-09-23-Object_oriented/comical.gif "滑稽")
 
 ## 六. 类的声明与对象的创建及使用
 好了我们来了解一下怎么找对象，...不..创建对象..  
@@ -100,7 +100,7 @@ $对象名 -> 成员方法(参数);&emsp;&emsp;&emsp;&emsp;//调用对象的方�
 
         ?>
 
-呼～ 第一章写完了，我也是近期刚学OOP，可能哪个方面写的并不是很好 嘿嘿，如有写的不足之处，还请您在下方留言![Alt text](../images/2018-09-23-Object_oriented/fuels.gif "抱拳")。
+呼～ 第一章写完了，我也是近期刚学OOP，可能哪个方面写的并不是很好 嘿嘿，如有写的不足之处，还请您在下方留言![Alt text]({{ site.article }}2018-09-23-Object_oriented/fuels.gif "抱拳")。
 
 
 [1]: https://zh.wikipedia.org/wiki/Simula

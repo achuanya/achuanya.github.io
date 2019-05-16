@@ -2,9 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00ad45b9-2504-44cb-871d-94ccd12bf605" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/copyright.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/copyright.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/share.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/share.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2018-08-30-Ubuntu-set-up-sublime.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2018-08-30-Ubuntu-set-up-sublime.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2018-08-31-Learning-the-open-source.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2018-08-31-Learning-the-open-source.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2018-09-03-Markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2018-09-03-Markdown.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2018-09-23-Object_oriented.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2018-09-23-Object_oriented.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2018-09-24-linux-command.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2018-09-24-linux-command.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2018-10-14-git.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2018-10-14-git.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2018-10-25-ubuntu-lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2018-10-25-ubuntu-lock.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2018-11-08-Ubuntu-Deployment.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2018-11-08-Ubuntu-Deployment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2019-02-22-redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2019-02-22-redis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2019-02-28-interview.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2019-02-28-interview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2019-02-28-tp5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2019-02-28-tp5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2019-03-04-summarize.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2019-03-04-summarize.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2019-03-29-Jekyll-installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2019-03-29-Jekyll-installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2019-04-08-initialize-construct.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2019-04-08-initialize-construct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2019-04-15-apache-error.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2019-04-15-apache-error.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2019-04-17-it-site.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2019-04-17-it-site.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/技术/2019-05-06-ionic.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/技术/2019-05-06-ionic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/摄影/2019-04-20-2019-04-20-One-Single-Lens.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/生活/2018-08-31-Programmer-development.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/生活/2018-08-31-Programmer-development.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/生活/2018-10-21-domain-name.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/生活/2018-10-21-domain-name.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/生活/2018-10-24-theory-of-means.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/生活/2018-10-24-theory-of-means.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/生活/2018-12-31-2018.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/生活/2018-12-31-2018.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/生活/2019-02-23-insist.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/生活/2019-02-23-insist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/生活/2019-02-25-unicom.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/生活/2019-02-25-unicom.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/生活/2019-03-26-thoughts.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/生活/2019-03-26-thoughts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image/404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image/Micro letter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image/like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-08-30-Ubuntu-set-up-sublime/sublime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-09-23-Object_oriented/fuels.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-09-24-linux-command/comical.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-09-24-linux-command/run.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-10-14-git/flow chart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-10-14-git/rename.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-10-14-git/terminology.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-10-24-theory-of-means/theory-of-maens.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-10-25-ubuntu-lock/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-10-25-ubuntu-lock/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-10-25-ubuntu-lock/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-11-08-Ubuntu-Deployment/phpinfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-11-26-Increasing-decline/Increasing-decline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018-12-31-2018/bainian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-02-25-unicom/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-02-25-unicom/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-02-25-unicom/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-02-25-unicom/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-02-25-unicom/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-04-20-One-Single-Lens/All the items.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-04-20-One-Single-Lens/Place the sample.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-04-20-One-Single-Lens/The lens.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-04-20-One-Single-Lens/electricity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-04-20-One-Single-Lens/install.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-04-20-One-Single-Lens/sealing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index/cheer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index/head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,68 +78,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="37" selection-start-line="4" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/copyright.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/share.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="764" column="39" lean-forward="true" selection-start-line="764" selection-start-column="39" selection-end-line="764" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#nav#0;n#aside#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#aside#0;n#!!top" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="539">
+                <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="168">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -88,9 +105,26 @@
       <find>github</find>
       <find>center</find>
       <find>index.html</find>
-      <find>copyright</find>
       <find>description</find>
+      <find>post</find>
+      <find>copyright</find>
+      <find>avatar.jpg</find>
+      <find>site.image</find>
+      <find>Micro letter.png</find>
+      <find>../images</find>
+      <find>赞赏码</find>
+      <find>[Alt text]</find>
+      <find>like.png</find>
+      <find>site.images</find>
+      <find>头像</find>
+      <find>./assets/article/</find>
+      <find>avatar</find>
+      <find>../images/</find>
     </findStrings>
+    <replaceStrings>
+      <replace>./assets/article</replace>
+      <replace>{{ site.article }}</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,20 +134,35 @@
       <list>
         <option value="$PROJECT_DIR$/_posts/技术/2019-02-28-interview.md" />
         <option value="$PROJECT_DIR$/ie.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_includes/scripts.html" />
-        <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_includes/copyright.html" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/_includes/share.html" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/index.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2018-08-30-Ubuntu-set-up-sublime.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2018-09-23-Object_oriented.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2018-09-24-linux-command.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2018-10-14-git.md" />
+        <option value="$PROJECT_DIR$/_posts/生活/2018-10-24-theory-of-means.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2018-10-25-ubuntu-lock.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2018-11-08-Ubuntu-Deployment.md" />
+        <option value="$PROJECT_DIR$/_posts/生活/2018-12-31-2018.md" />
+        <option value="$PROJECT_DIR$/_posts/生活/2019-02-25-unicom.md" />
+        <option value="$PROJECT_DIR$/_posts/摄影/2019-04-20-One-Single-Lens.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="x" value="757" />
+    <option name="y" value="141" />
+    <option name="width" value="1187" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -155,11 +204,6 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="achuanya.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="achuanya.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -171,6 +215,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../disqus-php-api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,18 +243,18 @@
       <workItem from="1557107061070" duration="49000" />
       <workItem from="1557881557862" duration="117000" />
       <workItem from="1557903000284" duration="2220000" />
-      <workItem from="1557971389262" duration="2615000" />
+      <workItem from="1557971389262" duration="14956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5176000" />
+    <option name="totallyTimeSpent" value="17517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20040214" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23659517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -229,27 +274,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19785379" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -282,44 +306,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="231">
-            <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/forum.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="21">
-            <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -333,16 +323,6 @@
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="37" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/css.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -350,34 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/share.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/copyright.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -391,6 +343,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../acphp/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="21">
+            <caret line="7" selection-start-line="7" selection-end-line="30" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -398,21 +367,202 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/copyright.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="25" column="24" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/forum.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/share.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="2" column="113" lean-forward="true" selection-start-line="2" selection-start-column="113" selection-end-line="2" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="539">
+            <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="63">
+          <caret line="3" column="77" lean-forward="true" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="96" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#nav#0;n#aside#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#aside#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/2019-04-08-initialize-construct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="52" column="73" lean-forward="true" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="257">
+          <caret line="36" column="27" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2018-08-30-Ubuntu-set-up-sublime.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="268">
+            <caret line="208" column="21" lean-forward="true" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2018-09-23-Object_oriented.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="201">
+            <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2018-09-24-linux-command.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="159">
+            <caret line="228" column="135" lean-forward="true" selection-start-line="228" selection-start-column="135" selection-end-line="228" selection-end-column="135" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2018-10-14-git.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3208">
+            <caret line="256" lean-forward="true" selection-start-line="256" selection-end-line="256" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/生活/2018-10-24-theory-of-means.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2018-10-25-ubuntu-lock.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="231">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2018-11-08-Ubuntu-Deployment.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2084">
+            <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/生活/2018-12-31-2018.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="8" column="85" lean-forward="true" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/生活/2019-02-25-unicom.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="201">
+            <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/摄影/2019-04-20-One-Single-Lens.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="10" column="246" selection-start-line="10" selection-start-column="246" selection-end-line="10" selection-end-column="246" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
