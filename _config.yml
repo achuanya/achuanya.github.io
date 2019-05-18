@@ -1,3 +1,7 @@
+encoding: utf-8
+port: 4001
+host: 127.0.0.1
+
 # Site settings
 title: 阿川的个人博客
 email: achuan@achuan.io
@@ -5,16 +9,10 @@ description: > #阿川的个人博客
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://achuan.io" # the base hostname & protocol for your site
 
-# Paginate（分页）
-#gems: [jekyll-paginate]
-# 分页时每页博文数量
-#paginate: 10
-#paginate_path: "page:num"
-
-
 # Build settings
 # 语法高亮
 highlighter: rouge
+
 # markdown解释器
 markdown: kramdown
 kramdown:
@@ -24,8 +22,6 @@ kramdown:
 #relative_permalinks:true
 #博文的链接样式
 permalink: /:year-:month-:day-:title.html
-
-favicon: /assets/images/favicon.ico
 
 # 博客作者相关
 author:
@@ -38,23 +34,18 @@ author:
   github_repositories: https://github.com/achuanya/achuanya.github.io
   github_subscription: https://github.com/achuanya/achuanya.github.io/subscription
 
-
 locals:
   tags: 标签
   about: 关于
   active: 技术
 subscribe_rss: /pages/atom.xml
 
-# 头像
+# 资源
+favicon: /assets/images/favicon.ico
 avatar: /assets/images/avatar.jpg
-
-# 网站CSS路径
 css: /assets/css/
-
-# 网站JS路径
 js: /assets/js/
-
-# 网站图片路径
+font: /assets/font/
 images: /assets/images/
 
 # 文章图片
