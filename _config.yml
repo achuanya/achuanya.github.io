@@ -47,8 +47,6 @@ css: /assets/css/
 js: /assets/js/
 font: /assets/font/
 images: /assets/images/
-
-# 文章图片
 article: /assets/article/
 
 # Rss
