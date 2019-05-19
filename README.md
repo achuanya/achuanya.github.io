@@ -17,7 +17,7 @@
     │
     ├─_layouts           文章布局目录
     │  ├─default.html    文章, 章节列表
-    │  ├─post.html       文章声明
+    │  ├─post.html       文章头部声明
     │
     ├─assets             静态资源目录
     │  ├─article         文章图片

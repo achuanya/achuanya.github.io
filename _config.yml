@@ -38,7 +38,7 @@ locals:
   tags: 标签
   about: 关于
   active: 技术
-subscribe_rss: /pages/atom.xml
+rss: /pages/rss.xml
 
 # 资源
 favicon: /assets/images/favicon.ico
