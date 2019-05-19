@@ -6,10 +6,10 @@ category: 生活
 description: (转)论胡编乱造的写作技巧
 ---
 
-本文转自廖雪峰的博客，[点击进入原文](https://www.liaoxuefeng.com/article/00146535933727317d2dbef5b5d4ac896f07ad36f5c3a2f000)
+本文转自廖雪峰的博客，[点击进入原文](https://www.liaoxuefeng.com/article/1087739344711968?achuan.io)
 
 ---
-![Alt text]({{ site.article }}2018-10-24-theory-of-means/theory-of-maens.jpeg "编，我看你编......")  
+![Alt text]({{ site.article }}2018-10-24-theory-of-means/theory-of-maens.jpeg?achuan.io "编，我看你编......")  
 今天给正在上小学二年级的女儿听写语文课文的词语时，发现有一篇课文讲的是爱迪生救妈妈的故事，大意就是爱迪生7岁那年，妈妈得了阑尾炎，医生在他家里准备给妈妈做手术，因为油灯的灯光太暗做不了，于是爱迪生想出了一个好办法：他找来很多镜子，把光聚在一起，让医生顺利地进行了手术。  
 
 这个故事的意义是说爱迪生从小聪明过人，肯动脑筋，不过我越读感觉这个故事越假，在家里做阑尾手术这医生胆子也够大的。于是本着实事求是的精神，上网考证了一番，发现这个故事漏洞百出。  

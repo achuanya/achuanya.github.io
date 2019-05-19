@@ -20,22 +20,22 @@ description: 更换了域名、邮箱并修复了移动端bug
 
 
 
-[1]: https://zh.wikipedia.org/wiki/GitHub
-[2]: https://zh.wikipedia.org/wiki/.com
-[3]: https://zh.wikipedia.org/wiki/.cn
-[4]: https://zh.wikipedia.org/wiki/.net
-[5]: https://zh.wikipedia.org/wiki/.me
-[6]: https://zh.wikipedia.org/wiki/.io
-[7]: https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%AE%B6%E5%9C%B0%E5%8D%80%E4%BB%A3%E7%A2%BC
-[8]: https://zh.wikipedia.org/wiki/%E5%8C%BA%E5%9D%97%E9%93%BE
-[9]: https://en.wikipedia.org/wiki/Dynadot
-[10]: https://www.dynadot.com/zh/domain/love.html
-[11]: https://zh.wikipedia.org/wiki/.io
-[12]: https://zh.wikipedia.org/wiki/.io
-[13]: https://zh.wikipedia.org/wiki/.io
-[14]: https://www.namecheap.com/
-[15]: https://zh.wikipedia.org/wiki/%E5%82%B3%E8%BC%B8%E5%B1%A4%E5%AE%89%E5%85%A8%E6%80%A7%E5%8D%94%E5%AE%9A
+[1]: https://zh.wikipedia.org/wiki/GitHub?achuan.io
+[2]: https://zh.wikipedia.org/wiki/.com?achuan.io
+[3]: https://zh.wikipedia.org/wiki/.cn?achuan.io
+[4]: https://zh.wikipedia.org/wiki/.net?achuan.io
+[5]: https://zh.wikipedia.org/wiki/.me?achuan.io
+[6]: https://zh.wikipedia.org/wiki/.io?achuan.io
+[7]: https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%AE%B6%E5%9C%B0%E5%8D%80%E4%BB%A3%E7%A2%BC?achuan.io
+[8]: https://zh.wikipedia.org/wiki/%E5%8C%BA%E5%9D%97%E9%93%BE?achuan.io
+[9]: https://en.wikipedia.org/wiki/Dynadot?achuan.io
+[10]: https://www.dynadot.com/zh/domain/love.html?achuan.io
+[11]: https://zh.wikipedia.org/wiki/.io?achuan.io
+[12]: https://zh.wikipedia.org/wiki/.io?achuan.io
+[13]: https://zh.wikipedia.org/wiki/.io?achuan.io
+[14]: https://www.namecheap.com?achuan.io
+[15]: https://zh.wikipedia.org/wiki/%E5%82%B3%E8%BC%B8%E5%B1%A4%E5%AE%89%E5%85%A8%E6%80%A7%E5%8D%94%E5%AE%9A?achuan.io
 [16]: https://zh.wikipedia.org/wiki/GoDaddy
-[17]: https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%A8%98%E9%8C%84%E9%A1%9E%E5%9E%8B%E5%88%97%E8%A1%A8
-[18]: http://ym.163.com/
-[19]: https://zh.wikipedia.org/wiki/MX%E8%AE%B0%E5%BD%95
+[17]: https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D%E4%BC%BA%E6%9C%8D%E5%99%A8%E8%A8%98%E9%8C%84%E9%A1%9E%E5%9E%8B%E5%88%97%E8%A1%A8?achuan.io
+[18]: http://ym.163.com?achuan.io
+[19]: https://zh.wikipedia.org/wiki/MX%E8%AE%B0%E5%BD%95?achuan.io
