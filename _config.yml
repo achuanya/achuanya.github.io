@@ -38,7 +38,6 @@ locals:
   tags: 标签
   about: 关于
   active: 技术
-rss: /pages/rss.xml
 
 # 资源
 favicon: /assets/images/favicon.ico
@@ -49,7 +48,13 @@ font: /assets/font/
 images: /assets/images/
 article: /assets/article/
 
-# Rss
+# 页面
+404: /pages/404.html
+ie: /pages/ie.xml
+rss: /pages/rss.xml
+test: /pages/test.html
+
+# 文章
 name: 阿川的个人博客
 description: 执着于理想，纯粹于当下
 url: https://achuan.io
