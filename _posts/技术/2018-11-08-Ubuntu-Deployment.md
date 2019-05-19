@@ -205,7 +205,7 @@ ubuntu serverd的php配置文件在 /etc/php/5.6/apache2/php.ini
 	# 找到 date.timezone 并赋值 PRC（中华人民共和国英文缩写） date.timezone = PRC
 
 输入我的公网ip查看一下  
-![Alt text]({{ site.article }}2018-11-08-Ubuntu-Deployment/phpinfo.png "php5.6安装成功！Cheers!") 
+![Alt text]({{ site.article }}2018-11-08-Ubuntu-Deployment/phpinfo.png?achuan.io "php5.6安装成功！Cheers!") 
 
 
 ## 安装mysql
@@ -321,5 +321,5 @@ ubuntu serverd的mysql配置文件在 /etc/mysql/mysql.conf.d/mysqld.cnf
 这次部署Ubuntu Server体会不少，我真是越来越喜欢linux了，它真是一个非常有魅力的系统！哈哈哈，到这里吧，太晚了要回寝室睡觉了--  
 本篇文章如有写的不足之处，还请您多多指教！88！
 
-[1]: http://linux.51yip.com/search/ssh
-[2]: https://zh.wikipedia.org/wiki/Apache_HTTP_Server
+[1]: http://linux.51yip.com/search/ssh?achuan.io
+[2]: https://zh.wikipedia.org/wiki/Apache_HTTP_Server?achuan.io

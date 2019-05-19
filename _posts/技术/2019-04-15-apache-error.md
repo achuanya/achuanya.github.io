@@ -29,4 +29,4 @@ category: 技术
 好了开个玩笑，如果您有什么解决不了问题您可以在下方留言大家可以讨论一下。
 
 
-[1]: https://www.google.com/
+[1]: https://www.google.com?achuan.io
