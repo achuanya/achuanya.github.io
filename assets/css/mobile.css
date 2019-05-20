@@ -23,7 +23,7 @@
         display: block;
         position: absolute;
         bottom: 0;
-        width: calc(100% - 49px);
+        width: calc(100% - 48px);
         height: 48px;
     }
     .mobile ul {
