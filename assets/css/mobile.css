@@ -88,10 +88,6 @@
         -o-transition: color .3s, background .3s;
         transition: color .3s, background .3s;
     }
-    .mobile_tags-btn:hover {
-        color: #f7f7f7;
-        background: #40464f;
-    }
 
     @media screen and (min-width: 1281px) {
         #icon-arrow-up.fullscreen {
