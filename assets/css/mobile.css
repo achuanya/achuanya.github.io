@@ -103,4 +103,35 @@
             transform: translateX(-585px);
         }
     }
+
+    .mobile_pl__all {
+        margin: 4px 12px;
+        padding: 4px 8px 3px;
+        border-radius: 4px;
+        display: block;
+    }
+    .mobile_pl__all:hover {
+        background: rgba(242, 242, 242, 0.5);
+    }
+    .mobile_pl__all:visited > .pl__circle {
+        background: #fafafa;
+    }
+    .mobile_pl__all:visited:hover > .pl__circle {
+        background: rgba(242, 242, 242, 0.5);
+    }
+    .mobile_pl__all.active {
+        color: #29a284;
+        background: rgba(242, 242, 242, 0.5);
+        box-shadow: -1px 1px rgba(229, 232, 236, 0.9);
+    }
+    .mobile_pl__all.active > .pl__circle {
+        background: rgba(242, 242, 242, 0.5);
+        border-color: #29a284;
+    }
+    @media screen and (max-width: 585px) {
+        .mobile_pl__all {
+            margin: 4px 0;
+            border-radius: 0;
+        }
+    }
 }

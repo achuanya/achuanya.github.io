@@ -23,7 +23,7 @@ var clickHandler = function(id) {
   return function() {
     $(this).addClass('active').siblings().removeClass('active');
     $('.pl__all').hide();
-    $('.mobile_pl__all').hide;
+    $('.mobile_pl__all').hide();
 
     $('.' + id).delay(50).fadeIn(350);
   }
@@ -82,7 +82,7 @@ $('#mobile-avatar').on('click', function(){
 });
 
 // Pjax
-$(document).pjax('#avatar, #mobile-avatar, .pl__all', 'mobile_pl__all', '#pjax', { fragment: '#pjax', timeout: 10000 });
+$(document).pjax('#avatar, #mobile-avatar, .pl__all', '.mobile_pl__all', '#pjax', { fragment: '#pjax', timeout: 10000 });
 
 $(document).on({
   'pjax:click': function() {
