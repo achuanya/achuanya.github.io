@@ -23,7 +23,7 @@ var clickHandler = function(id) {
   return function() {
     $(this).addClass('active').siblings().removeClass('active');
     $('.pl__all').hide();
-    $('.mobile_pl__all').hide();
+    // $('.mobile_pl__all').hide();
 
     $('.' + id).delay(50).fadeIn(350);
   }
@@ -33,9 +33,9 @@ $('#tags__ul li').each(function(index){
   $('#' + $(this).attr('id')).on('click', clickHandler($(this).attr('id')));
 });
 
-$('#mobile_tags__ul li').each(function(index){
-  $('#' + $(this).attr('id')).on('click', clickHandler($(this).attr('id')));
-});
+// $('#mobile_tags__ul li').each(function(index){
+//   $('#' + $(this).attr('id')).on('click', clickHandler($(this).attr('id')));
+// });
 
 // If sidebar has class 'mobile', hide it after clicking.
 $('.pl__all').on('click', function() {
@@ -45,12 +45,12 @@ $('.pl__all').on('click', function() {
   }
 });
 
-$('.mobile_pl__all').on('click', function() {
-  $(this).addClass('active').siblings().removeClass('active');
-  if (sidebar.hasClass('mobile')) {
-    $('#sidebar, #pjax, #icon-arrow').addClass('fullscreen');
-  }
-});
+// $('.mobile_pl__all').on('click', function() {
+//   $(this).addClass('active').siblings().removeClass('active');
+//   if (sidebar.hasClass('mobile')) {
+//     $('#sidebar, #pjax, #icon-arrow').addClass('fullscreen');
+//   }
+// });
 
 // Enable fullscreen.
 $('#js-fullscreen').on('click', function() {
@@ -82,7 +82,7 @@ $('#mobile-avatar').on('click', function(){
 });
 
 // Pjax
-$(document).pjax('#avatar, #mobile-avatar, .pl__all', '.mobile_pl__all', '#pjax', { fragment: '#pjax', timeout: 10000 });
+$(document).pjax('#avatar, #mobile-avatar, .pl__all', '#pjax', { fragment: '#pjax', timeout: 10000 });
 
 $(document).on({
   'pjax:click': function() {
