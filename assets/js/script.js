@@ -64,6 +64,10 @@ $('#scroll-top').on('click', function() {
   container.animate({
     scrollTop: 0
   }, 200);
+
+  $('#pl__container').animate({
+    scrollTop: 0
+  }, 500);
 });
 
 $('#mobile-avatar').on('click', function(){
