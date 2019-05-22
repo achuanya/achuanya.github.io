@@ -1,63 +1,47 @@
-@media screen and (min-width: 585px) {
-    .mobile {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 585px) {
     #tags {
-        display: none;
-    }
-    #sidebar {
-        display: inline-flex;
-    }
-
-    #tags__ul {
-        position: relative;
-        left: 50%;
-
-    }
-
-    .mobile {
+        display: contents;
         z-index: 99999;
         display: block;
         position: absolute;
         bottom: 0;
         width: calc(100% - 48px);
         height: 48px;
+        background: transparent;
+        border: 0;
     }
-    .mobile ul {
+
+    #avatar {
+        display: none;
+    }
+
+    #tags__ul {
         display: flex;
         justify-content: end;
         align-items: center;
         list-style: none;
         margin: 0;
         padding: 0;
+        background: transparent;
+        border: 0;
     }
 
-    .mobile .mobile_tags__li {
-        display: block;
-        -webkit-box-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-        padding: 13px 0;
+    #tags__bottom {
+        display: none;
+    }
+
+    .tags__li {
         text-align: center;
-        font-size: 15px;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        color: #000;
-        margin: 0;
-    }
-
-    .mobile_tags__li {
+        width: -webkit-fill-available;
+        line-height: 3;
         cursor: pointer;
         background-color: #e6e9ed;
-        /*margin: 0;*/
-        /*display: inline-block;*/
-        /*padding: 16px 40px;*/
-        /*text-decoration: none;*/
-        /*line-height: 100%;*/
+        border: 0;
+        padding: 0;
+        height: 48px;
     }
-    .mobile_tags__li.active {
+
+    .tags__li.active {
         margin-right: -1px;
         color: #2eb695;
         background: #fafafa;
@@ -67,12 +51,15 @@
         -ms-transition: none;
         -o-transition: none;
         transition: none;
+        border: 0;
     }
-    .mobile_tags__li.active:hover {
+
+    .tags__li.active:hover {
         color: #2eb695;
         background: #fafafa;
     }
-    .mobile_tags__li.active:before, .mobile_tags__li.active:after {
+
+    .tags__li.active:before, .tags__li.active:after {
         width: 6px;
         height: 6px;
         background: transparent;
@@ -80,58 +67,21 @@
         right: -3px;
     }
 
-    .mobile_tags-btn {
+    .tags__li.active:before {
+        border: 0;
+    }
+
+    .tags__li.active:after {
+        border: 0;
+    }
+
+    .tags-btn {
         color: #a6a6a7;
         -webkit-transition: color .3s, background .3s;
         -moz-transition: color .3s, background .3s;
         -ms-transition: color .3s, background .3s;
         -o-transition: color .3s, background .3s;
         transition: color .3s, background .3s;
-    }
-
-    @media screen and (min-width: 1281px) {
-        #icon-arrow-up.fullscreen {
-            margin-right: -50px;
-        }
-    }
-    @media screen and (max-width: 1280px) {
-        #icon-arrow-up.fullscreen {
-            -webkit-transform: translateX(-585px);
-            -moz-transform: translateX(-585px);
-            -ms-transform: translateX(-585px);
-            -o-transform: translateX(-585px);
-            transform: translateX(-585px);
-        }
-    }
-
-    .mobile_pl__all {
-        margin: 4px 12px;
-        padding: 4px 8px 3px;
-        border-radius: 4px;
-        display: block;
-    }
-    .mobile_pl__all:hover {
-        background: rgba(242, 242, 242, 0.5);
-    }
-    .mobile_pl__all:visited > .pl__circle {
-        background: #fafafa;
-    }
-    .mobile_pl__all:visited:hover > .pl__circle {
-        background: rgba(242, 242, 242, 0.5);
-    }
-    .mobile_pl__all.active {
-        color: #29a284;
-        background: rgba(242, 242, 242, 0.5);
-        box-shadow: -1px 1px rgba(229, 232, 236, 0.9);
-    }
-    .mobile_pl__all.active > .pl__circle {
-        background: rgba(242, 242, 242, 0.5);
-        border-color: #29a284;
-    }
-    @media screen and (max-width: 585px) {
-        .mobile_pl__all {
-            margin: 4px 0;
-            border-radius: 0;
-        }
+        border: 0;
     }
 }
