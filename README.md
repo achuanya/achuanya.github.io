@@ -1,5 +1,5 @@
 # [Hi everyone, and welcome to my blog!][1]
-[1]: achuan.io
+[1]: https://achuan.io
 
 ## 博客目录结构
 
