@@ -5,9 +5,15 @@ host: 127.0.0.1
 # Site settings
 title: 阿川的个人博客
 email: achuan@achuan.io
-description: > #阿川的个人博客
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://achuan.io" # the base hostname & protocol for your site
+
+#阿川的个人博客
+description: >
+
+# the subpath of your site, e.g. /blog/
+baseurl: ""
+
+# the base hostname & protocol for your site
+url: https://achuan.io
 
 # Build settings
 # 语法高亮
@@ -53,11 +59,6 @@ article: /assets/article/
 ie: /pages/ie.xml
 rss: /pages/rss.xml
 test: /pages/test.html
-
-# 文章
-name: 阿川的个人博客
-description: 执着于理想，纯粹于当下
-url: https://achuan.io
 
 # Disqus设置
 disqus: 
