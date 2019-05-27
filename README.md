@@ -31,10 +31,10 @@
     │  ├─rss.xml         Rss订阅
     │  ├─test.html       站点地图
     │  ├─ie.html         < IE8不支持
-    │  ├─404.html        404页面
     │
     ├─.gitignore         Git忽略提交规则
     ├─_config.yml        配置文件
+    ├─404.html           404页面
     ├─CNAME              重定向文件
     ├─index.md           个人介绍首页
     ├─LICENSE            MIT协议
