@@ -16,34 +16,48 @@ Sublime Text3 是一款轻量级的编辑器，它干净、实用、漂亮，还
 
 1.通过终端运行命令安装密钥：
 
-    wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-    
+```bash
+$ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+```
+
 2.安装apt-transport-https软件包
 
-    sudo apt-get install apt-transport-https
+```bash
+$ sudo apt-get install apt-transport-https
+```
 
 3.将Sublime Text稳定库添加到您的软件源中：
 
-    echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+```bash
+$ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+```
 
 4.更新软件源为最新版
 
-    sudo apt-get update
+```bash
+$ sudo apt-get update
+```
 
 5.安装Sublime Text 耐心等待一会儿
 
-    sudo apt-get install sublime-text
+```bash
+$ sudo apt-get install sublime-text
+```
 
 以上5步就安装成功了！接下来是解决Ubuntu下Sublime不能输入中文的问题！
 按顺序执行一下命令！
 
 1.Git克隆项目到本地Clone
 
-    git clone https://github.com/lyfeyaj/sublime-text-imfix.git
+```bash
+$ git clone https://github.com/lyfeyaj/sublime-text-imfix.git
+```
 
 2.运行脚本
 
-    cd sublime-text-imfix && ./sublime-imfix
+```bash
+$ cd sublime-text-imfix && ./sublime-imfix
+```
 
 执行完”运行脚本“命令后重启Sublime，就可以输入中文了！
 如果还不行，你下方请留言咱们再讨论...
@@ -56,7 +70,9 @@ Sublime Text3 是一款轻量级的编辑器，它干净、实用、漂亮，还
 
 2.复制粘贴以下代码添加至命令行，然后回车（它用来安装插件的工具）
 
-    import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+```bash
+import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+```
 
 3.重启**Sublime Text**，查看 **Perferences > Package settings** 中是否有 **Package control（命令面板）** 这一项，如果有，则安装成功
 
@@ -93,24 +109,27 @@ BracketHighlighter　　　一个**显示颜色代码**{ **"#000000"** }的视�
 
 **修改配置方法如下:**
 
-    Preferences -> Package Settings -> Color Highlighter -> Settings - User,
-    
-    // 配置成如下内容： 
-    
-    {
-    "search_colors_in": {
-        "all_content": {
-            "enabled": true,
-            "color_highlighters": {
-                "color_scheme": {
-                    // 主要是修改这两项
-                    "enabled": true,
-                    "highlight_style": "filled" // 填充的意思
-                    }
+```bash
+Preferences -> Package Settings -> Color Highlighter -> Settings - User,
+
+// 配置成如下内容： 
+
+{
+"search_colors_in": {
+    "all_content": {
+        "enabled": true,
+        "color_highlighters": {
+            "color_scheme": {
+                // 主要是修改这两项
+                "enabled": true,
+                "highlight_style": "filled" // 填充的意思
                 }
             }
         }
     }
+}
+```
+
 然后重启 Sublime 就可以了。
 
 Color Highlight　　　**缩进**，代码高亮等转换为 html 代码 　
@@ -120,21 +139,22 @@ Colorsublime　　　直接从Sublime Text更改主题
 DocBlockr　　　DocBlockr很好用，不仅仅可以**自动生成注释**，还可**以手动编辑注释的格式**
 **修改配置方法如下:**
 
-    Preferences -> Package Settings -> DocBlockr -> Settings - User,
-    
-    // 配置成如下内容：
-    
-      {
-    "jsdocs_extra_tags":[
-        "@Author Hybrid",
-        "@DateTime {{date}}",
-        "@copyright ${1:[copyright]}",
-        "@license ${1:[license]}",
-        "@version ${1:[version]}"
-    ],
-    "jsdocs_function_description": false
-  }
+```bash
+Preferences -> Package Settings -> DocBlockr -> Settings - User,
 
+// 配置成如下内容：
+
+    {
+"jsdocs_extra_tags":[
+    "@Author Hybrid",
+    "@DateTime {{date}}",
+    "@copyright ${1:[copyright]}",
+    "@license ${1:[license]}",
+    "@version ${1:[version]}"
+],
+"jsdocs_function_description": false
+}
+```
 
 Emmet　　　可以帮助 html **快速输入代码** 如快速新建html头部,打出"!" 或者 **html:5**，然后按下 **Tab** 键或 **Ctrl+E**
 

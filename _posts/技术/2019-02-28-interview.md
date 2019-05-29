@@ -13,16 +13,18 @@ category: 技术
 &emsp;ajax里面有个ES7的异步函数：async。ajax默认是异步请求，如果把async默认参数改城true，这标识着在请求开始后，其他代码依然能够执行，但是这样的话如果ajax代码不通，会导致下面的代码停止加载，会导致页面加载崩溃。  
 &emsp;举一个栗子：  
 
-    console.log('1');
-    $.ajax({
-        url:'admin/ajax_add',
-        async:true,
-        success:function(e)
-        {
-            console.log('2');
-        }
-    });
-    console.log('3');
+```js
+console.log('1');
+$.ajax({
+    url:'admin/ajax_add',
+    async:true,
+    success:function(e)
+    {
+        console.log('2');
+    }
+});
+console.log('3');
+```
 
 &emsp;也就是说async设置为true时，这时ajax是异步的，就算ajax出现问题，其他的代码还可以继续执行。如果当async是同步既（false）这样的话ajax请求不到数据就会停止下面的代码。
 

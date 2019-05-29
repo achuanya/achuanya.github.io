@@ -11,14 +11,15 @@ category: 技术
     Windows 不能在 本地计算机 启动 apache24。有关更多信息，查阅系统事件日志。如果这是非 Microsoft 服务，请与服务厂商联系，并参考特定服务错误代码 1
 
 这是啥？？？错误报告这么官方真的没意思。。。一般配置遇到问题我都是看日志，不过日志也是经常不靠谱，他描述的也是很扯淡...这个时候就是还是启动apache启动程序好使，文件名叫“httpd.exe”位置在apache根目录“bin”目录下，通过命令行启动就好。
+```bash
+achuan@DESKTOP-CL4MMTQ MINGW64 /c/AppServ
+$ cd Apache24/bin
 
-    achuan@DESKTOP-CL4MMTQ MINGW64 /c/AppServ
-    $ cd Apache24/bin
-
-    achuan@DESKTOP-CL4MMTQ MINGW64 /c/AppServ/Apache24/bin
-    $ ./httpd.exe
-    AH00526: Syntax error on line 113 of C:/AppServ/Apache24/conf/extra/httpd-vhosts.conf:
-    <Directory "H:\\tp5\\public""> path is invalid.
+achuan@DESKTOP-CL4MMTQ MINGW64 /c/AppServ/Apache24/bin
+$ ./httpd.exe
+AH00526: Syntax error on line 113 of C:/AppServ/Apache24/conf/extra/httpd-vhosts.conf:
+<Directory "H:\\tp5\\public""> path is invalid.
+```
 
 这个错误大概说的意思是 `C:/AppServ/Apache24/conf/extra/httpd-vhosts.conf` 文件第113行语法错误，  
 `<Directory "H:\tp5\public"">路径无效。  

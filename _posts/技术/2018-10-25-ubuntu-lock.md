@@ -17,27 +17,35 @@ what the?
 
 刚开始我是以为软件没有完全关闭就打开了终端......  
 
-		# 打开终端列出进程，找含有 apt-get 进程，然后　sudo kill PID
-		$ ps aux 
+```bash
+# 打开终端列出进程，找含有 apt-get 进程，然后　sudo kill PID
+$ ps aux 
+```
 
 我以为ojbk　？不过这并没有什么用（啪）......  
 
 这有什么难的？so easy　解决方式如下：
 
-		# 首先强制解锁
-		$ sudo rm /var/cache/apt/archives/lock
-		# 然后找到错误信息里“无法获得锁的地址”并 rm
-		$ sudo rm /var/lib/dpkg/lock-frontend
+```bash
+# 首先强制解锁
+$ sudo rm /var/cache/apt/archives/lock
+# 然后找到错误信息里“无法获得锁的地址”并 rm
+$ sudo rm /var/lib/dpkg/lock-frontend
+```
 
 卸载 KchmViewer 并确认卸载（Y）
 
-		$ apt-get remove kchmviewer 
+```bash
+$ apt-get remove kchmviewer 
+```
 
 ![Alt text]({{ site.article }}2018-10-25-ubuntu-lock/2.png?achuan.io "删除成功！") 
 
 dpkg 查一下 kchmviewer 是否存在
 
-		$ dpkg -s kchmviewer
+```bash
+$ dpkg -s kchmviewer
+```
 
 ![Alt text]({{ site.article }}2018-10-25-ubuntu-lock/3.png?achuan.io "系统没有安装包kchmviewer") 
 
