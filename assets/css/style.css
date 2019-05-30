@@ -735,7 +735,7 @@ iframe {
 
 #post__share {
   height: 21px;
-  margin-top: 0.5em;
+  margin-top: -0.5em;
   margin-bottom: 24px;
   border-bottom: 2px solid rgba(229, 232, 236, 0.5);
   position: relative;
@@ -1380,4 +1380,17 @@ td{
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+}
+
+.disqus-footer__wrapper {
+  border-top: 2px solid #e7e9ee;
+  padding: 7px 0 10px;
+  display: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .disqus-footer__wrapper {
+    padding-bottom: 0;
+    display: none;
+  }
 }
