@@ -1381,16 +1381,3 @@ td{
   margin-right: auto;
   width: 30%;
 }
-
-.disqus-footer__wrapper {
-  border-top: 2px solid #e7e9ee;
-  padding: 7px 0 10px;
-  display: none;
-}
-
-@media only screen and (min-width: 480px) {
-  .disqus-footer__wrapper {
-    padding-bottom: 0;
-    display: none;
-  }
-}
