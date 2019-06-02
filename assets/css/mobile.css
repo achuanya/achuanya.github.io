@@ -84,4 +84,19 @@
         transition: color .3s, background .3s;
         border: 0;
     }
+
+    .comment_number {
+        padding: 5px 7px 5px 5px;
+        background-color: #e6e9ed;
+        color: #2eb695;
+        font-style: normal;
+        border-radius: 50%;
+        font-size: 12px;
+        position: absolute;
+        right: 10px;
+        line-height: 1;
+    }
+    .blogroll {
+        display: none;
+    }
 }

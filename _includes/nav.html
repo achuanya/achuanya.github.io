@@ -6,9 +6,12 @@
     <!--栏目分类-->
     <ul id="tags__ul">
       <li id="pl__all" class="tags__li tags-btn active">全部</li>
-      {% for category in site.categories %}
+      {% for category in site.categories%}
         <li id="{{ category[0] }}" class="tags__li tags-btn">{{ category[0] }}</li>
       {% endfor %}
+      <a href="{{ site.blogroll }}">
+        <li class="tags__li tags-btn blogroll">友联</li>
+      </a>
     </ul>
 
     <!--Github - Rss - 邮箱-->
@@ -22,7 +25,8 @@
   <!--搜索-->
   <div id="posts-list">
     <form action="" id="search-form">
-      <a href="{{ site.author.link }}" id="mobile-avatar" style="background-image:url({{ site.avatar }})"></a>
+      <a href="{{ site.author.link }}" id="mobile-avatar" style="background-image:url({{ site.avatar }})">
+      </a>
       <!-- NOTE: input field is disabled by default -->
       <input id="search-input" type="text" placeholder="站内搜索..." >
     </form>
