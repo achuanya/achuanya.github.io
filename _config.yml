@@ -59,6 +59,7 @@ article: /assets/article/
 ie: /pages/ie.xml
 rss: /pages/rss.xml
 test: /pages/test.html
+blogroll: /pages/blogroll.html
 
 # Disqus设置
 disqus: 
