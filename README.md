@@ -1,4 +1,4 @@
-# [Hi everyone, and welcome to my blog!][1]
+# [嗨，欢迎来到我的博客！][1]
 [1]: https://achuan.io
 
 ## 博客目录结构
