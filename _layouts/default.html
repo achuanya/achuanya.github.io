@@ -4,16 +4,18 @@
     {% include header.html %}
   </head>
   <body>
-    <button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
-    <button id="scroll-top"><span id="icon-arrow-up" class="fontello"></span></button>
-
+    <button id="js-fullscreen">
+      <span id="icon-arrow" class="fontello"></span>
+    </button>
+    <button id="scroll-top">
+      <span id="icon-arrow-up" class="fontello"></span>
+    </button>
     {% include nav.html %}
     <div id="post">
       <div id="pjax">
         {{ content }}
         {% include copyright.html %}
       </div>
-
       <div id="post__toc-trigger">
         <div id="post__toc">
           <span id="post__toc-title">章节列表</span>
