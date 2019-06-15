@@ -1,7 +1,9 @@
 <aside id="sidebar">
   <nav id="tags">
     <!--头像-->
-    <a href="/" id="avatar" style="background-image:url( {{ site.avatar }} )"></a>
+    <a href="/" id="avatar">
+      <img src="{{ site.avatar }}" alt="">
+    </a>
 
     <!--栏目分类-->
     <ul id="tags__ul">
@@ -9,8 +11,14 @@
       {% for category in site.categories%}
         <li id="{{ category[0] }}" class="tags__li tags-btn">{{ category[0] }}</li>
       {% endfor %}
+      <a href="{{ site.archive }}">
+        <li class="tags__li tags-btn blogroll">归档</li>
+      </a>
       <a href="{{ site.blogroll }}">
-        <li class="tags__li tags-btn blogroll">友联</li>
+        <li class="tags__li tags-btn blogroll">链接</li>
+      </a>
+      <a href="{{ site.message }}">
+        <li class="tags__li tags-btn blogroll">留言</li>
       </a>
     </ul>
 
