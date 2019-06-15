@@ -32,13 +32,18 @@
 
     .tags__li {
         text-align: center;
-        width: -webkit-fill-available;
+        width: 100%;
         line-height: 3;
         cursor: pointer;
         background-color: #e6e9ed;
         border: 0;
         padding: 0;
         height: 48px;
+    }
+
+    .tags__li:hover {
+        color: #2eb695;
+        background: #fafafa;
     }
 
     .tags__li.active {
@@ -52,11 +57,6 @@
         -o-transition: none;
         transition: none;
         border: 0;
-    }
-
-    .tags__li.active:hover {
-        color: #2eb695;
-        background: #fafafa;
     }
 
     .tags__li.active:before, .tags__li.active:after {
@@ -83,6 +83,11 @@
         -o-transition: color .3s, background .3s;
         transition: color .3s, background .3s;
         border: 0;
+    }
+
+    .tags-btn.active:hover {
+        color: #2eb695;
+        background: #fafafa;
     }
 
     .comment_number {
