@@ -4,17 +4,6 @@ layout: page
 title: 归档
 ---
 ---
-<style type="text/css">
-li {
-  list-style-type:none;
-}
-.archive-item-link {
-  font-weight: 400;
-}
-.archive-item-link:hover {
-  text-decoration: none;
-}
-</style>
 
 {% assign count = 1 %}
 {% for post in site.posts reversed %}
