@@ -23,7 +23,6 @@ var clickHandler = function(id) {
   return function() {
     $(this).addClass('active').siblings().removeClass('active');
     $('.pl__all').hide();
-    // $('.mobile_pl__all').hide();
 
     $('.' + id).delay(50).fadeIn(350);
   }
@@ -39,6 +38,10 @@ $('.pl__all').on('click', function() {
   if (sidebar.hasClass('mobile')) {
     $('#sidebar, #pjax, #icon-arrow').addClass('fullscreen');
   }
+});
+
+$('.fill').on('click', function() {
+  $(this).addClass('icon_active').siblings().removeClass('icon_active');
 });
 
 // Enable fullscreen.
@@ -59,6 +62,24 @@ $('#js-fullscreen').on('click', function() {
     });
   }
 });
+
+$('#article').on('click', function () {
+  if (button.hasClass('fullscreen')) {
+    sidebar.removeClass('fullscreen');
+    button.removeClass('fullscreen');
+    tocbar.removeClass('fullscreen');
+    content.delay(300).queue(function(){
+      $(this).removeClass('fullscreen').dequeue();
+    });
+  } else {
+    sidebar.addClass('fullscreen');
+    button.addClass('fullscreen');
+    tocbar.addClass('fullscreen');
+    content.delay(200).queue(function(){
+      $(this).addClass('fullscreen').dequeue();
+    });
+  }
+})
 
 $('#scroll-top').on('click', function() {
   container.animate({
@@ -145,3 +166,25 @@ function afterPjax() {
   }
 
 }afterPjax();
+
+$(function(){
+  //搜索框文字变化时间
+  $("#search-input").keyup(function(){
+    //$("#s-box").hide("slow");
+    var text = $("#search-input").val().toLowerCase();
+    //console.log(text);
+
+    if(text =="" || text==undefined){
+      $("#pl__container a").show();
+    }else{
+      $("#pl__container a").hide();
+      $(".pl__title").each(function(){
+        var htmlstr = $(this).html().toLowerCase();
+        if(htmlstr.indexOf(text) != -1){
+          console.log(htmlstr);
+          $(this).parent().show();
+        }
+      })
+    }
+  })
+})
