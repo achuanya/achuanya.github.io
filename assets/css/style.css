@@ -529,7 +529,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
   #post__content a:hover {
-    text-decoration: underline;
+    border-bottom: 1px dashed #BF1827;
   }
 
 #post__content img {
