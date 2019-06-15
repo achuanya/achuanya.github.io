@@ -46,6 +46,10 @@ a {
   transition: color .35s;
 }
 
+li {
+  list-style-type:none;
+}
+
 /*---------------------------------*\
    Sidebar => Tags & Posts List
 \*---------------------------------*/
