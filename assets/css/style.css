@@ -38,7 +38,6 @@ html, body {
 }
 
 a {
-  color: inherit;
   text-decoration: none;
   -webkit-transition: color .35s;
   -moz-transition: color .35s;
@@ -350,6 +349,7 @@ a {
 }
 
 .pl__all {
+  color: #7b8692;
   margin: 4px 12px;
   padding: 4px 8px 3px;
   border-radius: 4px;
@@ -429,8 +429,6 @@ a {
       font-size: 14px;
     }
   }
-
-
 
 #pjax {
   padding: 0 5% 30px;
@@ -1363,8 +1361,6 @@ iframe {
 }
 
 /* index.html */
-
-
 table{
     border-collapse: collapse;
     border-spacing: 0;
@@ -1397,4 +1393,8 @@ td{
 
 #nav_card {
   display: none;
+}
+
+.js-anchor-link {
+  color: #7b8692;
 }
