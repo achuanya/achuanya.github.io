@@ -9,6 +9,15 @@
   font-style: normal;
 }
 
+.fontello, .post__toc-li:before {
+  font-family: "fontello";
+  speak: none;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /*---------------------------------*\
    Base
 \*---------------------------------*/
