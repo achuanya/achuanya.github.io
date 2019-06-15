@@ -1,24 +1,4 @@
 /*---------------------------------*\
-   Fonts
-\*---------------------------------*/
-@font-face {
-  font-family: "fontello";
-  src: url("../font/fontello.eot");
-  src: url("../font/fontello.eot#iefix") format("embedded-opentype"), url("../font/fontello.woff") format("woff"), url("../font/fontello.ttf") format("truetype"), url("../font/fontello.svg#fontello") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fontello, .post__toc-li:before {
-  font-family: "fontello";
-  speak: none;
-  font-variant: normal;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/*---------------------------------*\
    Base
 \*---------------------------------*/
 * {
