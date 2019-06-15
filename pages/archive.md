@@ -25,11 +25,10 @@ title: 归档
     {% assign year = post.date | date: '%Y' %}
     {% assign nyear = post.next.date | date: '%Y' %}
     {% if year != nyear %}
-## {{ post.date | date: '%Y' }} ({{ counts[i] }})
-{:.archive-title}
-        {% assign i = i | plus: 1 %}
+### {{ post.date | date: '%Y' }} ({{ counts[i] }})
+{% assign i = i | plus: 1 %}
     {% endif %}
-* {{ post.date | date: '%m-%d' }} &raquo; [{{ post.title }}]({{ post.url }} "{{ post.title }}"){:.archive-item-link}
+* {{ post.date | date: '%m-%d' }} &raquo; [{{ post.title }}]({{ post.url }} "{{ post.title }}"){:#archive_style}
 {% endfor %}
 
 
