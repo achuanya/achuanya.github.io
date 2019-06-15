@@ -128,6 +128,12 @@ a {
     animation: spin .35s linear ;
     /*animation: spin .35s linear infinite;*/
 }
+
+#avatar img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #avatar {
     -webkit-background-size: 100px 100px;
