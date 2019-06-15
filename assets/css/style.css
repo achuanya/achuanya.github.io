@@ -136,6 +136,11 @@ a {
   }
 }
 
+#avatar img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 #tags__ul {
   margin: 0;
   padding: 0;
@@ -307,8 +312,6 @@ a {
       float: left;
     }
   }
-
-
 
 #pl__container {
   padding-top: 7px;
@@ -1380,4 +1383,12 @@ td{
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+}
+
+#nav_avatar {
+  display: none;
+}
+
+#nav_card {
+  display: none;
 }
