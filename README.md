@@ -31,7 +31,7 @@
     │  ├─archive.md      归档
     │  ├─blogroll.md     链接
     │  ├─ie.html         < IE8不支持
-    │  ├─message.md      < IE8不支持
+    │  ├─message.md      留言
     │  ├─rss.xml         Rss订阅
     │  ├─test.html       站点地图
     │
