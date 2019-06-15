@@ -8,12 +8,10 @@ title: 归档
 li {
   list-style-type:none;
 }
-#post__content a {
-  color: #2ea9df;
+.archive-item-link {
   font-weight: 400;
 }
-#post__content a:hover {
-  border-bottom: 1px dashed #2ea9df;
+.archive-item-link:hover {
   text-decoration: none;
 }
 </style>
