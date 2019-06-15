@@ -28,9 +28,12 @@
     │  ├─js              Javascript库
     │
     ├─pages              其他功能页面目录
+    │  ├─archive.md      归档
+    │  ├─blogroll.md     链接
+    │  ├─ie.html         < IE8不支持
+    │  ├─message.md      < IE8不支持
     │  ├─rss.xml         Rss订阅
     │  ├─test.html       站点地图
-    │  ├─ie.html         < IE8不支持
     │
     ├─.gitignore         Git忽略提交规则
     ├─_config.yml        配置文件
