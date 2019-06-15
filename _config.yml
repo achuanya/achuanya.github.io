@@ -51,15 +51,25 @@ avatar: /assets/images/avatar.jpg
 css: /assets/css/
 js: /assets/js/
 font: /assets/font/
+svg: /assets/svg/
 images: /assets/images/
 article: /assets/article/
+pages: /pages/
 
 # 页面
 404: /pages/404.html
 ie: /pages/ie.xml
+#RSS
 rss: /pages/rss.xml
+#网站地图
 test: /pages/test.html
+#归档
+archive: /pages/archive.html
+#链接
 blogroll: /pages/blogroll.html
+#留言
+message: /pages/message.html
+
 
 # Disqus设置
 disqus: 
