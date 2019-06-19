@@ -10,10 +10,10 @@
     │  ├─nav.html        菜单栏目、文章列表、文章展示模块
     │  ├─header.html     资源加载模块
     │  ├─share.html      文章分享模块
-    │  ├─disqus.html     Disqus第三方评论模块
-    │  ├─copyright.html  博客底部模块，含Github组件、友联
-    │  ├─css.html        CSS资源链接
-    │  ├─scripts.html    JavaScript资源链接
+    │  ├─disqus.html     Disqus模块
+    │  ├─copyright.html  博客底部模块
+    │  ├─css.html        CSS引入模块
+    │  ├─scripts.html    JavaScript引入模块
     │
     ├─_layouts           文章布局目录
     │  ├─default.html    文章, 章节列表
@@ -22,10 +22,10 @@
     │
     ├─assets             静态资源目录
     │  ├─article         文章图片
-    │  ├─css             css样式
+    │  ├─css             CSS样式目录
     │  ├─font            网页字体
     │  ├─image           网站图片
-    │  ├─js              Javascript库
+    │  ├─js              Javascript资源目录
     │
     ├─pages              其他功能页面目录
     │  ├─archive.md      归档
