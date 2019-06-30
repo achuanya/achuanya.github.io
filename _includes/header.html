@@ -20,6 +20,11 @@
 
 <script src="https://cdn.staticfile.org/jquery/1.7.1/jquery.min.js"></script>
 <script>
+  // 防止页面 url 更改
+  var url = decodeURI(window.location);
+  url = url.split('?')[0];
+  window.history.pushState({}, 0, url);
+
   var _hmt = _hmt || [];
   (function() {
     var hm = document.createElement("script");

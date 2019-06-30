@@ -5,6 +5,28 @@
    https://github.com/P233/3-Jekyll
 \*---------------------------------*/
 
+$(function(){
+  //搜索框文字变化时间
+  $("#search-input").keyup(function(){
+    //$("#s-box").hide("slow");
+    var text = $("#search-input").val().toLowerCase();
+    //console.log(text);
+
+    if(text =="" || text==undefined){
+      $("#pl__container a").show();
+    }else{
+      $("#pl__container a").hide();
+      $(".pl__title").each(function(){
+        var htmlstr = $(this).html().toLowerCase();
+        if(htmlstr.indexOf(text) != -1){
+          console.log(htmlstr);
+          $(this).parent().show();
+        }
+      })
+    }
+  })
+})
+
 // Variables
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
@@ -167,24 +189,3 @@ function afterPjax() {
 
 }afterPjax();
 
-$(function(){
-  //搜索框文字变化时间
-  $("#search-input").keyup(function(){
-    //$("#s-box").hide("slow");
-    var text = $("#search-input").val().toLowerCase();
-    //console.log(text);
-
-    if(text =="" || text==undefined){
-      $("#pl__container a").show();
-    }else{
-      $("#pl__container a").hide();
-      $(".pl__title").each(function(){
-        var htmlstr = $(this).html().toLowerCase();
-        if(htmlstr.indexOf(text) != -1){
-          console.log(htmlstr);
-          $(this).parent().show();
-        }
-      })
-    }
-  })
-})
