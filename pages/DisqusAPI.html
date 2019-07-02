@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disqus PHP API 示例</title>
+    <style>
+      body {
+          max-width: 640px;
+          width: 100%;
+          margin: 0 auto;
+          overflow-x: hidden;
+          font-size: 13px;
+      }
+
+      a {
+          color: #0095dd;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="{{ site.css | prepend: site.baseurl }}iDisqus.min.css">
+</head>
+<body>
+    <p>本页共有 <span data-disqus-url="/disqus-php-api.html"></span> 条评论，
+    项目地址：<a href="https://github.com/achuanya/disqus-php-api" target="_blank">https://github.com/fooleap/disqus-php-api</a></p>
+    <div id="comment"></div>
+</body>
+</html>
+<script src="{{ site.js | prepend: site.baseurl }}iDisqus.min.js"></script>
+<script>
+  var disq = new iDisqus('comment', {
+    forum: 'https-achuan-io',
+    api: 'https://api.achuan.io/api/',
+    site: 'https://achuan.io',
+    mode: 2,
+    timeout: 3000,
+    init: true,
+  });
+  disq.count();
+</script>
