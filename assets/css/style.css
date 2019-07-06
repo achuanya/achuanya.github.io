@@ -17,7 +17,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 /*---------------------------------*\
    Base
 \*---------------------------------*/
@@ -25,6 +24,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: Microsoft YaHei,Verdana,sans-serif;
+  font-size: 14px;
 }
 
 html, body {
@@ -47,9 +48,16 @@ a {
 }
 
 li {
-  list-style-type:none;
+  list-style-type:none;display: block;
 }
 
+/*隐藏显示*/
+.displayblock {
+   display: block;
+ }
+.displaynone {
+  display: none;
+}
 /*---------------------------------*\
    Sidebar => Tags & Posts List
 \*---------------------------------*/
@@ -1398,4 +1406,36 @@ td{
 
 .js-anchor-link {
   color: #7b8692;
+}
+
+@media screen and (max-width: 1281px) {
+  #chapter {
+    display: none;
+  }
+}
+
+#chapter {
+  width: 10px;
+  height: 250px;
+  position: fixed;
+  top: 0px;
+  left: 10%;
+  z-index: 98;
+  background: #e6e9ed;
+  /*-webkit-transform: translateX(300px);*/
+  /*-moz-transform: translateX(300px);*/
+  /*-ms-transform: translateX(300px);*/
+  /*-o-transform: translateX(300px);*/
+  /*transform: translateX(300px);*/
+  /*-webkit-transition: -webkit-transform .35s ease-in-out .1s;*/
+  /*-moz-transition: -moz-transform .35s ease-in-out .1s;*/
+  /*-ms-transition: -ms-transform .35s ease-in-out .1s;*/
+  /*-o-transition: -o-transform .35s ease-in-out .1s;*/
+  /*transition: transform .35s ease-in-out .1s;*/
+  color: #7d8b99;
+  background: rgba(229, 232, 236, 0.95);
+  border: none;
+  box-shadow: 0 0 10px 10px transparent;
+  outline: none;
+  cursor: pointer;
 }
