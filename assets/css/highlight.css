@@ -16,19 +16,8 @@
 pre {
   padding: 1em;
   font: .9em/1.5 Consolas, Monaco, 'Andale Mono', monospace;
-  /*
-  border: 1px solid #e5e8ec;
-  border-radius: 3px;
-  */
-  background-color: #282828;
-  /*
-  background-image: -webkit-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.05) 50%);
-  background-image: -moz-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.05) 50%);
-  background-image: -ms-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.05) 50%);
-  background-image: -o-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.05) 50%);
-  background-image: linear-gradient(transparent 50%, rgba(44, 44, 44, 0.75) 50%);
-  background-size: 3em 3em;
-  */
+  /*background-color: #282828;*/
+  background-color: #1E1E1E;
   background-origin: content-box;
   overflow: auto;
   -webkit-overflow-scrolling: touch; }
@@ -112,7 +101,7 @@ pre > code {
 
 /* Generic, Keyword */
 .highlight .k {
-  color: #CC7832; }
+  color: #569CD6; }
 
 /* Keyword */
 .highlight .l {
@@ -120,11 +109,11 @@ pre > code {
 
 /* Literal */
 .highlight .n {
-  color: #b1b1b1; }
+  color: #DCDCAA; }
 
 /* Name */
 .highlight .o {
-  color: #859900; }
+  color: #FFFFFF; }
 
 /* Operator */
 .highlight .x {
@@ -132,7 +121,7 @@ pre > code {
 
 /* Other */
 .highlight .p {
-  color: #b1b1b1; }
+  color: #FFFFFF; }
 
 /* Punctuation, Block comment */
 .highlight .cm {
@@ -226,7 +215,7 @@ pre > code {
 
 /* Literal.Number, String */
 .highlight .s {
-  color: #6A8759; }
+  color: #A31515; }
 
 /* Literal.String */
 .highlight .na {
@@ -334,7 +323,7 @@ pre > code {
 
 /* Literal.String.Heredoc */
 .highlight .si {
-  color: #2aa198; }
+  color: #FFFFFF; }
 
 /* Literal.String.Interpol */
 .highlight .sx {
