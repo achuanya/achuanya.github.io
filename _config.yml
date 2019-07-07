@@ -6,7 +6,7 @@ host: 127.0.0.1
 title: 阿川的个人博客
 email: achuan@achuan.io
 
-#阿川的个人博客
+# 阿川的个人博客
 description: >
 
 # the subpath of your site, e.g. /blog/
@@ -18,15 +18,13 @@ url: https://achuan.io
 # Build settings
 # 语法高亮
 highlighter: rouge
-
-# markdown解释器
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-#relative_permalinks:true
-#博文的链接样式
+# relative_permalinks:true
+# 博文的链接样式
 permalink: /:year-:month-:day-:title.html
 
 # 博客作者相关
@@ -58,15 +56,15 @@ pages: /pages/
 # 页面
 404: /pages/404.html
 ie: /pages/ie.xml
-#RSS
+# RSS
 rss: /pages/rss.xml
-#网站地图
+# 网站地图
 test: /pages/test.html
-#归档
+# 归档
 archive: /pages/archive.html
-#链接
+# 链接
 blogroll: /pages/blogroll.html
-#留言
+# 留言
 message: /pages/message.html
 
 
