@@ -74,166 +74,211 @@ $ cd sublime-text-imfix && ./sublime-imfix
 import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 ```
 
-3.重启**Sublime Text**，查看 **Perferences > Package settings** 中是否有 **Package control（命令面板）** 这一项，如果有，则安装成功
+3.重启`Sublime Text`，查看 `Perferences > Package settings` 中是否有 `Package control` （命令面板）这一项，如果有，则安装成功
 
 Package control 安装成功。方便以后更新、卸载Sublime插件啦。
 
-Package control 安装好之后打开它快捷键：**Ctrl+Shift+P**
+Package control 安装好之后打开它快捷键`Ctrl+Shift+P`
 
-输入 Install Package （**输入简写 IP 也可以**）找到一下对应的提示，选择安装包，下载安装稍等片刻（**左下角 状态栏**），
+输入`Install Package`输入简写 IP 也可以找到一下对应的提示，选择安装包，下载安装稍等片刻左下角 状态栏
 
 下载好后会自动弹出该插件的配置信息，无需保存，关闭即可。
-**Perferences > Package settings 中看到对应的包名。**
+`Perferences > Package settings`中看到对应的包名
 
-如果想要删除插件，调出命令面板输入， **remove**， 调出 **Remove Package** 选项并回车，选择你要删除的插件即可。
+如果想要删除插件，调出命令面板输入`remove` 调出 `Remove Package` 选项并回车，选择你要删除的插件即可。
 
-更新插命令：**upgrade packages**
+更新插命令`upgrade packages`
 
 
-汉化Sublime，用**Package conntrol**装第一个插件**“localization”**
+汉化Sublime，用`Package conntrol`装第一个插件`localization`
 英文好的请略过...
 
-调出命令面板并输入：**Install Package**
-然后在输入框中输入：**localization**
+调出命令面板并输入`Install Package`
+然后在输入框中输入`localization`
 就会发现汉化语音的相关插件，稍微等待，自动弹出插件安装信息
 
 好了，折腾了半会儿，接下来的就是大家最喜欢的“皮肤主题和代码插件”
 
-AutoFileName　　　**路径提示插件**，如 <img src=”” />　就会出现提示，就不上图了...
-
-ConvertToUTF-8　　支持不被Sublime支持的文件，特别是中日韩用户使用的GB2312，GBK等
-
-Boxy Theme　　　拥有四个**高品质**的**主题**和多个**配色方案**
-
-BracketHighlighter　　　一个**显示颜色代码**{ **"#000000"** }的视觉颜色的插件,含颜色值的LESS,Sass,和Stylus变量,它是一个帮助您更直观处理颜色的插件。
-
-**修改配置方法如下:**
-
 ```bash
+# 路径提示插件，如 <img src="" />　就会出现提示，就不上图了...
+AutoFileName
+
+# 支持不被Sublime支持的文件，特别是中日韩用户使用的GB2312，GBK等
+ConvertToUTF-8
+
+# 拥有四个**高品质**的**主题**和多个配色方案
+Boxy Theme
+
+# 一个显示颜色代码的视觉颜色的插件,含颜色值的LESS,Sass,和Stylus变量,它是一个帮助您更直观处理颜色的插件
+BracketHighlighter
+
+# 修改配置路径方法如下:
 Preferences -> Package Settings -> Color Highlighter -> Settings - User,
-
-// 配置成如下内容： 
-
-{
-"search_colors_in": {
-    "all_content": {
-        "enabled": true,
-        "color_highlighters": {
-            "color_scheme": {
-                // 主要是修改这两项
-                "enabled": true,
-                "highlight_style": "filled" // 填充的意思
+# 配置成如下内容： 
+    {
+    "search_colors_in": {
+        "all_content": {
+            "enabled": true,
+            "color_highlighters": {
+                "color_scheme": {
+                    # 主要是修改这两项
+                    "enabled": true,
+                    # 填充的意思
+                    "highlight_style": "filled"
+                    }
                 }
             }
         }
     }
-}
-```
+# 然后重启 Sublime 就可以了。
 
-然后重启 Sublime 就可以了。
+# 缩进，代码高亮等转换为 html 代码
+Color Highlight
 
-Color Highlight　　　**缩进**，代码高亮等转换为 html 代码 　
+# 直接从Sublime Text更改主题
+Colorsublime
 
-Colorsublime　　　直接从Sublime Text更改主题
+# DocBlockr很好用，不仅仅可以自动生成注释，还可以自定义注释的格式
+DocBlockr
 
-DocBlockr　　　DocBlockr很好用，不仅仅可以**自动生成注释**，还可**以手动编辑注释的格式**
-**修改配置方法如下:**
-
-```bash
+# 修改配置路径方法如下:
 Preferences -> Package Settings -> DocBlockr -> Settings - User,
 
-// 配置成如下内容：
-
+# 配置成如下内容：
     {
-"jsdocs_extra_tags":[
-    "@Author Hybrid",
-    "@DateTime {{date}}",
-    "@copyright ${1:[copyright]}",
-    "@license ${1:[license]}",
-    "@version ${1:[version]}"
-],
-"jsdocs_function_description": false
-}
+    "jsdocs_extra_tags":[
+        "@Author Hybrid",
+        "@DateTime {{date}}",
+        "@copyright ${1:[copyright]}",
+        "@license ${1:[license]}",
+        "@version ${1:[version]}"
+    ],
+    "jsdocs_function_description": false
+    }
+
+# 可以帮助 html 快速输入代码，如快速新建html头部,打出"!" 或者 html:5，然后按下 Tab 键或 Ctrl+E
+Emmet
+
+# 多个高品质的主题和多个配色方案
+Material Theme
+
+# 命令面板，Sublime 最重要的功能之一
+Package Control
+
+# 检查语法是否有错误
+SublimeLinter
+
+# 快捷浏览 html 文件，可以配置快捷键
+View inBrowser
 ```
-
-Emmet　　　可以帮助 html **快速输入代码** 如快速新建html头部,打出"!" 或者 **html:5**，然后按下 **Tab** 键或 **Ctrl+E**
-
-Material Theme　　　多个**高品质**的**主题**和多个**配色方案**
-
-Package Control　　　命令面板，Sublime 最重要的功能之一
-
-SublimeLinter　　　**检查语法**是否有错误
-
-View inBrowser　　　快捷浏览 html 文件，可以配置快捷键
-
 ## 三.快捷键篇
 
 熟练的掌握的快捷键，事半功倍！下面是一些是我认为较为实用的，并不全面。
 
 ### 选择类：
 
-Ctrl+D 选中光标所占的文本，继续操作则会选中下一个相同的文本。
+```bash
+# 选中光标所占的文本，继续操作则会选中下一个相同的文本
+Ctrl+D
 
-Alt+F3 选中文本按下快捷键，即可一次性选择全部的相同文本进行同时编辑。
+# 选中文本按下快捷键，即可一次性选择全部的相同文本进行同时编辑
+Alt+F3
+# 先选中多行，再按下快捷键，会在每行行尾插入光标，即可同时编辑这些行
+Ctrl+Shift+L
 
-Ctrl+Shift+L 先选中多行，再按下快捷键，会在每行行尾插入光标，即可同时编辑这些行。
+# 光标移动至括号内结束或开始的位置
+Ctrl+M
 
-Ctrl+M 光标移动至括号内结束或开始的位置。
+# 在下一行插入新行，即使光标不在行尾，也能快速向下插入一行
+Ctrl+Enter
+# 在上一行插入新行。举个栗子：即使光标不在行首，也能快速向上插入一行
+Ctrl+Shift+Enter
 
-Ctrl+Enter 在下一行插入新行，即使光标不在行尾，也能快速向下插入一行。  
-Ctrl+Shift+Enter 在上一行插入新行。举个栗子：即使光标不在行首，也能快速向上插入一行。
+# 选中代码，按下快捷键，折叠代码
+Ctrl+Shift+[
+# 选中代码，按下快捷键，展开代码
+Ctrl+Shift+]
 
-Ctrl+Shift+[ 选中代码，按下快捷键，折叠代码。  
-Ctrl+Shift+] 选中代码，按下快捷键，展开代码。  
-Ctrl+K+0 展开所有折叠代码。
+# 展开所有折叠代码
+Ctrl+K+0
+```
 
 ### 编辑类
+```bash
+# 合并选中的多行代码为一行
+Ctrl+J
 
-Ctrl+J 合并选中的多行代码为一行。
+# 向右缩进
+Tab
+# 向左缩进
+Shift+Tab
 
-Tab 向右缩进。  
-Shift+Tab 向左缩进。
+# 注释单行
+Ctrl+/
+# 注释多行
+Ctrl+Shift+/ 
 
-Ctrl+/ 注释单行。  
-Ctrl+Shift+/ 注释多行。
+# 撤销
+Ctrl+Z
+# 恢复撤销
+Ctrl+Y
 
-Ctrl+Z 撤销。  
-Ctrl+Y 恢复撤销。
+# 保存
+Ctrl+S
+# 另存为
+Ctrl+Shift+S
 
-Ctrl+S 保存  
-Ctrl+Shift+S 另存为
-
-ctrl+W 关闭文件  
-Ctrl+Shift+T 重新打开最近关闭的文件
+# 关闭文件
+ctrl+W
+# 重新打开最近关闭的文件
+Ctrl+Shift+T
+```
 
 ### 搜索类
+```bash
+# 打开底部搜索框，查找关键字
+Ctrl+F
+# 打开搜索框，输入项目文件名，快速搜索文件，输入@和关键字，查找文件中函数名，输入：和数字跳转到文件中该行代码，输入#和关键字，查找变量名
+Ctrl+P
 
-Ctrl+F 打开底部搜索框，查找关键字。
+# 打开命令面板
+Ctrl+Shift+P
 
-Ctrl+P 打开搜索框，输入项目文件名，快速搜索文件，输入@和关键字，查找文件中函数名，输入：和数字跳转到文件中该行代码，输入#和关键字，查找变量名。
-
-Ctrl+Shift+P 打开命令面板
-
-Esc 退出光标多行选择，退出搜索框，命令面板等。
+# 退出光标多行选择，退出搜索框，命令面板等
+Esc
+```
 
 ### 显示类
+```bash
+# 按文件浏览过的顺序，切换当前窗口的标签页
+Ctrl+Tab
 
-Ctrl+Tab 按文件浏览过的顺序，切换当前窗口的标签页。
+# 窗口分屏，恢复默认1屏（非小键盘的数字）
+Alt+Shift+1
+# 左右分屏-2列
+Alt+Shift+2
+# 左右分屏-3列
+Alt+Shift+3
+# 左右分屏-4列
+Alt+Shift+4
 
-Alt+Shift+1 窗口分屏，恢复默认1屏（非小键盘的数字）  
-Alt+Shift+2 左右分屏-2列  
-Alt+Shift+3 左右分屏-3列  
-Alt+Shift+4 左右分屏-4列  
-Alt+Shift+5 等分4屏  
-Alt+Shift+8 垂直分屏-2屏  
-Alt+Shift+9 垂直分屏-3屏  
+# 等分4屏
+Alt+Shift+5
 
-Ctrl+K+B 开启/关闭侧边栏。
+# 垂直分屏-2屏
+Alt+Shift+8
+# 垂直分屏-3屏
+Alt+Shift+9
+# 开启/关闭侧边栏
+Ctrl+K+B
 
-F11 全屏模式  
-Shift+F11 免打扰模式
+# 全屏模式
+F11
+# 免打扰模式
+Shift+F11
+```
 
 如有写的不足之处，还请您多多指教！  
 最后再秀一下我的 Sublime 感觉字体很棒，看着很舒服 嘿嘿
 
-![Alt text]({{ site.article }}2018-08-30-Ubuntu-set-up-sublime/sublime.png?achuan.io "抱拳")
+![抱拳]({{ site.article }}2018-08-30-Ubuntu-set-up-sublime/sublime.png?achuan.io "抱拳")
