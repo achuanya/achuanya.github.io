@@ -29,6 +29,9 @@ $ vim gupiaocl188.sh
     #!/bin/bash
     mysqldump -u project gupiaocl188 | gzip > /DatabaseBackup/gupiaocl188__$(date +%Y-%m-%d__%H:%M:%S).sql.gz
 
+    #生成格式
+    www_gupiaocl188__2019-09-17__12:00:01.sql.gz
+
 # 赋值可执行权限
 $ sudo chmod u+x gupiaocl188.sh
 
@@ -41,7 +44,6 @@ $ my.ini
 
 # 执行 Shell脚本测试
 $ ./gupiaocl188.sh
-
 ```
 
 ## Crontab
