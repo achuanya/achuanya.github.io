@@ -5,8 +5,9 @@ title: 在CentOS下实现MySQL数据库定时自动备份
 description: 在CentOS下实现MySQL数据库定时自动备份
 category: 技术
 ---
-
+前几次系统数据老是出问题，前几天经理让我给写个数据库自动备份，记录一下过程。
 ```shell
+# 查看磁盘空间
 $ df -h
 
     Filesystem      Size  Used Avail Use% Mounted on
