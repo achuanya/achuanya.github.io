@@ -52,16 +52,29 @@ $ yum install -y vixie-cron
 # 设置 Crontab 开启启动
 $ chkconfig –level 35 crond on
 
-#　启动 Crontab
+#　启动 Crontab 服务
 $ service crond start
 
-# 查看 Crontab 服务状态
-$ service crond status
-# 
+# 编辑计时器设置
 $ crontab -e
 
-    #
     # 每俩小时自动备份 www_gupiaocl188_ 数据库
-    #
     */120 * * * * /DatabaseBackup/www_gupiaocl188_.sh
+
+## Crontab 命令
+
+# 启动服务
+$ service crond start
+
+# 关闭服务
+$ service crond stop
+
+# 重启服务
+$ service crond restart
+
+# 重载配置
+$ service crond reload
+
+# 查看状态
+$ service crond status
 ```
