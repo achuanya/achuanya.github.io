@@ -23,7 +23,7 @@ $ cd /
 $ mkdir DatabaseBackup
 $ cd DatabaseBackup
 
-# 
+# 创建 gupiaocl188.sh 文件并编辑
 $ vim gupiaocl188.sh
 
     #!/bin/bash
