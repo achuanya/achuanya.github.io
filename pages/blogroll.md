@@ -5,7 +5,7 @@ title: 友情链接
 ---
 ---
 ## 友联须知
-交换友联可在当前页面留言，有Gravatar尽量提供一下邮箱，以便进行头像显示。
+交换友联可在当前页面留言，有Gravatar尽量提供一下邮箱，以便进行头像显示，没有Gravatar请提供头像链接。
 
 - 站名：阿川的个人博客
 - 描述：执着于理想，纯粹于当下
@@ -47,7 +47,7 @@ title: 友情链接
 <div class="link-box">
     <a href="https://www.yuanqiao.pw?achuan.io" target="_blank">
         <div>
-            <img src="{{ site.gravatar }}achuan@achuan.oo" alt="专注web前端技术，记录和分享个人生活和技术体会">
+            <img src="https://yuanqiao.pw/avatar.jpg" alt="专注web前端技术，记录和分享个人生活和技术体会">
             <i>知向前端</i>
         </div>
     </a>
