@@ -1439,3 +1439,40 @@ td{
   outline: none;
   cursor: pointer;
 }
+
+/*---------------------------------*\
+   blogroll
+\*---------------------------------*/
+.link-box {
+  width: 160px;
+  border: 2px solid #7d8b99;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  line-height: 2.5;
+  display: inline-block;
+
+}
+.link-box div {
+  padding: 3px;
+  display: block;
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.link-box img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.link-box i {
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+}
