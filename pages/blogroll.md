@@ -53,16 +53,6 @@ title: 友情链接
     </a>
 </div>
 
-<!--青山绿水-->
-<div class="link-box">
-    <a href="https://www.huhexian.com?achuan.io" target="_blank" title="这里是由一个高中生搭建的博客，个人自留地，分享自己的所见所闻所感，写写自己的生活日志。平凡的我们有不平凡的未来。">
-        <div>
-            <img src="https://cdn.v2ex.com/gravatar/dc75b1021b41486d062ff0285fb94749?s=76&r=g" alt="逆时针博客头像">
-            <i>青山绿水</i>
-        </div>
-    </a>
-</div>
-
 <!--戈楷旎-->
 <div class="link-box">
     <a href="https://geekinney.com?achuan.io" target="_blank" title="happy hacking emacs!">
