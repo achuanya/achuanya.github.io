@@ -17,8 +17,8 @@ title: 友情链接
 <div class="link-box">
     <a href="https://blog.fooleap.org?achuan.io" target="_blank" title="分享技术、记录点滴">
         <div>
-            <img src="{{ site.gravatar }}fooleap@gmail.com" alt="Fooleap’s Blog头像">
-            <i>Fooleap’s Blog</i>
+            <img src="{{ site.gravatar }}fooleap@gmail.com" alt="Fooleap头像">
+            <i>Fooleap</i>
         </div>
     </a>
 </div>
@@ -84,9 +84,3 @@ title: 友情链接
 </div>
 
 {% include disqus.html %}
-
-挺喜欢你那个ALAPI项目的，可以和您交换友联吗？我已经添加贵站了。
-
-- 阿川的个人博客
-- https://achuan.io
-- 执着于理想，纯粹于当下
