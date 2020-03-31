@@ -52,6 +52,7 @@ font: /assets/font/
 images: /assets/images/
 article: /assets/article/
 pages: /pages/
+gravatar: https://v1.alapi.cn/api/avatar?email=
 
 # 页面
 404: /pages/404.html
@@ -66,7 +67,3 @@ archive: /pages/archive.html
 blogroll: /pages/blogroll.html
 # 留言
 message: /pages/message.html
-
-# Disqus设置
-disqus: 
-id: 阿川
