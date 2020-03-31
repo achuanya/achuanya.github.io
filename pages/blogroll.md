@@ -73,6 +73,20 @@ title: 友情链接
     </a>
 </div>
 
-
+<!--Alone88-->
+<div class="link-box">
+    <a href="https://alone88.cn?achuan.io" target="_blank" title="Alone88">
+        <div>
+            <img src="{{ site.gravatar }}im@alone88.cn" alt="Alone88头像">
+            <i>Alone88</i>
+        </div>
+    </a>
+</div>
 
 {% include disqus.html %}
+
+挺喜欢你那个ALAPI项目的，可以和您交换友联吗？我已经添加贵站了。
+
+- 阿川的个人博客
+- https://achuan.io
+- 执着于理想，纯粹于当下
