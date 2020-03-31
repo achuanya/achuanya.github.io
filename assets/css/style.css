@@ -1453,13 +1453,11 @@ td{
   padding-bottom: 0px;
   line-height: 2.5;
   display: inline-block;
-
 }
 .link-box div {
   padding: 3px;
   display: block;
   overflow: hidden;
-
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -1474,5 +1472,4 @@ td{
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.02em;
-
 }

@@ -18,7 +18,7 @@ title: 友情链接
     <a href="https://blog.fooleap.org?achuan.io" target="_blank">
         <div>
             <img src="{{ site.gravatar }}fooleap@gmail.com" alt="Fooleap’s Blog">
-            <i class="link-font">Fooleap’s Blog</i>
+            <i>Fooleap’s Blog</i>
         </div>
     </a>
 </div>
@@ -28,7 +28,7 @@ title: 友情链接
     <a href="https://www.shephe.com?achuan.io" target="_blank">
         <div>
             <img src="{{ site.gravatar }}achuan@achuan.oo" alt="牧羊人">
-            <i class="link-font">牧羊人</i>
+            <i>牧羊人</i>
         </div>
     </a>
 </div>
@@ -38,7 +38,7 @@ title: 友情链接
     <a href="https://www.mydes.top?achuan.io" target="_blank">
         <div>
             <img src="{{ site.gravatar }}121265179@qq.com" alt="逆时针博客">
-            <i class="link-font">逆时针博客</i>
+            <i>逆时针博客</i>
         </div>
     </a>
 </div>
@@ -48,7 +48,7 @@ title: 友情链接
     <a href="https://www.yuanqiao.pw?achuan.io" target="_blank">
         <div>
             <img src="{{ site.gravatar }}achuan@achuan.oo" alt="专注web前端技术，记录和分享个人生活和技术体会">
-            <i class="link-font">知向前端</i>
+            <i>知向前端</i>
         </div>
     </a>
 </div>
