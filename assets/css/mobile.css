@@ -4,7 +4,7 @@
         z-index: 99999;
         display: block;
         position: absolute;
-        bottom: -8px;
+        bottom: 0;
         width: calc(100% - 48px);
         height: 48px;
         background: transparent;
