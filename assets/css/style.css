@@ -30,7 +30,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
-  font: 100 16px/1.5 Tahoma, Monaco, Microsoft YaHei,Verdana,sans-serif;
+  font: 100 16px/1.5 "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: none;
   overflow: hidden;
