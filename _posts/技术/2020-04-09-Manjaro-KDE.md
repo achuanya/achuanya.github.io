@@ -144,6 +144,8 @@ $ source /etc/profile
 ```bash
 # 谷歌浏览器
 $ sudo pacman -S google-chrome
+# 360安全浏览器
+$ sudo yay -S browser360
 # Typora
 $ sudo pacman -S typora
 # phpstorm
