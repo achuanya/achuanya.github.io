@@ -220,7 +220,7 @@ $ sudo pacman -S electronic-wechat
 # 安装gnome-settings-daemon
 $ sudo pacman -S gnome-settings-daemon
 # 软连接设置为启动，之后重启Linux就可以了
-$ sudo ln -s /usr/lib/gsd-xsettings /home/achuan/.config/autostart-scripts/
+$ sudo ln -s /usr/lib/gsd-xsettings ~/.config/autostart-scripts/
 # 相关设置调整
 # QQ
 $ env WINEPREFIX="$HOME/.deepinwine/Deepin-QQ" winecfg
