@@ -203,6 +203,8 @@ $ sudo vim /usr/bin/wps
 ### 娱乐
 
 ```bash
+# Spotify
+$ sudo pacman -S spotify
 # 网易云音乐
 $ yay -S netease-cloud-music
 # Telegram
