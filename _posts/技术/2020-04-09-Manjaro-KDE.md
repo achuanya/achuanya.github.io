@@ -444,7 +444,17 @@ $ sudo make -j 4 && sudo make install
 /usr/local/php-7.2.29/bin/phpize && ./configure --with-php-config=/usr/local/php-7.2.29/bin/php-config && sudo make -j 4 && sudo make install
 ```
 
+### Composer
+```bash
+$ curl -sS https://getcomposer.org/installer | php
 
+# 全局调用
+$ sudo mv composer.phar /usr/local/bin/composer
+
+# 使用阿里云镜像
+$ composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+
+```
 
 ### Redis\MySQL
 
