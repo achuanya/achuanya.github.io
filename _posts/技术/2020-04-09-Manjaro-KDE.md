@@ -10,12 +10,12 @@ category: 技术
 
 ```bash
 # 强制刷新软件列表缓存
-$ sudo pacman -Syyu
+$ sudo pacman -Sy
 # 选清华源 mirrors.tuna.tsinghua.edu.cn
 $ sudo pacman-mirrors -i -c China -m rank
 # 或者自动设置最快单源
 $ sudo pacman-mirrors -g
-$ sudo pacman -Syyu
+$ sudo pacman -Sy
 ```
 
 ## vim git yay
@@ -35,7 +35,7 @@ $ sudo vim /etc/pacman.conf
 
 # 让arch生效需要archlinuxcn-keyring包
 $ sudo pacman -S archlinuxcn-keyring
-$ sudo pacman -Syy
+$ sudo pacman -Sy
 ```
 ## 常用软件
 
