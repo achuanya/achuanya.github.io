@@ -9,7 +9,7 @@ category: 技术
 ## 更换源
 
 ```bash
-# 强制刷新软件列表缓存
+# 更新包数据库
 $ sudo pacman -Sy
 # 选清华源 mirrors.tuna.tsinghua.edu.cn
 $ sudo pacman-mirrors -i -c China -m rank
