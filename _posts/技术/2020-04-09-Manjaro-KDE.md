@@ -245,6 +245,8 @@ $ source /etc/profile
 $ sudo pacman -S thunderbird thunderbird-i18n-zh-cn
 # XMind思维导图 (需要JAVA8)
 $ yay -S xmind
+# KDE下最好用的PDF阅读器
+$ sudo pacman -S okular
 # WPS\字体\中文语言包
 $ sudo pacman -S wps-office ttf-wps-fonts wps-office-mui-zh-cn
 # 如果WPS不能输入中文
