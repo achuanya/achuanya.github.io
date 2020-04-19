@@ -73,7 +73,7 @@ tmpfs                                     /tmp           tmpfs   defaults,noatim
 |  配置选项    | 选项说明                                            
 |-------------|-----------------------------------------------------
 | async/sync  | 设置是否为同步方式运行，默认为async
-| auto/noauto | 当下载mount \-a命令时，此系统是否被主动挂载，默认为auto
+| auto/noauto | 当下载mount -a命令时，此系统是否被主动挂载，默认为auto
 | rw/ro       | 是否以只读或读写模式挂载
 | exec/noexec | 限制此文件系统内是否能够进行“执行”操作
 | user/nouser | 是否允许用户使用mount命令挂载
