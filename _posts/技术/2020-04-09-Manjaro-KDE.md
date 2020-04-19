@@ -37,6 +37,60 @@ $ sudo vim /etc/pacman.conf
 $ sudo pacman -S archlinuxcn-keyring
 $ sudo pacman -Sy
 ```
+## 自动挂载NTFS硬盘
+
+```bash
+# 查看磁盘分区的UUID
+$ sudo blkid - K`o list
+# 5016CF88CCD20C21 就是我的UUID，同时要记录一下device和fs_type等会要用
+device                   fs_type    label       mount point                  UUID
+-------------------run----------------------------------------------------------------------------------------------
+/dev/sdb1                ntfs       File        /run/media/achuan/File          5016CF88CCD20C21
+
+# /dev/sdb1挂载点
+$ mkdir ~/File
+# 打开fastab文件，看到以下文件内容
+$ sudo vim /etc/fstab
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a device; this may
+# be used with UUID= as a more robust way to name devices that works even if
+# disks are added and removed. See fstab(5).
+#
+# <file system>             <mount point>  <type>  <options>  <dump>  <pass>
+UUID=8a9b74b7-c33a-413b-b654-80f3a16b5e12 /home          ext4    defaults,noatime,discard 0 2
+UUID=b23b3470-26c1-4b39-9358-43278c73763e /              ext4    defaults,noatime,discard 0 1
+UUID=ad103e33-78b7-4b33-8632-03c3fe6364fc /boot          ext4    defaults,noatime,discard 0 2
+UUID=b0d5e88d-136a-4fa6-b164-5d70e5073b5d /opt           ext4    defaults,noatime,discard 0 2
+tmpfs                                     /tmp           tmpfs   defaults,noatime,mode=1777 0 0
+
+# 从这个文件内容可以看出文件有6列
+ - 第一列file system选项是UUID
+ - 第二列mount point选项是挂载点
+ - 第三列type选项是所要挂载设备的文件系统或者文件系统类型
+ - 第四列options选项是挂载选项，常见参数如下
+ 
+| async/sync  | 设置是否为同步方式运行，默认为async                     |
+| ----------- | ---------------------------------------------------------------------- |
+| auto/noauto | 当下载mount -a命令时，此系统是否被主动挂载，默认为auto |
+| rw/ro       | 是否以只读或读写模式挂载                                   |
+| exec/noexec | 限制此文件系统内是否能够进行“执行”操作           |
+| user/nouser | 是否允许用户使用mount命令挂载                              |
+| suid/nosuid | 是否允许SUID的存在                                              |
+| userquota   | 启动文件系统支持磁盘配额模式                             |
+| grpquota    | 启动文件系统对群组磁盘配额模式的支持                 |
+| defaults    | 同时具有rw、suid、suid、dev、exec、auto、nouser、async等默认参数的设置 |
+ 
+ - 第五列dump选项是文件系统备份选项。0备份，1备份
+ - 第六列pass选项是磁盘检查设置，其值是一个顺序，0不检查，１检查（根目录永远都为1）其它分区从2开始，数字越小越先检查，如果有两个分区的数字相同，同时检查
+
+# 这是挂载/dev/sdb1的挂载配置，插入一行保存退出
+UUID=5016CF88CCD20C21                     /home/achuan/File ntfs   defaults 0 0
+
+# 如果/etc/fstab配置不对，会导致系统无法启动！一定要检查一下是否能正确挂载！如果改挂了，找个U盘改回来就行了。
+$ sudo mount -a
+```
+
 ## 常用软件
 
 ### Vim配置
