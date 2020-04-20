@@ -41,7 +41,7 @@ $ sudo pacman -Sy
 
 ```bash
 # 查看磁盘分区的UUID
-$ sudo blkid - K`o list
+$ sudo blkid -o list
 # 5016CF88CCD20C21 就是我的UUID，同时要记录一下device和fs_type等会要用
 device                   fs_type    label       mount point                  UUID
 -------------------run----------------------------------------------------------------------------------------------
@@ -262,8 +262,6 @@ $ sudo vim /usr/bin/wps
 ```bash
 # Spotify
 $ sudo pacman -S spotify
-# 网易云音乐
-$ yay -S netease-cloud-music
 # Telegram
 $ sudo pacman -S telegram-desktop
 # Asciinema 在云端记录并分享你的终端会话
@@ -289,6 +287,11 @@ $ env WINEPREFIX="$HOME/.deepinwine/Deepin-TIM" winecfg
 $ env WINEPREFIX="$HOME/.deepinwine/Deepin-WeChat" winecfg
 # 迅雷
 $ env WINEPREFIX="$HOME/.deepinwine/Deepin-ThunderSpeed" winecfg
+
+# 网易云音乐
+$ yay -S netease-cloud-music
+# 网易云里过
+
 ```
 
 ### 工具
