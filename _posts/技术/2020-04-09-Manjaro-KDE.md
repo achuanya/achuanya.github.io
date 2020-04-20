@@ -614,3 +614,6 @@ $ pacman -Qdt
 $ pacman -Qet
 ```
 
+最后再来一张图啊哈哈哈～
+
+![抱拳]({{ site.article }}2020-04-09-Manjaro-KDE/My desktop.png?achuan.io "我的桌面")
