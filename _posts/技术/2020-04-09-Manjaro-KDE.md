@@ -310,6 +310,14 @@ $ env WINEPREFIX="$HOME/.deepinwine/Deepin-ThunderSpeed" winecfg
 ### 工具
 
 ```bash
+# 查看内核版本
+$ uname -r
+# 安装时对应注意Linux内核版本
+$ sudo pacman -S virtualbox
+# 添加当前用户到virtualbox用户组
+$ sudo gpasswd -a $USER vboxusers
+# 激活内核模块
+$ sudo modprobe vboxdrv
 # 百度网盘
 $ wget http://issuecdn.baidupcs.com/issue/netdisk/LinuxGuanjia/3.0.1/baidunetdisk_linux_3.0.1.2.deb
 $ sudo debtap baidunetdisk_linux_3.0.1.2.deb
