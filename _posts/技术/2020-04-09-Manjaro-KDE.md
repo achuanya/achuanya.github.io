@@ -10,33 +10,33 @@ category: 技术
 
 ```bash
 # 更新包数据库
-$ sudo pacman -Sy
+$ sudo pacman -Syy
 # 选清华源 mirrors.tuna.tsinghua.edu.cn
 $ sudo pacman-mirrors -i -c China -m rank
-# 或者自动设置最快单源
-$ sudo pacman-mirrors -g
-$ sudo pacman -Sy
+$ sudo pacman -Syyu
+
+# 添加Arch源
+$ sudo vi /etc/pacman.conf
+# 把下面这几行写进去
+[archlinuxcn]
+SigLevel = Optional TrustedOnly
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+$ sudo pacman -Syy &&  sudo sudo pacman -S archlinuxcn-keyring
 ```
 
-## vim git yay
-
-~~~bash
-$ sudo pacman -S vim git yay
-~~~
-
-## 添加Arch源
+## 基础设置
 
 ```bash
-$ sudo vim /etc/pacman.conf
-# 把下面这几行写进去
-    [archlinuxcn]
-    SigLevel = Optional TrustedOnly
-    Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+$ sudo pacman -S vim git yay unzip
 
-# 让arch生效需要archlinuxcn-keyring包
-$ sudo pacman -S archlinuxcn-keyring
-$ sudo pacman -Sy
+# 主目录改为英文
+$ sudo pacman -S xdg-user-dirs-gtk
+$ export LANG=en_US &&  xdg-user-dirs-gtk-update
+
+# 将时区设置为中国上海
+$ timedatectl set-timezone Asia/Shanghai
 ```
+
 ## 自动挂载NTFS硬盘
 
 ```bash
@@ -110,8 +110,6 @@ $ sudo vim /etc/vimrc
 syntax on
 " 底部状态显示
 set showmode
-" 支持鼠标
-set mouse=a
 " 使用UTF-8编码
 set encoding=utf-8  
 " 启用256色
@@ -171,36 +169,59 @@ set wildmode=longest:list,full
 ```bash
 $ sudo pacman -S zsh
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-# 切换到zsha
-$ chsh -s /bin/zsha
+# 切换到zsh
+$ chsh -s /bin/zsh
 # 安装3den主题
 $ sudo vim ~/.zshrc
-    ZSH_THEME="3den"
+ZSH_THEME="3den"
 ```
 
-### 安装搜狗输入法
+### 安装小狼毫输入法
 
 ```bash
-# 安装时提示选择安装，保持默认选择全部
-$ sudo pacman -S fcitx-im fcitx-sogoupinyin fcitx-configtool
-$ yay -S fcitx-qt4
-# 编辑系统环境变量并写入以下配置（如果文件不存在，就创建）
+# 搜狗装了十几回，它那个兼容性真让我抓狂，还是小狼毫香。 
+$ sudo  pacman -S ibus ibus-rime
+$ sudo yay -S ibus-qt
+# 默认是繁体，需要可以改为简体中文
+$ vim ~/.config/ibus/rime/luna_pinyin.custom.yaml
+# luna_pinyin.custom.yaml
+patch:
+  switches:                   # 注意缩进
+    - name: ascii_mode
+      reset: 0                # reset 0 的作用是当从其他输入法切换到本输入法重设为指定状态
+      states: [ 中文, 西文 ]   # 选择输入方案后通常需要立即输入中文，故重设 ascii_mode = 0
+    - name: full_shape
+      states: [ 半角, 全角 ]   # 而全／半角则可沿用之前方案的用法。
+    - name: simplification
+      reset: 1                # 增加这一行：默认启用「繁→簡」转换。
+      states: [ 漢字, 汉字 ]
+
+# 编辑系统环境变量并写入以下配置
 $ sudo vim /etc/profile
-    GTK_IM_MODULE=fcitx
-    QT_IM_MODULE=fcitx
-    XMODIFIERS="@im=fcitx"
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+ibus-daemon -d -x
 
 # 刷新环境变量
 $ source /etc/profile
-# 注销或重启后再登录，打开fcitx设置，选择输入法，选择搜狗输入法
 ```
 ### 开发
 
 ```bash
 # 谷歌浏览器
 $ sudo pacman -S google-chrome
+# 火狐浏览器并汉化
+$ sudo pacman -S firefox firefox-i18n-zh-cn
+# 在浏览器的地址栏输入
+about:config
+# 搜索
+intl.locale.requested
+# 将其值修改为
+zh_CN
+
 # 360安全浏览器
-$ sudo yay -S browser360
+$ yay -S browser360
 # Typora
 $ sudo pacman -S typora
 # phpstorm
@@ -209,20 +230,14 @@ $ yay -S phpstorm
 $ sudo pacman -S visual-studio-code-bin
 # Postman
 $ sudo pacman -S postman-bin
-# Mycli (支持MySQL、MariaDB和Percona命令行界面自动补全和语法高亮，安装好直接mycli -uroot哦~起飞)
+# Mycli 具有自动完成和语法突出显示功能的MySQL / MariaDB / Percona客户端
 $ sudo pacman -S mycli
+# 具有自动完成功能和语法突出显示功能的Redis客户端
+$ yay -S iredis
 # 开源图形化的Redis客户端管理软件
 $ sudo pacman -S redis-desktop-manager
-# 开源跨平台，基本支持所有流行的数据库的图形管理软件
-$ sudo pacman -S dbeaver
 # jdk8
 $ sudo pacman -S jdk8-openjdk
-# 显示java版本
-$ archlinux-java status
-Available Java environments:
-  java-14-jdk
-  java-8-openjdk (default)
-$ sudo archlinux-java set java-8-openjdk
 
 # Navicat Premium 150.0.10
 # 链接: https://pan.baidu.com/s/1ihWcDY2Vs9igWuDfKh5giA  密码: nnft
@@ -234,7 +249,7 @@ $ sudo pacman -S ruby
 $ gem install jekyll bundler
 $ sudo vim /etc/profile
 # 把ruby写入到系统环境变量
-	export PATH="$PATH:/home/achuan/.gem/ruby/2.7.0/bin"
+export PATH="$PATH:/home/achuan/.gem/ruby/2.7.0/bin"
 $ source /etc/profile
 ```
 
@@ -252,9 +267,10 @@ $ sudo pacman -S wps-office ttf-wps-fonts wps-office-mui-zh-cn
 # 如果WPS不能输入中文
 $ sudo vim /usr/bin/wps
 # 写入以下配置
-    export GTK_IM_MODULE=fcitx
-    export QT_IM_MODULE=fcitx
-    export XMODIFIERS="@im=fcitx"
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+ibus-daemon -d -x
 ```
 
 ### 娱乐
@@ -262,6 +278,8 @@ $ sudo vim /usr/bin/wps
 ```bash
 # Spotify
 $ sudo pacman -S spotify
+# 网易云音乐
+$ sudo pacman -S netease-cloud-music
 # Telegram
 $ sudo pacman -S telegram-desktop
 # Asciinema 在云端记录并分享你的终端会话
@@ -287,11 +305,6 @@ $ env WINEPREFIX="$HOME/.deepinwine/Deepin-TIM" winecfg
 $ env WINEPREFIX="$HOME/.deepinwine/Deepin-WeChat" winecfg
 # 迅雷
 $ env WINEPREFIX="$HOME/.deepinwine/Deepin-ThunderSpeed" winecfg
-
-# 网易云音乐
-$ yay -S netease-cloud-music
-# 网易云里过
-
 ```
 
 ### 工具
@@ -303,14 +316,14 @@ $ sudo debtap baidunetdisk_linux_3.0.1.2.deb
 $ sudo pacman -U baidunetdisk-3.0.1-1-x86_64.pkg.tar.xz
 # 坚果云
 $ sudo pacman -S nutstore
+# 桌面面板
+$ sudo pacman -S latte-dock
 # 迅雷
 $ yay -S deepin-wine-thunderspeed
 # Teamviewer
 $ sudo pacman -S teamviewer
 # 如果无法打开或不能联网执行
 $ sudo teamviewer --daemon enable
-# Shadowsocks
-$ sudo pacman -S shadowsocks-qt5
 # 支持快捷键下拉的终端模拟器 (KDE预装默认F12唤醒)
 $ sudo pacman -S yakuake
 # 深度取色器
@@ -336,229 +349,102 @@ $ sudo debtap Tenvideo_universal_1.0.10_amd64.deb
 $ sudo pacman -U sogoupinyin-2.3.1.0112-1-x86_64.pkg.tar.xz
 ```
 
-## Docker
+## Qv2ray 科学上网
+
+- [搬瓦工方案库存监控页面][1]
+- 我的VPS配置：CN2  1核  1GB  20GB  1TB  1Gbps  洛杉矶  $49.99
+- 要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
+- 推荐使用 Debian 9 系统，脚本会自动启用 BBR 优化
+
+### v2ray安装
 
 ```bash
-$ sudo pacman -S docker
-# 设置Docker开机启动服务
-$ sudo systemctl enable docker
-# 更换为国内网易镜像并写入一下配置
-$ sudo vim /etc/docker/daemon.json
-    {
-        "registry-mirrors": ["http://f136db2.daocloud.io"]
-    }
-
-# 重载配置文件
-$ sudo systemctl daemon-reload
-# 添加一个Docker组
-$ sudo groupadd docker
-# 将登录用户加入到Docker用户组中
-$ sudo gpasswd -a ${USER} docker
-# 更新用户组
-$ newgrp docker
-# 启动Docker
-$ sudo systemctl start docker
-
+$ yum install curl -y
+$ bash <(curl -s -L https://git.io/v2ray.sh)
 ```
 
-## 开发环境
-
-### Apache
+#### 快速管理
 
 ```bash
-# APACHE
-$ sudo pacman -S apache
-# 查看Apache状态和版本信息
-$ sudo systemctl status httpd
-# 启动apache服务
-$ sudo systemctl start httpd
-# 设置Apache开机启动服务
-$ sudo systemctl enable httpd
+# 查看 V2Ray 配置信息
+$ v2ray info
+# 修改 V2Ray 配置
+$ v2ray config
+# 生成 V2Ray 配置文件链接
+$ v2ray link
+# 生成 V2Ray 配置信息链接
+$ v2ray infolink
+# 生成 V2Ray 配置二维码链接
+$ v2ray qr
+# 修改 Shadowsocks 配置
+$ v2ray ss
+# 查看 Shadowsocks 配置信息
+$ v2ray ssinfo
+# 生成 Shadowsocks 配置二维码链接
+$ v2ray ssqr
+# 查看 V2Ray 运行状态
+$ v2ray status
+# 启动 V2Ray
+$ v2ray start
+# 停止 V2Ray
+$ v2ray stop
+# 重启 V2Ray
+$ v2ray restart 
+# 查看 V2Ray 运行日志
+$ v2ray log
+# 更新 V2Ray
+$ v2ray update
+# 更新 V2Ray 管理脚本
+$ v2ray update.sh
+# 卸载 V2Ray
+$ v2ray uninstall
 ```
 
-### PHP
+#### 配置文件路径
 
 ```bash
-# 依赖
-$ yay -S pcre pcre-devel openssl openssl-devel libicu-devel gcc gcc-c++ autoconf libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libxml2 libxml2-devel zlib zlib-devel glibc glibc-devel glib2 glib2-devel ncurses ncurses-devel curl curl-devel krb5-devel libidn libidn-devel openldap openldap-devel nss_ldap jemalloc-devel cmake boost-devel bison automake libevent libevent-devel gd gd-devel libtool* libmcrypt libmcrypt-devel mcrypt mhash libxslt libxslt-devel readline readline-devel gmp gmp-devel libcurl libcurl-devel openjpeg-devel
-
-$ cd /usr/src
-$ wget https://www.php.net/distributions/php-7.2.29.tar.gz
-# 解压文件
-tar xvf php-7.2.29.tar.gz
-cd php-7.2.29
-# 配置编译参数
-$ sudo ./configure --prefix=/usr/local/php-7.2.29 \
---with-config-file-path=/usr/local/php-7.2.29/etc \
---enable-fpm \
---with-fpm-user=www \
---with-fpm-group=www \
---enable-mysqlnd \
---with-mysqli=mysqlnd \
---with-pdo-mysql=mysqlnd \
---enable-mysqlnd-compression-support \
---with-iconv-dir \
---with-freetype-dir \
---with-jpeg-dir \
---with-png-dir \
---with-zlib \
---with-libxml-dir \
---enable-xml \
---disable-rpath \
---enable-bcmath \
---enable-shmop \
---enable-sysvsem \
---enable-inline-optimization \
---with-curl \
---enable-mbregex \
---enable-mbstring \
---enable-intl \
---with-libmbfl \
---enable-ftp \
---with-gd \
---enable-gd-jis-conv \
---with-openssl \
---with-mhash \
---enable-pcntl \
---enable-sockets \
---with-xmlrpc \
---enable-zip \
---enable-soap \
---with-gettext \
---disable-fileinfo \
---enable-opcache \
---with-pear \
---enable-maintainer-zts \
---with-ldap=shared \
---without-gdbm \
---with-webp-dir \
---with-xpm-dir \
---with-apxs2 \
---enable-roxen-zts \
-
-# 编译检查安装
-$ sudo make -j 4
-$ make test
-$ sudo make install
-# 复制配置文件
-$ sudo cp /usr/local/php-7.2.29/etc/php-fpm.conf.default /usr/local/php-7.2.29/etc/php-fpm.conf
-$ sudo cp /usr/local/php-7.2.29/etc/php-fpm.d/www.conf.default /usr/local/php-7.2.29/etc/php-fpm.d/www.conf
-$ sudo cp php.ini-production /usr/local/php-7.2.29/etc/php.ini
-# 我安装后php-v没有生效，需要把php添加到系统环境变量
-$ sudo vim /etc/profile
-	PATH=/usr/local/php-7.2.29/bin:/usr/local/php-7.2.29/sbin:$PATH
-	
-# 刷新系统环境变量
-$ source /etc/profile
-# 让apache支持php
-$ sudo /etc/httpd/conf/httpd.conf
-	LoadModule php7_module modules/libphp7.so
-	
-	<IfModule mime_module>
-        TypesConfig conf/mime.types
-        AddType application/x-compress .Z
-        AddType application/x-gzip .gz .tgz
-        AddType application/x-httpd-php .php
-        AddType application/x-httpd-php-source .phps    
-    </IfModule>
-
-# 配置php.ini参数
-$ sudo vim /usr/local/php-7.2.29/etc/php.ini
-    expose_php = Off
-    short_open_tag = On
-    display_errors = On
-	display_startup_errors = On
-    max_execution_time = 300
-    max_input_time = 300
-    memory_limit = 128M
-    post_max_size = 32M
-    date.timezone = Asia/Shanghai
-    extension = mysqli
-	extension = curl
-
-# 配置OPcache缓存
-	[opcache]
-    zend_extension = /usr/local/php-7.2.29/lib/php/extensions/no-debug-zts-20170718/opcache.so
-    ; Zend Optimizer + 共享内存的大小, 总共能够存储多少预编译的 PHP 代码(单位:MB)
-    opcache.memory_consumption = 128
-    ; Zend Optimizer + 暂存池中字符串的占内存总量.(单位:MB)
-    opcache.interned_strings_buffer = 8
-    ; 最大缓存的文件数目 200  到 100000 之间
-    opcache.max_accelerated_files = 4000
-    ; 2s检查一次文件更新 注意:0是一直检查不是关闭
-    opcache.revalidate_freq = 60
-    ; 打开快速关闭, 打开这个在PHP Request Shutdown的时候会收内存的速度会提高
-    opcache.fast_shutdown = 1
-    ; Zend Optimizer + 的开关, 关闭时代码不再优化
-    opcache.enable_cli = 1
-
-# 编译php扩展
-# 后来发现好多必备php扩展没有编译完成，还好源码包没有删除
-$ cd /usr/src/php-7.2.29/ext/mysqli
-# 搭建动态模块的环境
-$ /usr/local/php-7.2.29/bin/phpize
-# 获取php配置信息
-$ ./configure --with-php-config=/usr/local/php-7.2.29/bin/php-config
-# 编译并安装
-$ sudo make -j 4 && sudo make install
-/usr/local/php-7.2.29/bin/phpize && ./configure --with-php-config=/usr/local/php-7.2.29/bin/php-config && sudo make -j 4 && sudo make install
+# V2Ray 配置文件路径
+/etc/v2ray/config.json
+# Caddy 配置文件路径
+/etc/caddy/Caddyfile
+# 脚本配置文件路径
+/etc/v2ray/233blog_v2ray_backup.conf
 ```
 
-### Composer
-```bash
-$ curl -sS https://getcomposer.org/installer | php
+### v2ray客户端
 
-# 全局调用
-$ sudo mv composer.phar /usr/local/bin/composer
+#### 推荐俩v2ray客户端
 
-# 使用阿里云镜像
-$ composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+- [Qv2ray][2]
 
-```
+  三大平台GUI客户端，使用C++17/Qt5、支持订阅、扫描二维码、自定义路由编辑
 
-### Redis\MySQL
+- [v2rayL][3]
+
+  linux GUI客户端，支持订阅、vemss、ss等协议，自动更新订阅、透明代理
 
 ```bash
-# Redis
-$ sudo pacman -S redis
-$ git clone  https://github.com/phpredis/phpredis.git
-$ cd phpredis && phpize
-./configure --with-php-config=/usr/local/php-7.2.29/bin/php-config
-# 获取php配置信息
-$ ./configure --with-php-config=/usr/local/php-7.2.29/bin/php-config
-$ sudo make -j 4 && sudo make install
-# 设置Redis开机启动服务
-$ sudo systemctl enable redis
+# 我个人比较喜欢AppImage，便携性很强，当然也可以用pacman
+$ wget https://github.com/Qv2ray/Qv2ray/releases/download/v2.4.1/Qv2ray.v2.4.1.linux-x64.AppImage
+$ sudo pacman -S qv2ray
 
-# MySQL
-$ sudo pacman -S mysql
-# 初始化
-$ sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-# 我遇到了问题，初始化没有提供密码，不管它直接改。
-$ sudo vim /etc/mysql/my.cnf
-在[mysqld]中写入
-	skip-grant-tables
-	
-$ sudo systemctl restart mysqld
-$ mysql -uroot -p
-# 设置MySQL开机启动服务
-$ sudo systemctl enable mysqld
-# 改密码
-# 在这我遇到个问题，如果不先刷新权限，SQL语句就会报错
-ERROR 1290 (HY000): The MySQL server is running with the --skip-grant-tables option so it cannot execute this statement
+# 因为政策原因Qv2ray并不自带v2ray核心
+# 没有就创建vcore
+$ mkdir -p ~/.config/qv2ray/vcore
+$ cd ~/.config/qv2ray/vcore
+$ wget https://github.com/v2ray/v2ray-core/releases/download/v4.23.1/v2ray-linux-64.zip
+$ unzip v2ray-linux-64.zip -d ./
 
-mysql> FLUSH PRIVILEGES;
-Query OK, 0 rows affected (0.01 sec)
+# 若使用pacman软件包方式安装
+核心可执行文件路径：/usr/bin/v2ray
+V2ray 资源目录：/usr/lib/v2ray
 
-mysql> ALTER user 'root'@'localhost' IDENTIFIED BY 'achuan.io';
-Query OK, 0 rows affected (0.02 sec)
-
-mysql> FLUSH PRIVILEGES;
-Query OK, 0 rows affected (0.01 sec)
-
-> QUIT
-Bye
+# 代理扩展
+SwitchyOmega
+# SwitchyOmega配置
+https://raw.githubusercontent.com/wiki/FelisCatus/SwitchyOmega/GFWList.bak
 ```
+
 
 ## Pacman命令
 
@@ -619,4 +505,8 @@ $ pacman -Qet
 
 最后再来一张图啊哈哈哈～
 
-![抱拳]({{ site.article }}2020-04-09-Manjaro-KDE/My desktop.png?achuan.io "我的桌面")
+![我的桌面]({{ site.article }}2020-04-09-Manjaro-KDE/My desktop.png?achuan.io "我的桌面")
+
+[1]:https://kucun.banwagong.org/
+[2]:https://github.com/Qv2ray/Qv2ray
+[3]:https://github.com/jiangxufeng/v2rayL
