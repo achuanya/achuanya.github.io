@@ -9,8 +9,8 @@ category: 技术
 ## 更换源
 
 ```bash
-# 更新包数据库
-$ sudo pacman -Syy
+# 更新数据源
+$ sudo pacman -Sy
 # 选清华源 mirrors.tuna.tsinghua.edu.cn
 $ sudo pacman-mirrors -i -c China -m rank
 $ sudo pacman -Syu
@@ -164,7 +164,7 @@ set wildmenu
 set wildmode=longest:list,full
 ```
 
-### 安装zsh
+### Oh-My-Zsh
 
 ```bash
 $ sudo pacman -S zsh
@@ -176,12 +176,16 @@ $ sudo vim ~/.zshrc
 ZSH_THEME="3den"
 ```
 
-### 安装小狼毫输入法
+### 小狼毫输入法
 
 ```bash
 # 搜狗装了十几回，它那个兼容性真让我抓狂，还是小狼毫香。 
 $ sudo  pacman -S ibus ibus-rime
 $ sudo yay -S ibus-qt
+```
+#### 配置
+
+```bash
 # 默认是繁体，需要可以改为简体中文
 $ vim ~/.config/ibus/rime/luna_pinyin.custom.yaml
 # luna_pinyin.custom.yaml
@@ -206,6 +210,9 @@ ibus-daemon -d -x
 # 刷新环境变量
 $ source /etc/profile
 ```
+
+
+
 ### 开发
 
 ```bash
@@ -359,6 +366,214 @@ $ sudo debtap Tenvideo_universal_1.0.10_amd64.deb
 $ sudo pacman -U sogoupinyin-2.3.1.0112-1-x86_64.pkg.tar.xz
 ```
 
+## 开发环境
+
+### Apache
+
+```bash
+$ sudo pacman -S apache
+# 启动
+$ systemctl enable httpd
+# 启动apache服务
+$ sudo systemctl start httpd
+# 设置Apache开机启动服务
+```
+
+#### 配置参数
+
+```bash
+$ cd /etc/httpd/conf
+# 备份源文件
+$ sudo cp httpd.conf httpd.conf.backup
+$ sudo vim httpd.conf 
+# 开启重写
+LoadModule rewrite_module modules/mod_rewrite.so
+
+</IfModule>
+    ServerAdmin achuan@achuan.io
+    ServerName io:80
+<Directory />
+DocumentRoot "/home/achuan/www"
+<Directory />
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+<Directory "/home/achuan/www">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+
+$ sudo systemctl restart httpd
+# 报错
+[Sat Apr 25 00:36:21.725913 2020] [core:error] [pid 106186:tid 140238307444480] (13)Permission denied: [client 127.0.0.1:53420] AH00035: access to / denied (filesystem path '/home/achuan/www') because search permissions are missing on a component of the path
+
+# 很常见的权限问题
+$ sudo chmod +x /home/achuan
+
+<IfModule dir_module>
+    DirectoryIndex index.php index.html
+</IfModule>
+
+$ sudo systemctl restart httpd
+# 让apache支持php
+Include conf/extra/php7_module.conf
+LoadModule php7_module modules/libphp7.so
+Include conf/extra/httpd-vhosts.conf
+
+$ sudo systemctl restart httpd
+# 重启后直接无法启动了，查看httpd状态看看
+$ sudo systemctl startus httpd
+[pid 113670:tid 140226396240832] Apache is running a threaded MPM, but your PHP Module is not compiled to be threadsafe.  You need to recompile PHP.
+
+# Arch Wiki上说Apache 2.4.7不支持非线程安全版PHP。php-apache中包含的libphp7.so不支持mod_mpm_event，仅支持mod_mpm_prefork。需要在/etc/httpd/conf/httpd.conf中注释掉。
+$ sudo vim httpd.conf
+# 取消以下行的注释：
+# LoadModule mpm_event_module modules/mod_mpm_event.so
+# 取消以下行的注释：
+LoadModule mpm_prefork_module modules/mod_mpm_prefork.so
+$ sudo systemctl restart httpd
+
+# 配置hosts
+$ sudo vim /etc/hosts
+# Virtual hosts
+127.0.0.1  io
+127.0.0.1  phpmyadmin.io
+127.0.0.1  acphp.io
+127.0.0.1  tp.io
+
+# 配置虚拟主机
+$ sudo vim extra/httpd-vhosts.conf
+# Virtual Hosts
+<VirtualHost _default_:80>
+    DocumentRoot "/home/achuan/www/"
+    ServerName io
+</VirtualHost>
+
+# phpMyAdmin.io
+<VirtualHost *:80>
+    ServerName phpmyadmin.io
+    DocumentRoot /home/achuan/Carry/phpMyAdmin/
+    <Directory  "/home/achuan/Carry/phpMyAdmin/">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+
+# tp.io
+<VirtualHost *:80>
+    ServerName tp.io
+    DocumentRoot /home/achuan/language/php/tp/public
+    <Directory  "/home/achuan/language/php/tp/">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+
+$ sudo systemctl restart httpd
+```
+
+### PHP
+```bash
+$ sudo pacman -S php php-apache
+$ php -v
+PHP 7.4.5 (cli) (built: Apr 15 2020 17:14:40) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v3.4.0, Copyright (c) Zend Technologies
+```
+####  编译Redis扩展
+```
+# 编译Redis扩展
+$ git clone https://github.com/phpredis/phpredis.git
+$ cd phpredis
+# 下载下来后默认这develop分支，需要手动切换到主分支
+$ git checkout master
+$ /usr/bin/phpize
+$ sudo ./configure --with-php-config=/usr/bin/php-config
+$ sudo make && sudo make install
+```
+#### 配置参数
+
+```bash
+$ cd /etc/php
+# 备份源文件
+$ sudo cp php.ini php.ini.backup
+$ sudo vim php.ini
+expose_php = Off
+short_open_tag = On
+display_errors = On
+display_startup_errors = On
+max_execution_time = 300
+max_input_time = 300
+memory_limit = 128M
+post_max_size = 32M
+date.timezone = Asia/Shanghai
+extension=curl
+extension=ftp
+extension=imap
+extension=mysqli
+extension=pdo_mysql
+extension=sockets
+extension=zip
+extension=redis
+```
+
+
+### Composer
+
+```bash
+$ curl -sS https://getcomposer.org/installer | php
+# 全局调用
+$ sudo mv composer.phar /usr/local/bin/composer
+# 使用阿里云镜像
+$ composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+```
+
+### MySQL
+
+```bash
+# MySQL
+$ sudo pacman -S mysql
+# 初始化
+$ sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+# 我遇到了问题，初始化没有提供密码，不管它直接改。
+$ sudo vim /etc/mysql/my.cnf
+在[mysqld]中写入
+skip-grant-tables
+$ sudo systemctl restart mysqld
+$ mysql -uroot -p
+# 设置MySQL开机启动服务
+$ sudo systemctl enable mysqld
+# 改密码
+# 在这我遇到个问题，如果不先刷新权限，SQL语句就会报错
+ERROR 1290 (HY000): The MySQL server is running with the --skip-grant-tables option so it cannot execute this statement
+
+mysql> FLUSH PRIVILEGES;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> ALTER user 'root'@'localhost' IDENTIFIED BY 'achuan.io';
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> FLUSH PRIVILEGES;
+Query OK, 0 rows affected (0.01 sec)
+
+> QUIT
+Bye
+```
+
+### Redis
+
+```bash
+# Redis
+$ sudo pacman -S redis
+# 设置Redis开机启动服务
+$ sudo systemctl enable redis
+$ sudo systemctl start redis
+```
+
 ## Qv2ray 科学上网
 
 - [搬瓦工方案库存监控页面][1]
@@ -463,7 +678,7 @@ https://raw.githubusercontent.com/wiki/FelisCatus/SwitchyOmega/GFWList.bak
 ```bash
 # 更新整个系统
 $ pacman -Syu
-# 更新包数据库
+# 更新包数据源
 $ pacman -Sy
 # 更新已安装的包
 $ pacman -Su
@@ -476,7 +691,7 @@ $ pacman -Su
 $ pacman -S
 # 搜索含关键字的包
 $ pacman -Ss
-# 同步包数据库后再执行安装
+# 同步包后再执行安装
 $ pacman -Sy
 # 安装本地包 (扩展名：pkg.tar.gz)
 $ pacman -U
