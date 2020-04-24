@@ -327,10 +327,6 @@ $ yay -S virtualbox-ext-oracle
 $ sudo gpasswd -a $USER vboxusers
 # 激活内核模块
 $ sudo modprobe vboxdrv
-# 百度网盘
-$ wget http://issuecdn.baidupcs.com/issue/netdisk/LinuxGuanjia/3.0.1/baidunetdisk_linux_3.0.1.2.deb
-$ sudo debtap baidunetdisk_linux_3.0.1.2.deb
-$ sudo pacman -U baidunetdisk-3.0.1-1-x86_64.pkg.tar.xz
 # 坚果云
 $ sudo pacman -S nutstore
 # 桌面面板
@@ -354,7 +350,6 @@ $ sudo pacman -S motrix
 $ git clone git@github.com:sbwtw/deepin-repair-tools.git
 # 全平台多线程下载管理器，恢复断/死下载、安排和转换下载、内置视频转换器、支持各大流行浏览器插件
 $ yay -S xdman
-
 # 腾讯播放器
 $ yay -S debtap
 # 升级 debtap
@@ -364,6 +359,11 @@ $ wget https://dldir1.qq.com/qqtv/linux/Tenvideo_universal_1.0.10_amd64.deb
 $ sudo debtap Tenvideo_universal_1.0.10_amd64.deb
 # 安装pkg包
 $ sudo pacman -U sogoupinyin-2.3.1.0112-1-x86_64.pkg.tar.xz
+
+# 百度网盘
+$ wget http://issuecdn.baidupcs.com/issue/netdisk/LinuxGuanjia/3.0.1/baidunetdisk_linux_3.0.1.2.deb
+$ sudo debtap baidunetdisk_linux_3.0.1.2.deb
+$ sudo pacman -U baidunetdisk-3.0.1-1-x86_64.pkg.tar.xz
 ```
 
 ## 开发环境
