@@ -1,5 +1,5 @@
 encoding: utf-8
-port: 4001
+port: 8989
 host: 127.0.0.1
 
 # Site settings
