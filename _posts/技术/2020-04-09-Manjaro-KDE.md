@@ -507,6 +507,7 @@ $ pacman -Qet
 
 ![我的桌面]({{ site.article }}2020-04-09-Manjaro-KDE/My desktop.png?achuan.io "我的桌面")
 
-[1]:https://kucun.banwagong.org/
+
+[1]:https://kucun.banwagong.org
 [2]:https://github.com/Qv2ray/Qv2ray
 [3]:https://github.com/jiangxufeng/v2rayL
