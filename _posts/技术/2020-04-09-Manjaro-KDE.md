@@ -314,6 +314,7 @@ $ env WINEPREFIX="$HOME/.deepinwine/Deepin-ThunderSpeed" winecfg
 $ uname -r
 # 安装时对应注意Linux内核版本
 $ sudo pacman -S virtualbox
+# vboxusers扩展包
 $ yay -S virtualbox-ext-oracle
 # 添加当前用户到virtualbox用户组
 $ sudo gpasswd -a $USER vboxusers
