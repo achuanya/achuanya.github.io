@@ -13,7 +13,7 @@ category: 技术
 $ sudo pacman -Syy
 # 选清华源 mirrors.tuna.tsinghua.edu.cn
 $ sudo pacman-mirrors -i -c China -m rank
-$ sudo pacman -Syyu
+$ sudo pacman -Syu
 
 # 添加Arch源
 $ sudo vi /etc/pacman.conf
@@ -21,7 +21,7 @@ $ sudo vi /etc/pacman.conf
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
-$ sudo pacman -Syy &&  sudo sudo pacman -S archlinuxcn-keyring
+$ sudo pacman -Syy && sudo sudo pacman -S archlinuxcn-keyring
 ```
 
 ## 基础设置
