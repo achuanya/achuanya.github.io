@@ -329,6 +329,8 @@ $ sudo gpasswd -a $USER vboxusers
 $ sudo modprobe vboxdrv
 # 坚果云
 $ sudo pacman -S nutstore
+# 百度网盘
+yay -S baidunetdisk
 # 桌面面板
 $ sudo pacman -S latte-dock
 # 迅雷
@@ -359,11 +361,6 @@ $ wget https://dldir1.qq.com/qqtv/linux/Tenvideo_universal_1.0.10_amd64.deb
 $ sudo debtap Tenvideo_universal_1.0.10_amd64.deb
 # 安装pkg包
 $ sudo pacman -U sogoupinyin-2.3.1.0112-1-x86_64.pkg.tar.xz
-
-# 百度网盘
-$ wget http://issuecdn.baidupcs.com/issue/netdisk/LinuxGuanjia/3.0.1/baidunetdisk_linux_3.0.1.2.deb
-$ sudo debtap baidunetdisk_linux_3.0.1.2.deb
-$ sudo pacman -U baidunetdisk-3.0.1-1-x86_64.pkg.tar.xz
 ```
 
 ## 开发环境
@@ -485,7 +482,7 @@ Copyright (c) The PHP Group
 Zend Engine v3.4.0, Copyright (c) Zend Technologies
 ```
 ####  编译Redis扩展
-```
+```bash
 # 编译Redis扩展
 $ git clone https://github.com/phpredis/phpredis.git
 $ cd phpredis
