@@ -333,10 +333,13 @@ $ sudo modprobe vboxdrv
 $ sudo pacman -S nutstore
 # 百度网盘
 yay -S baidunetdisk
+# Listary替代品
+$ sudo pacman -S albert
 # 桌面面板
 $ sudo pacman -S latte-dock
 # 迅雷
 $ yay -S deepin-wine-thunderspeed
+
 # Teamviewer
 $ sudo pacman -S teamviewer
 # 如果无法打开或不能联网执行
