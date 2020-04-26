@@ -730,6 +730,21 @@ $ pacman -Qet
 ![我的桌面]({{ site.article }}2020-04-09-Manjaro-KDE/My desktop.png?achuan.io "我的桌面")
 
 
+## 后续报错
+### JetBrains DataGrip的JavaFx报错
+- tried to use preview panel provider (javafx webview), but it is unavailable. reverting to default.
+
+打开Markdown文件就会报错，为在Medium上找到的一个解决方案，重装一下PHPSTORM JRE
+
+```bash
+$ yay -S phpstorm-jre
+```
+
+
+
+
+
+
 [1]:https://kucun.banwagong.org
 [2]:https://github.com/Qv2ray/Qv2ray
 [3]:https://github.com/jiangxufeng/v2rayL
