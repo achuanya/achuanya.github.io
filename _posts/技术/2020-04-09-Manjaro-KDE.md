@@ -233,6 +233,8 @@ $ yay -S browser360
 $ sudo pacman -S typora
 # phpstorm
 $ yay -S phpstorm
+# GoLand
+$ sudo pacman -S goland
 # Visual Studio Code
 $ sudo pacman -S visual-studio-code-bin
 # Postman
