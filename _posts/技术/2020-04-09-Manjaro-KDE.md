@@ -35,6 +35,9 @@ $ export LANG=en_US &&  xdg-user-dirs-gtk-update
 
 # 将时区设置为中国上海
 $ timedatectl set-timezone Asia/Shanghai
+
+# 细长的等宽字体
+$ yay -S ttf-iosevka
 ```
 
 ## 自动挂载NTFS硬盘
@@ -211,8 +214,6 @@ ibus-daemon -d -x
 $ source /etc/profile
 ```
 
-
-
 ### 开发
 
 ```bash
@@ -319,7 +320,7 @@ $ env WINEPREFIX="$HOME/.deepinwine/Deepin-ThunderSpeed" winecfg
 # 查看内核版本
 $ uname -r
 # 安装时对应注意Linux内核版本
-$ sudo pacman -S virtualbox
+$ sudo pacman -S virtualbox virtualbox-guest-dkms
 # vboxusers扩展包
 $ yay -S virtualbox-ext-oracle
 # 添加当前用户到virtualbox用户组
