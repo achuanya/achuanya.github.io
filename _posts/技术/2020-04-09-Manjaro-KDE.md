@@ -646,20 +646,11 @@ $ v2ray uninstall
   linux GUI客户端，支持订阅、vemss、ss等协议，自动更新订阅、透明代理
 
 ```bash
-# 我个人比较喜欢AppImage，便携性很强，当然也可以用pacman
-$ wget https://github.com/Qv2ray/Qv2ray/releases/download/v2.4.1/Qv2ray.v2.4.1.linux-x64.AppImage
-$ sudo pacman -S qv2ray
+# AppImage版本
+$ wget https://github.com/Qv2ray/Qv2ray/releases/download/v2.5.0/Qv2ray.v2.5.0.linux-x64.AppImage
 
 # 因为政策原因Qv2ray并不自带v2ray核心
-# 没有就创建vcore
-$ mkdir -p ~/.config/qv2ray/vcore
-$ cd ~/.config/qv2ray/vcore
-$ wget https://github.com/v2ray/v2ray-core/releases/download/v4.23.1/v2ray-linux-64.zip
-$ unzip v2ray-linux-64.zip -d ./
-
-# 若使用pacman软件包方式安装
-核心可执行文件路径：/usr/bin/v2ray
-V2ray 资源目录：/usr/lib/v2ray
+$ sudo pacman -S qv2ray v2ray
 
 # 代理扩展
 SwitchyOmega
