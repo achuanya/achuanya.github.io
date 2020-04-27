@@ -32,6 +32,7 @@ var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
     button     = $('#icon-arrow');
+    lists      = $('#icon-lists');
     scrollTop  = $('#icon-arrow-up');
     tocbar     = $('#post__toc-trigger');
 
@@ -71,17 +72,33 @@ $('#js-fullscreen').on('click', function() {
   if (button.hasClass('fullscreen')) {
     sidebar.removeClass('fullscreen');
     button.removeClass('fullscreen');
-    tocbar.removeClass('fullscreen');
+    // tocbar.removeClass('fullscreen');
     content.delay(300).queue(function(){
       $(this).removeClass('fullscreen').dequeue();
     });
   } else {
     sidebar.addClass('fullscreen');
     button.addClass('fullscreen');
-    tocbar.addClass('fullscreen');
+    // tocbar.addClass('fullscreen');
     content.delay(200).queue(function(){
       $(this).addClass('fullscreen').dequeue();
     });
+  }
+});
+
+$('#lists').on('click', function() {
+  if (lists.hasClass('fullscreen')) {
+    $(lists).text("打开");
+    lists.removeClass('fullscreen');
+    tocbar.removeClass('fullscreen');
+    // setTimeout(function () {
+    //   $(tocbar).css({"z-index":-1});
+    // },1500)
+  } else {
+    $(lists).text("关闭");
+    // $(tocbar).css({"z-index":98});
+    lists.addClass('fullscreen');
+    tocbar.addClass('fullscreen');
   }
 });
 
