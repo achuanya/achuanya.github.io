@@ -226,7 +226,6 @@ about:config
 intl.locale.requested
 # 将其值修改为
 zh_CN
-
 # 360安全浏览器
 $ yay -S browser360
 # Typora
@@ -247,12 +246,10 @@ $ yay -S iredis
 $ sudo pacman -S redis-desktop-manager
 # jdk8
 $ sudo pacman -S jdk8-openjdk
-
 # Navicat Premium 150.0.10
 # 链接: https://pan.baidu.com/s/1ihWcDY2Vs9igWuDfKh5giA  密码: nnft
 $ chmod +x navicat15-premium-cs.AppImage
 $ ./navicat15-premium-cs.AppImage
-
 # Jekyll
 $ sudo pacman -S ruby
 $ gem install jekyll bundler
@@ -333,13 +330,12 @@ $ sudo modprobe vboxdrv
 $ sudo pacman -S nutstore
 # 百度网盘
 yay -S baidunetdisk
-# Listary替代品
+# 程序启动器
 $ sudo pacman -S albert
 # 桌面面板
 $ sudo pacman -S latte-dock
 # 迅雷
 $ yay -S deepin-wine-thunderspeed
-
 # Teamviewer
 $ sudo pacman -S teamviewer
 # 如果无法打开或不能联网执行
@@ -537,7 +533,6 @@ $ composer config -g repo.packagist composer https://mirrors.aliyun.com/composer
 ### MySQL
 
 ```bash
-# MySQL
 $ sudo pacman -S mysql
 # 初始化
 $ sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
@@ -569,7 +564,6 @@ Bye
 ### Redis
 
 ```bash
-# Redis
 $ sudo pacman -S redis
 # 设置Redis开机启动服务
 $ sudo systemctl enable redis
@@ -745,7 +739,12 @@ $ pacman -Qet
 $ yay -S phpstorm-jre
 ```
 
+### 
 
+Error: A JNI error has occurred, please check your installation and try again 
+Exception in thread "main" java.lang.UnsupportedClassVersionError: xdman/Main has been comp
+iled by a more recent version of the Java Runtime (class file version 55.0), this version o
+f the Java Runtime only recognizes class file versions up to 52.0
 
 
 
