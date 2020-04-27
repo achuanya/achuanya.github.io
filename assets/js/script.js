@@ -86,6 +86,7 @@ $('#js-fullscreen').on('click', function() {
   }
 });
 
+// Chapter lists
 $('#lists').on('click', function() {
   if (lists.hasClass('fullscreen')) {
     $(lists).text("打开");
