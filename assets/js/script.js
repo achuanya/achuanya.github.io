@@ -89,14 +89,12 @@ $('#js-fullscreen').on('click', function() {
 $('#lists').on('click', function() {
   if (lists.hasClass('fullscreen')) {
     $(lists).text("打开");
+    $(tocbar).css({"right":"0px"});
     lists.removeClass('fullscreen');
     tocbar.removeClass('fullscreen');
-    // setTimeout(function () {
-    //   $(tocbar).css({"z-index":-1});
-    // },1500)
   } else {
     $(lists).text("关闭");
-    // $(tocbar).css({"z-index":98});
+    $(tocbar).css({"right":"16px"});
     lists.addClass('fullscreen');
     tocbar.addClass('fullscreen');
   }
