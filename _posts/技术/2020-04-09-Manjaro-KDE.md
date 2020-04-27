@@ -739,6 +739,19 @@ $ pacman -Qet
 $ yay -S phpstorm-jre
 ```
 
+### Increasing the amount of inotify watchers
+
+- /home/achuan/.gem/ruby/2.7.0/gems/rb-inotify-0.10.1/lib/rb-inotify/watcher.rb:74:in `initialize': No space left on device - Failed to watch "/home/achuan/github/achuanya.github.io/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e6": The user limit on the total number of inotify watches was reached or the kernel failed to allocate a needed resource. (Errno::ENOSPC)
+
+使用`$ jekyll server`提示被限额了，增加限额永久化：
+
+```
+$ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
+$ sudo sysctl -p
+```
+
+
+
 
 
 
