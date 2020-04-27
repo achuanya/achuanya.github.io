@@ -27,7 +27,7 @@ $ sudo pacman -Syy && sudo sudo pacman -S archlinuxcn-keyring
 ## 基础设置
 
 ```bash
-$ sudo pacman -S vim git yay unzip
+$ sudo pacman -S vim git rpm yay unzip 
 
 # 主目录改为英文
 $ sudo pacman -S xdg-user-dirs-gtk
@@ -739,12 +739,7 @@ $ pacman -Qet
 $ yay -S phpstorm-jre
 ```
 
-### 
 
-Error: A JNI error has occurred, please check your installation and try again 
-Exception in thread "main" java.lang.UnsupportedClassVersionError: xdman/Main has been comp
-iled by a more recent version of the Java Runtime (class file version 55.0), this version o
-f the Java Runtime only recognizes class file versions up to 52.0
 
 
 
