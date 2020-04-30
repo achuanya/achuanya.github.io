@@ -656,6 +656,10 @@ $ sudo pacman -S qv2ray v2ray
 SwitchyOmega
 # SwitchyOmega配置
 https://raw.githubusercontent.com/wiki/FelisCatus/SwitchyOmega/GFWList.bak
+
+# GoFW
+# 境外网站加速器，Github一个项目，利用BootCDN加载境外网站某些静态资源
+https://github.com/xmcp/GoFW
 ```
 
 
