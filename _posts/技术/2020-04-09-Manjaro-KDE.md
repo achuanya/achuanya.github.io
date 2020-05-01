@@ -38,6 +38,11 @@ $ timedatectl set-timezone Asia/Shanghai
 
 # 细长的等宽字体
 $ yay -S ttf-iosevka
+
+# 虚拟终端字体问题
+$ sudo pacman -S terminus-font
+$ sudo vim /etc/vconsole.conf
+FONT=ter-132n
 ```
 
 ## 自动挂载NTFS硬盘
@@ -363,6 +368,12 @@ $ wget https://dldir1.qq.com/qqtv/linux/Tenvideo_universal_1.0.10_amd64.deb
 $ sudo debtap Tenvideo_universal_1.0.10_amd64.deb
 # 安装pkg包
 $ sudo pacman -U sogoupinyin-2.3.1.0112-1-x86_64.pkg.tar.xz
+
+# xDroid 安卓模拟器
+https://www.linzhuotech.com/index.php/home/index/xdroid.html
+$ tar xvf xDroidInstall-x86_64-v3.0007.tar.gz
+$ cd xDroidInstall-x86_64/
+$ sh install.sh
 ```
 
 ## 开发环境
