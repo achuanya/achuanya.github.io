@@ -32,7 +32,7 @@ $ sudo systemctl enable --now snapd.socket
 # snap缓存目录在主目录且没有隐藏，我这人强迫症太乱了
 $ echo snap>> ~/.hidden
 
-# Git代理
+# Git代理，需配合Qv2ray使用，速度大概在几兆
 $ git config --global http.proxy http://127.0.0.1:8888
 $ git config --global https.proxy https://127.0.0.1:8888
 
@@ -607,10 +607,6 @@ $ sudo vim /etc/profile
 export GOPATH=$HOME/Important/go
 $ source /etc/profile
 ```
-
-
-
-
 
 ## Qv2ray 科学上网
 
