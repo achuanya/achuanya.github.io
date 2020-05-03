@@ -29,9 +29,8 @@ $ sudo pacman -Syy && sudo sudo pacman -S archlinuxcn-keyring
 ```bash
 $ sudo pacman -S vim git rpm yay unzip snapd
 $ sudo systemctl enable --now snapd.socket
-# snap缓存目录在主目录且没有隐藏，我这人强迫症不重要的不能看见
+# snap缓存目录在主目录且没有隐藏，我这人强迫症太乱了
 $ echo snap>> ~/.hidden
-
 
 # 主目录改为英文
 $ sudo pacman -S xdg-user-dirs-gtk
@@ -600,12 +599,8 @@ $ sudo pacman -S go
 
 ```bash
 # 配置环境变量
-$ whereis go
-go: /usr/bin/go /usr/lib/go
-
 $ sudo vim /etc/profile
 export GOPATH=$HOME/Important/go
-
 $ source /etc/profile
 ```
 
@@ -705,7 +700,7 @@ https://github.com/xmcp/GoFW
 ```
 
 
-## Pacman命令
+## Pacman
 
 ### 更新
 
@@ -760,6 +755,25 @@ $ pacman -Qi
 $ pacman -Qdt
 # 列出所有明确安装而且不被其他包依赖的包
 $ pacman -Qet
+```
+
+## Snap
+
+```bash
+# 查看版本信息
+$ snap --version
+# 找出所有snap应用
+$ snap find
+# 安装应用
+$ snap install
+# 重启应用
+$ snap restart
+# 升级应用
+$ snap refresh
+# 查看安装的应用
+$ snap list
+# 卸载应用
+$ snap remove
 ```
 
 最后再来一张图啊哈哈哈～
