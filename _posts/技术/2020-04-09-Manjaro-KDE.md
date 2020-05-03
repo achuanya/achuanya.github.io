@@ -32,6 +32,10 @@ $ sudo systemctl enable --now snapd.socket
 # snap缓存目录在主目录且没有隐藏，我这人强迫症太乱了
 $ echo snap>> ~/.hidden
 
+# Git代理
+$ git config --global http.proxy http://127.0.0.1:8888
+$ git config --global https.proxy https://127.0.0.1:8888
+
 # 主目录改为英文
 $ sudo pacman -S xdg-user-dirs-gtk
 $ export LANG=en_US &&  xdg-user-dirs-gtk-update
