@@ -27,7 +27,11 @@ $ sudo pacman -Syy && sudo sudo pacman -S archlinuxcn-keyring
 ## 基础设置
 
 ```bash
-$ sudo pacman -S vim git rpm yay unzip 
+$ sudo pacman -S vim git rpm yay unzip snapd
+$ sudo systemctl enable --now snapd.socket
+# snap缓存目录在主目录且没有隐藏，我这人强迫症不重要的不能看见
+$ echo snap>> ~/.hidden
+
 
 # 主目录改为英文
 $ sudo pacman -S xdg-user-dirs-gtk
@@ -249,7 +253,7 @@ $ sudo pacman -S mycli
 # 具有自动完成功能和语法突出显示功能的Redis客户端
 $ yay -S iredis
 # 开源图形化的Redis客户端管理软件
-$ sudo pacman -S redis-desktop-manager
+$ sudo snap install redis-desktop-manager
 # jdk8
 $ sudo pacman -S jdk8-openjdk
 # Navicat Premium 150.0.10
@@ -335,7 +339,9 @@ $ sudo modprobe vboxdrv
 # 坚果云
 $ sudo pacman -S nutstore
 # 百度网盘
-yay -S baidunetdisk
+$ yay -S baidunetdisk
+# Snap Store
+$ sudo snap install snap-store
 # 程序启动器
 $ sudo pacman -S albert
 # 桌面面板
@@ -581,6 +587,31 @@ $ sudo pacman -S redis
 $ sudo systemctl enable redis
 $ sudo systemctl start redis
 ```
+
+### GoLand
+
+#### 安装
+
+```bash
+$ sudo pacman -S go
+```
+
+#### 配置
+
+```bash
+# 配置环境变量
+$ whereis go
+go: /usr/bin/go /usr/lib/go
+
+$ sudo vim /etc/profile
+export GOPATH=$HOME/Important/go
+
+$ source /etc/profile
+```
+
+
+
+
 
 ## Qv2ray 科学上网
 
