@@ -35,6 +35,11 @@ var sidebar    = $('#sidebar'),
     lists      = $('#icon-lists');
     scrollTop  = $('#icon-arrow-up');
     tocbar     = $('#post__toc-trigger');
+    explorer   = window.navigator.userAgent;
+
+if (explorer.indexOf("MSIE") >= 0) {
+  alert("阿川推荐您使用Firefox、Chrome浏览本博客！");
+}
 
 // Detect window size, if less than 1280px add class 'mobile' to sidebar therefore it will be auto hide when trigger the pjax request in small screen devices.
 if ($(window).width() < 1280) {
@@ -95,7 +100,11 @@ $('#lists').on('click', function() {
     tocbar.removeClass('fullscreen');
   } else {
     $(lists).text("关闭");
-    $(tocbar).css({"right":"16px"});
+    if(explorer.indexOf("Chrome") >= 0) {
+      $(tocbar).css({"right":"26px"});
+    } else {
+      $(tocbar).css({"right":"16px"});
+    }
     lists.addClass('fullscreen');
     tocbar.addClass('fullscreen');
   }
