@@ -41,6 +41,13 @@ if (explorer.indexOf("MSIE") >= 0) {
   alert("阿川推荐您使用Firefox、Chrome浏览本博客！");
 }
 
+// 章节列表
+new PerfectScrollbar("#post__toc");
+// 文章
+new PerfectScrollbar("#post");
+// 文章列表
+new PerfectScrollbar("#pl__container");
+
 // Detect window size, if less than 1280px add class 'mobile' to sidebar therefore it will be auto hide when trigger the pjax request in small screen devices.
 if ($(window).width() < 1280) {
   sidebar.addClass('mobile');
@@ -100,11 +107,12 @@ $('#lists').on('click', function() {
     tocbar.removeClass('fullscreen');
   } else {
     $(lists).text("关闭");
-    if(explorer.indexOf("Chrome") >= 0) {
-      $(tocbar).css({"right":"26px"});
-    } else {
-      $(tocbar).css({"right":"16px"});
-    }
+    $(tocbar).css({"right":"27px"});
+    // if(explorer.indexOf("Chrome") >= 0) {
+    //   $(tocbar).css({"right":"27px"});
+    // } else {
+    //   $(tocbar).css({"right":"16px"});
+    // }
     lists.addClass('fullscreen');
     tocbar.addClass('fullscreen');
   }

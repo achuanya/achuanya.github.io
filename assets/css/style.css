@@ -342,15 +342,15 @@ li {
   right: -1px;
   -webkit-overflow-scrolling: touch;
 }
-#pl__container::-webkit-scrollbar {
-    width: 1px;
-}
-#pl__container::-webkit-scrollbar-thumb {
-    background: transparent;
-}
-#pl__container:hover::-webkit-scrollbar-thumb {
-    background: #c8ced6;
-}
+/*#pl__container::-webkit-scrollbar {*/
+/*    width: 1px;*/
+/*}*/
+/*#pl__container::-webkit-scrollbar-thumb {*/
+/*    background: transparent;*/
+/*}*/
+/*#pl__container:hover::-webkit-scrollbar-thumb {*/
+/*    background: #c8ced6;*/
+/*}*/
 @media screen and (max-width: 585px) {
   #pl__container {
     font-size: 15px;
@@ -424,6 +424,7 @@ li {
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  position: relative;
 }
 #post ::selection {
   color: white;
@@ -643,8 +644,8 @@ iframe {
 }
 
 #post__toc-trigger {
-  width: 300px;
-  padding-left: 40px;
+  width: 296px;
+  padding-left: 42px;
   position: fixed;
   top: 64px;
   bottom: 64px;
@@ -660,6 +661,7 @@ iframe {
   -ms-transition: -ms-transform .35s ease-in-out .1s;
   -o-transition: -o-transform .35s ease-in-out .1s;
   transition: transform .35s ease-in-out .1s;
+
 }
 #post__toc-trigger:hover {
     -webkit-transform: translateX(16.5px);
@@ -693,21 +695,21 @@ iframe {
 }
 
 #post__toc {
-  width: 260px;
+  width: 253px;
   height: 100%;
+  position: absolute;
   padding-top: 30px;
   background: rgba(250, 250, 250, 0.9);
-  border-top: 1px solid #e5e8ec;
-  border-left: 1px solid #e5e8ec;
-  border-radius: 10px 0 0 0;
   display: block;
-  overflow-y: scroll;
+  /*border: 1px solid #e5e8ec;*/
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  overflow: hidden;
 }
+
 
 #post__toc-title {
   padding: 0 0 5px 11px;
@@ -1545,15 +1547,15 @@ td{
 /*---------------------------------*\
    滚动条
 \*---------------------------------*/
-#post__toc::-webkit-scrollbar {
-  width: 1px;
-}
-#post__toc::-webkit-scrollbar-thumb {
-  background: transparent;
-}
-#post__toc:hover::-webkit-scrollbar-thumb {
-  background: #c8ced6;
-}
+/*#post__toc::-webkit-scrollbar {*/
+/*  width: 1px;*/
+/*}*/
+/*#post__toc::-webkit-scrollbar-thumb {*/
+/*  background: transparent;*/
+/*}*/
+/*#post__toc:hover::-webkit-scrollbar-thumb {*/
+/*  background: #c8ced6;*/
+/*}*/
 
 /*滚动条没有滑块的轨道部分*/
 ::-webkit-scrollbar-track-piece {
