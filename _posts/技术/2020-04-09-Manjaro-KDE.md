@@ -797,7 +797,7 @@ $ yay -S phpstorm-jre
 
 使用`$ jekyll server`提示被限额了，增加限额永久化：
 
-```
+```bash
 $ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
 $ sudo sysctl -p
 ```
