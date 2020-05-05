@@ -1,9 +1,7 @@
-
-/*!--------------------------------*\
-   3-Jekyll Theme
-   @author Peiwen Lu (P233)
-   https://github.com/P233/3-Jekyll
-\*---------------------------------*/
+/*!-----------------------------------*\
+     @author achuan
+     @email achuan@achuan.io
+\*------------------------------------*/
 
 $(function(){
   //搜索框文字变化时间
@@ -49,12 +47,11 @@ new PerfectScrollbar("#post");
 // 文章列表
 new PerfectScrollbar("#pl__container");
 
-// Detect window size, if less than 1280px add class 'mobile' to sidebar therefore it will be auto hide when trigger the pjax request in small screen devices.
-if ($(window).width() < 1280) {
-  sidebar.addClass('mobile');
-}
-
-// Tags switcher
+/**
+ * Tags switcher
+ * @param id
+ * @returns {function(...[*]=)}
+ */
 var clickHandler = function(id) {
   return function() {
     $(this).addClass('active').siblings().removeClass('active');
@@ -68,7 +65,9 @@ $('#tags__ul li').each(function(index){
   $('#' + $(this).attr('id')).on('click', clickHandler($(this).attr('id')));
 });
 
-// If sidebar has class 'mobile', hide it after clicking.
+/**
+ * If sidebar has class 'mobile', hide it after clicking.
+ */
 $('.pl__all').on('click', function() {
   $(this).addClass('active').siblings().removeClass('active');
   if (sidebar.hasClass('mobile')) {
@@ -80,7 +79,9 @@ $('.fill').on('click', function() {
   $(this).addClass('icon_active').siblings().removeClass('icon_active');
 });
 
-// Enable fullscreen.
+/**
+ * Enable fullscreen.
+ */
 $('#js-fullscreen').on('click', function() {
   if (button.hasClass('fullscreen')) {
     sidebar.removeClass('fullscreen');
@@ -99,14 +100,19 @@ $('#js-fullscreen').on('click', function() {
   }
 });
 
-// Chapter lists
+/**
+ * Chapter lists.
+ */
 $('#lists').on('click', function() {
   if (lists.hasClass('fullscreen')) {
     $(lists).text("打开");
+    // 把章节列表脱离到HTML外
     $(tocbar).css({"right":"0px"});
+    // 如果页面小于1281，页面无法章节列表
     if ($(document).width() >= 1281 ) {
       $(chaptersCover).css({"z-index":"99"});
     }
+    // 关闭章节列表
     lists.removeClass('fullscreen');
     tocbar.removeClass('fullscreen');
   } else {
