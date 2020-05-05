@@ -28,14 +28,15 @@ $(function(){
 })
 
 // Variables
-var sidebar    = $('#sidebar'),
-    container  = $('#post'),
-    content    = $('#pjax'),
-    button     = $('#icon-arrow');
-    lists      = $('#icon-lists');
-    scrollTop  = $('#icon-arrow-up');
-    tocbar     = $('#post__toc-trigger');
-    explorer   = window.navigator.userAgent;
+var sidebar           = $('#sidebar'),
+    container         = $('#post'),
+    content           = $('#pjax'),
+    button            = $('#icon-arrow');
+    lists             = $('#icon-lists');
+    scrollTop         = $('#icon-arrow-up');
+    tocbar            = $('#post__toc-trigger');
+    chaptersCover     = $('#post__chapters-cover');
+    explorer          = window.navigator.userAgent;
 
 if (explorer.indexOf("MSIE") >= 0) {
   alert("阿川推荐您使用Firefox、Chrome浏览本博客！");
@@ -103,16 +104,17 @@ $('#lists').on('click', function() {
   if (lists.hasClass('fullscreen')) {
     $(lists).text("打开");
     $(tocbar).css({"right":"0px"});
+    if ($(document).width() >= 1281 ) {
+      $(chaptersCover).css({"z-index":"99"});
+    }
     lists.removeClass('fullscreen');
     tocbar.removeClass('fullscreen');
   } else {
     $(lists).text("关闭");
     $(tocbar).css({"right":"27px"});
-    // if(explorer.indexOf("Chrome") >= 0) {
-    //   $(tocbar).css({"right":"27px"});
-    // } else {
-    //   $(tocbar).css({"right":"16px"});
-    // }
+    if ($(document).width() >= 1281 ) {
+      $(chaptersCover).css({"z-index":"-1"});
+    }
     lists.addClass('fullscreen');
     tocbar.addClass('fullscreen');
   }

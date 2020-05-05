@@ -79,6 +79,9 @@ li {
     position: absolute;
     z-index: 97;
   }
+  #post__chapters-cover {
+    display: none;
+  }
 }
 @media screen and (max-device-width: 1280px) {
   #sidebar {
@@ -644,7 +647,7 @@ iframe {
 }
 
 #post__toc-trigger {
-  width: 296px;
+  width: 287px;
   padding-left: 42px;
   position: fixed;
   top: 64px;
@@ -695,7 +698,8 @@ iframe {
 }
 
 #post__toc {
-  width: 253px;
+  /*width: 253px;*/
+  width: 240px;
   height: 100%;
   position: absolute;
   padding-top: 30px;
@@ -958,7 +962,7 @@ iframe {
   -ms-transition: box-shadow .35s;
   -o-transition: box-shadow .35s;
   transition: box-shadow .35s;
-  z-index: 99;
+  z-index: 100;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -987,7 +991,7 @@ iframe {
   -ms-transition: box-shadow .35s;
   -o-transition: box-shadow .35s;
   transition: box-shadow .35s;
-  z-index: 99;
+  z-index: 100;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -1088,7 +1092,7 @@ iframe {
   -ms-transition: box-shadow .35s;
   -o-transition: box-shadow .35s;
   transition: box-shadow .35s;
-  z-index: 99;
+  z-index: 100;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -1458,28 +1462,6 @@ td{
   color: #7b8692;
 }
 
-@media screen and (max-width: 1281px) {
-  #chapter {
-    display: none;
-  }
-}
-
-#chapter {
-  width: 10px;
-  height: 250px;
-  position: fixed;
-  top: 0px;
-  left: 10%;
-  z-index: 98;
-  background: #e6e9ed;
-  color: #7d8b99;
-  background: rgba(229, 232, 236, 0.95);
-  border: none;
-  box-shadow: 0 0 10px 10px transparent;
-  outline: none;
-  cursor: pointer;
-}
-
 /*---------------------------------*\
    blogroll
 \*---------------------------------*/
@@ -1547,16 +1529,6 @@ td{
 /*---------------------------------*\
    滚动条
 \*---------------------------------*/
-/*#post__toc::-webkit-scrollbar {*/
-/*  width: 1px;*/
-/*}*/
-/*#post__toc::-webkit-scrollbar-thumb {*/
-/*  background: transparent;*/
-/*}*/
-/*#post__toc:hover::-webkit-scrollbar-thumb {*/
-/*  background: #c8ced6;*/
-/*}*/
-
 /*滚动条没有滑块的轨道部分*/
 ::-webkit-scrollbar-track-piece {
   background-color: #fff;
@@ -1575,4 +1547,15 @@ td{
   outline: 2px solid #fff;
   outline-offset: -2px;
   border: 2px solid #fff;
+}
+
+/*遮盖层*/
+#post__chapters-cover {
+  width: 297px;
+  padding-left: 42px;
+  position: fixed;
+  top: 64px;
+  bottom: 64px;
+  right: 0px;
+  z-index: 98;
 }
