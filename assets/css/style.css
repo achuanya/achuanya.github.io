@@ -652,8 +652,7 @@ iframe {
 }
 
 #post__toc-trigger {
-  width: 287px;
-  padding-left: 42px;
+  width: 245px;
   position: fixed;
   top: 64px;
   bottom: 64px;
@@ -669,7 +668,9 @@ iframe {
   -ms-transition: -ms-transform .35s ease-in-out .1s;
   -o-transition: -o-transform .35s ease-in-out .1s;
   transition: transform .35s ease-in-out .1s;
-
+  border-top: 1px solid #e5e8ec;
+  border-bottom: 1px solid #e5e8ec;
+  border-left: 1px solid #e5e8ec;
 }
 #post__toc-trigger:hover {
     -webkit-transform: translateX(16.5px);
@@ -703,14 +704,12 @@ iframe {
 }
 
 #post__toc {
-  /*width: 253px;*/
   width: 240px;
   height: 100%;
   position: absolute;
   padding-top: 30px;
   background: rgba(250, 250, 250, 0.9);
   display: block;
-  /*border: 1px solid #e5e8ec;*/
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1553,14 +1552,12 @@ td{
   outline-offset: -2px;
   border: 2px solid #fff;
 }
-
 /*遮盖层*/
 #post__chapters-cover {
-  width: 297px;
-  padding-left: 42px;
+  width: 228px;
   position: fixed;
   top: 64px;
   bottom: 64px;
-  right: 0px;
+  right: 28px;
   z-index: 98;
 }
