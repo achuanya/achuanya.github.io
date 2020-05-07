@@ -247,6 +247,8 @@ $ sudo pacman -S typora
 $ yay -S phpstorm
 # GoLand
 $ sudo pacman -S goland
+# idea
+sudo pacman -S intellij-idea-ultimate-edition
 # Visual Studio Code
 $ sudo pacman -S visual-studio-code-bin
 # Postman
