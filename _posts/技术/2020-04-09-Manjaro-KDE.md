@@ -27,7 +27,7 @@ $ sudo pacman -Syy && sudo sudo pacman -S archlinuxcn-keyring
 ## 基础设置
 
 ```bash
-$ sudo pacman -S vim git rpm yay unzip snapd
+$ sudo pacman -S vim git rpm yay unzip snapd you-get annie
 $ sudo systemctl enable --now snapd.socket
 # snap缓存目录在主目录且没有隐藏，我这人强迫症太乱了
 $ echo snap>> ~/.hidden
@@ -522,8 +522,7 @@ $ cd /etc/php
 $ sudo cp php.ini php.ini.backup
 $ sudo vim php.ini
 expose_php = Off
-short_open_tag = On
-display_errors = On
+short_open_tag = Off
 display_startup_errors = On
 max_execution_time = 300
 max_input_time = 300
@@ -775,6 +774,51 @@ $ snap list
 # 卸载应用
 $ snap remove
 ```
+
+## you-get
+
+- Github：https://github.com/soimort/you-get
+
+- 命令行程序，提供便利的方式来下载网络上的媒体信息
+
+```bash
+# 下载视频
+$ you-get -i
+# 使用 --http-proxy/-x为you-get设置HTTP代理:
+$ you-get -x 127.0.0.1:8888
+# 加载okie，目前支持两种cookie格式：Mozilla cookies.sqlite 和 Netscape cookies.txt.
+$ you-get -c
+# 获得页面所有可下载URL列表，支持JSON格式
+$ you-get -u
+```
+
+## annie
+
+- Github：https://github.com/iawia002/annie
+- 这是个国产的命令行下载器，用GO构建，目前支持的网站有
+
+```bash
+# 下载，如果URL包含特殊字符，需要用引号引起来
+$ annie [URL]
+# 显示视频质量等信息
+$ annie -i https://www.bilibili.com/video/BV1FV411d7u7
+ Site:      哔哩哔哩 bilibili.com
+ Title:     bilibili献给新一代的演讲《后浪》 P1 bilibili献给新一代的演讲《后浪》
+ Type:      video
+ Streams:   # All available quality
+     [80]  -------------------
+     Quality:         高清 1080P
+     Size:            65.55 MiB (68738121 Bytes)
+     # download with: annie -f 80 ...
+# 下载1080P列表所有视频，若只下载第一个去掉 -p
+$ annie -f 80 -p https://www.bilibili.com/video/BV1FV411d7u7
+```
+
+
+
+
+
+
 
 最后再来一张图啊哈哈哈～
 
