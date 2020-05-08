@@ -28,3 +28,8 @@ Cheers, Sergey.
 
 ![消息]({{ site.article }}2020-04-26-phpstorm-official-Chinese/Style.png?achuan.io "消息")
 
+
+
+## 2020-05-08更新
+
+在Plugins里面搜索Chinese，安装后重启即可。
