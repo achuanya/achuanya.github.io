@@ -393,11 +393,10 @@ $ sh install.sh
 
 ```bash
 $ sudo pacman -S apache
-# 启动
+# 设置Apache开机启动服务
 $ systemctl enable httpd
 # 启动apache服务
 $ sudo systemctl start httpd
-# 设置Apache开机启动服务
 ```
 
 #### 配置参数
