@@ -363,8 +363,8 @@ $ sudo pacman -S yakuake
 $ sudo pacman -S deepin-picker
 # 深度录屏
 $ sudo pacman -S deepin-screen-recorder
-# 深度截图
-$ sudo pacman -S deepin-screenshot
+# 截图工具
+$ sudo pacman -S flameshot-git
 # Motrix (支持下载 HTTP、FTP、BT、磁力链、百度网盘等资源)
 $ sudo pacman -S motrix
 $ git clone git@github.com:sbwtw/deepin-repair-tools.git
