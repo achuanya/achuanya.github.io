@@ -21,7 +21,7 @@ $ sudo vi /etc/pacman.conf
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
-$ sudo pacman -Syy && sudo sudo pacman -S archlinuxcn-keyring
+$ sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
 ```
 
 ## 基础设置
