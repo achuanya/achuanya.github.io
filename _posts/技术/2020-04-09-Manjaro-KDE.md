@@ -241,12 +241,14 @@ intl.locale.requested
 zh_CN
 # 360安全浏览器
 $ yay -S browser360
-# Typora
+# 博主感觉最好的Markdown编辑器
 $ sudo pacman -S typora
 # phpstorm
 $ yay -S phpstorm
 # GoLand
 $ sudo pacman -S goland
+# CLion
+$ sudo pacman -S clion clion-cmake make clion-lldb
 # idea
 sudo pacman -S intellij-idea-ultimate-edition
 # Visual Studio Code
@@ -305,6 +307,8 @@ $ sudo pacman -S netease-cloud-music
 $ sudo pacman -S telegram-desktop
 # Asciinema 在云端记录并分享你的终端会话
 $ sudo pacman -S asciinema
+# 开源的游戏平台（可以打美服LOL）
+$ sudo pacman -S lutris
 # TIM（wine）
 $ sudo pacman -S deepin.com.qq.office
 # QQ（wine）
@@ -334,9 +338,9 @@ $ env WINEPREFIX="$HOME/.deepinwine/Deepin-ThunderSpeed" winecfg
 # 查看内核版本
 $ uname -r
 # 安装时对应注意Linux内核版本
-$ sudo pacman -S virtualbox virtualbox-guest-dkms
+$ sudo pacman -S virtualbox virtualbox-guest-dkms 
 # vboxusers扩展包
-$ yay -S virtualbox-ext-oracle
+$ yay -S virtualbox-ext-oracle virtualbox-guest-iso
 # 添加当前用户到virtualbox用户组
 $ sudo gpasswd -a $USER vboxusers
 # 激活内核模块
