@@ -6,6 +6,7 @@
 $(function () {
     //搜索框文字变化时间
     $("#search-input").keyup(function () {
+        $("#pl__container").scrollTop(0);
         //$("#s-box").hide("slow");
         var text = $("#search-input").val().toLowerCase();
         //console.log(text);
@@ -39,10 +40,17 @@ var sidebar         = $('#sidebar'),
 if (explorer.indexOf("MSIE") >= 0) {
     alert("阿川推荐您使用Firefox、Chrome浏览本博客！");
 }
-
 if ($(window).width() < 1280) {
     sidebar.addClass('mobile');
 }
+
+// 切换导航菜单清空搜索栏并重置目录滚动条
+$("#tags__ul, #lists").on('click',function () {
+    $("#search-input").val('');
+    $("#pl__container").scrollTop(0);
+    // 文章内章节栏
+    $("#post__toc").scrollTop(0);
+})
 
 // 章节列表
 new PerfectScrollbar("#post__toc");
