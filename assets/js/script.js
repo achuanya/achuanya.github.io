@@ -40,9 +40,9 @@ if (explorer.indexOf("MSIE") >= 0) {
     alert("阿川推荐您使用Firefox、Chrome浏览本博客！");
 }
 
-// if (!lists.hasClass('fullscreen')) {
-//     $(chaptersCover).css({"display": "none"})
-// }
+if ($(window).width() < 1280) {
+    sidebar.addClass('mobile');
+}
 
 // 章节列表
 new PerfectScrollbar("#post__toc");
