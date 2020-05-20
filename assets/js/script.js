@@ -231,8 +231,6 @@ function afterPjax() {
     if (sidebar.hasClass('mobile')) {
         $('#sidebar, #pjax, #icon-arrow').addClass('fullscreen');
     }
-
 }
-
 afterPjax();
 
