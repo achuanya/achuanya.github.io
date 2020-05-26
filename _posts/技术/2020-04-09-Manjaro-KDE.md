@@ -241,6 +241,8 @@ intl.locale.requested
 zh_CN
 # 360安全浏览器
 $ yay -S browser360
+# Opera 自带梯子的浏览器
+$ sudo pacman -Sy opera
 # 博主感觉最好的Markdown编辑器
 $ sudo pacman -S typora
 # phpstorm
@@ -508,7 +510,7 @@ PHP 7.4.5 (cli) (built: Apr 15 2020 17:14:40) ( NTS )
 Copyright (c) The PHP Group
 Zend Engine v3.4.0, Copyright (c) Zend Technologies
 ```
-####  编译Redis扩展
+####  安装Redis并编译扩展
 ```bash
 $ sudo pacman -S redis
 # 设置Redis开机启动服务
