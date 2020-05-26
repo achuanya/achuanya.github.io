@@ -510,6 +510,11 @@ Zend Engine v3.4.0, Copyright (c) Zend Technologies
 ```
 ####  编译Redis扩展
 ```bash
+$ sudo pacman -S redis
+# 设置Redis开机启动服务
+$ sudo systemctl enable redis
+$ sudo systemctl start redis
+
 # 编译Redis扩展
 $ git clone https://github.com/phpredis/phpredis.git
 $ cd phpredis
@@ -584,15 +589,6 @@ Query OK, 0 rows affected (0.01 sec)
 
 > QUIT
 Bye
-```
-
-### Redis
-
-```bash
-$ sudo pacman -S redis
-# 设置Redis开机启动服务
-$ sudo systemctl enable redis
-$ sudo systemctl start redis
 ```
 
 ### GoLand
