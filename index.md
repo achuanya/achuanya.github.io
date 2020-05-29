@@ -19,7 +19,7 @@ title: 执着于理想，纯粹于当下 - 阿川的个人博客
 ### 联系方式：
 
 - Qzone：[阿川的个人空间]({{ site.author.Qzone }})<br>
-- Email：<achuan@achuan.io or pigmyworld@Gmail.com><br>
+- Email：<achuan@achuan.io><br>
 - WeChat：<br>
 
 ![阿川的微信二维码]({{ site.article }}index/Micro letter.png?achuan.io "阿川的微信")
