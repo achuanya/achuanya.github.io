@@ -252,7 +252,7 @@ $ sudo pacman -S goland
 # CLion
 $ sudo pacman -S clion clion-cmake make clion-lldb
 # idea
-sudo pacman -S intellij-idea-ultimate-edition
+$ sudo pacman -S intellij-idea-ultimate-edition
 # Visual Studio Code
 $ sudo pacman -S visual-studio-code-bin
 # Postman
