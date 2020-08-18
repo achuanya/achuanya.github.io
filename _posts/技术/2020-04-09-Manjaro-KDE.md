@@ -391,6 +391,11 @@ https://www.linzhuotech.com/index.php/home/index/xdroid.html
 $ tar xvf xDroidInstall-x86_64-v3.0007.tar.gz
 $ cd xDroidInstall-x86_64/
 $ sh install.sh
+
+# SwitchHosts（hosts管理）
+https://github.com/oldj/SwitchHosts/releases
+$ chmod +x SwitchHosts._linux_x86_64_3.5.4.5517.AppImage
+$ ./SwitchHosts._linux_x86_64_3.5.4.5517.AppImage
 ```
 
 ## 开发环境
