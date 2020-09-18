@@ -17,7 +17,7 @@ title: 友情链接
 <div class="link-box">
     <a href="https://blog.fooleap.org?achuan.io" target="_blank" title="分享技术、记录点滴">
         <div>
-            <img src="{{ site.gravatar }}fooleap@gmail.com" alt="Fooleap头像">
+            <img src="{{ site.gravatar }}fooleap@gmail.com">
             <i>Fooleap</i>
         </div>
     </a>
@@ -27,7 +27,7 @@ title: 友情链接
 <div class="link-box">
     <a href="https://www.shephe.com?achuan.io" target="_blank" title="牧羊人">
         <div>
-            <img src="https://secure.gravatar.com/avatar/cbbe656c7bb46772f589c9b18a7c747e?s=90&d=mm&r=g" alt="牧羊人头像">
+            <img src="https://secure.gravatar.com/avatar/cbbe656c7bb46772f589c9b18a7c747e?s=90&d=mm&r=g">
             <i>牧羊人</i>
         </div>
     </a>
@@ -37,7 +37,7 @@ title: 友情链接
 <div class="link-box">
     <a href="https://www.mydes.top?achuan.io" target="_blank" title="逆时针博客">
         <div>
-            <img src="{{ site.gravatar }}121265179@qq.com" alt="逆时针博客头像">
+            <img src="{{ site.gravatar }}121265179@qq.com">
             <i>逆时针博客</i>
         </div>
     </a>
@@ -47,7 +47,7 @@ title: 友情链接
 <div class="link-box">
     <a href="https://www.yuanqiao.pw?achuan.io" target="_blank" title="专注web前端技术，记录和分享个人生活和技术体会">
         <div>
-            <img src="https://yuanqiao.pw/avatar.jpg?achuan.io" alt="知向前端头像">
+            <img src="https://yuanqiao.pw/avatar.jpg?achuan.io">
             <i>知向前端</i>
         </div>
     </a>
@@ -57,7 +57,7 @@ title: 友情链接
 <div class="link-box">
     <a href="https://geekinney.com?achuan.io" target="_blank" title="happy hacking emacs!">
         <div>
-            <img src="https://gitee.com/haikupeng/myblog/raw/master/img/20200331091237.jpg" alt="戈楷旎头像">
+            <img src="https://gitee.com/haikupeng/myblog/raw/master/img/20200331091237.jpg">
             <i>戈楷旎</i>
         </div>
     </a>
@@ -67,7 +67,7 @@ title: 友情链接
 <div class="link-box">
     <a href="https://betterman.xyz?achuan.io" target="_blank" title="青衫不是山">
         <div>
-            <img src="{{ site.gravatar }}hi@betterman.xyz" alt="青衫不是山头像">
+            <img src="{{ site.gravatar }}hi@betterman.xyz">
             <i>青衫不是山</i>
         </div>
     </a>
@@ -77,7 +77,7 @@ title: 友情链接
 <div class="link-box">
     <a href="https://alone88.cn?achuan.io" target="_blank" title="Alone88">
         <div>
-            <img src="{{ site.gravatar }}im@alone88.cn" alt="Alone88头像">
+            <img src="{{ site.gravatar }}im@alone88.cn">
             <i>Alone88</i>
         </div>
     </a>
