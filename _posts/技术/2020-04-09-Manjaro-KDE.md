@@ -196,7 +196,7 @@ ZSH_THEME="3den"
 ```bash
 # 搜狗装了十几回，它那个兼容性真让我抓狂，还是小狼毫香。 
 $ sudo  pacman -S ibus ibus-rime
-$ sudo yay -S ibus-qt
+$ yay -S ibus-qt
 ```
 #### 配置
 
@@ -263,8 +263,9 @@ $ sudo pacman -S mycli
 $ yay -S iredis
 # 开源图形化的Redis客户端管理软件
 $ sudo snap install redis-desktop-manager
-# jdk8
-$ sudo pacman -S jdk8-openjdk
+# Java JDK
+$ sudo pacman -S jdk8-openjdk java-14-openjdk
+$ sudo archlinux-java set java-14-openjdk
 # Navicat Premium 150.0.10
 # 链接: https://pan.baidu.com/s/1ihWcDY2Vs9igWuDfKh5giA  密码: nnft
 $ chmod +x navicat15-premium-cs.AppImage
@@ -283,7 +284,7 @@ $ source /etc/profile
 ```bash
 #　Thunderbird (邮件收发和RSS订阅，KDE预装)
 $ sudo pacman -S thunderbird thunderbird-i18n-zh-cn
-# XMind思维导图 (需要JAVA8)
+# XMind思维导图 (需要JAVA8+)
 $ yay -S xmind
 # KDE下最好用的PDF阅读器
 $ sudo pacman -S okular
@@ -340,7 +341,7 @@ $ env WINEPREFIX="$HOME/.deepinwine/Deepin-ThunderSpeed" winecfg
 # 查看内核版本
 $ uname -r
 # 安装时对应注意Linux内核版本
-$ sudo pacman -S virtualbox virtualbox-guest-dkms 
+$ sudo pacman -S virtualbox virtualbox-guest-dkms
 # vboxusers扩展包
 $ yay -S virtualbox-ext-oracle virtualbox-guest-iso
 # 添加当前用户到virtualbox用户组
