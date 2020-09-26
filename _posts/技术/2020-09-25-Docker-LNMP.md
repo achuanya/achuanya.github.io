@@ -6,12 +6,6 @@ description: Docker Compose快速构建LNMP笔记
 category: 技术
 ---
 
-## 环境要求
-
-- Git
-- Docker(系统需为Linux\Windows 10 Build 15063+、MacOS 10.12+、且必须要`64`位
-- `Docker-compose 1.7.0+`
-
 ## 目录结构
 
 ```shell
