@@ -64,7 +64,7 @@ $ docker-compose up -d
 
 ### 切换Nginx使用的PHP版本
 
-1. 比如，从php切换到php56，那就先在`docker-compose.yml`文件中查看PHP56有没有被注释掉，删掉注释后启动，再更改Nginx配置文件：
+1.比如，从php切换到php56，那就先在`docker-compose.yml`文件中查看PHP56有没有被注释掉，删掉注释后启动，再更改Nginx配置文件：
 
 ```shell
 fastcgi_pass   php:9000;
@@ -74,7 +74,7 @@ fastcgi_pass   php56:9000;
 
 其中`php`和`php56`是`docker-compose.yml`文件中`容器的NAME名称`
 
-2. 让其配置生效还需再重新加载Nginx配置文件
+2.让其配置生效还需再重新加载Nginx配置文件
 
 ```shell
 $ docker exec -it nginx nginx -s reload
@@ -84,14 +84,14 @@ $ docker exec -it nginx nginx -s reload
 
 ### 在宿主机安装PHP扩展
 
-1. 如果要安装更多PHP扩展，在根目录找到`.env`环境配置文件，如以下PHP扩展配置
+1.如果要安装更多PHP扩展，在根目录找到`.env`环境配置文件，如以下PHP扩展配置
 
 ```shell
 # 安装扩展应当使用英文逗号隔开
 PHP56_EXTENSIONS=pdo_mysql,mysqli,mbstring,gd,curl,opcache,redis
 ```
 
-2. 保存完成后，重新构建镜像
+2.保存完成后，重新构建镜像
 
 ```shell
 $ docker-compose build php
@@ -112,14 +112,14 @@ $ install-php-extensions redis
 ## 在宿主机中使用命令行
 ### PHP CLI
 
-1. 参考根目录[bash.alias.sample](https://github.com/achuanya/dnmp/blob/master/bash.alias.sample)示例文件，将PHP CLI函数拷贝到`/etc/profile`系统环境变量文件
+1.参考根目录[bash.alias.sample](https://github.com/achuanya/dnmp/blob/master/bash.alias.sample)示例文件，将PHP CLI函数拷贝到`/etc/profile`系统环境变量文件
 
 ```shell
 # 刷新系统环境变量
 $ source /etc/profile
 ```
 
-2 . 在宿主机中执行PHP命令了
+2.在宿主机中执行PHP命令了
 
 ```shell
  ~ [06:24:00]
@@ -139,16 +139,16 @@ Zend Engine v2.6.0, Copyright (c) 1998-2016 Zend Technologies
 
 ### Composer
 
-1. 首先确定Composer缓存目录，Composer配置文件在根目录中的`data/composer`
+1.首先确定Composer缓存目录，Composer配置文件在根目录中的`data/composer`
 
-2. 参考根目录[bash.alias.sample](https://github.com/achuanya/dnmp/blob/master/bash.alias.sample)示例文件，将PHP CLI函数拷贝到`/etc/profile`系统环境变量文件
+2.参考根目录[bash.alias.sample](https://github.com/achuanya/dnmp/blob/master/bash.alias.sample)示例文件，将PHP CLI函数拷贝到`/etc/profile`系统环境变量文件
 
 ```shell
 # 刷新系统环境变量
 $ source /etc/profile
 ```
 
-3. 之后就可以在宿主机使用Composer命令了
+3.之后就可以在宿主机使用Composer命令了
 
 ```shell
 $ cd /work/dnmp/www
@@ -156,7 +156,7 @@ $ composer -V
 Composer version 1.10.13 2020-09-09 11:46:34
 ```
 
-4. 第一次使用Composer后`data/composer`目录下会生成`config.json`全局配置文件，可指定镜像，例如中国全量镜像：
+4.第一次使用Composer后`data/composer`目录下会生成`config.json`全局配置文件，可指定镜像，例如中国全量镜像：
 
 ```shell
 {
@@ -197,14 +197,14 @@ $ docker-compose
 
 ### 快捷命令
 
-1. 参考根目录[bash.alias.sample](https://github.com/achuanya/dnmp/blob/master/bash.alias.sample)示例文件，将Composer函数拷贝到`/etc/profile`系统环境变量文件
+1.参考根目录[bash.alias.sample](https://github.com/achuanya/dnmp/blob/master/bash.alias.sample)示例文件，将Composer函数拷贝到`/etc/profile`系统环境变量文件
 
 ```shell
 # 刷新系统环境变量
 $ source /etc/profile
 ```
 
-2. 例如，进入php容器
+2.例如，进入php容器
 
 ```shell
 $ dphp
