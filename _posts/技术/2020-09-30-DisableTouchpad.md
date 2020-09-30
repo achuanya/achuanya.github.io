@@ -1,8 +1,8 @@
 ---
 comments: true
 layout: post
-title: ManjaroLinux 自动禁用触摸板
-description: ManjaroLinux 自动禁用触摸板
+title: Manjaro Linux 自动禁用触摸板
+description: Manjaro Linux 自动禁用触摸板
 category: 技术
 ---
 
