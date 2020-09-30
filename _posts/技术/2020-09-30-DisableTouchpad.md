@@ -61,6 +61,5 @@ WantedBy=multi-user.target
 
 ```shell
 $ systemctl enable touchpad
-Created symlink /etc/systemd/system/multi-user.target.wants/touchpad.service → /usr/lib/systemd/system/touchpad.service.
 ```
 
