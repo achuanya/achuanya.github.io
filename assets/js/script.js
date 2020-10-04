@@ -122,7 +122,7 @@ $('#lists').on('click', function () {
         $(tocbar).css({"right": "0px"});
         // 如果页面小于1281，页面无法章节列表
         if ($(document).width() >= 1281) {
-            $(chaptersCover).css({"z-index": "99"});
+            $(chaptersCover).css({"z-index": "-99"});
         }
         // 关闭章节列表
         lists.removeClass('fullscreen');

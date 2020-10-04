@@ -1559,5 +1559,5 @@ td{
   top: 64px;
   bottom: 64px;
   right: 28px;
-  z-index: 98;
+  z-index: -99;
 }
