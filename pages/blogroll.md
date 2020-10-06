@@ -83,4 +83,14 @@ title: 友情链接
     </a>
 </div>
 
+<!--十年之约-->
+<div class="link-box">
+    <a href="hhttps://www.foreverblog.cn?achuan.io" target="_blank" title="十年之约">
+        <div>
+            <img src="https://www.foreverblog.cn/favicon.ico">
+            <i>十年之约</i>
+        </div>
+    </a>
+</div>
+
 {% include disqus.html %}
