@@ -116,7 +116,7 @@ $ sudo mount -a
 $ git clone https://github.com/itchyny/lightline.vim ~/.vim/pack/plugins/start/lightline
 
 # 更换 PaperColor_dark.vim
-$　mv -f ~/.vim/pack/plugins/start/lightline/autoload/lightline/colorscheme/PaperColor_dark.vim ~/.vim/pack/plugins/start/lightline/plugin/lightline.vim
+$ mv -f ~/.vim/pack/plugins/start/lightline/autoload/lightline/colorscheme/PaperColor_dark.vim ~/.vim/pack/plugins/start/lightline/plugin/lightline.vim
 
 # 编辑全局配置并写入以下配置 # 用户个人配置 ~/.vimrc
 $ sudo vim /etc/vimrc
