@@ -713,7 +713,9 @@ https://github.com/xmcp/GoFW
 ### 更新
 
 ```bash
-# 更新整个系统
+# 全面更新
+$ pacman -Syyu
+# 更新所有包
 $ pacman -Syu
 # 更新包数据源
 $ pacman -Sy
@@ -734,8 +736,6 @@ $ pacman -Sy
 $ pacman -U
 # 搜索已安装的包
 $ pacman -Qs
-# 查看有关包信息
-$ pacman -Qi
 # 升级全部包
 $ pacman -Syu
 # 只下载，不安装
