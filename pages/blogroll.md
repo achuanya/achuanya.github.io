@@ -93,4 +93,14 @@ title: 友情链接
     </a>
 </div>
 
+<!--个站商店-->
+<div class="link-box">
+    <a href="https://storeweb.cn/?achuan.io" target="_blank" title="一个精致的，带社交元素的个人网站发布平台，博客收录网站">
+        <div>
+            <img src="https://storeweb.cn/html/img/storeweb.png">
+            <i>个站商店</i>
+        </div>
+    </a>
+</div
+
 {% include disqus.html %}
