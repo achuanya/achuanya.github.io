@@ -101,6 +101,6 @@ title: 友情链接
             <i>个站商店</i>
         </div>
     </a>
-</div
+</div>
 
 {% include disqus.html %}
