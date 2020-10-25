@@ -352,6 +352,8 @@ $ sudo modprobe vboxdrv
 $ sudo pacman -S nutstore
 # 百度网盘
 $ yay -S baidunetdisk
+# 新一代网络工具包
+$ sudo pacman -S iproute2
 # Snap Store
 $ sudo snap install snap-store
 # 程序启动器
