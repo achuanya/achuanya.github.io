@@ -44,7 +44,7 @@ if ($(window).width() < 1280) {
     sidebar.addClass('mobile');
 }
 // 移动端自动折叠导航栏
-if ($(windows).width < 1024) {
+if ($(windows).width() < 1024) {
     button.addClass('fullscreen');
     sidebar.addClass('fullscreen');
     content.addClass('fullscreen');
