@@ -43,6 +43,12 @@ if (explorer.indexOf("MSIE") >= 0) {
 if ($(window).width() < 1280) {
     sidebar.addClass('mobile');
 }
+// 移动端自动折叠导航栏
+if ($(windows).width < 1024) {
+    button.addClass('fullscreen');
+    sidebar.addClass('fullscreen');
+    content.addClass('fullscreen');
+}
 
 // 切换导航菜单清空搜索栏并重置目录滚动条
 $("#tags__ul, #lists").on('click',function () {
@@ -68,7 +74,6 @@ var clickHandler = function (id) {
     return function () {
         $(this).addClass('active').siblings().removeClass('active');
         $('.pl__all').hide();
-
         $('.' + id).delay(50).fadeIn(350);
     }
 };
