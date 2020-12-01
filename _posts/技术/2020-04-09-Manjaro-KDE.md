@@ -541,14 +541,15 @@ $ cd /etc/php
 # 备份源文件
 $ sudo cp php.ini php.ini.backup
 $ sudo vim php.ini
-expose_php = Off
-short_open_tag = Off
+
+error_reporting = E_ALL
+display_errors = On
+short_open_tag = On
 display_startup_errors = On
-max_execution_time = 300
-max_input_time = 300
 memory_limit = 128M
 post_max_size = 32M
 date.timezone = Asia/Shanghai
+
 extension=curl
 extension=ftp
 extension=imap
