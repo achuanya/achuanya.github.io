@@ -30,13 +30,14 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
 }
 
 html, body {
     width: 100%;
     height: 100%;
     margin: 0;
-    font: 100 16px/1.5 "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font: 100 18px/1.5 "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-text-size-adjust: none;
     overflow: hidden;
@@ -392,7 +393,7 @@ li {
 }
 
 .pl__all {
-    color: #7b8692;
+    color: #666666;
     margin: 4px 12px;
     padding: 4px 8px 3px;
     border-radius: 4px;
@@ -400,7 +401,7 @@ li {
 }
 
 .pl__all:hover {
-    background: rgba(242, 242, 242, 0.5);
+    background: rgb(242,242,242);
 }
 
 .pl__all:visited > .pl__circle {
@@ -534,6 +535,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: black;
     font-weight: bold;
+    color: #666666;
 }
 
 #post__content #post__title {
@@ -541,33 +543,41 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 1.1em;
     font-size: 2em;
     text-align: center;
-    color: black;
+    /*color: black;*/
+    color: #666666;
     border: 0px;
     background: #FFFFFF
 }
 
 #post__content > h1 {
     color: white;
-    background: #49c998;
-    border-left: 16px solid #2A9581;
+    /*background: #49c998;*/
+    background: LightGrey;
+    /*border-left: 16px solid #2A9581;*/
+    border-left: 16px solid LightGrey;
     border-left-style: solid;
     margin-left: -16px;
     padding-left: 16px;
     text-shadow: none;
+    color: #666666;
 }
 
 #post__content > h2 {
-    border-left: 16px solid #49c998;
+    /*border-left: 16px solid #49c998;*/
+    border-left: 16px solid LightGrey;
     border-left-style: solid;
     padding-left: 16px;
     text-shadow: none;
+    color: #666666;
 }
 
 #post__content > h3 {
-    border-left: 4px solid #49c998;
+    /*border-left: 4px solid #49c998;*/
+    border-left: 4px solid LightGrey;
     border-left-style: solid;
     padding-left: 16px;
     text-shadow: none;
+    color: #666666;
 }
 
 #post__content > p, #post__content > ul, #post__content > ol {
@@ -585,7 +595,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #post__content a {
     /*color: #BF1827;*/
-    color: #c83b23;
+    /*color: #c83b23;*/
+    border-bottom: 1px dashed orange;
+    color: #930ee4;
     word-break: break-all;
     font-family: sans-serif;
     font-weight: 400;
@@ -593,7 +605,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #post__content a:hover {
     /*border-bottom: 1px dashed #BF1827;*/
-    border-bottom: 1px dashed #c83b23;
+    background-color: LightGrey;
 }
 
 #post__content img {
@@ -943,18 +955,7 @@ iframe {
     content: "\e808";
 }
 
-/
-/
-------- {
-
-{
-    disqus_thread
-}
-}
--------
-
-/
-/
+//------- {{ disqus_thread }} -------//
 
 #disqus_thread {
     padding: 30px 0;
@@ -968,15 +969,16 @@ iframe {
 }
 
 #copyright > a {
-    color: #2eb695;
-}
-
-#copyright > a:hover {
-    border-bottom: 1px dashed #2eb695;
+    border-bottom: 1px dashed orange;
+    color: #930ee4;
 }
 
 .declare {
     font-size: .8em;
+    color: #666666;
+}
+.declare a {
+    border-bottom: 1px dashed orange;
 }
 
 /*---------------------------------*\
@@ -1358,7 +1360,7 @@ iframe {
 
 @-webkit-keyframes flash {
     from, to {
-        color: inherit;
+        color: inherit;post__content
         -webkit-transform: translateX(0);
     }
 
@@ -1667,4 +1669,14 @@ td {
 .blogroll_img {
     width: 50px !important;
     height: 50px !important;
+}
+.link-box > a {
+    color: #000000 !important;
+    border: 0 !important;
+}
+.link-box a:hover {
+    background-color: transparent !important;
+}
+hr {
+    border: 1px solid LightGrey;
 }
