@@ -270,6 +270,8 @@ $ sudo archlinux-java set java-14-openjdk
 # 链接: https://pan.baidu.com/s/1ihWcDY2Vs9igWuDfKh5giA  密码: nnft
 $ chmod +x navicat15-premium-cs.AppImage
 $ ./navicat15-premium-cs.AppImage
+# 后来发现的，对不起Navicat我投入了DataGrip的怀抱
+$ yay -S datagrip
 # Jekyll
 $ sudo pacman -S ruby
 $ gem install jekyll bundler
