@@ -103,4 +103,14 @@ title: 友情链接
     </a>
 </div>
 
+<!--黄业兴博客-->
+<div class="link-box">
+    <a href="https://www.468427.com/?achuan.io" target="_blank" title="开发的日常记录">
+        <span>
+            <img class="blogroll_img" src="https://www.468427.com/usr/themes/handsome/usr/img/emotion/hyx.jpg">
+            <i>黄业兴博客</i>
+        </span>
+    </a>
+</div>
+
 {% include disqus.html %}
