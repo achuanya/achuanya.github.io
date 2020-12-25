@@ -83,16 +83,6 @@ title: 友情链接
     </a>
 </div>
 
-<!--十年之约-->
-<div class="link-box">
-    <a href="https://www.foreverblog.cn?achuan.io" target="_blank" title="十年之约">
-        <span>
-            <img class="blogroll_img" src="https://www.foreverblog.cn/favicon.ico">
-            <i>十年之约</i>
-        </span>
-    </a>
-</div>
-
 <!--个站商店-->
 <div class="link-box">
     <a href="https://storeweb.cn/?achuan.io" target="_blank" title="一个精致的，带社交元素的个人网站发布平台，博客收录网站">
