@@ -96,7 +96,7 @@ tmpfs                                     /tmp           tmpfs   defaults,noatim
 | userquota   | 启动文件系统支持磁盘配额模式
 | grpquota    | 启动文件系统对群组磁盘配额模式的支持
 | defaults    | 同时具有rw、suid、suid、dev、exec、auto、nouser、async等默认参数的设置
- 
+ deepin-wine-wechat
  - 第五列dump选项是文件系统备份选项。0备份，1备份
  - 第六列pass选项是磁盘检查设置，其值是一个顺序，0不检查，１检查（根目录永远都为1）其它分区从2开始，数字越小越先检查，如果有两个分区的数字相同，同时检查
 
@@ -314,27 +314,18 @@ $ sudo pacman -S telegram-desktop
 $ sudo pacman -S asciinema
 # 开源的游戏平台（可以打美服LOL）
 $ sudo pacman -S lutris
-# TIM（wine）
-$ sudo pacman -S deepin.com.qq.office
-# QQ（wine）
-$ sudo pacman -S deepin.com.qq.im
-# 微信（wine）
-$ yay -S deepin-wine-wechat
-# 微信（Electronic开源）
-$ sudo pacman -S electronic-wechat
-# 安装gnome-settings-daemon
-$ sudo pacman -S gnome-settings-daemon
-# 软连接设置为启动，之后重启Linux就可以了
-$ sudo ln -s /usr/lib/gsd-xsettings ~/.config/autostart-scripts/
-# 相关设置调整
-# QQ
-$ env WINEPREFIX="$HOME/.deepinwine/Deepin-QQ" winecfg
-# TIM
-$ env WINEPREFIX="$HOME/.deepinwine/Deepin-TIM" winecfg
-# 微信
-$ env WINEPREFIX="$HOME/.deepinwine/Deepin-WeChat" winecfg
-# 迅雷
-$ env WINEPREFIX="$HOME/.deepinwine/Deepin-ThunderSpeed" winecfg
+# QQ与微信
+$ yay -S deepin-wine-qq deepin-wine-wechat
+# 自动切换前确保 deepin-wine5 包的支持，完成后就可以启动使用了
+$ /opt/apps/com.qq.im.deepin/files/run.sh -d
+# 微信同上操作
+$ /opt/apps/com.qq.weixin.deepin/files/run.sh -d
+# 高分辨率屏幕支持 Deepin-QQ 可改为 Deepin-WeChat
+$ env WINEPREFIX="$HOME/.deepinwine/Deepin-QQ" deepin-wine5 winecfg
+# 默认使用文泉驿微米黑(wqy-microhei)字体，可以使用Windows平台常用字体替代，直接将字体文件或字体链接文件放置到字体文件夹就会生效，不会影响系统字体
+# Deepin-QQ 可改为 Deepin-WeChat
+$ cd $HOME/.deepinwine/Deepin-QQ/drive_c/windows/Fonts
+# 非常感谢countstarlight，具体文档参考：https://github.com/countstarlight/deepin-wine-qq-arch
 ```
 
 ### 工具
