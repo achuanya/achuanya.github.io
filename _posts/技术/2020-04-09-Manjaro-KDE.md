@@ -232,7 +232,7 @@ $ source /etc/profile
 
 ```shell
 # QQ
-$ yay -S deepin-wine-qq deepin-wine-wechat
+$ yay -S deepin-wine-qq
 # 自动切换前确保 deepin-wine5 包的支持，完成后就可以启动使用了
 $ /opt/apps/com.qq.im.deepin/files/run.sh -d
 # 高分辨率屏幕支持
