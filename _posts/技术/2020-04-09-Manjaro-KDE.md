@@ -316,19 +316,58 @@ $ sudo pacman -S telegram-desktop
 $ sudo pacman -S asciinema
 # 开源的游戏平台（可以打美服LOL）
 $ sudo pacman -S lutris
-# QQ与微信
+```
+
+#### 微信 TIM 完美解决方案
+
+```shell
+# QQ
 $ yay -S deepin-wine-qq deepin-wine-wechat
 # 自动切换前确保 deepin-wine5 包的支持，完成后就可以启动使用了
 $ /opt/apps/com.qq.im.deepin/files/run.sh -d
-# 微信同上操作
-$ /opt/apps/com.qq.weixin.deepin/files/run.sh -d
-# 高分辨率屏幕支持 Deepin-QQ 可改为 Deepin-WeChat
+# 高分辨率屏幕支持
 $ env WINEPREFIX="$HOME/.deepinwine/Deepin-QQ" deepin-wine5 winecfg
-# 默认使用文泉驿微米黑(wqy-microhei)字体，可以使用Windows平台常用字体替代，直接将字体文件或字体链接文件放置到字体文件夹就会生效，不会影响系统字体
-# Deepin-QQ 可改为 Deepin-WeChat
-$ cd $HOME/.deepinwine/Deepin-QQ/drive_c/windows/Fonts
-# 非常感谢countstarlight，具体文档参考：https://github.com/countstarlight/deepin-wine-qq-arch
+# 默认使用文泉驿微米黑(wqy-microhei)字体，可以使用其他字体替代，直接将字体文件或字体链接文件放置到字体文件夹就会生效，不会影响系统字体
+$ cd ~/.deepinwine/Deepin-QQ/drive_c/windows/Fonts
+
+# 新版TIM
+$ yay -S com.qq.tim.spark
+# 微信
+$ yay -S com.qq.weixin.deepin
+# 注意：如果是 N 卡用户，可能需要用安装 lib32-nvidia-libgl 才能使用
+# 中文方块乱码：WINE_CMD="LC_ALL=zh_CN.UTF-8 deepin-wine5"
+# KDE/Plasma桌面 需要安装 xsettingsd，然后设置到 /usr/bin/xsettingsd 自启动
+$ ln -s /usr/bin/xsettingsd ~/.config/plasma-workspace/env/xsettingsd
+
+# KDE字体设置 DPI 120
+$ env WINEPREFIX=$HOME/.deepinwine/Deepin-WeChat deepin-wine5 winecfg
+
+# 添加字体到Fonts目录
+$ cp MicrosoftYaheiConfig.ttf ~/.deepinwine/Deepin-WeChat/drive_c/windows/Fonts
+
+# 修改系统注册表且修改以下两行
+$ vim ~/.deepinwine/Deepin-WeChat/system.reg
+"MS Shell Dlg"="MicrosoftYahei"
+"MS Shell Dlg 2"="MicrosoftYahei"
+
+# 注册字体并添加一下代码
+$ vim MicrosoftYaheiConfig.reg
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink]
+"Lucida Sans Unicode"="MicrosoftYahei.ttc"
+"Microsoft Sans Serif"="MicrosoftYahei.ttc"
+"MS Sans Serif"="MicrosoftYahei.ttc"
+"Tahoma"="MicrosoftYahei.ttc"
+"Tahoma Bold"="MicrosoftYahei.ttc"
+"MicrosoftYahei"="MicrosoftYahei.ttc"
+"Arial"="MicrosoftYahei.ttc"
+"Arial Black"="MicrosoftYahei.ttc"
+
+# 注册
+$ WINEPREFIX=~/.deepinwine/Deepin-WeChat deepin-wine5 regedit MicrosoftYaheiConfig.reg
 ```
+
+
 
 ### 工具
 
