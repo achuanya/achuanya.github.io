@@ -29,10 +29,8 @@ $ sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
 ```bash
 $ sudo pacman -S vim git rpm yay unzip snapd you-get annie
 $ sudo systemctl enable --now snapd.socket
-# snap缓存目录在主目录且没有隐藏，我这人强迫症太乱了
-$ echo snap>> ~/.hidden
 
-# Git代理，需配合Qv2ray使用，速度大概在几兆
+# Git代理，需配合Qv2ray使用
 $ git config --global http.proxy http://127.0.0.1:8888
 $ git config --global https.proxy https://127.0.0.1:8888
 
@@ -45,6 +43,10 @@ $ timedatectl set-timezone Asia/Shanghai
 
 # 细长的等宽字体
 $ yay -S ttf-iosevka
+
+# 禁用封锁
+$ sudo vim /etc/security/faillock.conf
+deny = 0
 
 # 虚拟终端字体问题
 $ sudo pacman -S terminus-font
