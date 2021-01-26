@@ -1,14 +1,14 @@
 <div id="comment"></div>
 
 <script>
-  $(document).ready(function(){
-      var disq = new iDisqus('comment', {
-        forum: 'https-achuan-io',
-        api: 'https://disqus.achuan.io/api/',
-        site: 'https://achuan.io',
-        mode: 2,
-        timeout: 3000,
-        init: true,
-      });
-  });
+    $(document).ready(function () {
+        var disq = new iDisqus('comment', {
+            forum: "{{ site.forum }}",
+            api: "{{ site.api }}",
+            site: "{{ site.site }}",
+            mode: {{ site.mode }},
+            timeout: {{ site.timeout }},
+            init: {{ site.init }},
+        });
+    });
 </script>
