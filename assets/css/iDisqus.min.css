@@ -1284,7 +1284,8 @@
 .comment-related {
     margin-top: 20px;
     width: 100%;
-    color: #444
+    color: #444;
+    display: none;
 }
 
 .comment-related .comment-related-title {
