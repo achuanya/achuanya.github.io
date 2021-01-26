@@ -121,7 +121,8 @@
     display: flex;
     height: 48px;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    display: none !important;
 }
 
 .comment-navbar .comment-navbar-item {
@@ -188,7 +189,8 @@
 .comment-header {
     display: flex;
     border-bottom: 2px solid #e7e9ee;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-bottom: 7px;
 }
 
 .comment-header .comment-header-item {
@@ -202,6 +204,9 @@
     font-weight: 700;
     font-size: 15px;
     line-height: 36px
+}
+#comment-link {
+    display: none !important;
 }
 .comment-header-item {
     border: 0 !important;
