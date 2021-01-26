@@ -67,3 +67,12 @@ archive: /pages/archive.html
 blogroll: /pages/blogroll.html
 # 留言
 message: /pages/message.html
+
+# Disqus
+# api 文档：https://github.com/achuanya/disqus-php-api
+forum: https-achuan-io
+api: https://disqus.achuan.io/api/
+site: https://achuan.io
+mode: 2
+timeout: 3000
+init:  true
