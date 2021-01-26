@@ -44,6 +44,11 @@ $ timedatectl set-timezone Asia/Shanghai
 # 细长的等宽字体
 $ yay -S ttf-iosevka
 
+export http_proxy="socks5://127.0.0.1:1080"
+export ALL_PROXY=socks5://127.0.0.1:1080
+
+
+
 # 禁用封锁
 $ sudo vim /etc/security/faillock.conf
 deny = 0
@@ -316,6 +321,7 @@ $ yay -S iredis
 $ sudo snap install redis-desktop-manager
 # Java JDK
 $ sudo pacman -S jdk8-openjdk java-14-openjdk
+$ archlinux-java status
 $ sudo archlinux-java set java-14-openjdk
 # Navicat Premium 150.0.10
 # 链接: https://pan.baidu.com/s/1ihWcDY2Vs9igWuDfKh5giA  密码: nnft
