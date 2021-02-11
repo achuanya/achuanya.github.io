@@ -228,10 +228,23 @@ export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 ibus-daemon -d -x
-
-# 刷新环境变量
-$ source /etc/profile
 ```
+
+### 搜狗输入法
+
+2020-2-11 Update：现在已经有fcitx5包了，体验确实提升不少，ibus没有搜狗香了哈哈哈
+
+```shell
+$ sudo pacman -Sy fcitx fcitx-configtool 
+$ yay -Sy fcitx-sogoupinyin
+
+# 编辑系统环境变量并写入以下配置
+$ sudo vim /etc/profile
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+```
+
 
 ### 微信 TIM 完美解决方案
 
