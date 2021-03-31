@@ -103,4 +103,14 @@ title: 友情链接
     </a>
 </div>
 
+<!--Deon's blog-->
+<div class="link-box">
+    <a href="http://deoncn.top?achuan.io" target="_blank" title="川白的博客">
+        <span>
+            <img class="blogroll_img" src="https://deoncn.top/static/img/logo.jpg">
+            <i>Deon's blog</i>
+        </span>
+    </a>
+</div>
+
 {% include disqus.html %}
