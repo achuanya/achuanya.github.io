@@ -108,7 +108,7 @@ title: 友情链接
     <a href="http://deoncn.top?achuan.io" target="_blank" title="川白的博客">
         <span>
             <img class="blogroll_img" src="https://deoncn.top/static/img/logo.jpg">
-            <i>Deon's blog</i>
+            <i>川白的博客</i>
         </span>
     </a>
 </div>
