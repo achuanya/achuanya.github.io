@@ -19,7 +19,7 @@ title: 执着于理想，纯粹于当下 - 阿川的个人博客
 - Email：<achuan@achuan.io><br>
 - WeChat：<br>
 
-![阿川的微信二维码]({{ site.article }}index/WeChat.png?achuan.io "阿川的微信")
+![阿川的微信二维码]({{ site.wechat }} "阿川的微信")
 
 
 
