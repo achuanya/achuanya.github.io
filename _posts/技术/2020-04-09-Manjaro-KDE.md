@@ -342,13 +342,16 @@ $ chmod +x navicat15-premium-cs.AppImage
 $ ./navicat15-premium-cs.AppImage
 # 后来发现的，对不起Navicat我投入了DataGrip的怀抱
 $ yay -S datagrip
+
 # Jekyll
 $ sudo pacman -S ruby
-$ gem install jekyll bundler
+# 缺包了就装 bundle add
 $ sudo vim /etc/profile
 # 把ruby写入到系统环境变量
-export PATH="$PATH:/home/achuan/.gem/ruby/2.7.0/bin"
+export PATH="$PATH:/home/achuan/.gem/ruby/3.0.0/bin/"
 $ source /etc/profile
+$ sudo gem update
+$ sudo gem install jekyll bundle bundler
 ```
 
 ### 办公
