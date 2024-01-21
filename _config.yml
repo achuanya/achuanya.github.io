@@ -4,7 +4,7 @@ host: 127.0.0.1
 
 # Site settings
 title: 阿川的个人博客
-email: achuan@achuan.io
+email: haibao1027@gmail.com
 
 # 阿川的个人博客
 description: >
@@ -13,7 +13,7 @@ description: >
 baseurl: ""
 
 # the base hostname & protocol for your site
-url: https://achuan.io
+url: https://achuanya.github.io
 
 # Build settings
 # 语法高亮
@@ -30,8 +30,8 @@ permalink: /:year-:month-:day-:title.html
 # 博客作者相关
 author:
   name: Hong-hai zhang
-  email: achuan@achuan.io
-  link: https://achuan.io
+  email: haibao1027@gmail.com
+  link: https://achuanya.github.io
   Qzone: https://user.qzone.qq.com/2434929041
   github: https://github.com/achuanya
   github_username: achuanya
@@ -71,9 +71,9 @@ message: /pages/message.html
 
 # Disqus
 # api 文档：https://github.com/achuanya/disqus-php-api
-forum: https-achuan-io
-api: https://disqus.achuan.io/api/
-site: https://achuan.io
-mode: 2
-timeout: 3000
-init:  true
+# forum: https-achuan-io
+# api: https://disqus.achuan.io/api/
+# site: https://achuan.io
+# mode: 2
+# timeout: 3000
+# init:  true
