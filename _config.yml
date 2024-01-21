@@ -45,7 +45,7 @@ locals:
 
 # 资源
 favicon: /assets/images/favicon.ico
-avatar: /assets/images/avatar.jpg
+avatar: /assets/images/avatar.JPG
 wechat: /assets/article/index/WeChat.JPG
 css: /assets/css/
 js: /assets/js/
