@@ -281,4 +281,4 @@ Shift+F11
 如有写的不足之处，还请您多多指教！  
 最后再秀一下我的 Sublime 感觉字体很棒，看着很舒服 嘿嘿
 
-![抱拳]({{ site.article }}2018-08-30-Ubuntu-set-up-sublime/sublime.png?achuan.io "抱拳")
+![抱拳](https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets%2Farticle%2F2018-08-30-Ubuntu-set-up-sublime%2Fsublime.png "抱拳")
