@@ -8,11 +8,11 @@
 \*---------------------------------*/
 @font-face {
     font-family: "fontello";
-    src: url("{{ site.font }}fontello.eot");
-    src: url("{{ site.font }}fontello.eot#iefix") format("embedded-opentype"), 
-    url("{{ site.font }}fontello.woff") format("woff"), 
-    url("{{ site.font }}fontello.ttf") format("truetype"), 
-    url("{{ site.font }}fontello.svg#fontello") format("svg");
+    src: url("https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/fontello.eot");
+    src: url("https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/fontello.eot#iefix") format("embedded-opentype"), 
+    url("https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/fontello.woff") format("woff"), 
+    url("https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/fontello.ttf") format("truetype"), 
+    url("https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/fontello.svg#fontello") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -597,10 +597,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #post__content a {
-    /*color: #BF1827;*/
-    /*color: #c83b23;*/
+    color: #BF1827;
+    /* color: #c83b23; */
     border-bottom: 1px dashed orange;
-    color: #930ee4;
+    /* color: #930ee4; */
     word-break: break-all;
     font-family: sans-serif;
     font-weight: 400;
