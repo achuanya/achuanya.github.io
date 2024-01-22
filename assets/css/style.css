@@ -1,6 +1,6 @@
 /*!-----------------------------------*\
      @author achuan
-     @email achuan@achuan.io
+     @email haibao1027@gamil.com
 \*------------------------------------*/
 
 /*---------------------------------*\
@@ -8,8 +8,11 @@
 \*---------------------------------*/
 @font-face {
     font-family: "fontello";
-    src: url("../font/fontello.eot");
-    src: url("../font/fontello.eot#iefix") format("embedded-opentype"), url("../font/fontello.woff") format("woff"), url("../font/fontello.ttf") format("truetype"), url("../font/fontello.svg#fontello") format("svg");
+    src: url("{{ site.font }}fontello.eot");
+    src: url("{{ site.font }}fontello.eot#iefix") format("embedded-opentype"), 
+    url("{{ site.font }}fontello.woff") format("woff"), 
+    url("{{ site.font }}fontello.ttf") format("truetype"), 
+    url("{{ site.font }}fontello.svg#fontello") format("svg");
     font-weight: normal;
     font-style: normal;
 }

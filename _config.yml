@@ -6,7 +6,7 @@ host: 127.0.0.1
 title: 游钓四方的博客
 email: haibao1027@gmail.com
 
-# 阿川的个人博客
+# 游钓四方的博客
 description: >
 
 # the subpath of your site, e.g. /blog/
@@ -45,7 +45,7 @@ locals:
 
 # COS
 favicon: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/favicon.ico
-avatar: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/avatar.JPG
+avatar: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/avatar.jpg
 css: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/css/
 js: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/js/
 font: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/
@@ -55,24 +55,18 @@ gravatar: https://v1.alapi.cn/api/avatar?email=
 
 pages: /pages/
 
-# 页面
 404: /pages/404.html
 
 ie: /pages/ie.xml
 
-# RSS
 rss: /pages/rss.xml
 
-# 网站地图
 test: /pages/test.html
 
-# 归档
 archive: /pages/archive.html
 
-# 链接
 blogroll: /pages/blogroll.html
 
-# 留言
 message: /pages/message.html
 
 # Disqus
