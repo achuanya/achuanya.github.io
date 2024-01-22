@@ -14,7 +14,6 @@ title: 钓五湖四海，交八方朋友 - 游钓四方的博客
 
 ### 联系方式：
 
-- Email：haibao1027@gmail.com
-
+- <a href="mailto:{{ site.author.email }}" id="icon-email" class="tags-btn fontello">Email：haibao1027@gmail.com</a>
 
 {% include disqus.html %}
