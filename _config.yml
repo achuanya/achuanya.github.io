@@ -43,17 +43,16 @@ locals:
   about: 关于
   active: 技术
 
-# 资源
-favicon: /assets/images/favicon.ico
-avatar: /assets/images/avatar.JPG
-wechat: /assets/article/index/WeChat.JPG
-css: /assets/css/
-js: /assets/js/
-font: /assets/font/
-images: /assets/images/
-article: /assets/article/
-pages: /pages/
+# COS
+favicon: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/favicon.ico
+avatar: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/avatar.JPG
+css: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/css/
+js: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/js/
+font: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/
+images: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/
+article: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/article/
 gravatar: https://v1.alapi.cn/api/avatar?email=
+pages: /pages/
 
 # 页面
 404: /pages/404.html
