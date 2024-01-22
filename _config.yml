@@ -52,19 +52,26 @@ font: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/
 images: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/
 article: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/article/
 gravatar: https://v1.alapi.cn/api/avatar?email=
+
 pages: /pages/
 
 # 页面
 404: /pages/404.html
+
 ie: /pages/ie.xml
+
 # RSS
 rss: /pages/rss.xml
+
 # 网站地图
 test: /pages/test.html
+
 # 归档
 archive: /pages/archive.html
+
 # 链接
 blogroll: /pages/blogroll.html
+
 # 留言
 message: /pages/message.html
 

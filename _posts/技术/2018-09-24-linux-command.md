@@ -374,4 +374,4 @@ scp是linux系统下基于ssh协议进行的远程文件
     $ scp -r - demo.text ubuntu@139.199.105.72:/var/www
 ```
 
-[1]: https://zh.wikipedia.org/zh/Linux?achuan.io
+[1]: https://zh.wikipedia.org/zh/Linux

@@ -6,7 +6,7 @@ description: 如何学习开源项目
 category: 技术
 ---
 
-本文转自[华为章宇的博客](http://yizhaolingyan.net/?p=123?achuan.io)
+本文转自[华为章宇的博客](http://yizhaolingyan.net/?p=123)
 
 ---
 
