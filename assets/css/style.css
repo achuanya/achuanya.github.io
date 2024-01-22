@@ -30,6 +30,7 @@ url("../font/fontello.svg#fontello") format("svg");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family:"微软雅黑",
 }
 
 html, body {
