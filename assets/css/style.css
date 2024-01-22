@@ -3,16 +3,13 @@
      @email haibao1027@gamil.com
 \*------------------------------------*/
 
-/*---------------------------------*\
-   Fonts
-\*---------------------------------*/
 @font-face {
     font-family: "fontello";
-    src: url("https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/fontello.eot");
-    src: url("https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/fontello.eot#iefix") format("embedded-opentype"), 
-    url("https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/fontello.woff") format("woff"), 
-    url("https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/fontello.ttf") format("truetype"), 
-    url("https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/fontello.svg#fontello") format("svg");
+    src: url("../font/fontello.eot");
+    src: url("../font/fontello.eot#iefix") format("embedded-opentype"), 
+url("../font/fontello.woff") format("woff"), 
+url("../font/fontello.ttf") format("truetype"), 
+url("../font/fontello.svg#fontello") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -33,7 +30,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
+    font-family:"微软雅黑",
 }
 
 html, body {
