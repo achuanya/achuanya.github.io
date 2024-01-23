@@ -29,7 +29,7 @@ permalink: /:year-:month-:day-:title.html
 
 # 博客作者相关
 author:
-  name: Hong-hai zhang
+  name: 游钓四方
   email: haibao1027@gmail.com
   link: https://lhasa.icu
   Qzone: https://user.qzone.qq.com/2434929041
@@ -43,37 +43,27 @@ locals:
   about: 关于
   active: 技术
 
-# COS
-favicon: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/favicon.ico
-avatar: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/avatar.jpg
-css: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/css/
-js: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/js/
-font: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/font/
-images: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/images/
-article: https://lhasa-1253887673.cos.ap-shanghai.myqcloud.com/assets/article/
+# 资源
+favicon: /assets/images/favicon.ico
+avatar: /assets/images/avatar.jpg
+css: /assets/css/
+js: /assets/js/
+font: /assets/font/
+images: /assets/images/
+article: /assets/article/
+pages: /pages/
 gravatar: https://v1.alapi.cn/api/avatar?email=
 
-pages: /pages/
-
+# 页面
 404: /pages/404.html
-
 ie: /pages/ie.xml
-
+# RSS
 rss: /pages/rss.xml
-
+# 网站地图
 test: /pages/test.html
-
+# 归档
 archive: /pages/archive.html
-
+# 链接
 blogroll: /pages/blogroll.html
-
+# 留言
 message: /pages/message.html
-
-# Disqus
-# api 文档：https://github.com/achuanya/disqus-php-api
-# forum: https-achuan-io
-# api: https://disqus.lhasa.icu/api/
-# site: https://lhasa.icu
-# mode: 2
-# timeout: 3000
-# init:  true
